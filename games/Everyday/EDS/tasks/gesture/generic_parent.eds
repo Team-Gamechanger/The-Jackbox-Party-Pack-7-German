@@ -1,0 +1,763 @@
+REM : Replace Furnace Filter
+
+CLONE DEED "SwipeLeft" "FilterStep1"
+    SET INSTRUCTIONS "Altes Gitter ausbauen"
+END
+
+CLONE DEED "SwipeRight" "FilterStep2"
+    SET INSTRUCTIONS "Neues Gitter einbauen"
+END
+
+CLONE DEED "Rotate180" "FilterStep3"
+    SET INSTRUCTIONS "Es ist falsch herum"
+END
+
+CLONE DEED "Rotate180Counter" "FilterStep4"
+    SET INSTRUCTIONS "Sekunde... Nein, war schon richtig so"
+END
+
+CLONE DEED "SwipeRight" "FilterStep5"
+    SET INSTRUCTIONS "Erneut einbauen"
+END
+
+DEF TASK "FurnaceFilter"
+    SET NAME "Fliegengitter ersetzen"
+    SET THEME "FIXING"
+    SET CAPTAIN "ADULTS"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "MEDIUM"
+
+    STEP "Step1" "FilterStep1"
+    STEP "Step2" "FilterStep2"
+    STEP "Step3" "FilterStep3"
+    STEP "Step4" "FilterStep4"
+    STEP "Step5" "FilterStep5"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" "Step5" FAILURE
+    NEXT "Step5" SUCCESS FAILURE
+END
+
+
+REM : Lotion Your Legs
+
+CLONE DEED "SwipeLeft" "LotionStep1"
+    SET INSTRUCTIONS "Creme herausdrücken"
+END
+
+CLONE DEED "Rotate360" "LotionStep2"
+    SET INSTRUCTIONS "Waden eincremen"
+END
+
+CLONE DEED "Rotate720" "LotionStep3"
+    SET INSTRUCTIONS "Richtig gut verteilen"
+END
+
+DEF TASK "LotionLegs"
+    SET NAME "Beine eincremen"
+    SET THEME "BATHROOM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+    SET CAPTAIN "ADULTS"
+
+    STEP "Step1" "LotionStep1"
+    STEP "Step2" "LotionStep2"
+    STEP "Step3" "LotionStep3"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" SUCCESS FAILURE
+END
+
+
+REM : Look At Family Photo Album
+
+CLONE DEED "Tap1" "AlbumStep1"
+    SET INSTRUCTIONS "Fotoalbum öffnen"
+END
+
+CLONE DEED "Nothing5" "AlbumStep2"
+    SET INSTRUCTIONS "Zurückerinnern"
+END
+
+CLONE DEED "Tap1" "AlbumStep3"
+    SET INSTRUCTIONS "Umblättern"
+END
+
+CLONE DEED "Nothing5" "AlbumStep4"
+    SET INSTRUCTIONS "Zurückerinnern"
+END
+
+CLONE DEED "Tap1" "AlbumStep5"
+    SET INSTRUCTIONS "Buch schließen"
+END
+
+CLONE DEED "SwipeLeft" "AlbumStep6"
+    SET INSTRUCTIONS "Träne wegwischen"
+END
+
+DEF TASK "PhotoAlbum"
+    SET NAME "In Erinnerungen schwelgen"
+    SET THEME "FAMILY_MOMENT"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "MEDIUM"
+    SET CAPTAIN "ADULTS"
+
+    STEP "Step1" "AlbumStep1"
+    STEP "Step2" "AlbumStep2"
+    STEP "Step3" "AlbumStep3"
+    STEP "Step4" "AlbumStep4"
+    STEP "Step5" "AlbumStep5"
+    STEP "Step6" "AlbumStep6"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" "Step5" FAILURE
+    NEXT "Step5" "Step6" FAILURE
+    NEXT "Step6" SUCCESS FAILURE
+END
+
+
+REM : Change A Tire
+
+CLONE DEED "Rotate720" "RemoveTire"
+    SET INSTRUCTIONS "Abschrauben"
+END
+
+CLONE DEED "SwipeUp" "MoveTire"
+    SET INSTRUCTIONS "Austauschen"
+END
+
+CLONE DEED "Rotate720Counter" "ReplaceTire"
+    SET INSTRUCTIONS "Anschrauben"
+END
+
+DEF TASK "FixTheTire"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "FIXING"
+    SET NAME "Platten Reifen auswechseln"
+    SET CATEGORY "LOW"
+    SET CAPTAIN "ADULTS"
+
+    STEP "REMOVE" "RemoveTire"
+    STEP "MOVE" "MoveTire"
+    STEP "REPLACE" "ReplaceTire"
+    
+    NEXT "REMOVE" "MOVE" FAILURE
+    NEXT "MOVE" "REPLACE" FAILURE
+    NEXT "REPLACE" SUCCESS FAILURE
+END
+
+
+REM : Sort the mail
+
+CLONE DEED "SwipeUp" "OpenEnvelopes"
+    SET INSTRUCTIONS "Briefe öffnen"
+END
+
+CLONE DEED "SwipeRight" "TossCatalogs"
+    SET INSTRUCTIONS "Werbung wegwerfen"
+END
+
+CLONE DEED "Nothing5" "ReunionReflect"
+    SET INSTRUCTIONS "Überlege, ob du an einem Klassentreffen teilnehmen willst"
+    SET PARTICIPATION "SOLO"
+END
+
+DEF TASK "SortMail"
+    SET NAME "Post sortieren"
+    SET THEME "PAPERWORK"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "LOW"
+
+    STEP "1" "OpenEnvelopes"
+    STEP "2" "TossCatalogs"
+    STEP "3" "ReunionReflect"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE 
+END
+
+
+REM : Do Taxes (DoTaxes)
+
+CLONE DEED "SwipeBase" "GatherForms"
+    SET DIRECTION "LEFT,LEFT,LEFT,LEFT"
+    SET INSTRUCTIONS "Formulare sammeln"
+END
+
+CLONE DEED "TapBase" "ClaimDependents"
+    SET INSTRUCTIONS "Unterhaltsberechtigte zusammenzählen"
+    SET NUM_TAPS 3
+END
+
+REM : set NUM_TAPS to equal number of young players (aka dependents)? is that a thing? ya know... to prevent tax fraud!
+
+CLONE DEED "SwipeDown" "HideIncome"
+    SET INSTRUCTIONS "Einkommen unter den Tisch fallen lassen"
+END
+
+CLONE DEED "Hold5" "SignTaxes"
+    SET INSTRUCTIONS "Unterschreiben"
+END
+
+DEF TASK "DoTaxes"
+    SET NAME "Steuern machen"
+    SET THEME "PAPERWORK"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "MEDIUM"
+
+    STEP "1" "GatherForms"
+    STEP "2" "ClaimDependents"
+    STEP "3" "HideIncome"
+    STEP "4" "SignTaxes"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+
+
+REM : Get the birds out of the attic (AtticBirds)
+
+CLONE DEED "Tap3" "BirdNests"
+    SET INSTRUCTIONS "Nester aufsammeln"
+END
+
+CLONE DEED "SwipeBase" "BirdMama"
+    SET DIRECTION "UP,UP,UP"
+    SET INSTRUCTIONS "Wütende Vogelmama verscheuchen"
+END
+
+CLONE DEED "Nothing5" "BirdCoward"
+    SET INSTRUCTIONS "Niederlage eingestehen"
+    SET PARTICIPATION "SOLO"
+END
+
+CLONE DEED "Tap1" "BirdLease"
+    SET INSTRUCTIONS "Mietvertrag für Dachgeschoss an Vögel abtreten"
+END
+
+DEF TASK "AtticBirds"
+    SET NAME "Vögel vom Dachboden vertreiben"
+    SET THEME "FIXING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "LOW"
+
+    STEP "1" "BirdNests"
+    STEP "2" "BirdMama"
+    STEP "3" "BirdCoward"
+    STEP "4" "BirdLease"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+
+
+REM : Clean Kitchen Counters (CleanKitchenCounters)
+
+CLONE DEED "SwipeBase" "WipeCounter"
+    SET INSTRUCTIONS "Krümel aufwischen"
+    SET DIRECTION "UP,DOWN"
+END
+
+CLONE DEED "QuickTap3" "SprayCounter"
+    SET INSTRUCTIONS "Reiniger versprühen"
+END
+
+CLONE DEED "ScrubBase" "ScrubCounter"
+    SET INSTRUCTIONS "Richtig sauber schrubben"
+    SET DISTANCE "SHORT"
+END
+
+CLONE DEED "ScrubBase" "HardScrubCounter"
+    SET INSTRUCTIONS "Igitt, war das rohes Huhn? Schrubbe stärker"
+    SET DISTANCE "LONG"
+END
+
+DEF TASK "CleanKitchenCounters"
+    SET NAME "Küche putzen"
+    SET THEME "CLEANING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "1" "WipeCounter"
+    STEP "2" "SprayCounter"
+    STEP "3" "ScrubCounter"
+    STEP "4" "HardScrubCounter"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+
+
+REM : Everything's covered in jelly for some reason (ScrubJelly)
+
+CLONE DEED "ScrubBase" "ScrubJelly1"
+    SET INSTRUCTIONS "Was zum Geier ist hier überhaupt passiert!?"
+    SET DISTANCE "SHORT"
+END
+
+CLONE DEED "ScrubBase" "ScrubJelly2"
+    SET INSTRUCTIONS "Ernsthaft, das kann doch nicht wahr sein"
+    SET DISTANCE "MEDIUM"
+END
+
+CLONE DEED "ScrubBase" "ScrubJelly3"
+    SET INSTRUCTIONS "Wann haben wir überhaupt Marmelade gekauft??"
+    SET DISTANCE "LONG"
+END
+
+DEF TASK "ScrubJelly"
+    SET NAME "Aus unerfindlichem Grund ist überall Marmelade"
+    SET THEME "CLEANING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "LOW"
+
+    STEP "1" "ScrubJelly1"
+    STEP "2" "ScrubJelly2"
+    STEP "3" "ScrubJelly3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE 
+END
+
+
+REM : Rearrange Living Room Furniture
+
+CLONE DEED "SwipeLeft" "LivingRoomStep1"
+    SET INSTRUCTIONS "Ein bisschen nach links"
+END
+
+CLONE DEED "SwipeLeft" "LivingRoomStep2"
+    SET INSTRUCTIONS "Ein bisschen nach links"
+END
+
+CLONE DEED "SwipeLeft" "LivingRoomStep3"
+    SET INSTRUCTIONS "Ein bisschen nach links"
+END
+
+CLONE DEED "SwipeLeft" "LivingRoomStep4"
+    SET INSTRUCTIONS "Ein bisschen nach links"
+END
+
+CLONE DEED "Hold5" "LivingRoomStep5"
+    SET INSTRUCTIONS "Genau so! Perfekt!"
+END
+
+CLONE DEED "SwipeRight" "LivingRoomStep6"
+    SET INSTRUCTIONS "Vergiss es, stelle es zurück"
+END
+
+DEF TASK "RearrangeLivingRoom"
+    SET NAME "Wohnzimmermöbel umstellen"
+    SET THEME "DECORATING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "MEDIUM"
+
+    STEP "Step1" "LivingRoomStep1"
+    STEP "Step2" "LivingRoomStep2"
+    STEP "Step3" "LivingRoomStep3"
+    STEP "Step4" "LivingRoomStep4"
+    STEP "Step5" "LivingRoomStep5"
+    STEP "Step6" "LivingRoomStep6"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" "Step5" FAILURE
+    NEXT "Step5" "Step6" FAILURE
+    NEXT "Step6" SUCCESS FAILURE
+END
+
+
+REM : Let's Do Some Grilling
+
+CLONE DEED "Rotate90" "Grilling1Step1"
+    SET INSTRUCTIONS "Gas anstellen"
+END
+
+CLONE DEED "QuickTap4" "Grilling1Step2"
+    SET INSTRUCTIONS "Gas anzünden"
+END
+
+CLONE DEED "Tap5" "Grilling1Step3"
+    SET INSTRUCTIONS "Verschiedene Fleischsorten drauflegen"
+END
+
+CLONE DEED "SwipeUp" "Grilling1Step4"
+    SET INSTRUCTIONS "Und wenden"
+END
+
+DEF TASK "Grilling1"
+    SET NAME "Zeit zum Grillen"
+    SET THEME "COOKING"
+    SET CAPTAIN "ADULTS"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "MEDIUM"
+
+    STEP "Step1" "Grilling1Step1"
+    STEP "Step2" "Grilling1Step2"
+    STEP "Step3" "Grilling1Step3"
+    STEP "Step4" "Grilling1Step4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+
+REM : Let's Do Some Grilling
+
+CLONE DEED "Rotate90" "Grilling2Step1"
+    SET INSTRUCTIONS "Gas anstellen"
+END
+
+CLONE DEED "QuickTap4" "Grilling2Step2"
+    SET INSTRUCTIONS "Gas anzünden"
+END
+
+CLONE DEED "QuickTap6" "Grilling2Step3"
+    SET INSTRUCTIONS "Es will nicht so recht zünden..."
+END
+
+CLONE DEED "Tap1" "Grilling2Step4"
+    SET INSTRUCTIONS "...hole den Feuerlöscher"
+END
+
+CLONE DEED "Hold5" "Grilling2Step5"
+    SET INSTRUCTIONS "Feuer löschen"
+END
+
+DEF TASK "Grilling2"
+    SET NAME "Zeit zum Grillen"
+    SET THEME "COOKING"
+    SET CAPTAIN "ADULTS"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "MEDIUM"
+
+    STEP "Step1" "Grilling2Step1"
+    STEP "Step2" "Grilling2Step2"
+    STEP "Step3" "Grilling2Step3"
+    STEP "Step4" "Grilling2Step4"
+    STEP "Step5" "Grilling2Step5"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" "Step5" FAILURE
+    NEXT "Step5" SUCCESS FAILURE
+END
+
+
+REM : Family Photo Time
+
+CLONE DEED "Tap1" "FamPhotoStep1"
+    SET INSTRUCTIONS "Objektivdeckel abnehmen"
+END
+
+CLONE DEED "ScrubShort" "FamPhotoStep2"
+    SET INSTRUCTIONS "Kamerawinkel anpassen"
+END
+
+CLONE DEED "Rotate90" "FamPhotoStep3"
+    SET INSTRUCTIONS "Zeitschaltuhr einstellen"
+END
+
+CLONE DEED "Nothing5" "FamPhotoStep4"
+    SET INSTRUCTIONS "Allesamt versammeln"
+    SET PARTICIPATION "ALL"
+
+END
+
+DEF TASK "FamPhoto"
+    SET NAME "Familienfoto schießen"
+    SET THEME "FAMILY_MOMENT"
+    SET CAPTAIN "ADULTS"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "HIGH"
+
+    STEP "Step1" "FamPhotoStep1"
+    STEP "Step2" "FamPhotoStep2"
+    STEP "Step3" "FamPhotoStep3"
+    STEP "Step4" "FamPhotoStep4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+
+REM : Hide Liquor V01 (HideLiquor1)
+
+CLONE DEED "Tap3" "AlcoholBottles"
+    SET INSTRUCTIONS "Alkoholflaschen nehmen"
+END
+
+CLONE DEED "SwipeUp" "HideBottles"
+    SET INSTRUCTIONS "Auf ein hohes Regal stellen"
+END
+
+DEF TASK "HideLiquor1"
+    SET NAME "Alkohol vor Kindern verstecken"
+    SET THEME "KITCHEN"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "LOW"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET LEWD TRUE
+
+    STEP "1" "AlcoholBottles"
+    STEP "2" "HideBottles"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : Hide Liquor V02 was CUT
+
+REM : Perfectly arrange decorative ceramic figurines
+
+CLONE DEED "SwipeLeft" "CeramicFigurines1"
+    SET INSTRUCTIONS "Milchmädchen nach links verschieben"
+END
+
+CLONE DEED "SwipeRight" "CeramicFigurines2"
+    SET INSTRUCTIONS "Milchmädchen nach rechts verschieben"
+END
+
+CLONE DEED "Rotate270" "CeramicFigurines3"
+    SET INSTRUCTIONS "Milchmädchen drehen"
+END
+
+CLONE DEED "Rotate180Counter" "CeramicFigurines4"
+    SET INSTRUCTIONS "Milchmädchen justieren"
+END
+
+DEF TASK "CeramicFigurines"
+    SET NAME "Keramikfiguren perfekt in Szene setzen"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "LOW"
+    SET THEME "DECORATING"
+    SET DURATION <3H>
+
+    STEP "1" "CeramicFigurines1"
+    STEP "2" "CeramicFigurines2"
+    STEP "3" "CeramicFigurines3"
+    STEP "4" "CeramicFigurines4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Pay the bills
+
+CLONE DEED "SwipeRight" "PayBills1"
+    SET INSTRUCTIONS "Post öffnen"
+END
+
+CLONE DEED "SwipeBase" "PayBills2"
+    SET INSTRUCTIONS "Rechnungen sortieren"
+    SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT"
+END
+
+CLONE DEED "Tap3" "PayBills3"
+    SET INSTRUCTIONS "Ausgaben zusammenrechnen"
+END
+
+CLONE DEED "Hold3" "PayBills4"
+    SET INSTRUCTIONS "Frustriert schreien"
+END
+
+CLONE DEED "ScrubShort" "PayBills5"
+    SET INSTRUCTIONS "Schecks unterschreiben"
+END
+
+DEF TASK "PayBills"
+    SET NAME "Rechnungen bezahlen"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "MEDIUM"
+    SET THEME "PAPERWORK"
+    SET DURATION <3H>
+
+    STEP "1" "PayBills1"
+    STEP "2" "PayBills2"
+    STEP "3" "PayBills3"
+    STEP "4" "PayBills4"
+    STEP "5" "PayBills5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Try to work while the kids are screaming
+
+CLONE DEED "SwipeRight" "ScreamingKids1"
+    SET INSTRUCTIONS "Arbeitsplatz bereitmachen"
+END
+
+CLONE DEED "Hold3" "ScreamingKids2"
+    SET INSTRUCTIONS "Lautem Geräusch nicht nachgehen"
+END
+
+CLONE DEED "Tap2" "ScreamingKids3"
+    SET INSTRUCTIONS "Wattebäusche in die Ohren stopfen"
+END
+
+CLONE DEED "Tap3" "ScreamingKids4"
+    SET INSTRUCTIONS "SEID! LEISE!"
+END
+
+CLONE DEED "Nothing4" "ScreamingKids5"
+    SET INSTRUCTIONS "Endlich Ruhe und Frieden"
+END
+
+DEF TASK "ScreamingKids"
+    SET NAME "Versuchen zu arbeiten, während Kinder schreien"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "MEDIUM"
+    SET THEME "PAPERWORK"
+    SET DURATION <3H>
+
+    STEP "1" "ScreamingKids1"
+    STEP "2" "ScreamingKids2"
+    STEP "3" "ScreamingKids3"
+    STEP "4" "ScreamingKids4"
+    STEP "5" "ScreamingKids5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Install insulation in the attic
+
+CLONE DEED "SwipeUp" "AtticInsulation1"
+    SET INSTRUCTIONS "Packung öffnen"
+END
+
+CLONE DEED "SwipeDown" "AtticInsulation2"
+    SET INSTRUCTIONS "Alten Kram entfernen"
+END
+
+CLONE DEED "Hold5" "AtticInsulation3"
+    SET INSTRUCTIONS "Widerstehe dem Drang davon zu kosten"
+END
+
+CLONE DEED "Tap1" "AtticInsulation4"
+    SET INSTRUCTIONS "Und reintackern!"
+END
+
+DEF TASK "AtticInsulation"
+    SET NAME "Dachboden neu dämmen"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "MEDIUM"
+    SET THEME "FIXING"
+    SET DURATION <3H>
+
+    STEP "1" "AtticInsulation1"
+    STEP "2" "AtticInsulation2"
+    STEP "3" "AtticInsulation3"
+    STEP "4" "AtticInsulation4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Fix leaky sink
+CLONE DEED "Rotate360" "LeakySink1"
+    SET INSTRUCTIONS "Rohr festziehen"
+END
+
+CLONE DEED "Rotate360" "LeakySink2"
+    SET INSTRUCTIONS "Fester!"
+END
+
+CLONE DEED "Rotate360" "LeakySink3"
+    SET INSTRUCTIONS "Fester!!!"
+END
+
+CLONE DEED "Tap1" "LeakySink4"
+    SET INSTRUCTIONS "Einfach mit Schraubenschlüssel draufschlagen"
+END
+
+DEF TASK "LeakySink"
+    SET NAME "Undichte Spüle reparieren"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "LOW"
+    SET THEME "FIXING"
+    SET DURATION <3H>
+
+    STEP "1" "LeakySink1"
+    STEP "2" "LeakySink2"
+    STEP "3" "LeakySink3"
+    STEP "4" "LeakySink4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : ------------------------------------------------
+REM : Define Task Set
+
+DEF TASKSET "ParentTasks"
+    ADDTASK "FurnaceFilter"
+    ADDTASK "LotionLegs"
+    ADDTASK "PhotoAlbum"
+    ADDTASK "FixTheTire"
+    ADDTASK "SortMail"
+    ADDTASK "DoTaxes"
+    ADDTASK "AtticBirds"
+    ADDTASK "CleanKitchenCounters"
+    ADDTASK "ScrubJelly"
+    ADDTASK "RearrangeLivingRoom"
+    ADDTASK "Grilling1"
+    ADDTASK "Grilling2"
+    ADDTASK "FamPhoto"
+    ADDTASK "HideLiquor1"
+    ADDTASK "CeramicFigurines"
+    ADDTASK "PayBills"
+    ADDTASK "ScreamingKids"
+    ADDTASK "AtticInsulation"
+    ADDTASK "LeakySink"
+END

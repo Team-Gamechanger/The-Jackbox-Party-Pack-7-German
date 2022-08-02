@@ -1,0 +1,849 @@
+REM : Deice Freezer
+
+CLONE DEED "Tap5" "IcePick"
+    SET INSTRUCTIONS "Hacken"
+END
+
+CLONE DEED "Nothing5" "IceMelt"
+    SET INSTRUCTIONS "Es schmilzt"
+    SET PARTICIPATION "SOLO"
+END
+
+DEF TASK "DeIceFreezer2"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET NAME "Gefrierschrank abtauen"
+    SET THEME "KITCHEN"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+
+    STEP "PICK" "IcePick"
+    STEP "MELT" "IceMelt"
+    
+    NEXT "PICK" "MELT" FAILURE
+    NEXT "MELT" SUCCESS FAILURE
+
+END
+
+
+REM : Clean Toothpaste Spittle
+
+CLONE DEED "Tap4" "SprayCleaner"
+    SET INSTRUCTIONS "Reiniger aufsprühen"
+END
+
+CLONE DEED "ScrubMedium" "ScrubMirror"
+    SET INSTRUCTIONS "Spuckeflecken wegschrubben"
+END
+
+CLONE DEED "SwipeDown" "WipeClean"
+    SET INSTRUCTIONS "Sauber wischen"
+END
+
+DEF TASK "CleanToothpaste"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET NAME "Zahnpasta von Spiegel entfernen"
+    SET THEME "BATHROOM"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+
+    STEP "1" "SprayCleaner"
+    STEP "2" "ScrubMirror"
+    STEP "3" "WipeClean"
+    
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+
+REM : Brew Coffee
+
+CLONE DEED "SwipeUp" "CoffeeOpen"
+    SET INSTRUCTIONS "Kaffeedose öffnen"
+END
+
+CLONE DEED "Tap5" "CoffeeScoop"
+    SET INSTRUCTIONS "Fünf Löffel reichen"
+END
+
+CLONE DEED "Hold5" "CoffeeBrew"
+    SET INSTRUCTIONS "Zeit zum Brühen!"
+END
+
+CLONE DEED "QuickTap3" "CoffeeBurning"
+    SET INSTRUCTIONS "Ups! Wasser vergessen! Abbrechen! Abbrechen!"
+END
+
+DEF TASK "BrewCoffee"
+    SET NAME "Kaffee kochen"
+    SET THEME "COOKING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+
+    STEP "1" "CoffeeOpen"
+    STEP "2" "CoffeeScoop"
+    STEP "3" "CoffeeBrew"
+    STEP "4" "CoffeeBurning"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : What's that weird smell?
+
+CLONE DEED "Tap1" "LightCandles"
+    SET INSTRUCTIONS "Kerzen anzünden"
+END
+
+CLONE DEED "RotateBase" "LookForSmell"
+    SET ROTATIONS_IN_DEG 1080
+    SET INSTRUCTIONS "Nach Geruchsquelle suchen"
+END
+
+CLONE DEED "SwipeUp" "SmellOpenWindow"
+    SET INSTRUCTIONS "Einfach ein Fenster öffnen"
+END
+
+DEF TASK "WeirdSmell"
+    SET NAME "Was riecht hier so?"
+    SET THEME "SEARCH_FIND"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+
+    STEP "1" "LightCandles"
+    STEP "2" "LookForSmell"
+    STEP "3" "SmellOpenWindow"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE 
+END
+
+
+REM : Make Avocado Toast
+
+CLONE DEED "QuickTap5" "MashAvocado"
+    SET INSTRUCTIONS "Avocado zerkleinern"
+END
+
+CLONE DEED "SwipeBase" "SpreadAvocado"
+    SET INSTRUCTIONS "Auf Toast auftragen"
+    SET DIRECTION "LEFT,RIGHT"
+END
+
+DEF TASK "AvocadoToast"
+    SET NAME "Avocadotoast machen"
+    SET THEME "COOKING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+
+    STEP "1" "MashAvocado"
+    STEP "2" "SpreadAvocado"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+
+REM : Install AC Unit
+
+CLONE DEED "SwipeUp" "OpenAC"
+    SET INSTRUCTIONS "Fenster öffnen"
+END
+
+CLONE DEED "Hold3" "HoldAC"
+    SET INSTRUCTIONS "An Ort und Stelle halten"
+END
+
+CLONE DEED "QuickTap5" "ShoveAC"
+    SET INSTRUCTIONS "Richtig reinstecken"
+END
+
+CLONE DEED "SwipeDown" "CloseAC"
+    SET INSTRUCTIONS "Fenster schließen"
+END
+
+DEF TASK "InstallAC"
+    SET NAME "Klimaanlage installieren"
+    SET THEME "FIXING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+
+    STEP "1" "OpenAC"
+    STEP "2" "HoldAC"
+    STEP "3" "ShoveAC"
+    STEP "4" "CloseAC"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+
+
+REM : Hold it together (HoldItTogether)
+
+CLONE DEED "Hold5" "RepressEmotions"
+    SET INSTRUCTIONS "Gefühle unterdrücken"
+END
+
+DEF TASK "HoldItTogether"
+    SET NAME "Nicht ausflippen"
+    SET THEME "MISC"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+
+    STEP "1" "RepressEmotions"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+REM : Put up wallpaper (PasteWallpaper)
+
+CLONE DEED "Hold5" "GluePaper"
+    SET INSTRUCTIONS "Tapetenkleister auftragen"
+END
+
+CLONE DEED "SwipeBase" "PastePaper"
+    SET INSTRUCTIONS "Anbringen!"
+    SET DIRECTION "UP,DOWN,LEFT,RIGHT"
+END
+
+CLONE DEED "QuickTap5" "PaperBubbles"
+    SET INSTRUCTIONS "Luftblasen platzen lassen!"
+END
+
+CLONE DEED "Hold5" "HoldPaper"
+    SET INSTRUCTIONS "Ruhig bleiben, obwohl die Tapete herunterfällt"
+END
+
+DEF TASK "PasteWallpaper"
+    SET NAME "Tapezieren"
+    SET THEME "DECORATING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "MEDIUM"
+    
+    STEP "1" "GluePaper"
+    STEP "2" "PastePaper"
+    STEP "3" "PaperBubbles"
+    STEP "4" "HoldPaper"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+
+
+REM : Take a Shower
+
+CLONE DEED "Rotate270" "ShowerStep1"
+    SET INSTRUCTIONS "Dusche anstellen"
+END
+
+CLONE DEED "SwipeBase" "ShowerStep2"
+    SET INSTRUCTIONS "Waschen"
+    SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT"
+END
+
+CLONE DEED "Nothing5" "ShowerStep3"
+    SET INSTRUCTIONS "Stille genießen"
+END
+
+DEF TASK "TakeShower"
+    SET NAME "Duschen gehen"
+    SET THEME "BATHROOM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+	SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+
+    STEP "Step1" "ShowerStep1"
+    STEP "Step2" "ShowerStep2"
+    STEP "Step3" "ShowerStep3"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" SUCCESS FAILURE
+END
+
+
+REM : Tie a Tie
+
+CLONE DEED "SwipeLeft" "TieStep1"
+    SET INSTRUCTIONS "Krawatte umwerfen"
+END
+
+CLONE DEED "Rotate360" "TieStep2"
+    SET INSTRUCTIONS "Einen perfekten Windsorknoten knoten"
+END
+
+CLONE DEED "SwipeUp" "TieStep3"
+    SET INSTRUCTIONS "Festziehen"
+END
+
+DEF TASK "TieaTie"
+    SET NAME "Krawatte binden"
+    SET THEME "CLOTHES"
+    SET CAPTAIN "MATURE"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "Step1" "TieStep1"
+    STEP "Step2" "TieStep2"
+    STEP "Step3" "TieStep3"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" SUCCESS FAILURE
+END
+
+
+REM : Fix garage door (FixGarageDoor)
+
+CLONE DEED "QuickTap3" "GarageButton"
+    SET INSTRUCTIONS "Der... Knopf... will... nicht!"
+END
+
+CLONE DEED "ScrubLong" "GarageGunk"
+    SET INSTRUCTIONS "Kette von Verschmutzung reinigen"
+END
+
+CLONE DEED "SwipeUp" "GarageOpen"
+    SET INSTRUCTIONS "Tor von Hand öffnen"
+END
+
+CLONE DEED "SwipeDown" "GarageClose"
+    SET INSTRUCTIONS "Tor schließen. Du hast es repariert. Du Genie"
+END
+
+DEF TASK "FixGarageDoor"
+    SET NAME "Garagentor reparieren"
+    SET THEME "FIXING"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "1" "GarageButton"
+    STEP "2" "GarageGunk"
+    STEP "3" "GarageOpen"
+    STEP "4" "GarageClose"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Change Lightbulb - New Bulb (ChangeLightbulb1)
+
+CLONE DEED "QuickTap4" "ClimbLadder"
+    SET INSTRUCTIONS "Leiter erklimmen"
+END
+
+CLONE DEED "Rotate720Counter" "OldBulb"
+    SET INSTRUCTIONS "Glühbirne rausdrehen"
+END
+
+CLONE DEED "Rotate720" "NewBulb"
+    SET INSTRUCTIONS "Neue Glühbirne reindrehen"
+END
+
+DEF TASK "ChangeLightbulb1"
+    SET NAME "Glühbirne austauschen"
+    SET THEME "FIXING"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "1" "ClimbLadder"
+    STEP "2" "OldBulb"
+    STEP "3" "NewBulb"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+
+REM : Change Lightbulb - Dirty Bulb (ChangeLightbulb2)
+
+CLONE DEED "QuickTap4" "ClimbLadderDirty"
+    SET INSTRUCTIONS "Leiter erklimmen"
+END
+
+CLONE DEED "Rotate720Counter" "DirtyBulb"
+    SET INSTRUCTIONS "Glühbirne rausdrehen"
+END
+
+CLONE DEED "ScrubMedium" "CleanBulb"
+    SET INSTRUCTIONS "Sie ist nur dreckig. Mach sie sauber"
+END
+
+CLONE DEED "Rotate720" "ReturnBulb"
+    SET INSTRUCTIONS "Wieder reindrehen"
+END
+
+DEF TASK "ChangeLightbulb2"
+    SET NAME "Glühbirne austauschen"
+    SET THEME "FIXING"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "1" "ClimbLadderDirty"
+    STEP "2" "DirtyBulb"
+    STEP "3" "CleanBulb"
+    STEP "4" "ReturnBulb"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Remove sandwich crusts (RemoveSandwichCrusts)
+
+CLONE DEED "SwipeRight" "CrustSide1"
+    SET INSTRUCTIONS "Die Kinder hassen die Kruste. Schneide sie ab"
+END
+
+CLONE DEED "SwipeUp" "CrustSide2"
+    SET INSTRUCTIONS "Das macht keinen Sinn. Die Kruste ist köstlich"
+END
+
+CLONE DEED "SwipeDown" "CrustSide3"
+    SET INSTRUCTIONS "Naja, ihr Pech"
+END
+
+CLONE DEED "SwipeLeft" "CrustSide4"
+    SET INSTRUCTIONS "Mehr Kruste für dich"
+END
+
+CLONE DEED "QuickTap4" "EatCrusts"
+    SET INSTRUCTIONS "Kruste essen"
+END
+
+DEF TASK "RemoveSandwichCrusts"
+    SET NAME "Sandwichkruste abschneiden"
+    SET THEME "COOKING"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "1" "CrustSide1"
+    STEP "2" "CrustSide2"
+    STEP "3" "CrustSide3"
+    STEP "4" "CrustSide4"
+    STEP "5" "EatCrusts"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+
+REM : Refill the Liquid Soap
+
+CLONE DEED "Rotate360" "LiquidSoap1Step1"
+    SET INSTRUCTIONS "Deckel abschrauben"
+END
+
+CLONE DEED "Hold5" "LiquidSoap1Step2"
+    SET INSTRUCTIONS "Neue Seife reindrücken"
+END
+
+CLONE DEED "ScrubMedium" "LiquidSoap1Step3"
+    SET INSTRUCTIONS "Sie ist überall. Wische das Chaos auf"
+END
+
+CLONE DEED "Rotate360Counter" "LiquidSoap1Step4"
+    SET INSTRUCTIONS "Deckel wieder aufschrauben"
+END
+
+CLONE DEED "Tap1" "LiquidSoap1Step5"
+    SET INSTRUCTIONS "Funktionstüchtigkeit testen"
+END
+
+DEF TASK "LiquidSoap1"
+    SET NAME "Seifenspender nachfüllen"
+    SET THEME "BATHROOM"
+    SET CAPTAIN "MATURE"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "Step1" "LiquidSoap1Step1"
+    STEP "Step2" "LiquidSoap1Step2"
+    STEP "Step3" "LiquidSoap1Step3"
+    STEP "Step4" "LiquidSoap1Step4"
+    STEP "Step5" "LiquidSoap1Step5"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" "Step5" FAILURE
+    NEXT "Step5" SUCCESS FAILURE
+END
+
+
+REM : Refill the Liquid Soap
+
+CLONE DEED "Rotate360" "LiquidSoap2Step1"
+    SET INSTRUCTIONS "Deckel abschrauben"
+END
+
+CLONE DEED "Hold5" "LiquidSoap2Step2"
+    SET INSTRUCTIONS "Befülle es insgeheim nur mit Wasser"
+END
+
+CLONE DEED "Rotate360Counter" "LiquidSoap2Step3"
+    SET INSTRUCTIONS "Das merkt schon keiner..."
+END
+
+DEF TASK "LiquidSoap2"
+    SET NAME "Seifenspender nachfüllen"
+    SET THEME "BATHROOM"
+    SET CAPTAIN "MATURE"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "Step1" "LiquidSoap2Step1"
+    STEP "Step2" "LiquidSoap2Step2"
+    STEP "Step3" "LiquidSoap2Step3"
+  
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" SUCCESS FAILURE
+END
+
+
+REM : Make a Healthy Smoothie
+
+CLONE DEED "Tap3" "Smoothie1Step1"
+    SET INSTRUCTIONS "Obst hinzugeben"
+END
+
+CLONE DEED "Tap3" "Smoothie1Step2"
+    SET INSTRUCTIONS "Gemüse hinzugeben"
+END
+
+CLONE DEED "Hold10" "Smoothie1Step3"
+    SET INSTRUCTIONS "Mixen"
+END
+
+DEF TASK "Smoothie1"
+    SET NAME "Gesunden Smoothie zubereiten"
+    SET THEME "COOKING"
+    SET CAPTAIN "MATURE"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "Step1" "Smoothie1Step1"
+    STEP "Step2" "Smoothie1Step2"
+    STEP "Step3" "Smoothie1Step3"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" SUCCESS FAILURE
+END
+
+
+REM : Make a "Healthy" Smoothie
+
+CLONE DEED "Tap3" "Smoothie2Step1"
+    SET INSTRUCTIONS "Obst hinzugeben"
+END
+
+CLONE DEED "SwipeDown" "Smoothie2Step2"
+    SET INSTRUCTIONS "Erdnussbutter reinschaufeln"
+END
+
+CLONE DEED "Tap3" "Smoothie2Step3"
+    SET INSTRUCTIONS "Schokostreusel hinzugeben"
+END
+
+CLONE DEED "Hold10" "Smoothie2Step4"
+    SET INSTRUCTIONS "Mixen"
+END
+
+DEF TASK "Smoothie2"
+    SET NAME "'Gesunden' Smoothie zubereiten"
+    SET THEME "COOKING"
+    SET CAPTAIN "MATURE"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "Step1" "Smoothie2Step1"
+    STEP "Step2" "Smoothie2Step2"
+    STEP "Step3" "Smoothie2Step3"
+    STEP "Step4" "Smoothie2Step4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+REM : Fridge is leaking
+
+CLONE DEED "ScrubMedium" "FridgeLeaking1"
+    SET INSTRUCTIONS "Wasser aufwischen"
+END
+
+CLONE DEED "SwipeDown" "FridgeLeaking2"
+    SET INSTRUCTIONS "Kühlschrank von der Wand wegziehen"
+END
+
+CLONE DEED "Rotate360" "FridgeLeaking3"
+    SET INSTRUCTIONS "Undichten Schlauch abkleben"
+END
+
+CLONE DEED "Tap1" "FridgeLeaking4"
+    SET INSTRUCTIONS "Handtücher unter den Kühlschrank schieben"
+END
+
+DEF TASK "FridgeLeaking"
+    SET NAME "Undichter Kühlschrank"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "KITCHEN"
+
+    STEP "1" "FridgeLeaking1"
+    STEP "2" "FridgeLeaking2"
+    STEP "3" "FridgeLeaking3"
+    STEP "4" "FridgeLeaking4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Bake a cake
+
+CLONE DEED "Rotate1080" "BakeCake1"
+    SET INSTRUCTIONS "Teig anrühren"
+END
+
+CLONE DEED "Hold3" "BakeCake2"
+    SET INSTRUCTIONS "In die Form geben"
+END
+
+CLONE DEED "Tap1" "BakeCake3"
+    SET INSTRUCTIONS "Nur eine kleine Kostprobe"
+END
+
+CLONE DEED "SwipeUp" "BakeCake4"
+    SET INSTRUCTIONS "In den Ofen schieben"
+END
+
+CLONE DEED "Rotate270Counter" "BakeCake5"
+    SET INSTRUCTIONS "Timer einstellen"
+END
+
+DEF TASK "BakeCake"
+    SET NAME "Kuchen backen"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "COOKING"
+
+    STEP "1" "BakeCake1"
+    STEP "2" "BakeCake2"
+    STEP "3" "BakeCake3"
+    STEP "4" "BakeCake4"
+    STEP "5" "BakeCake5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+    CONSEQUENCE SUCCESS "FrostCake"
+ 
+END
+
+REM : Change the car oil
+
+CLONE DEED "SwipeUp" "ChangeCarOil1"
+    SET INSTRUCTIONS "Ölablasswanne unter Auto platzieren"
+END
+
+CLONE DEED "Rotate720Counter" "ChangeCarOil2"
+    SET INSTRUCTIONS "Ölablassschraube abschrauben"
+END
+
+CLONE DEED "Nothing5" "ChangeCarOil3"
+    SET INSTRUCTIONS "Öl beim Abfließen zuschauen"
+END
+
+CLONE DEED "Hold4" "ChangeCarOil4"
+    SET INSTRUCTIONS "Genauer hinschauen... Das ist Scheibenwischwasser"
+END
+
+CLONE DEED "Tap3" "ChangeCarOil5"
+    SET INSTRUCTIONS "Wischwasser auf Einkaufsliste schreiben"
+END
+
+DEF TASK "ChangeCarOil"
+    SET NAME "Ölwechsel am Auto"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "FIXING"
+
+    STEP "1" "ChangeCarOil1"
+    STEP "2" "ChangeCarOil2"
+    STEP "3" "ChangeCarOil3"
+    STEP "4" "ChangeCarOil4"
+    STEP "5" "ChangeCarOil5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Properly roll the toothpaste tube
+
+CLONE DEED "Hold2" "RollToothpaste1"
+    SET INSTRUCTIONS "Verzweifelt beim Anblick der Zahnpastatube seufzen"
+END
+
+CLONE DEED "SwipeRight" "RollToothpaste2"
+    SET INSTRUCTIONS "Zahnpasta in oberen Teil der Tube drücken"
+END
+
+CLONE DEED "TapBase" "RollToothpaste3"
+    SET NUM_TAPS 8
+    SET WAIT 0.25S
+    SET INSTRUCTIONS "Das Ende der Tube vorsichtig zusammenrollen"
+END
+
+CLONE DEED "Hold2" "RollToothpaste4"
+    SET INSTRUCTIONS "Tiefer Seufzer der Zufriedenheit"
+END
+
+DEF TASK "RollToothpaste"
+    SET NAME "Zahnpastatube richtig zusammenrollen"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "BATHROOM"
+
+    STEP "1" "RollToothpaste1"
+    STEP "2" "RollToothpaste2"
+    STEP "3" "RollToothpaste3"
+    STEP "4" "RollToothpaste4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Shop vac up sawdust
+
+CLONE DEED "Tap1" "ShopVac1"
+    SET INSTRUCTIONS "Meisterwerk vollenden"
+END
+
+CLONE DEED "SwipeBase" "ShopVac2"
+    SET INSTRUCTIONS "Dein Chaos aufkehren"
+    SET DIRECTION "RIGHT,RIGHT,RIGHT"
+END
+
+CLONE DEED "Tap1" "ShopVac3"
+    SET INSTRUCTIONS "Saugmodus einstellen"
+END
+
+CLONE DEED "Tap1" "ShopVac4"
+    SET INSTRUCTIONS "Ups, falscher Modus!"
+END
+
+CLONE DEED "Hold5" "ShopVac5"
+    SET INSTRUCTIONS "Saugen!"
+END
+
+DEF TASK "ShopVac"
+    SET NAME "Sägespäne aufsaugen"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+    SET THEME "FIXING"
+    SET DURATION <3H>
+
+    STEP "1" "ShopVac1"
+    STEP "2" "ShopVac2"
+    STEP "3" "ShopVac3"
+    STEP "4" "ShopVac4"
+    STEP "5" "ShopVac5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+
+REM : ------------------------------------------------
+REM : Define Task Set
+
+DEF TASKSET "MatureTasks"
+    ADDTASK "DeIceFreezer2"
+    ADDTASK "CleanToothpaste"
+    ADDTASK "BrewCoffee"
+    ADDTASK "WeirdSmell"
+    ADDTASK "AvocadoToast"
+    ADDTASK "InstallAC"
+    ADDTASK "HoldItTogether"
+    ADDTASK "PasteWallpaper"
+    ADDTASK "TakeShower"
+    ADDTASK "TieaTie"
+    ADDTASK "FixGarageDoor"
+    ADDTASK "ChangeLightbulb1"
+    ADDTASK "ChangeLightbulb2"
+    ADDTASK "RemoveSandwichCrusts"
+    ADDTASK "LiquidSoap1"
+    ADDTASK "LiquidSoap2"
+    ADDTASK "Smoothie1"
+    ADDTASK "Smoothie2"
+    ADDTASK "FridgeLeaking"
+    ADDTASK "BakeCake"
+    ADDTASK "ChangeCarOil"
+    ADDTASK "RollToothpaste"
+    ADDTASK "ShopVac"
+END

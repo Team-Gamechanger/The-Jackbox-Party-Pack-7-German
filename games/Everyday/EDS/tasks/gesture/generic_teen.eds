@@ -1,0 +1,318 @@
+REM : Try Not To Pop Zit
+
+CLONE DEED "Tap3" "ZitStep1"
+    SET INSTRUCTIONS "Anstupsen"
+END
+
+CLONE DEED "ScrubMedium" "ZitStep2"
+    SET INSTRUCTIONS "Kratzen"
+END
+
+CLONE DEED "Hold3" "ZitStep3"
+    SET INSTRUCTIONS "Ups, jetzt blutet er. Übe Druck aus!"
+END
+
+DEF TASK "DontPopZit"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "BATHROOM"
+    SET NAME "Nervigen Pickel nicht aufkratzen"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "LOW"
+    SET LEWD TRUE
+
+    STEP "1" "ZitStep1"
+    STEP "2" "ZitStep2"
+    STEP "3" "ZitStep3"
+    
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+
+REM : Practice Kissing
+
+CLONE DEED "Tap1" "FindMelon"
+    SET INSTRUCTIONS "Wassermelone in Küche finden"
+END
+
+CLONE DEED "Hold5" "HoldMelon"
+    SET INSTRUCTIONS "Stelle dir vor, die Melone wäre ein heißer Lover"
+END
+
+CLONE DEED "Tap3" "KissMelon"
+    SET INSTRUCTIONS "Melone küssen"
+END
+
+CLONE DEED "Rotate720" "FrenchKissMelon"
+    SET INSTRUCTIONS "Zungenkuss-Bombardement"
+END
+
+DEF TASK "PracticeKissing"
+    SET NAME "Küssen üben"
+    SET THEME "MISC"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "LOW"
+
+    STEP "1" "FindMelon"
+    STEP "2" "HoldMelon"
+    STEP "3" "KissMelon"
+    STEP "4" "FrenchKissMelon"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+
+
+REM : Fantasize (Fantasize)
+
+CLONE DEED "NothingBase" "Bobby"
+    SET DURATION 5S
+    SET INSTRUCTIONS "Fantasiere, mit einem attraktiven Sportler herumzumachen"
+    SET PARTICIPATION "SOLO"
+END
+
+DEF TASK "Fantasize"
+    SET NAME "Tagträumen"
+    SET THEME "MISC"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "LOW"
+
+    STEP "1" "Bobby"
+
+    NEXT "1" SUCCESS FAILURE 
+END
+
+
+REM : Lift weights (LiftWeights)
+
+CLONE DEED "SwipeUp" "LiftIron1"
+    SET INSTRUCTIONS "Zeit für Muskeln! Hebe das Gewicht!"
+END
+
+CLONE DEED "SwipeUp" "LiftIron2"
+    SET INSTRUCTIONS "Und nochmal!"
+END
+
+CLONE DEED "SwipeUp" "LiftIron3"
+    SET INSTRUCTIONS "Noch ein letztes Mal!"
+END
+
+CLONE DEED "Nothing3" "CatchBreath"
+    SET INSTRUCTIONS "Verschnaufe. Drei Wiederholungen sind genug Training"
+END
+
+DEF TASK "LiftWeights"
+    SET NAME "Gewichte heben"
+    SET THEME "PLAYING"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "LOW"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "1" "LiftIron1"
+    STEP "2" "LiftIron2"
+    STEP "3" "LiftIron3"
+    STEP "4" "CatchBreath"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Exude Cool (ExudeCool)
+
+CLONE DEED "Hold3" "StandAround"
+    SET INSTRUCTIONS "Mit der gewissen Einstellung herumstehen"
+END
+
+CLONE DEED "Hold3" "StandAround2"
+    SET INSTRUCTIONS "Du siehst gerade so desinteressiert aus. Fantastisch"
+END
+
+DEF TASK "ExudeCool"
+    SET NAME "Coolness ausstrahlen"
+    SET THEME "MISC"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "LOW"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "1" "StandAround"
+    STEP "2" "StandAround2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : Put on Deodorant
+
+CLONE DEED "SwipeUp" "DeodorantStep1"
+    SET INSTRUCTIONS "Arm heben"
+END
+
+CLONE DEED "ScrubMedium" "DeodorantStep2"
+    SET INSTRUCTIONS "Einreiben"
+END
+
+CLONE DEED "Hold5" "DeodorantStep3"
+    SET INSTRUCTIONS "Kurz schnuppern"
+END
+
+DEF TASK "Deodorant"
+    SET NAME "Deo benutzen"
+    SET THEME "BATHROOM"
+    SET CAPTAIN "TEENS"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "Step1" "DeodorantStep1"
+    STEP "Step2" "DeodorantStep2"
+    STEP "Step3" "DeodorantStep3"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" SUCCESS FAILURE
+END
+
+REM : Rewire the stereo speakers
+
+CLONE DEED "Tap2" "RewireSpeakers1"
+    SET INSTRUCTIONS "Die alte Boombox anschmeißen"
+END
+
+CLONE DEED "SwipeRight" "RewireSpeakers2"
+    SET INSTRUCTIONS "Öffne diese Retro-Wundertüte"
+END
+
+CLONE DEED "SwipeBase" "RewireSpeakers3"
+    SET INSTRUCTIONS "Weg mit den Funken"
+    SET DIRECTION "LEFT,RIGHT"
+END
+
+CLONE DEED "Hold3" "RewireSpeakers4"
+    SET INSTRUCTIONS "Lose Drähte zusammenlöten"
+END
+
+CLONE DEED "Nothing3" "RewireSpeakers5"
+    SET INSTRUCTIONS "Schwing die Hüfte!"
+END
+
+DEF TASK "RewireSpeakers"
+    SET NAME "Stereoanlage neu verkabeln"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "LOW"
+    SET THEME "RECREATION"
+    SET DURATION <3H>
+
+    STEP "1" "RewireSpeakers1"
+    STEP "2" "RewireSpeakers2"
+    STEP "3" "RewireSpeakers3"
+    STEP "4" "RewireSpeakers4"
+    STEP "5" "RewireSpeakers5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Throw up after night of partying
+
+CLONE DEED "Nothing2" "PartyThrowUp1"
+    SET INSTRUCTIONS "Mulmig fühlen"
+END
+
+CLONE DEED "Hold2" "PartyThrowUp2"
+    SET INSTRUCTIONS "Kotze zurückhalten"
+END
+
+CLONE DEED "QuickTap5" "PartyThrowUp3"
+    SET INSTRUCTIONS "Ins Bad rennen! Schnell!"
+END
+
+CLONE DEED "SwipeDown" "PartyThrowUp4"
+    SET INSTRUCTIONS "Das Innere der Toilette kennenlernen"
+END
+
+DEF TASK "PartyThrowUp"
+    SET NAME "Nach wilder Nacht übergeben"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "LOW"
+    SET THEME "BATHROOM"
+    SET LEWD TRUE
+    SET DURATION <3H>
+
+    STEP "1" "PartyThrowUp1"
+    STEP "2" "PartyThrowUp2"
+    STEP "3" "PartyThrowUp3"
+    STEP "4" "PartyThrowUp4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Fix tape stuck in VCR
+
+CLONE DEED "QuickTap5" "FixVCR1"
+    SET INSTRUCTIONS "Videorekorder schlagen"
+END
+
+CLONE DEED "SwipeUp" "FixVCR2"
+    SET INSTRUCTIONS "Hand reinstecken"
+END
+
+CLONE DEED "SwipeDown" "FixVCR3"
+    SET INSTRUCTIONS "VHS-Kasette herausziehen"
+END
+
+CLONE DEED "Rotate360Counter" "FixVCR4"
+    SET INSTRUCTIONS "Das Magnetband ist draußen! Drehe es wieder rein!"
+END
+
+DEF TASK "FixVCR"
+    SET NAME "Retro-Videorekorder reparieren"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "LOW"
+    SET THEME "RECREATION"
+    SET DURATION <3H>
+
+    STEP "1" "FixVCR1"
+    STEP "2" "FixVCR2"
+    STEP "3" "FixVCR3"
+    STEP "4" "FixVCR4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : ------------------------------------------------
+REM : Define Task Set
+
+DEF TASKSET "TeenTasks"
+    ADDTASK "DontPopZit"
+    ADDTASK "PracticeKissing"
+    ADDTASK "Fantasize"
+    ADDTASK "LiftWeights"
+    ADDTASK "ExudeCool"
+    ADDTASK "Deodorant"
+    ADDTASK "RewireSpeakers"
+    ADDTASK "PartyThrowUp"
+    ADDTASK "FixVCR"
+END
