@@ -1,0 +1,153 @@
+REM : Get in a social media fight
+
+CLONE DEED "SwipeBase" "SocialMediaFight1"
+    SET INSTRUCTIONS "KACKBRATZE123 widerspricht dir auf YellBook! Scrolle durch seine Tirade"
+    SET DIRECTION "UP,UP,UP"
+END
+
+CLONE DEED "QuickTap5" "SocialMediaFight2"
+    SET INSTRUCTIONS "Wütend eine Antwort eintippen"
+END
+
+CLONE DEED "Hold5" "SocialMediaFight3"
+    SET INSTRUCTIONS "Versuche, darüber zu stehen"
+END
+
+CLONE DEED "Tap1" "SocialMediaFight4"
+    SET INSTRUCTIONS "Nur ein Scherz, poste es überall"
+END
+
+DEF TASK "SocialMediaFight"
+    SET NAME "In Social Media-Konflikt reinziehen lassen"
+    SET CAPTAIN "MATURE"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "SocialMediaFight1"
+    STEP "2" "SocialMediaFight2"
+    STEP "3" "SocialMediaFight3"
+    STEP "4" "SocialMediaFight4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Take a nap
+
+CLONE DEED "SwipeDown" "TakeNap1"
+    SET INSTRUCTIONS "Augen schließen"
+END
+
+CLONE DEED "Tap1" "TakeNap2"
+    SET INSTRUCTIONS "Schlafstadium 1"
+END
+
+CLONE DEED "Tap1" "TakeNap3"
+    SET INSTRUCTIONS "Schlafstadium 2"
+END
+
+CLONE DEED "Tap1" "TakeNap4"
+    SET INSTRUCTIONS "Schlafstadium 3"
+END
+
+CLONE DEED "Tap1" "TakeNap5"
+    SET INSTRUCTIONS "Ahhh, endlich der REM-Schlaf"
+END
+
+CLONE DEED "HoldBase" "TakeNap6"
+    SET DURATION 5S
+    SET INSTRUCTIONS "Lebhafter Traum von einem Elch, der deine Familie angreift"
+END
+
+CLONE DEED "SwipeUp" "TakeNap7"
+    SET INSTRUCTIONS "Augen panisch öffnen"
+END
+
+DEF TASK "TakeNap"
+    SET NAME "Nickerchen machen"
+    SET CAPTAIN "MATURE"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "TakeNap1"
+    STEP "2" "TakeNap2"
+    STEP "3" "TakeNap3"
+    STEP "4" "TakeNap4"
+    STEP "5" "TakeNap5"
+    STEP "6" "TakeNap6"
+    STEP "7" "TakeNap7"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" "6" FAILURE
+    NEXT "6" "7" FAILURE
+    NEXT "7" SUCCESS FAILURE
+END
+
+REM : Use your phone on the toilet
+
+CLONE DEED "SwipeDown" "ToiletPhone1"
+    SET INSTRUCTIONS "Auf Porzellanthron setzen"
+END
+
+CLONE DEED "Tap1" "ToiletPhone2"
+    SET INSTRUCTIONS "YellBook öffnen"
+END
+
+CLONE DEED "SwipeUp" "ToiletPhone3"
+    SET INSTRUCTIONS "Durch Timeline scrollen"
+END
+
+CLONE DEED "QuickTap3" "ToiletPhone4"
+    SET INSTRUCTIONS "Kommentar posten"
+END
+
+CLONE DEED "Nothing5" "ToiletPhone5"
+    SET INSTRUCTIONS "Panisches Klopfen an Tür ignorieren"
+END
+
+DEF TASK "ToiletPhone"
+    SET NAME "Handy auf Toilette benutzen"
+    SET CAPTAIN "MATURE"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "ToiletPhone1"
+    STEP "2" "ToiletPhone2"
+    STEP "3" "ToiletPhone3"
+    STEP "4" "ToiletPhone4"
+    STEP "5" "ToiletPhone5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+
+REM : ------------------------------------------------
+REM : Define Task Set
+
+DEF TASKSET "SelfishMature"
+    ADDTASK "SocialMediaFight"
+    ADDTASK "TakeNap"
+    ADDTASK "ToiletPhone"
+END

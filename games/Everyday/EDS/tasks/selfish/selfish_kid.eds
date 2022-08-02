@@ -1,0 +1,963 @@
+REM : Steal Cookies
+
+CLONE DEED "SwipeUp" "CookieStep1"
+    SET INSTRUCTIONS "Deckel der Keksdose öffnen"
+END
+
+CLONE DEED "Tap3" "CookieStep2"
+    SET INSTRUCTIONS "3 Kekse nehmen"
+END
+
+CLONE DEED "SwipeDown" "CookieStep3"
+    SET INSTRUCTIONS "Vorsichtig den Deckel wieder aufsetzen"
+END
+
+DEF TASK "StealCookies"
+    SET NAME "Kekse mopsen"
+    SET THEME "SELFISH"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "Step1" "CookieStep1"
+    STEP "Step2" "CookieStep2"
+    STEP "Step3" "CookieStep3"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" SUCCESS FAILURE
+END
+
+REM : Draw On Walls
+
+CLONE DEED "ScrubMedium" "DrawWallStep1"
+    SET INSTRUCTIONS "Bild von stinkendem Geschwisterchen zeichnen"
+END
+
+CLONE DEED "Rotate360" "DrawWallStep2"
+    SET INSTRUCTIONS "Mach es wieder runter"
+END
+
+CLONE DEED "Rotate720" "DrawWallStep3"
+    SET INSTRUCTIONS "Es geht nicht ab!"
+END
+
+CLONE DEED "QuickTap5" "DrawWallStep4"
+    SET INSTRUCTIONS "LAUF!!!"
+END
+
+DEF TASK "DrawOnWalls"
+    SET NAME "Auf Wände malen"
+    SET THEME "SELFISH"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "Step1" "DrawWallStep1"
+    STEP "Step2" "DrawWallStep2"
+    STEP "Step3" "DrawWallStep3"
+    STEP "Step4" "DrawWallStep4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+REM : Play at the Dangerous Creek
+
+CLONE DEED "Tap1" "CreekStep1"
+    SET INSTRUCTIONS "Auf Seilschaukel springen"
+END
+
+CLONE DEED "SwipeLeft" "CreekStep2"
+    SET INSTRUCTIONS "Mit Seilschaukel schaukeln"
+END
+
+CLONE DEED "Hold5" "CreekStep3"
+    SET INSTRUCTIONS "Du hast zu viel Angst loszulassen"
+END
+
+CLONE DEED "Nothing5" "CreekStep4"
+    SET INSTRUCTIONS "Sterblichkeit in Betracht ziehen"
+END
+
+DEF TASK "PlayCreek"
+    SET NAME "Am gefährlichen Bach spielen"
+    SET THEME "SELFISH"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "Step1" "CreekStep1"
+    STEP "Step2" "CreekStep2"
+    STEP "Step3" "CreekStep3"
+    STEP "Step4" "CreekStep4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+REM : Watch too-scary movie!
+
+CLONE DEED "Tap2" "WatchScaryMovie1"
+    SET INSTRUCTIONS "'Xtreme Exorcism 3' einschalten"
+END
+
+CLONE DEED "HoldBase" "WatchScaryMovie2"
+    SET INSTRUCTIONS "Während des Anschauens das Kissen fest umarmen"
+    SET DURATION 5S
+END
+
+CLONE DEED "ScrubShort" "WatchScaryMovie3"
+    SET INSTRUCTIONS "Gänsehaut wegreiben"
+END
+
+DEF TASK "WatchScaryMovie"
+    SET NAME "Zu gruseligen Film anschauen"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "WatchScaryMovie1"
+    STEP "2" "WatchScaryMovie2"
+    STEP "3" "WatchScaryMovie3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Ask unnecessary question
+
+CLONE DEED "Tap4" "UnnecessaryQuestion1"
+    SET INSTRUCTIONS "Eltern auf dich aufmerksam machen"
+END
+
+CLONE DEED "NothingBase" "UnnecessaryQuestion2"
+    SET INSTRUCTIONS "Versuche, dich an die Frage zu erinnern"
+    SET DURATION 5S
+END
+
+CLONE DEED "Tap4" "UnnecessaryQuestion3"
+    SET INSTRUCTIONS "Vergiss es und hau ab"
+END
+
+DEF TASK "UnnecessaryQuestion"
+    SET NAME "Unnötige Frage stellen"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "UnnecessaryQuestion1"
+    STEP "2" "UnnecessaryQuestion2"
+    STEP "3" "UnnecessaryQuestion3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Yank the cat's tail
+
+CLONE DEED "Tap1" "YankCatsTail1"
+    SET INSTRUCTIONS "Erkenne, wie lustig es wäre, am Schwanz der Katze zu ziehen"
+END
+
+CLONE DEED "HoldBase" "YankCatsTail2"
+    SET DURATION 5S
+    SET INSTRUCTIONS "Bedenke, wie sehr die Katze das Ganze und dich ganz besonders hassen wird"
+END
+
+CLONE DEED "Tap1" "YankCatsTail3"
+    SET INSTRUCTIONS "Greife den Schwanz"
+END
+
+CLONE DEED "SwipeRight" "YankCatsTail4"
+    SET INSTRUCTIONS "ZIEHEN!!!"
+END
+
+CLONE DEED "Rotate360" "YankCatsTail5"
+    SET INSTRUCTIONS "Neue Gesichtswunden waschen"
+END
+
+DEF TASK "YankCatsTail"
+    SET NAME "Katze am Schwanz ziehen"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "YankCatsTail1"
+    STEP "2" "YankCatsTail2"
+    STEP "3" "YankCatsTail3"
+    STEP "4" "YankCatsTail4"
+    STEP "5" "YankCatsTail5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Poop your pants
+
+CLONE DEED "HoldBase" "PoopPants1"
+    SET INSTRUCTIONS "Lass es krachen"
+    SET DURATION 5S
+END
+
+DEF TASK "PoopPants"
+    SET NAME "In die Hose machen"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+    SET LEWD TRUE
+
+    STEP "1" "PoopPants1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+REM : Ask where babies come from
+
+CLONE DEED "Hold5" "WhereBabiesComeFrom1"
+    SET INSTRUCTIONS "Unangenehme Frage in den Raum stellen"
+END
+
+CLONE DEED "Nothing3" "WhereBabiesComeFrom2"
+    SET INSTRUCTIONS "Unbeholfener Antwort der Eltern lauschen"
+END
+
+CLONE DEED "Tap1" "WhereBabiesComeFrom3"
+    SET INSTRUCTIONS "Frage 'Warum?'"
+END
+
+CLONE DEED "TapBase" "WhereBabiesComeFrom4"
+    SET INSTRUCTIONS "Hör nicht auf zu fragen"
+    SET NUM_TAPS 5
+END
+
+DEF TASK "WhereBabiesComeFrom"
+    SET NAME "Fragen, woher Babys kommen"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+    SET LEWD TRUE
+
+    STEP "1" "WhereBabiesComeFrom1"
+    STEP "2" "WhereBabiesComeFrom2"
+    STEP "3" "WhereBabiesComeFrom3"
+    STEP "4" "WhereBabiesComeFrom4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Climb a tree even though it's dangerous
+
+CLONE DEED "SwipeUp" "ClimbDangerousTree1"
+    SET INSTRUCTIONS "Auf den Baumstamm klettern"
+END
+
+CLONE DEED "SwipeUp" "ClimbDangerousTree2"
+    SET INSTRUCTIONS "Noch höher"
+END
+
+CLONE DEED "SwipeUp" "ClimbDangerousTree3"
+    SET INSTRUCTIONS "Höher!"
+END
+
+CLONE DEED "Nothing5" "ClimbDangerousTree4"
+    SET INSTRUCTIONS "AAH, zu hoch! Erstarre vor Angst"
+END
+
+DEF TASK "ClimbDangerousTree"
+    SET NAME "Wie ein Irrer auf einen Baum klettern"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "ClimbDangerousTree1"
+    STEP "2" "ClimbDangerousTree2"
+    STEP "3" "ClimbDangerousTree3"
+    STEP "4" "ClimbDangerousTree4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Skip your chores and play the floor is lava
+
+CLONE DEED "ScrubMedium" "FloorIsLava1"
+    SET INSTRUCTIONS "Stelle dir vor, das Wohnzimmer ist ein brodelnder Vulkan"
+END
+
+CLONE DEED "SwipeUp" "FloorIsLava2"
+    SET INSTRUCTIONS "Klettere auf die Möbel"
+END
+
+CLONE DEED "SwipeLeft" "FloorIsLava3"
+    SET INSTRUCTIONS "Springe über die Lava!"
+END
+
+CLONE DEED "SwipeRight" "FloorIsLava4"
+    SET INSTRUCTIONS "Springe über die Lava!"
+END
+
+CLONE DEED "SwipeDown" "FloorIsLava5"
+    SET INSTRUCTIONS "Ups, stolpere und stürze in dein feuriges Verderben"
+END
+
+DEF TASK "FloorIsLava"
+    SET NAME "Hausarbeit ignorieren und spielen"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "FloorIsLava1"
+    STEP "2" "FloorIsLava2"
+    STEP "3" "FloorIsLava3"
+    STEP "4" "FloorIsLava4"
+    STEP "5" "FloorIsLava5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Read your older sibling's diary
+
+CLONE DEED "ScrubMedium" "ReadDiary1"
+    SET INSTRUCTIONS "Durchsuche das Zimmer. Es ist hier irgendwo versteckt"
+END
+
+CLONE DEED "SwipeLeft" "ReadDiary2"
+    SET INSTRUCTIONS "Da ist es! Fange an zu lesen"
+END
+
+CLONE DEED "SwipeLeft" "ReadDiary3"
+    SET INSTRUCTIONS "Sauge alle pikanten Geheimnisse in dich auf wie ein Schwamm"
+END
+
+CLONE DEED "QuickTap10" "ReadDiary4"
+    SET INSTRUCTIONS "Da kommt jemand. Lauf!"
+
+END
+
+DEF TASK "ReadDiary"
+    SET NAME "Tagebuch von älterem Geschwisterchen lesen"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "ReadDiary1"
+    STEP "2" "ReadDiary2"
+    STEP "3" "ReadDiary3"
+    STEP "4" "ReadDiary4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Mess up the couch and build a pillow fort
+
+CLONE DEED "SwipeDown" "PillowFort1"
+    SET INSTRUCTIONS "Alle Sofakissen abnehmen"
+END
+
+CLONE DEED "SwipeUp" "PillowFort2"
+    SET INSTRUCTIONS "Daraus eine uneinnehmbare Burg bauen"
+END
+
+CLONE DEED "Hold5" "PillowFort3"
+    SET INSTRUCTIONS "In der Burg verstecken"
+END
+
+DEF TASK "PillowFort"
+    SET NAME "Sofa zerwühlen und Kissenburg bauen"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "PillowFort1"
+    STEP "2" "PillowFort2"
+    STEP "3" "PillowFort3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Throw a big juicy tantrum
+
+CLONE DEED "Hold5" "ThrowTantrum1"
+    SET INSTRUCTIONS "Oh Junge, jetzt geht's los"
+END
+
+CLONE DEED "SwipeUp" "ThrowTantrum2"
+    SET INSTRUCTIONS "Schreie aus voller Kehle"
+END
+
+CLONE DEED "QuickTap10" "ThrowTantrum3"
+    SET INSTRUCTIONS "Lass alles raus"
+END
+
+DEF TASK "ThrowTantrum"
+    SET NAME "Großen Wutanfall haben"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "ThrowTantrum1"
+    STEP "2" "ThrowTantrum2"
+    STEP "3" "ThrowTantrum3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Scatter toys around the stairs
+
+CLONE DEED "SwipeUp" "StairToys1"
+    SET INSTRUCTIONS "Hole die Soldaten"
+END
+
+CLONE DEED "SwipeDown" "StairToys2"
+    SET INSTRUCTIONS "Platziere die Soldaten überall"
+END
+
+CLONE DEED "SwipeUp" "StairToys3"
+    SET INSTRUCTIONS "Hole die Plastik-Bausteine"
+END
+
+CLONE DEED "QuickTap5" "StairToys4"
+    SET INSTRUCTIONS "Lasse sie für unachtsame Füße fallen"
+END
+
+DEF TASK "StairToys"
+    SET NAME "Spielzeug auf der Treppe verteilen"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "StairToys1"
+    STEP "2" "StairToys2"
+    STEP "3" "StairToys3"
+    STEP "4" "StairToys4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Toss football in the house and break something
+
+CLONE DEED "SwipeLeft" "TossFootball1"
+    SET INSTRUCTIONS "Arm nach hinten"
+END
+
+CLONE DEED "Hold2" "TossFootball2"
+    SET INSTRUCTIONS "Epischen Wurf vorbereiten"
+END
+
+CLONE DEED "SwipeRight" "TossFootball3"
+    SET INSTRUCTIONS "Versehentlich genau die Lampe treffen"
+END
+
+DEF TASK "TossFootball"
+    SET NAME "Mit Ball im Haus spielen"
+    SET CAPTAIN "YOUNG"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "TossFootball1"
+    STEP "2" "TossFootball2"
+    STEP "3" "TossFootball3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Learn a Curse Word
+
+CLONE DEED "Nothing5" "LearnCurse1"
+    SET INSTRUCTIONS "Bei Sendung für Erwachsene lauschen"
+END
+
+CLONE DEED "Hold5" "LearnCurse2"
+    SET INSTRUCTIONS "Neues Wort lernen"
+END
+
+CLONE DEED "Nothing5" "LearnCurse3"
+    SET INSTRUCTIONS "Ein kleines Stück Kindheit verlieren"
+END
+
+DEF TASK "LearnCurse"
+    SET NAME "Neues Schimpfwort lernen"
+    SET CAPTAIN "CHILDREN"
+    SET LEWD TRUE
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+    SET LEWD TRUE
+
+    STEP "1" "LearnCurse1"
+    STEP "2" "LearnCurse2"
+    STEP "3" "LearnCurse3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Steal candy from top shelf
+
+CLONE DEED "Hold5" "StealCandy1"
+    SET INSTRUCTIONS "Bücherregal an den Schrank schieben"
+END
+
+CLONE DEED "Tap4" "StealCandy2"
+    SET INSTRUCTIONS "Klettern"
+END
+
+CLONE DEED "ScrubShort" "StealCandy3"
+    SET INSTRUCTIONS "Stabilisiere dich... Stabil."
+END
+
+CLONE DEED "SwipeUp" "StealCandy4"
+    SET INSTRUCTIONS "Süßkram schnappen"
+END
+
+DEF TASK "StealCandy"
+    SET NAME "Süßkram aus oberstem Regal mopsen"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "StealCandy1"
+    STEP "2" "StealCandy2"
+    STEP "3" "StealCandy3"
+    STEP "4" "StealCandy4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Play with matches
+
+CLONE DEED "SwipeRight" "PlayWithMatches1"
+    SET INSTRUCTIONS "Streichholz anzünden"
+END
+
+CLONE DEED "NothingBase" "PlayWithMatches2"
+    SET INSTRUCTIONS "Beobachte den verführerischen Tanz der Flamme. Die Schönheit."
+    SET DURATION 5S
+END
+
+CLONE DEED "SwipeUp" "PlayWithMatches3"
+    SET INSTRUCTIONS "Wirf es weg"
+END
+
+CLONE DEED "Nothing5" "PlayWithMatches4"
+    SET INSTRUCTIONS "OHNE nachzusehen, ob es aus ist"
+END
+
+DEF TASK "PlayWithMatches"
+    SET NAME "Mit Streichhölzern spielen"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "PlayWithMatches1"
+    STEP "2" "PlayWithMatches2"
+    STEP "3" "PlayWithMatches3"
+    STEP "4" "PlayWithMatches4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Break a new toy immediately after getting it
+
+CLONE DEED "SwipeBase" "BreakNewToy1"
+    SET INSTRUCTIONS "Geschenk öffnen!"
+    SET DIRECTION "LEFT,RIGHT"
+END
+
+CLONE DEED "Rotate360" "BreakNewToy2"
+    SET INSTRUCTIONS "Neuen Freund bewundern!"
+END
+
+CLONE DEED "Hold5" "BreakNewToy3"
+    SET INSTRUCTIONS "Das Verlangen nach Zerstörung zurückhalten"
+END
+
+CLONE DEED "Hold5" "BreakNewToy4"
+    SET INSTRUCTIONS "Weiter....zurückhalten..."
+END
+
+CLONE DEED "Tap1" "BreakNewToy5"
+    SET INSTRUCTIONS "Sofort kaputtmachen"
+END
+
+DEF TASK "BreakNewToy"
+    SET NAME "Neues Spielzeug direkt nach Erhalt kaputtmachen"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "BreakNewToy1"
+    STEP "2" "BreakNewToy2"
+    STEP "3" "BreakNewToy3"
+    STEP "4" "BreakNewToy4"
+    STEP "5" "BreakNewToy5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+
+REM : Spin around in a circle for no reason
+
+CLONE DEED "Rotate1080" "SpinAround1"
+    SET INSTRUCTIONS "Zeit zum Durchdrehen!"
+END
+
+CLONE DEED "Nothing5" "SpinAround2"
+    SET INSTRUCTIONS "Unwohlsein setzt ein"
+END
+
+CLONE DEED "Hold5" "SpinAround3"
+    SET INSTRUCTIONS "Kotze zurückhalten!!!"
+END
+
+CLONE DEED "Tap1" "SpinAround4"
+    SET INSTRUCTIONS "Übergeben"
+END
+
+DEF TASK "SpinAround"
+    SET NAME "Grundlos im Kreis drehen"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+    SET LEWD TRUE
+
+    STEP "1" "SpinAround1"
+    STEP "2" "SpinAround2"
+    STEP "3" "SpinAround3"
+    STEP "4" "SpinAround4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Swallow series of inedible objects
+
+CLONE DEED "SwipeLeft" "SwallowInedibleObjects1"
+    SET INSTRUCTIONS "Oooh, was haben wir denn hier?"
+END
+
+CLONE DEED "SwipeRight" "SwallowInedibleObjects2"
+    SET INSTRUCTIONS "Diese Murmel sieht schön aus"
+END
+
+CLONE DEED "Hold3" "SwallowInedibleObjects3"
+    SET INSTRUCTIONS "Rein in den Schlund!"
+END
+
+CLONE DEED "Tap1" "SwallowInedibleObjects4"
+    SET INSTRUCTIONS "Den Rest für einen Mitternachtssnack aufbewahren"
+END
+
+DEF TASK "SwallowInedibleObjects"
+    SET NAME "Nicht essbare Gegenstände verschlucken"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "SwallowInedibleObjects1"
+    STEP "2" "SwallowInedibleObjects2"
+    STEP "3" "SwallowInedibleObjects3"
+    STEP "4" "SwallowInedibleObjects4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Try to adopt a pet you find
+
+CLONE DEED "Hold3" "AdoptPet1"
+    SET INSTRUCTIONS "Schokoriegel an Wildtier verfüttern"
+END
+
+CLONE DEED "ScrubMedium" "AdoptPet2"
+    SET INSTRUCTIONS "Geschöpf streicheln"
+END
+
+CLONE DEED "SwipeUp" "AdoptPet3"
+    SET INSTRUCTIONS "Aufheben"
+END
+
+CLONE DEED "SwipeRight" "AdoptPet4"
+    SET INSTRUCTIONS "Ins Haus tragen"
+END
+
+CLONE DEED "SwipeDown" "AdoptPet5"
+    SET INSTRUCTIONS "Waschbär ins Bett der Eltern legen"
+END
+
+DEF TASK "AdoptPet"
+    SET NAME "Gefundenes Tier adoptieren"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "AdoptPet1"
+    STEP "2" "AdoptPet2"
+    STEP "3" "AdoptPet3"
+    STEP "4" "AdoptPet4"
+    STEP "5" "AdoptPet5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Bury fridge magents in the backyard
+CLONE DEED "QuickTap4" "BuryMagnets1"
+    SET INSTRUCTIONS "Magnete vom Kühlschrank abnehmen"
+END
+
+CLONE DEED "QuickTap4" "BuryMagnets2"
+    SET INSTRUCTIONS "Magnete in das Loch werfen"
+END
+
+CLONE DEED "ScrubMedium" "BuryMagnets3"
+    SET INSTRUCTIONS "Mit Erde bedecken"
+END
+
+DEF TASK "BuryMagnets"
+    SET NAME "Kühlschrankmagnete im Garten vergraben"
+    SET CAPTAIN "CHILDREN"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "BuryMagnets1"
+    STEP "2" "BuryMagnets2"
+    STEP "3" "BuryMagnets3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Refuse to take a nap
+CLONE DEED "Tap5" "RefuseNap1"
+    SET INSTRUCTIONS "Durch das Haus stampfen"
+END
+
+CLONE DEED "Hold3" "RefuseNap2"
+    SET INSTRUCTIONS "Trotzig schreien"
+END
+
+CLONE DEED "Nothing3" "RefuseNap3"
+    SET INSTRUCTIONS "Mit verschränkten Armen dasitzen"
+END
+
+DEF TASK "RefuseNap"
+    SET NAME "Mittagsschlaf verweigern"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "SELFISH"
+    SET THEME "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "RefuseNap1"
+    STEP "2" "RefuseNap2"
+    STEP "3" "RefuseNap3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Dig into leftover candy from last Halloween
+CLONE DEED "SwipeDown" "HalloweenCandy1"
+    SET INSTRUCTIONS "Unter deinem Bett nachschauen"
+END
+
+CLONE DEED "SwipeUp" "HalloweenCandy2"
+    SET INSTRUCTIONS "Einen Blick in den Kleiderschrank werfen"
+END
+
+CLONE DEED "Tap5" "HalloweenCandy3"
+    SET INSTRUCTIONS "Erfolg! Nimm dir ein paar... nimm dir alle Süßigkeiten!"
+END
+
+DEF TASK "HalloweenCandy"
+    SET NAME "In Süßkramresten von Halloween wühlen"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "SELFISH"
+    SET THEME "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "HalloweenCandy1"
+    STEP "2" "HalloweenCandy2"
+    STEP "3" "HalloweenCandy3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : ------------------------------------------------
+
+REM : Define Task Set
+
+DEF TASKSET "SelfishKid"
+    ADDTASK "StealCookies"
+    ADDTASK "DrawOnWalls"
+    ADDTASK "PlayCreek"
+    ADDTASK "WatchScaryMovie"
+    ADDTASK "UnnecessaryQuestion"
+    ADDTASK "YankCatsTail"
+    ADDTASK "PoopPants"
+    ADDTASK "WhereBabiesComeFrom"
+    ADDTASK "ClimbDangerousTree"
+    ADDTASK "FloorIsLava"
+    ADDTASK "ReadDiary"
+    ADDTASK "PillowFort"
+    ADDTASK "ThrowTantrum"
+    ADDTASK "StairToys"
+    ADDTASK "TossFootball"
+    ADDTASK "LearnCurse"
+    ADDTASK "StealCandy"
+    ADDTASK "PlayWithMatches"
+    ADDTASK "BreakNewToy"
+    ADDTASK "SpinAround"
+    ADDTASK "SwallowInedibleObjects"
+    ADDTASK "AdoptPet"
+    ADDTASK "BuryMagnets"
+    ADDTASK "RefuseNap"
+    ADDTASK "HalloweenCandy"
+END
