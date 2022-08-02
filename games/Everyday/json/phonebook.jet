@@ -1,0 +1,1866 @@
+{
+    "payload": {
+        "listings": [
+            {
+                "id": "ABRAM_VORMAN",
+                "category": "RESIDENCE",
+                "name": "Abram Vormann",
+                "number": "7919666"
+            },
+            {
+                "id": "ADRIAN_GOOF",
+                "category": "RESIDENCE",
+                "name": "Adrian Doof",
+                "number": "2222288"
+            },
+            {
+                "id": "AGATHA_COFFI",
+                "category": "RESIDENCE",
+                "name": "Agatha Sargnagel",
+                "number": "7186543"
+            },
+            {
+                "id": "AGNES_LONGBO",
+                "category": "RESIDENCE",
+                "name": "Agnes Rübezahl",
+                "number": "6669898"
+            },
+            {
+                "id": "AILEEN_TWADD",
+                "category": "RESIDENCE",
+                "name": "Aileen Kresse",
+                "number": "4319426"
+            },
+            {
+                "id": "DOCAJAY",
+                "category": "DOCTOR",
+                "name": "Dr. med. Ailina Pocken",
+                "number": "5376976"
+            },
+            {
+                "id": "ALEJANDRA_RA",
+                "category": "RESIDENCE",
+                "name": "Alejandra Molotow",
+                "number": "9291066"
+            },
+            {
+                "id": "ALFRED_J._CH",
+                "category": "POSTOFFICE",
+                "name": "Alfreds Poststelle",
+                "number": "6423217"
+            },
+            {
+                "id": "ALL-IS-FROST",
+                "category": "DESSERT",
+                "name": "Alles Schockgefrostet",
+                "number": "4564567"
+            },
+            {
+                "id": "OL’_HAMBONE’",
+                "category": "MUSEUM",
+                "name": "Alterchen Krausewitzes Schweine-Streichelzoo",
+                "number": "5393555"
+            },
+            {
+                "id": "AMELIA_SMELT",
+                "category": "RESIDENCE",
+                "name": "Amelia Schmeichler",
+                "number": "6065678"
+            },
+            {
+                "id": "ANGRY_GEESE_",
+                "category": "PARK",
+                "name": "Aggressive Rentner-Park",
+                "number": "3737322"
+            },
+            {
+                "id": "ANNEK",
+                "category": "SHOPPING",
+                "name": "Anne Schüssels Haus der Haustürschlüssel",
+                "number": "9812681"
+            },
+            {
+                "id": "ANTENNA_RIPP",
+                "category": "ERRAND",
+                "name": "Antennenreißers Autowäsche",
+                "number": "8227788"
+            },
+            {
+                "id": "ASPEN_FANTIS",
+                "category": "RESIDENCE",
+                "name": "Aren Fantismo",
+                "number": "2102223"
+            },
+            {
+                "id": "ARMANDO_QUIX",
+                "category": "RESIDENCE",
+                "name": "Armando Coyote",
+                "number": "5433421"
+            },
+            {
+                "id": "ARTIE_CLICKM",
+                "category": "RESIDENCE",
+                "name": "Artie Klicker",
+                "number": "2666789"
+            },
+            {
+                "id": "ASHOK_KUMARV",
+                "category": "RESIDENCE",
+                "name": "Ash Ketchup",
+                "number": "3101983"
+            },
+            {
+                "id": "CAKED_N_LOAD",
+                "category": "DESSERT",
+                "name": "Aus einem Guss",
+                "number": "6662345"
+            },
+            {
+                "id": "THE_BACON_BA",
+                "category": "FOOD",
+                "name": "Die Baconbar",
+                "number": "5676789"
+            },
+            {
+                "id": "BASS_INSTINC",
+                "category": "ACTIVITY",
+                "name": "Bass Instincts Gitarrenschule",
+                "number": "4566229"
+            },
+            {
+                "id": "MEOWSKI",
+                "category": "VET",
+                "name": "Dr. med. vet. Bellbara Miausten",
+                "number": "4327069"
+            },
+            {
+                "id": "BEN_JACOBS",
+                "category": "RESIDENCE",
+                "name": "Ben Terries",
+                "number": "2107822"
+            },
+            {
+                "id": "BONK_CROCKLE",
+                "category": "RESIDENCE",
+                "name": "Benjamin Rössle",
+                "number": "4950123"
+            },
+            {
+                "id": "BERDIE_FABBL",
+                "category": "RESIDENCE",
+                "name": "Bernd Vollkorn",
+                "number": "9735040"
+            },
+            {
+                "id": "BUILD-A-BRA-",
+                "category": "SHOPPING",
+                "name": "Bh-Bastelworkshop",
+                "number": "8580099"
+            },
+            {
+                "id": "BIGBAND_INTE",
+                "category": "UTILITIES",
+                "name": "BigBand Internet",
+                "number": "8498765"
+            },
+            {
+                "id": "BIG_SNAKE_PO",
+                "category": "PARK",
+                "name": "Bigamiegarten",
+                "number": "2522345"
+            },
+            {
+                "id": "BIKE_MILDER",
+                "category": "RESIDENCE",
+                "name": "Biggi Millerin",
+                "number": "4648769"
+            },
+            {
+                "id": "INFERNAL_AFF",
+                "category": "MAGAZINE",
+                "name": "Bild der Dämonin",
+                "number": "7221333"
+            },
+            {
+                "id": "BILLS_BANKRU",
+                "category": "THEATER",
+                "name": "Bills Bankrottes Kleinkunsttheater",
+                "number": "9556665"
+            },
+            {
+                "id": "BOB_ROBSON’S",
+                "category": "CAR",
+                "name": "Bob Robsons Einwegautos",
+                "number": "7895432"
+            },
+            {
+                "id": "BOBO’S:_HOME",
+                "category": "FOOD",
+                "name": "Bobs geworfene Döner",
+                "number": "9878484"
+            },
+            {
+                "id": "MODYOSUP",
+                "category": "SHOPPING",
+                "name": "Brechers To-Go-Becher",
+                "number": "3330777"
+            },
+            {
+                "id": "YANLUO",
+                "category": "TEACHER",
+                "name": "Brenda Yanlou",
+                "number": "5715550"
+            },
+            {
+                "id": "E.ROY_FINLEY",
+                "category": "DENTIST",
+                "name": "Zahnärztin Brigitte Probocop",
+                "number": "9658104"
+            },
+            {
+                "id": "BUD_NEEDLETO",
+                "category": "RESIDENCE",
+                "name": "Bud Zähnefletsch",
+                "number": "4320666"
+            },
+            {
+                "id": "BURPIE_HALE",
+                "category": "RESIDENCE",
+                "name": "Burpie Hale",
+                "number": "3668934"
+            },
+            {
+                "id": "THE_BUTTER_T",
+                "category": "FOOD",
+                "name": "Zur Butterforelle",
+                "number": "9650000"
+            },
+            {
+                "id": "CABBAGE_THOM",
+                "category": "RESIDENCE",
+                "name": "Cacie Thompson Jr.",
+                "number": "4146555"
+            },
+            {
+                "id": "CALGARY_CHUM",
+                "category": "RESIDENCE",
+                "name": "Calle Hornung",
+                "number": "4441234"
+            },
+            {
+                "id": "CARMELLA_WHO",
+                "category": "RESIDENCE",
+                "name": "Carmen Flegel",
+                "number": "3285184"
+            },
+            {
+                "id": "CARNIVAL_WIL",
+                "category": "RESIDENCE",
+                "name": "Carnival Wilfried der Siebte",
+                "number": "5039666"
+            },
+            {
+                "id": "CHIB_SPITTLE",
+                "category": "RESIDENCE",
+                "name": "Caroline Riedl",
+                "number": "2222226"
+            },
+            {
+                "id": "CHASE_MCCLUR",
+                "category": "RESIDENCE",
+                "name": "Carsten Legende",
+                "number": "9395552"
+            },
+            {
+                "id": "CASSIEL",
+                "category": "RESIDENCE",
+                "name": "Cassandra Weberknecht",
+                "number": "7063456"
+            },
+            {
+                "id": "CECELIA_BAGG",
+                "category": "RESIDENCE",
+                "name": "Celina Ringsgwandl",
+                "number": "2342130"
+            },
+            {
+                "id": "CHAP_PIER",
+                "category": "ERRAND",
+                "name": "Chap-Pier-Eins",
+                "number": "5432220"
+            },
+            {
+                "id": "CRIMP_BEARDB",
+                "category": "RESIDENCE",
+                "name": "Christoph Giraffenhals",
+                "number": "4068068"
+            },
+            {
+                "id": "CHATTY_CARL",
+                "category": "RESIDENCE",
+                "name": "Cindy Tratsch",
+                "number": "9388765"
+            },
+            {
+                "id": "CIRQUE_DU_SQ",
+                "category": "ENTERTAINMENT",
+                "name": "Cirque du Eichhörnchen",
+                "number": "5954554"
+            },
+            {
+                "id": "C.J._O’BALLY",
+                "category": "FOOD",
+                "name": "C.J. O’Ballyhoos amerikanisches Diner",
+                "number": "5357777"
+            },
+            {
+                "id": "CLIFF_CHOLER",
+                "category": "RESIDENCE",
+                "name": "Clara Cholera",
+                "number": "3196057"
+            },
+            {
+                "id": "CLORA_HEAD",
+                "category": "RESIDENCE",
+                "name": "Clara Kopfschmerz",
+                "number": "9820222"
+            },
+            {
+                "id": "CRAIGJACOBS",
+                "category": "RESIDENCE",
+                "name": "Clas Verlauf",
+                "number": "7190044"
+            },
+            {
+                "id": "CLOVERTONS_R",
+                "category": "ACTIVITY",
+                "name": "Clever Fit - Freizeithalle",
+                "number": "3218666"
+            },
+            {
+                "id": "DOCCORKY",
+                "category": "DOCTOR",
+                "name": "Dr. Constantin Proktor",
+                "number": "9870123"
+            },
+            {
+                "id": "CHOIRBEWARE",
+                "category": "ACTIVITY",
+                "name": "Cornelia Chors Gesangsstunden",
+                "number": "3764440"
+            },
+            {
+                "id": "COYO",
+                "category": "RESIDENCE",
+                "name": "Coyo Kaleido",
+                "number": "6726868"
+            },
+            {
+                "id": "CYRUS_MCNABB",
+                "category": "RESIDENCE",
+                "name": "Cyrus Hauschild",
+                "number": "7808436"
+            },
+            {
+                "id": "DELLBERT_MIN",
+                "category": "RESIDENCE",
+                "name": "Dagobert Katzenminz",
+                "number": "9995552"
+            },
+            {
+                "id": "IMP_FANCY",
+                "category": "MAGAZINE",
+                "name": "Dämo - Dämonische Mode",
+                "number": "4447722"
+            },
+            {
+                "id": "DAREDARE",
+                "category": "RESIDENCE",
+                "name": "Daniel Ehm",
+                "number": "8459876"
+            },
+            {
+                "id": "DAPHNE_ORNER",
+                "category": "RESIDENCE",
+                "name": "Daphne Ormanie",
+                "number": "4092876"
+            },
+            {
+                "id": "KITTY_CARE",
+                "category": "VET",
+                "name": "Dolores seriöse Katzenpflege",
+                "number": "9374999"
+            },
+            {
+                "id": "DELILAH_HUCK",
+                "category": "RESIDENCE",
+                "name": "Delilah Grigowski",
+                "number": "7658451"
+            },
+            {
+                "id": "DJ_MIXMASTER",
+                "category": "ENTERTAINMENT",
+                "name": "DJ Mixmaster Max Mustermann",
+                "number": "7501116"
+            },
+            {
+                "id": "DONNA_CHAFFI",
+                "category": "ACTIVITY",
+                "name": "Dounias Tanzstudio",
+                "number": "7379876"
+            },
+            {
+                "id": "DOUG’S_YOGA_",
+                "category": "SHOPPING",
+                "name": "Dougs Yoga- und Fischereibedarf",
+                "number": "4328222"
+            },
+            {
+                "id": "DIRT_PILE_PA",
+                "category": "PARK",
+                "name": "Dreckhäufchen-Park",
+                "number": "5433939"
+            },
+            {
+                "id": "THREE_MINUTE",
+                "category": "ENTERTAINMENT",
+                "name": "Drei-Minuten-Escape Room",
+                "number": "6549876"
+            },
+            {
+                "id": "EDITH_WICKER",
+                "category": "RESIDENCE",
+                "name": "Edith Feigl",
+                "number": "8982525"
+            },
+            {
+                "id": "EERIEACRES",
+                "category": "NURSINGHOME",
+                "name": "Elke Ahorns Seniorenresidenz",
+                "number": "5275550"
+            },
+            {
+                "id": "ELFRIEDA_MUL",
+                "category": "RESIDENCE",
+                "name": "Elfride Maulbeer",
+                "number": "6796870"
+            },
+            {
+                "id": "EMILY",
+                "category": "SHOPPING",
+                "name": "Emilys leicht lädierte Edelsteine",
+                "number": "7770999"
+            },
+            {
+                "id": "EMMALINE",
+                "category": "RESIDENCE",
+                "name": "Emmaline Durand",
+                "number": "8762220"
+            },
+            {
+                "id": "CORNCOB_MCBI",
+                "category": "RESIDENCE",
+                "name": "Eric Edelblut",
+                "number": "9174751"
+            },
+            {
+                "id": "EZEKIEL_HORS",
+                "category": "RESIDENCE",
+                "name": "Ezekiel Häcker",
+                "number": "5434040"
+            },
+            {
+                "id": "FANCY_PANTS_",
+                "category": "THEATER",
+                "name": "Fanatische Träume Kinos",
+                "number": "3891450"
+            },
+            {
+                "id": "FANCIFUL_AUN",
+                "category": "SHOPPING",
+                "name": "Fandago - Alte Leute Möbel",
+                "number": "3457018"
+            },
+            {
+                "id": "FEDORA_JENKI",
+                "category": "RESIDENCE",
+                "name": "Fedora Kittsteiner",
+                "number": "3179933"
+            },
+            {
+                "id": "FERGUSONS_DI",
+                "category": "ACTIVITY",
+                "name": "Fenias Discount-Klavierunterricht",
+                "number": "4440123"
+            },
+            {
+                "id": "FINEAID",
+                "category": "PHARMACY",
+                "name": "Findige Apotheke",
+                "number": "7955678"
+            },
+            {
+                "id": "FIXISIN",
+                "category": "CONTRACTOR",
+                "name": "Fix-am-Werk-Baubetrieb",
+                "number": "8768765"
+            },
+            {
+                "id": "GENTLYUSED",
+                "category": "GROCERY",
+                "name": "Fladen ohne Maden",
+                "number": "7433535"
+            },
+            {
+                "id": "FLINT_PEMPLE",
+                "category": "RESIDENCE",
+                "name": "Flint Zitzelsberger",
+                "number": "5456543"
+            },
+            {
+                "id": "FLORENCE_BUT",
+                "category": "RESIDENCE",
+                "name": "Florian Heck",
+                "number": "3213737"
+            },
+            {
+                "id": "DOCFRANK",
+                "category": "DOCTOR",
+                "name": "Dr. Frank Schwammmann",
+                "number": "9230001"
+            },
+            {
+                "id": "FRAGRANTPHIL",
+                "category": "TAXI",
+                "name": "Fräulein Agathes Dufttaxi",
+                "number": "9872224"
+            },
+            {
+                "id": "FERD_PARKING",
+                "category": "RESIDENCE",
+                "name": "Fred Parkington",
+                "number": "4243076"
+            },
+            {
+                "id": "BESHAVE_YOUR",
+                "category": "BARBER",
+                "name": "Friseuse mit Getöse",
+                "number": "9812681"
+            },
+            {
+                "id": "CHIKN_4_U",
+                "category": "FOOD",
+                "name": "Fritzl Schnitzl",
+                "number": "6788881"
+            },
+            {
+                "id": "FULANO_DE_TA",
+                "category": "RESIDENCE",
+                "name": "Fulano de Rasenmeh",
+                "number": "6786666"
+            },
+            {
+                "id": "GABRIEL_TOOT",
+                "category": "RESIDENCE",
+                "name": "Gabriela Pusteblume",
+                "number": "3754539"
+            },
+            {
+                "id": "GALE_TIDDLYW",
+                "category": "RESIDENCE",
+                "name": "Garet Flitzebogen",
+                "number": "3109876"
+            },
+            {
+                "id": "GARLAND_MCRA",
+                "category": "RESIDENCE",
+                "name": "Garland McRae",
+                "number": "6964449"
+            },
+            {
+                "id": "GARYTENG",
+                "category": "RESIDENCE",
+                "name": "Gary-Josef Joos",
+                "number": "4564444"
+            },
+            {
+                "id": "THE_GREASY_F",
+                "category": "FOOD",
+                "name": "Gasthaus \"Zur fettigen Gabel\"",
+                "number": "2625757"
+            },
+            {
+                "id": "GAS_N_SUSHI",
+                "category": "FOOD",
+                "name": "Gerd und Susis Sushi-Tankstelle",
+                "number": "5654443"
+            },
+            {
+                "id": "LIGHTLY_STOL",
+                "category": "CAR",
+                "name": "Geringfügig gestohlene Autos",
+                "number": "9920005"
+            },
+            {
+                "id": "GERTRUDE_DIX",
+                "category": "RESIDENCE",
+                "name": "Gertrude Dixie",
+                "number": "7657744"
+            },
+            {
+                "id": "UNAS",
+                "category": "RESIDENCE",
+                "name": "Gijs F Unas III",
+                "number": "7305749"
+            },
+            {
+                "id": "GINNY_ST._PO",
+                "category": "BOSS",
+                "name": "Gitta St. Porridge",
+                "number": "7770999"
+            },
+            {
+                "id": "CASH_4_GOLD_",
+                "category": "ERRAND",
+                "name": "Gold Bar An- und Verkauf",
+                "number": "4443894"
+            },
+            {
+                "id": "GORTNOY_CORN",
+                "category": "RESIDENCE",
+                "name": "Gordon Maismischer",
+                "number": "4863788"
+            },
+            {
+                "id": "GRETTA_GRISS",
+                "category": "BOSS",
+                "name": "Greta Grießspeier",
+                "number": "3230444"
+            },
+            {
+                "id": "THE_GRISTLE_",
+                "category": "FOOD",
+                "name": "Der Grill Spot",
+                "number": "9391234"
+            },
+            {
+                "id": "GNUTE_IPSWIT",
+                "category": "RESIDENCE",
+                "name": "Gudrun Pfennigfuchser",
+                "number": "2109292"
+            },
+            {
+                "id": "HALLEY",
+                "category": "RESIDENCE",
+                "name": "Haike Jacobs",
+                "number": "5980404"
+            },
+            {
+                "id": "THE_HAPPY_BO",
+                "category": "FOOD",
+                "name": "Happy Bowel - Veganes Buffet",
+                "number": "7655049"
+            },
+            {
+                "id": "HAPPY_HAMSMA",
+                "category": "RESIDENCE",
+                "name": "Hannah Halberstadt",
+                "number": "5041333"
+            },
+            {
+                "id": "HARVEY_NUTTS",
+                "category": "RESIDENCE",
+                "name": "Harvey Plem",
+                "number": "6279238"
+            },
+            {
+                "id": "HECK_PANCAKE",
+                "category": "RESIDENCE",
+                "name": "Helga Pfannkuch",
+                "number": "2379000"
+            },
+            {
+                "id": "HEAPIN’_HEAP",
+                "category": "CAR",
+                "name": "Himmelsgleiche Kraftfahrzeuge",
+                "number": "4185000"
+            },
+            {
+                "id": "FOGGY_LAGOON",
+                "category": "PARK",
+                "name": "Hochnebelpark",
+                "number": "4341234"
+            },
+            {
+                "id": "MODHOLLY",
+                "category": "RESIDENCE",
+                "name": "Holger Hobel",
+                "number": "9312929"
+            },
+            {
+                "id": "HORACE_OAF",
+                "category": "RESIDENCE",
+                "name": "Ida Rübeweich",
+                "number": "2136363"
+            },
+            {
+                "id": "IGNACIO_FIRE",
+                "category": "RESIDENCE",
+                "name": "Ignacio Feuerstarter",
+                "number": "5256008"
+            },
+            {
+                "id": "DUMPY’S_DISC",
+                "category": "SHOPPING",
+                "name": "Ingos Cargohosen Imperium",
+                "number": "5671356"
+            },
+            {
+                "id": "INSECT_RELOC",
+                "category": "EXTERMINATOR",
+                "name": "Insekten-Umzugsservice",
+                "number": "5676999"
+            },
+            {
+                "id": "THE_INTERNAT",
+                "category": "MUSEUM",
+                "name": "Internationales Museum der Hot Dogs",
+                "number": "4237676"
+            },
+            {
+                "id": "IVY_TRICKLE",
+                "category": "RESIDENCE",
+                "name": "Irene Sticker",
+                "number": "5652226"
+            },
+            {
+                "id": "ISAAC_JEPHCO",
+                "category": "RESIDENCE",
+                "name": "Isaac Allergo",
+                "number": "6363333"
+            },
+            {
+                "id": "BUYNFOOD",
+                "category": "GROCERY",
+                "name": "Ixion Lebensmittel",
+                "number": "8631010"
+            },
+            {
+                "id": "JANET_BORGLE",
+                "category": "DENTIST",
+                "name": "Dr. Jakobus Gurgel Zahnarzt",
+                "number": "3218765"
+            },
+            {
+                "id": "JEFF_“GEOFF”",
+                "category": "RESIDENCE",
+                "name": "Jeff “Geoff” Jefferstein",
+                "number": "7101111"
+            },
+            {
+                "id": "JEFF_HANSEN",
+                "category": "RESIDENCE",
+                "name": "Jeff Hansen",
+                "number": "7649999"
+            },
+            {
+                "id": "JEAN_DUPONTE",
+                "category": "RESIDENCE",
+                "name": "Jendra Duponte Cristo",
+                "number": "2229876"
+            },
+            {
+                "id": "JEN’S_VEGAN_",
+                "category": "SHOPPING",
+                "name": "Jens vegane Badematten",
+                "number": "4695599"
+            },
+            {
+                "id": "JIM_JAMES_JO",
+                "category": "DENTIST",
+                "name": "Jim James Jakobsen Zahnarzt",
+                "number": "6788281"
+            },
+            {
+                "id": "JIMMINY_MYRO",
+                "category": "RESIDENCE",
+                "name": "Jiminy B. Zirpe",
+                "number": "9487779"
+            },
+            {
+                "id": "JIMMY_DURANT",
+                "category": "RESIDENCE",
+                "name": "Jimmy Grützner",
+                "number": "3434567"
+            },
+            {
+                "id": "JOANNA_CUSTA",
+                "category": "RESIDENCE",
+                "name": "Joanna Salomon",
+                "number": "8884321"
+            },
+            {
+                "id": "JOHN_BORING",
+                "category": "RESIDENCE",
+                "name": "John Ohnefleiß",
+                "number": "2621010"
+            },
+            {
+                "id": "JOHN_KANGARO",
+                "category": "RESIDENCE",
+                "name": "John Kaltherz",
+                "number": "2348270"
+            },
+            {
+                "id": "JOHNNY_GUMLA",
+                "category": "RESIDENCE",
+                "name": "Johnny Sorgenfrei",
+                "number": "8769999"
+            },
+            {
+                "id": "JOHN’S_IRREG",
+                "category": "SHOPPING",
+                "name": "Johns illegale Secondhand-Särge",
+                "number": "5551747"
+            },
+            {
+                "id": "“ONION”_CROT",
+                "category": "RESIDENCE",
+                "name": "Jonathan Kerzenzieher",
+                "number": "9092214"
+            },
+            {
+                "id": "JOS_JOSKENS_",
+                "category": "SHOPPING",
+                "name": "Josh Josmanns Jo-Jos",
+                "number": "9871111"
+            },
+            {
+                "id": "JUST_OLD_CAL",
+                "category": "SHOPPING",
+                "name": "Justo - Designkalender-Restposten",
+                "number": "2423636"
+            },
+            {
+                "id": "INVESTINAL_F",
+                "category": "ERRAND",
+                "name": "Kapitalfatal AG",
+                "number": "3339988"
+            },
+            {
+                "id": "KAREN’S_NON-",
+                "category": "SHOPPING",
+                "name": "Karens nicht verfluchte Püppchen",
+                "number": "6638880"
+            },
+            {
+                "id": "BUG-B-BYE-BY",
+                "category": "EXTERMINATOR",
+                "name": "Karls Käferbeseitigung",
+                "number": "5024242"
+            },
+            {
+                "id": "CORNWALLACE_",
+                "category": "RESIDENCE",
+                "name": "Karl von den Kleinen",
+                "number": "7501234"
+            },
+            {
+                "id": "KATESTARK",
+                "category": "RESIDENCE",
+                "name": "Kate Stark",
+                "number": "3764440"
+            },
+            {
+                "id": "DOG_CAT",
+                "category": "VET",
+                "name": "Katzen- & Hundewerkstatt",
+                "number": "4390000"
+            },
+            {
+                "id": "KAY",
+                "category": "RESIDENCE",
+                "name": "Kayla Swift",
+                "number": "2102222"
+            },
+            {
+                "id": "PAY-BY-THE-M",
+                "category": "ENTERTAINMENT",
+                "name": "Keine-Ratenzahlung-Achterbahnen",
+                "number": "3457711"
+            },
+            {
+                "id": "KELLYP",
+                "category": "RESIDENCE",
+                "name": "Kelly Bleichzny",
+                "number": "3218666"
+            },
+            {
+                "id": "CANDOKENDU",
+                "category": "ACTIVITY",
+                "name": "Kendo-Kumpels",
+                "number": "8762220"
+            },
+            {
+                "id": "CERAMIC",
+                "category": "ACTIVITY",
+                "name": "Keramikdynamik",
+                "number": "9312929"
+            },
+            {
+                "id": "KEVIN_PULLMA",
+                "category": "DENTIST",
+                "name": "Dr. Kevin Ziehmal",
+                "number": "9797575"
+            },
+            {
+                "id": "KIP_ORTIZ",
+                "category": "RESIDENCE",
+                "name": "Kip Ortiz",
+                "number": "6786789"
+            },
+            {
+                "id": "BROKEN_SEAT_",
+                "category": "THEATER",
+                "name": "Klappstuhl Kinos",
+                "number": "5678888"
+            },
+            {
+                "id": "CONTAINER",
+                "category": "SHOPPING",
+                "name": "Konstantins Kisten Kabuff",
+                "number": "7652222"
+            },
+            {
+                "id": "MODTOAD",
+                "category": "SHOPPING",
+                "name": "Kröten-Karls fast neue Reptilien",
+                "number": "6782512"
+            },
+            {
+                "id": "DRAWING-A-BL",
+                "category": "SHOPPING",
+                "name": "Künstlerbedarf Wucher",
+                "number": "3727799"
+            },
+            {
+                "id": "KURTIMUK",
+                "category": "RESIDENCE",
+                "name": "Kurt P. Anade",
+                "number": "7714441"
+            },
+            {
+                "id": "LACEY’S_TABL",
+                "category": "SHOPPING",
+                "name": "Laceys Tischtücher & Vorhänge",
+                "number": "7657222"
+            },
+            {
+                "id": "LITTLE_LORD_",
+                "category": "ACTIVITY",
+                "name": "Langer Lulatsch Basketballteam",
+                "number": "2343333"
+            },
+            {
+                "id": "LEFTY’S_UNPA",
+                "category": "SHOPPING",
+                "name": "Leftys Secondhand-Socken",
+                "number": "5674445"
+            },
+            {
+                "id": "MODLEMON",
+                "category": "RESIDENCE",
+                "name": "Lennard Verleihnix",
+                "number": "7379876"
+            },
+            {
+                "id": "LEON_FISHBUC",
+                "category": "RESIDENCE",
+                "name": "Leon Fischeimer",
+                "number": "4443335"
+            },
+            {
+                "id": "LEROY_BOWDIT",
+                "category": "RESIDENCE",
+                "name": "Leroy Quiplish",
+                "number": "3137333"
+            },
+            {
+                "id": "LIKUMARI",
+                "category": "RESIDENCE",
+                "name": "Li Kumari",
+                "number": "4544321"
+            },
+            {
+                "id": "LIL_“LI’L_GO",
+                "category": "RESIDENCE",
+                "name": "Lindana Zerberus",
+                "number": "2884444"
+            },
+            {
+                "id": "SPOONS_‘R_WE",
+                "category": "SHOPPING",
+                "name": "Löffel-Land",
+                "number": "3453355"
+            },
+            {
+                "id": "LOGAN_LEE",
+                "category": "RESIDENCE",
+                "name": "Logan Lee",
+                "number": "2046660"
+            },
+            {
+                "id": "LUELLA_BEDWE",
+                "category": "RESIDENCE",
+                "name": "Luella Badewetter",
+                "number": "4964567"
+            },
+            {
+                "id": "LULABELLE_GE",
+                "category": "RESIDENCE",
+                "name": "Luise Gertz-Schmitstinstein",
+                "number": "4329819"
+            },
+            {
+                "id": "LUKE_POODTOO",
+                "category": "RESIDENCE",
+                "name": "Luke Scheibenkleister",
+                "number": "6608888"
+            },
+            {
+                "id": "MABEL_RUSTBU",
+                "category": "RESIDENCE",
+                "name": "Mable Rostnagel",
+                "number": "9198789"
+            },
+            {
+                "id": "MADAM_HARRIE",
+                "category": "PSYCHIC",
+                "name": "Madam Harriets Hellseher-Hotline",
+                "number": "9486565"
+            },
+            {
+                "id": "MANNYMAN",
+                "category": "RESIDENCE",
+                "name": "Manny Manananggal",
+                "number": "4843344"
+            },
+            {
+                "id": "MAN_VANDERSL",
+                "category": "RESIDENCE",
+                "name": "Man von der Blau",
+                "number": "9658866"
+            },
+            {
+                "id": "MARJORIE_HUM",
+                "category": "BOSS",
+                "name": "Marjorie Humid",
+                "number": "7347111"
+            },
+            {
+                "id": "RADIO_SHOW2",
+                "category": "RADIO",
+                "name": "Martin Wuschelkopf und die Stau-Radioshow",
+                "number": "4837654"
+            },
+            {
+                "id": "MATILDA_LAMP",
+                "category": "RESIDENCE",
+                "name": "Matilda Lampenstein",
+                "number": "7657779"
+            },
+            {
+                "id": "MIND_YOUR_OW",
+                "category": "ENTERTAINMENT",
+                "name": "MBA - Mein Bienenwachs-Kerzen-Atelier",
+                "number": "7128889"
+            },
+            {
+                "id": "CORAL’S_JR._",
+                "category": "FOOD",
+                "name": "Meeresfrüchtchen Imbiss",
+                "number": "7121234"
+            },
+            {
+                "id": "MOSTLY_NO-KI",
+                "category": "EXTERMINATOR",
+                "name": "Meist Qualfrei - Schädlingsbekämpfung",
+                "number": "5402288"
+            },
+            {
+                "id": "MELON_BALLER",
+                "category": "SHOPPING",
+                "name": "Melonen für Millionen",
+                "number": "6820000"
+            },
+            {
+                "id": "MENGANOWU",
+                "category": "RESIDENCE",
+                "name": "Mengano Wu",
+                "number": "7658882"
+            },
+            {
+                "id": "HAM_BY_THE_F",
+                "category": "FOOD",
+                "name": "Mett and Greet Metzgerei",
+                "number": "2471082"
+            },
+            {
+                "id": "MID-LIFE_CRI",
+                "category": "CAR",
+                "name": "Mid-Life-Crisis Sportwägen",
+                "number": "3330777"
+            },
+            {
+                "id": "MISC._RIB_SH",
+                "category": "FOOD",
+                "name": "Mildreds Rippchenspelunke",
+                "number": "2591112"
+            },
+            {
+                "id": "ASTERTRAIN",
+                "category": "TRAIN",
+                "name": "Mittelstädter Bahnhof",
+                "number": "9873000"
+            },
+            {
+                "id": "MOM_FATHERMA",
+                "category": "RESIDENCE",
+                "name": "Mom Papamann",
+                "number": "7576867"
+            },
+            {
+                "id": "MORDECHAI_H.",
+                "category": "RESIDENCE",
+                "name": "Monika G. Brutzel",
+                "number": "2616543"
+            },
+            {
+                "id": "MORTEN_MENIG",
+                "category": "RESIDENCE",
+                "name": "Morten Krautschick",
+                "number": "6315555"
+            },
+            {
+                "id": "MURRY_BRUIN",
+                "category": "RESIDENCE",
+                "name": "Murry Brian",
+                "number": "8863331"
+            },
+            {
+                "id": "MUSEUM_ART",
+                "category": "MUSEUM",
+                "name": "Museum der \"Künste\"",
+                "number": "9105959"
+            },
+            {
+                "id": "MUSEUM_BENCHES",
+                "category": "MUSEUM",
+                "name": "Museum der Fürze",
+                "number": "2288909"
+            },
+            {
+                "id": "HAND_TURKEY_",
+                "category": "MUSEUM",
+                "name": "Museum der handwerklich begabten Tiere",
+                "number": "9347654"
+            },
+            {
+                "id": "MUSEUM_OF_CL",
+                "category": "MUSEUM",
+                "name": "Museum der pfiffigen Stoßstangenaufkleber",
+                "number": "3459999"
+            },
+            {
+                "id": "MUSEUM_OF_PO",
+                "category": "MUSEUM",
+                "name": "Museum der Chips, die wie Promis aussehen",
+                "number": "8803300"
+            },
+            {
+                "id": "MUSEUM_OF_SC",
+                "category": "MUSEUM",
+                "name": "Museum der Wissenschaften und Gerüchte",
+                "number": "3063333"
+            },
+            {
+                "id": "MILESAISLES",
+                "category": "GROCERY",
+                "name": "Musterland Discount",
+                "number": "7541152"
+            },
+            {
+                "id": "MYSTERIOUS_C",
+                "category": "PARK",
+                "name": "Mysteriöser Schluchtenpark",
+                "number": "2724237"
+            },
+            {
+                "id": "MYSTIC_PHILI",
+                "category": "PSYCHIC",
+                "name": "Mystischer Philipp - SERIÖSER Wahrsager-Service",
+                "number": "7307774"
+            },
+            {
+                "id": "NANDBEAR",
+                "category": "RESIDENCE",
+                "name": "Nadine Nebenrolle",
+                "number": "9662222"
+            },
+            {
+                "id": "NASA",
+                "category": "NASA",
+                "name": "National Aeronautics and Space Administration",
+                "number": "5675642"
+            },
+            {
+                "id": "NINE_CIRCLES",
+                "category": "MAGAZINE",
+                "name": "Neuer Tratsch von morgen",
+                "number": "6366688"
+            },
+            {
+                "id": "NOTHING_BUT_",
+                "category": "SHOPPING",
+                "name": "Nichts als Klobrillen",
+                "number": "6197878"
+            },
+            {
+                "id": "OLD_BONES_CR",
+                "category": "DESSERT",
+                "name": "Ottermilch Konditorei",
+                "number": "9877079"
+            },
+            {
+                "id": "OMNI",
+                "category": "FILMSTUDIO",
+                "name": "Omnipräsente Filmstudios",
+                "number": "3791444"
+            },
+            {
+                "id": "PARTYTOWNSHIP",
+                "category": "PARTY",
+                "name": "Partyalarm",
+                "number": "2089494"
+            },
+            {
+                "id": "BRASSY_BREND",
+                "category": "ACTIVITY",
+                "name": "Paulas Trompetenschule",
+                "number": "3635678"
+            },
+            {
+                "id": "PENNY_PLINKS",
+                "category": "RESIDENCE",
+                "name": "Penny Pantel",
+                "number": "9373331"
+            },
+            {
+                "id": "PENSCRAFTERS",
+                "category": "ERRAND",
+                "name": "PensCrafters Billostifte",
+                "number": "9495454"
+            },
+            {
+                "id": "PEPA_Z._DEPA",
+                "category": "RESIDENCE",
+                "name": "Peppa Schmutz",
+                "number": "5791177"
+            },
+            {
+                "id": "PEPPER-VEGAN",
+                "category": "FOOD",
+                "name": "Pfefferrands vegane Pizza",
+                "number": "6465555"
+            },
+            {
+                "id": "PHO-GETTA_BO",
+                "category": "FOOD",
+                "name": "Pho-Po Taiwanesisches Essen",
+                "number": "9435432"
+            },
+            {
+                "id": "PINCO_PALLIN",
+                "category": "SHOPPING",
+                "name": "Pinco Pallinos Pastapalast",
+                "number": "6564321"
+            },
+            {
+                "id": "KISS_PISTAS_",
+                "category": "SHOPPING",
+                "name": "Pista Trames Pistazienträume",
+                "number": "9593456"
+            },
+            {
+                "id": "PIZZA_FUN_TI",
+                "category": "FOOD",
+                "name": "Pizza-Fun",
+                "number": "6788883"
+            },
+            {
+                "id": "PLANETARIUM_",
+                "category": "MUSEUM",
+                "name": "Planetarium der Affen",
+                "number": "5677000"
+            },
+            {
+                "id": "POOPSIE_GUMB",
+                "category": "RESIDENCE",
+                "name": "Poopsie Gummiball",
+                "number": "3459933"
+            },
+            {
+                "id": "PORCH_DEBRIS",
+                "category": "SHOPPING",
+                "name": "Poro Gerümpelmarkt",
+                "number": "4445389"
+            },
+            {
+                "id": "PRETENTIOUS_",
+                "category": "MAGAZINE",
+                "name": "Promistalker Verlag",
+                "number": "3500123"
+            },
+            {
+                "id": "PRIYAGIL",
+                "category": "RESIDENCE",
+                "name": "Priska Biolek",
+                "number": "7784466"
+            },
+            {
+                "id": "PSYCHIC_ENEM",
+                "category": "PSYCHIC",
+                "name": "Psirella - Hellseherin und Medium",
+                "number": "6783131"
+            },
+            {
+                "id": "POPSICLE_STI",
+                "category": "MUSEUM",
+                "name": "Pusteblumen-Louvre",
+                "number": "6266818"
+            },
+            {
+                "id": "FIX_A_VAC",
+                "category": "UTILITIES",
+                "name": "Quik Gerätereparatur",
+                "number": "4713210"
+            },
+            {
+                "id": "QUITE-A-REPA",
+                "category": "UTILITIES",
+                "name": "Quite-A-Repair",
+                "number": "4652222"
+            },
+            {
+                "id": "IMPUNDULU",
+                "category": "RESIDENCE",
+                "name": "Rebecca Impundulu",
+                "number": "2526694"
+            },
+            {
+                "id": "RIDEDONT",
+                "category": "TAXI",
+                "name": "Rein oder Raus-Taxiservice",
+                "number": "3077555"
+            },
+            {
+                "id": "RILEY",
+                "category": "RESIDENCE",
+                "name": "Riley Phoenix",
+                "number": "6542555"
+            },
+            {
+                "id": "CITYHALL",
+                "category": "GOV",
+                "name": "Rathaus",
+                "number": "9876543"
+            },
+            {
+                "id": "RODENT_RAP",
+                "category": "EXTERMINATOR",
+                "name": "Ratte und Maus aus dem Haus",
+                "number": "9048444"
+            },
+            {
+                "id": "CLEARANCE-ME",
+                "category": "TELEMARKETING",
+                "name": "Rinderwahn - Fleischboxversand",
+                "number": "7877740"
+            },
+            {
+                "id": "ROB_CAMITTI’",
+                "category": "CAR",
+                "name": "Robert Voßgrönes überflüssige Autos",
+                "number": "3677154"
+            },
+            {
+                "id": "RYDASH",
+                "category": "SHOPPING",
+                "name": "Roggensprint - Der Brotexpress",
+                "number": "3230444"
+            },
+            {
+                "id": "RONALD_STOOL",
+                "category": "RESIDENCE",
+                "name": "Ronald Rückenlehne",
+                "number": "4561923"
+            },
+            {
+                "id": "RYAN_D",
+                "category": "RESIDENCE",
+                "name": "Ryan Ahrendt",
+                "number": "4440123"
+            },
+            {
+                "id": "SALON_AND_HA",
+                "category": "BARBER",
+                "name": "Salon der schönen Haare",
+                "number": "4321554"
+            },
+            {
+                "id": "SAMUEL_RAINT",
+                "category": "RESIDENCE",
+                "name": "Samuel Schmaus",
+                "number": "2223335"
+            },
+            {
+                "id": "SANTIAGO_LEM",
+                "category": "RESIDENCE",
+                "name": "Santiago Zitronenzeh",
+                "number": "2108898"
+            },
+            {
+                "id": "CORDUROY_P._",
+                "category": "RESIDENCE",
+                "name": "Sascha Sägemehl",
+                "number": "3218593"
+            },
+            {
+                "id": "SCENIC_UNDER",
+                "category": "PARK",
+                "name": "Schickes Panorama",
+                "number": "6343355"
+            },
+            {
+                "id": "POORLY_LABEL",
+                "category": "ERRAND",
+                "name": "Schlecht beschriftete Salz- und Zuckerlieferungen",
+                "number": "8384422"
+            },
+            {
+                "id": "SNARF_&_HURL",
+                "category": "FOOD",
+                "name": "Schluck & Spuck",
+                "number": "5775432"
+            },
+            {
+                "id": "GEARS_N_BEER",
+                "category": "CAR",
+                "name": "\"Schmier + Bier\" Autohaus & Brauerei",
+                "number": "6782512"
+            },
+            {
+                "id": "SMARMTABLE",
+                "category": "GROCERY",
+                "name": "Schmüller Drogerie",
+                "number": "7381234"
+            },
+            {
+                "id": "SPEEDYGET",
+                "category": "TRAVELAGENT",
+                "name": "\"Schnelle Flucht\"-Reisebüro",
+                "number": "6933399"
+            },
+            {
+                "id": "HAPPY_SCALES",
+                "category": "ERRAND",
+                "name": "Schuppenglück Eidechsensalon",
+                "number": "7653210"
+            },
+            {
+                "id": "SHELBY_HODDL",
+                "category": "RESIDENCE",
+                "name": "Shelby Venturini",
+                "number": "7908811"
+            },
+            {
+                "id": "SHERMAN_LYNE",
+                "category": "RESIDENCE",
+                "name": "Sherman Laber",
+                "number": "8385559"
+            },
+            {
+                "id": "SHIRT-OUTTA-",
+                "category": "ERRAND",
+                "name": "Shirt im Glück-Reinigung",
+                "number": "3450006"
+            },
+            {
+                "id": "SIDNEY_HAMMO",
+                "category": "RESIDENCE",
+                "name": "Singa Fernsehfrau",
+                "number": "3455111"
+            },
+            {
+                "id": "CAVE_O’_SAVI",
+                "category": "SHOPPING",
+                "name": "Sparland",
+                "number": "4321554"
+            },
+            {
+                "id": "SREDNESTATIS",
+                "category": "CAR",
+                "name": "Srednestatisticheskiy Sedans",
+                "number": "2104444"
+            },
+            {
+                "id": "MODSTAD",
+                "category": "SHOPPING",
+                "name": "Stads angetauter Kabeljau",
+                "number": "2772227"
+            },
+            {
+                "id": "ACTLIKE",
+                "category": "ACTIVITY",
+                "name": "Stell Dich Zur Schau - Theaterschule",
+                "number": "9795678"
+            },
+            {
+                "id": "STEVE_PHLANS",
+                "category": "RESIDENCE",
+                "name": "Steve Pemsel",
+                "number": "3865013"
+            },
+            {
+                "id": "RIVERS_BANK",
+                "category": "ERRAND",
+                "name": "Stolzbank",
+                "number": "2747722"
+            },
+            {
+                "id": "SPECIAL_AGEN",
+                "category": "RESIDENCE",
+                "name": "Superagent Norm Nachbarmann",
+                "number": "2724422"
+            },
+            {
+                "id": "SYLVESTER_BR",
+                "category": "RESIDENCE",
+                "name": "Sylvester Brunch",
+                "number": "2825222"
+            },
+            {
+                "id": "TAKEMERIDE",
+                "category": "TAXI",
+                "name": "Talisman Taxi-Service",
+                "number": "5651333"
+            },
+            {
+                "id": "FLEMM",
+                "category": "STORY",
+                "name": "Tante Glut",
+                "number": "8815432"
+            },
+            {
+                "id": "HECUBA",
+                "category": "STORY",
+                "name": "Tante Hecuba",
+                "number": "2105999"
+            },
+            {
+                "id": "TEENAGE_WAIS",
+                "category": "SHOPPING",
+                "name": "Teenager-Taille",
+                "number": "6545063"
+            },
+            {
+                "id": "DEVILS_FAMIL",
+                "category": "HOME",
+                "name": "Fam. Teufel",
+                "number": "5529481"
+            },
+            {
+                "id": "THE_CHILI_FO",
+                "category": "FOOD",
+                "name": "Tex-Mex",
+                "number": "7890001"
+            },
+            {
+                "id": "TGIH_YEAR-RO",
+                "category": "SHOPPING",
+                "name": "TGIH Gänzjähriger Halloween-Fachladen",
+                "number": "3266190"
+            },
+            {
+                "id": "TAD_THOODLE",
+                "category": "RESIDENCE",
+                "name": "Thaddäus Taddel",
+                "number": "2529974"
+            },
+            {
+                "id": "TEEDS_WYVERN",
+                "category": "RESIDENCE",
+                "name": "Theodolius Wimmer",
+                "number": "8791234"
+            },
+            {
+                "id": "TOOT_POOTLAD",
+                "category": "RESIDENCE",
+                "name": "Thorsten Schinken",
+                "number": "6781717"
+            },
+            {
+                "id": "COWARD_APPLE",
+                "category": "RESIDENCE",
+                "name": "Thorsten \"Tattedl\" Apfelkern",
+                "number": "4464949"
+            },
+            {
+                "id": "THURMAN_NOGO",
+                "category": "RESIDENCE",
+                "name": "Thurman Böserbub",
+                "number": "9395656"
+            },
+            {
+                "id": "ANIMAL_CONTR",
+                "category": "ANIMALCONTROL",
+                "name": "Tierfänger",
+                "number": "8856663"
+            },
+            {
+                "id": "TIM_SIMIAN_C",
+                "category": "ERRAND",
+                "name": "Tim Simian Affen-Mechatroniker",
+                "number": "6034000"
+            },
+            {
+                "id": "TIPSYTUNE",
+                "category": "CAR",
+                "name": "Tipsy Tunes Fast-Totalschäden",
+                "number": "4566229"
+            },
+            {
+                "id": "TOM_PUDDING",
+                "category": "RESIDENCE",
+                "name": "Tom Pudding",
+                "number": "4246737"
+            },
+            {
+                "id": "THE_GABERDIN",
+                "category": "SHOPPING",
+                "name": "Tracht und Trächtig - Dirndl in Übergrößen",
+                "number": "7896271"
+            },
+            {
+                "id": "TRENT",
+                "category": "RESIDENCE",
+                "name": "Trent Jormbo",
+                "number": "3458886"
+            },
+            {
+                "id": "SLOW_AND_STE",
+                "category": "ERRAND",
+                "name": "Trödel - Tauben-Übermittlungsdienst",
+                "number": "9760001"
+            },
+            {
+                "id": "TV_ADDICTS_G",
+                "category": "MAGAZINE",
+                "name": "TV-Analog",
+                "number": "3385544"
+            },
+            {
+                "id": "UNDERCOUNTER",
+                "category": "PHARMACY",
+                "name": "\"Unter den Tresen\"-Apotheke",
+                "number": "6373210"
+            },
+            {
+                "id": "BIGROCK",
+                "category": "MUSEUM",
+                "name": "Urknall Sternwarte",
+                "number": "2225577"
+            },
+            {
+                "id": "BONIFACE_CHE",
+                "category": "RESIDENCE",
+                "name": "Uschi Vollspecht",
+                "number": "7384666"
+            },
+            {
+                "id": "MODUXIE",
+                "category": "RESIDENCE",
+                "name": "U. Xie",
+                "number": "2343333"
+            },
+            {
+                "id": "VANCE_VANVAN",
+                "category": "CAR",
+                "name": "Vance VanVans Vans",
+                "number": "2935971"
+            },
+            {
+                "id": "VARDENIS_PAV",
+                "category": "RESIDENCE",
+                "name": "Vardenis Pavardenis",
+                "number": "3458333"
+            },
+            {
+                "id": "VESTWORLD",
+                "category": "SHOPPING",
+                "name": "Vestworld",
+                "number": "7871111"
+            },
+            {
+                "id": "PET_VET",
+                "category": "VET",
+                "name": "Vier Fellfreunde - Tierklinik",
+                "number": "6545555"
+            },
+            {
+                "id": "VINCENT_PRIC",
+                "category": "RESIDENCE",
+                "name": "Vincent Preisvergleich",
+                "number": "5550003"
+            },
+            {
+                "id": "FORREST_SMAL",
+                "category": "RESIDENCE",
+                "name": "Volker Waldschrat",
+                "number": "5434321"
+            }, 
+            {
+                "id": "VIVIAN_STICK",
+                "category": "DENTIST",
+                "name": "Zahnärztin Vivian Stickler",
+                "number": "2102555"
+            },
+            {
+                "id": "THE_WALKEN_C",
+                "category": "MUSEUM",
+                "name": "Die Walken-Klinik",
+                "number": "5670007"
+            },
+            {
+                "id": "WANGZ",
+                "category": "RESIDENCE",
+                "name": "Wang Zutano",
+                "number": "2424678"
+            },
+            {
+                "id": "WATERDANCE",
+                "category": "RESIDENCE",
+                "name": "Waterdance",
+                "number": "9151508"
+            },
+            {
+                "id": "OLD_RAISIN_W",
+                "category": "FOOD",
+                "name": "Weingut Altbewährt",
+                "number": "2343444"
+            },
+            {
+                "id": "WE_R_TOYS",
+                "category": "SHOPPING",
+                "name": "We 'R Toys",
+                "number": "5025678"
+            },
+            {
+                "id": "WILFORD_O’HI",
+                "category": "RESIDENCE",
+                "name": "Werner Sorglos",
+                "number": "8853434"
+            },
+            {
+                "id": "WYLIE_SKIDD",
+                "category": "RESIDENCE",
+                "name": "Wilfried Wolfram",
+                "number": "5261947"
+            },
+            {
+                "id": "WELCOME_TO_Y",
+                "category": "ERRAND",
+                "name": "Willkommen in Garnia",
+                "number": "9355511"
+            },
+            {
+                "id": "THE_CAR_SIDE",
+                "category": "CAR",
+                "name": "Wir klauen dein Auto",
+                "number": "3203339"
+            },
+            {
+                "id": "WOK_THIS_WAY",
+                "category": "FOOD",
+                "name": "Wok This Way",
+                "number": "6960666"
+            },
+            {
+                "id": "WRECKIN_CREW",
+                "category": "THEATER",
+                "name": "Wreckin' Crew Theater",
+                "number": "3996444"
+            },
+            {
+                "id": "YAKKITY",
+                "category": "ACTIVITY",
+                "name": "Yaction Kayak Wildwasser-Rafting",
+                "number": "9491112"
+            },
+            {
+                "id": "RADIO_SHOW1",
+                "category": "RADIO",
+                "name": "Yakkin' Zacks Radio-Morgenshow",
+                "number": "3834222"
+            },
+            {
+                "id": "YAMADA_HONEY",
+                "category": "BOSS",
+                "name": "Yamada Honigwabe",
+                "number": "2772227"
+            },
+            {
+                "id": "MODZAK",
+                "category": "RESIDENCE",
+                "name": "Zak Zakaryas",
+                "number": "9491112"
+            },
+            {
+                "id": "DOCZHANG",
+                "category": "DOCTOR",
+                "name": "Dr. Zhang Pérez",
+                "number": "8416804"
+            },
+            {
+                "id": "BASKETS_OF_R",
+                "category": "FOOD",
+                "name": "Zechbrauerei",
+                "number": "9693587"
+            },
+            {
+                "id": "CONTEMPORARY",
+                "category": "MUSEUM",
+                "name": "Zeitgenössisches Kunstmuseum für Väter",
+                "number": "9841234"
+            },
+            {
+                "id": "BY-THE-POUND",
+                "category": "FOOD",
+                "name": "Zentnerweise Fleisch-Buffet",
+                "number": "6784444"
+            },
+            {
+                "id": "ZIPPY",
+                "category": "POSTOFFICE",
+                "name": "Zippy Zip Postamt für Trauerbriefe",
+                "number": "9876551"
+            },
+            {
+                "id": "ZUZU’S_KETTL",
+                "category": "SHOPPING",
+                "name": "Zuzus Kessel",
+                "number": "2484949"
+            }
+        ]
+    }
+}
