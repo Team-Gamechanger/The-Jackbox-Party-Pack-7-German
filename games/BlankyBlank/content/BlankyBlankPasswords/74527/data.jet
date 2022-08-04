@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Chicago",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "city",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Chi|Chi City|Chi town|The Second City|The Windy City|Windy City|Second City|Chitown|Chacago|Chicago, IL|Chicago IL|Chicago Illinois|Chicago, Illinois",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

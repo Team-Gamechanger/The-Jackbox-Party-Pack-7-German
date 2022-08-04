@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Flubber",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Fluber|The Absent-Minded Professor|Flubbur|The Absent Minded Professor|Flobber|Flubur|Flobur",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

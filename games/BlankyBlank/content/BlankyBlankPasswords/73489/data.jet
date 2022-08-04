@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Joker",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "The Joker|Clown Prince of Crime|The Clown Prince of Crime|Ricky T|Richard T Joker|Richard T. Joker|Puddin|Pudding|Mr. J|Mr J|Mister J|Puddin'",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

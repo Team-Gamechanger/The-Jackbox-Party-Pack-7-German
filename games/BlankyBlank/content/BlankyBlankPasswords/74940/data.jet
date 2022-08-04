@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Bermuda Triangle",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "water",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "triangle",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "the bermuda triangle",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

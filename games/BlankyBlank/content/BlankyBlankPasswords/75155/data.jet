@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Louvre",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "cultural",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Louve|Louvre|louvre museum|the louvre museum|The Loove|Loove|The Loove Museum|Loove Museum|The Loov|Loov|The Loov Museum|Loov Museum",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

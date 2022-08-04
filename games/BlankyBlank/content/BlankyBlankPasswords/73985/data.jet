@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Grand Canyon",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "nature",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "canyon|grand|hole",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "the grand canyon|grand canon|the grand canon",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

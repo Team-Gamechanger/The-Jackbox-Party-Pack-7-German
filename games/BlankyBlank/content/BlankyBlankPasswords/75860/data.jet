@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Galápagos Islands",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "nature",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "island",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Galapagos Islands|Galapagos|The Galapagos|The Galápagos Islands|Galápagos Island|Galápagos|The Galápagos|The Galapagos Islands|The Galapagos Island|Galapagos Island|The Galápagos Island",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

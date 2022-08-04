@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Alien",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Alein|Aliens|Alien Resurrection|Alien 3|Aliens 3|Allien|The Alien|Xenomorph",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

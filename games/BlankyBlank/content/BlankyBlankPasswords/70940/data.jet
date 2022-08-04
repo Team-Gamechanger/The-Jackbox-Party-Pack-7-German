@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Jumanji",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Jumangee|Jewmanji|Jumangi|Jewmangi|Jumawngi|Jumawnji|Jumanji: Welcome to the Jungle|Jumanji: The Next Level|Jumanji Welcome to the Jungle|Jumanji The Next Level|Jumangu",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

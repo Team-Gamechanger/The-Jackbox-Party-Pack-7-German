@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "go-kart",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "toy",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "go kart|go cart|go-cart|cart|karts|go karts|go-karts|go carts|go-carts|a go-cart|a go cart|a go-kart|a go kart",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

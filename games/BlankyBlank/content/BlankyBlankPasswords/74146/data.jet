@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Batman",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "fictional",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "superhero",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Bruce Wayne|The Batman|Bat-Man|Bat Man|The Bat Man|The Bat-Man|Bruce Wane",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

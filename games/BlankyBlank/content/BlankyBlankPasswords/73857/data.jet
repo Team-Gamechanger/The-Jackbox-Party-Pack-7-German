@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Toy Story",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "animation",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "toy|story",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Toy Story 2|Toy Story 3|Toy Story 4|Toystory",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

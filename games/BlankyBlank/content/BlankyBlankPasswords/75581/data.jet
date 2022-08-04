@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Code of Hammurabi",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Hammurabi's Code|Hammurabi|Hammurabis Code|the hammurabi code",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

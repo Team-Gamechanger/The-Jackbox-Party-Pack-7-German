@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "crouton",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "edible",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "a crouton|croutons|crewton|a crewton|crewtons|a croton|croton|crotons",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

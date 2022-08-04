@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Mr. Snuffleupagus",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "fictional",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Snuffleupagus|Aloysius Snuffleupagus|Mister Snuffleupagus|Mr Snuffleupagus|Mr. Snuffelupagus|Mr Snuffelupagus|Snuffelupagus|Mr. Snuffleapagus|Mr Snuffleapagus|Snuffleapagus|Snuffelapagus|Mr. Snuffelapagus|Mr Snuffelapagus|Mr. Snuff|Mr Snuff|Mister Snuff|Snuffy|Mr. Snuffy|Mr Snuffy",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

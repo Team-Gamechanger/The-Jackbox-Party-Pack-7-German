@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Yellowstone National Park",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "nature",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "yellow",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Yellowstone|Yellowstone Park|Yellow Stone|Yellow Stone Park|Yellow Stone National Park|Yellowstones National Park|Yellow Stones National Park|Yellowstones Park|Yellow Stones Park|Yellowstones|Yellow Stones",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

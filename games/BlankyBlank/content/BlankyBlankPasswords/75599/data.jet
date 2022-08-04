@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Statue of David",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "David|David of Michelangelo|David Statue|the statue of David|sculpture of david|Michelangelo's David|Michelangelo's statue",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

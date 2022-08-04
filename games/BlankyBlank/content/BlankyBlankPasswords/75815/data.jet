@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Build-A-Bear Workshop",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "brand",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "workshop|build",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Builda Bear Workshop|Build A Bear|Build-A-Bear|Build A Bear Workshop|buildabear|Builda Bear",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "hammock",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "hammick|hamock|hamick|hammek|hamek|hammok|hammeck",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Wicked",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "musical",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "defying|gravity|witch",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Wickid|The Wicked Witch|Wicked Witch|Wicked Musical",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

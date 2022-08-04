@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Wreck-It Ralph",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "animation",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "wreck",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Wreck-It-Ralph|Wreck it Ralph|Wreck It Rlaph|Ralph Breaks the Internet|Wreck-It Wralph|Wreck It Wralph|Wreck-It Ralf|Wreck It Ralf|Wreck-It Wralf|Wreck It Wralf|Reck It Ralph|Reck-It Ralph|Reck-It-Ralph|Reck-It Ralf|Reck It Ralf",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Despicable Me ",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "animation",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "minion",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Dispicable Me|Despicabel Me|Dispicabel Me|Despicable Me 2|Despecable Me",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

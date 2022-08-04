@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Emergency Room",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "ER|the ER|The E.R.|E R|The E R|The Emergency Room|casualty department|emergency ward|accident & emergency department|emergency department|emergency hospital|the casualty department|the emergency department|ed|the ed|the accident & emergency department|accident department|the accident department|A&E|the emergency ward|ew|the ew",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

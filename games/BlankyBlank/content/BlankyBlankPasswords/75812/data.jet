@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Mississippi River",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "nature",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "misissippi|missisippi|mississipi|misissippi river|missisippi river|mississipi river|the mississippi|the mississippi river|the misissippi river|the misissippi|the missisippi river|the missisippi|the mississipi river|the mississipi|misisipi",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

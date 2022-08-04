@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Twilight",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "boovie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "vampiric|vampire|werewolf",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "The Twilight Saga|Twilight Saga|Twilite",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

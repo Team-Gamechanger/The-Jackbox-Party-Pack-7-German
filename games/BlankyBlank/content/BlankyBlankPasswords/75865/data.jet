@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Foot Locker",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "brand",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "foot",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "The Foot Locker|Footlocker|The Footlocker|Feet Locker",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

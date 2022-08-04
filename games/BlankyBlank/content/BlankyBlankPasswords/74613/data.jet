@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Avatar: The Last Airbender",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "animation",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Avatar|The Legend of Korra|Korra|Aang|ATLA|A:TLA|Avatar Aang|The Last Airbender|Avatar the Last Airbender|Avatar: The Legend of Korra|Legend of Korra|Avatar The Last Air Bender|Avatar: The Last Air Bender|Avatar: The Last Air-Bender|Avatar The Last Air-Bender|Legend of Kora|The Legend of Kora",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

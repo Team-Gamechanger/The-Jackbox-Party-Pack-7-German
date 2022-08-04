@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Donkey Kong",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "game",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "Donkey",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "DK|D.K.|D K|D. K.|Donkey Cong|Donky Kong|Donky Cong",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

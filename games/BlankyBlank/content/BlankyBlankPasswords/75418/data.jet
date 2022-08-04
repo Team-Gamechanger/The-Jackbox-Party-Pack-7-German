@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Pinocchio",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "fictional",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Pinochio|Pinoccio|Penocchio|Pinockio|Penockio",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

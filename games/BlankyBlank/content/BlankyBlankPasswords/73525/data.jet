@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Wizard of Oz",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "wizard",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Wizard of Oz|Dorothy and the Wizad of Oz",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Machu Picchu",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "cultural",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Matchu Picchu|Machoo Picchu|Mashoo Picchu|Machu Peechoo|Matchu Peechoo|Machu Pichew|Machew Pichew|Machu Pechu",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

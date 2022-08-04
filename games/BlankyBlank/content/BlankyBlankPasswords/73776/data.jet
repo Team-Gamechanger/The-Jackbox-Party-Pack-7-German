@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Snow White and the Seven Dwarfs",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "animation",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "princess",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Snow White|Snow White and the 7 Dwarfs|Snow White and the Seven Dwarves|Snow White and the 7 Dwarves|The Seven Dwarfs|The 7 Dwarfs|The Seven Dwarves|The 7 Dwarves|Snow White & the Seven Dwarfs|Snow White Seven Dwarfs",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

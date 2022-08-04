@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Dumb and Dumber",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Dumb & Dumber|Dumb and Dumb|Dumb n Dumber|Dumb and Dummer|Dumb & Dummer|Dumb n Dummer|Dumb Dumber|Dumb Dummer",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

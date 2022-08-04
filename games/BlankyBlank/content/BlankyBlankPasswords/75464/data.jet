@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Les Misérables",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "musical",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "miserable",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Les Mis|Le Mis|Les Miserables|Les Misérable|Les Miserable|Le Miserables|Le Misérables|Le Miserable|Le Misérable",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

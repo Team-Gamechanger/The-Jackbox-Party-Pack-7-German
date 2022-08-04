@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Salvador Dali",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "artist",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "artist",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Dali|Dolly",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

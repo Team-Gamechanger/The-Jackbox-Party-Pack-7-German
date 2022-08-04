@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Ron Burgundy",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "fictional",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "man|anchorman|anchor",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Burgundy|Ron burgendy|burgendy",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

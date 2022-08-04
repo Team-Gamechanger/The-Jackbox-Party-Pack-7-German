@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Goldilocks and the Three Bears",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "myth",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "gold",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Goldilocks|Goldielocks and the three bears|Goldylocks|Goldylocks and the three bears|Goldielocks|The Three Bears",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

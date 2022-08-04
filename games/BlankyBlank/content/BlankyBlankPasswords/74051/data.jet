@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Ms. Frizzle",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "fictional",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "frizzy",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Frizzle|Miss Frizzle|Ms Frizzle|Mrs. Frizzle|Mrs Frizzle|Professor Frizzle|Valerie Felicity Frizzle|The Frizz",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

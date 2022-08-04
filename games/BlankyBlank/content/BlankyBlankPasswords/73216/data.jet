@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Candyman",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "man|candy",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Candymen|Candy Man|The Candyman|The Candy Man|The Candymen|Candyman Candyman Candyman|The Candy Men",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

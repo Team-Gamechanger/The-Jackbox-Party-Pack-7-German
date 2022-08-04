@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Great Lakes",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "watery",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Great Lakes|Great Lakes Of North America|The Great Lakes Of North America|North American Great Lakes|The North American Great Lakes|Great Lakes Basin|The Great Lakes Basin",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

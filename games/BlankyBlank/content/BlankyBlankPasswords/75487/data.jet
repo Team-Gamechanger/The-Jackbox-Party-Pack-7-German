@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Little Prince",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "book",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "little|prince",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Little Prince|Le Petit Prince|The Petit Prince|Le Petite Prince|The Littel Prince|Littel Prince",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

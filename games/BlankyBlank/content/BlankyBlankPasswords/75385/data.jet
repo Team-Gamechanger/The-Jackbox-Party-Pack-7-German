@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Hundred Acre Wood",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "fictional",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Hundred Acre Wood|100 Acre Wood|100 Acre Woods|The One Hundred Acre Wood|Hundered Acre Wood|The Hundred Acre Woods|Hundred Acre Woods|Hundered Acre Woods",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

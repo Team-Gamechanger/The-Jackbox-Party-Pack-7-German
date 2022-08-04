@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Paw Patrol",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "animation",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "The Paw Patrol|The Paws Patrol|Paws Patrol|The Pawpatrol|Pawpatrol|The Paw Patrols|Pa Patrol|The Pa Patrol",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

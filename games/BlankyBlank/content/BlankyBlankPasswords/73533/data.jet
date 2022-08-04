@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Rick and Morty",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "animation",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Morty and Rick|Rick & Morty|Morty & Rick|Rick n Morty|Morty n Rick|Pickle Rick|Rick and Mortie|Wrick and Morty|Rick Morty|R&M",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

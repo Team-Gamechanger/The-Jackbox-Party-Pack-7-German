@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Edward Scissorhands",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "Scissor|Scissors|hands",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Scissorhands|Scissorhand|Edward Scissorhand|Edward Scissor Hand|Scissor hand|Edward Scissor Hands",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

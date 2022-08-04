@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Law & Order",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "tv",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "law",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Law and Order|Law Order|Law  & Order: Criminal Intent|Law & Order: Special Victims Unit|Law & Order: UK",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

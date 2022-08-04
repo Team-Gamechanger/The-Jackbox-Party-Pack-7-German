@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Mad Men",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "tv",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "advertising|ad|ads|mad|men",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Don Draper|Mad-Men|Madmen|Mad Man|Madman|Mad-Man",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

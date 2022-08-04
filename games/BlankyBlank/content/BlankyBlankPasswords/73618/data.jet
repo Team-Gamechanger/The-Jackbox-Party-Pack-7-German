@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Armageddon",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Armagedon|Armagedden|Armageden|Arrmagedden|Armagedin|Armageddin|Arrmigeddon|Arrmigedon|Armigeddon|Armigedon|Armugeddon|Armugeden",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

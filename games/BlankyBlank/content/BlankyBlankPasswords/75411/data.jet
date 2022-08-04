@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "\"Weird Al\" Yankovic",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "musician",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "\"Weird Al\"|Weird Al|Weird Al Yankovic|Al Yankovic|Yankovic|\"Wierd Al\"|Wierd Al|Wierd Al Yankovic|Alfred Matthew Yankovic|Alfred Yankovic|Alfred Matthew \"Weird Al\" Yankovic|Yankovic",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

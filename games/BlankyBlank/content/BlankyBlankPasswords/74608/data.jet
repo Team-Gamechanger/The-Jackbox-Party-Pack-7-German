@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Georgia O'Keeffe",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "artist",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Georgia O'keefe|Georgia O'keffe|Georgia O'keffee|Georgia O'kefe|Georgia Okeefe|Georgia Okeffe|Georgia Okeffee|Georgia Okefe|Georgia Okeeffe|O'keefe|O'keffe|O'keffee|O'kefe|O'keeffe|Okeefe|Okeffe|Okeffee|Okefe|Okeeffe",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

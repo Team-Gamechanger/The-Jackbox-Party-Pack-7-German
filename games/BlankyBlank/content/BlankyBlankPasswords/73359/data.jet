@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Fifty Shades of Grey",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "book",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "50 Shades of Grey|50 Shades of Gray|Fifty Shades of Gray|Fifty Shades|50 Shades|Fiftey Shades of Gray|Fiftey Shades of Grey|Fiftey Shades",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

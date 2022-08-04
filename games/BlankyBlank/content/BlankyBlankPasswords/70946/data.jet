@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Waiting for Godot",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "play",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Waiting for Gadot|Waiting for Gudot|Waiting for Godoe|Waiting for Gudoe|Waiting for Gadoe|Waiting for Gadoh|Waiting for Godoh|Waiting for Gudoh",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

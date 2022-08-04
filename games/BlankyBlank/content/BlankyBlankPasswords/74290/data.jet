@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Dwayne Johnson",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "celebrity",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "rocky",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "The Rock|Rock|Dwayne \"The Rock\" Johnson|Dwayne The Rock Johnson|Dwayne Rock Johnson|Dwayn Johnson|Dwayn the rock Johnson|Dwayne Jonson",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

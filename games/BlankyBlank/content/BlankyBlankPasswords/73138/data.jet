@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Great Pacific Garbage Patch",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Pacific trash vortex|Pacific trash island|Pacific garbage patch|garbage island|the great pacific garbage patch|great garbage patch|the pacific garbage patch|the great pacific patch|ocean trash vortex|pacific ocean garbage patch|the pacific ocean garbage patch|pacific ocean trash vortex|trash vortex",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

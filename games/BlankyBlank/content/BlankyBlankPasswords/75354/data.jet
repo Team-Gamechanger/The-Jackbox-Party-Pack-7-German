@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Bob's Burgers",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "tv",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "burger",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Bobs Burgers|Bobs Burger|Bob's Burger|Bob Burger|Bob Burgers",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

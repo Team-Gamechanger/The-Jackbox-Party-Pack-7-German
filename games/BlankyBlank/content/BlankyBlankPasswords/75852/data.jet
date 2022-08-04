@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "LinkedIn",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "websites",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "link|linking",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Linked In|linkin|link in",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

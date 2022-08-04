@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Rumpelstiltskin",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "myth",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Rumpelstilzchen|Rumplestiltskin |Rumplestilzchen|Rumplestilskin|Rumpelstilskin|Rumpelstilsken|Rumplestilsken|Rumplestillskin|Rumpelstillskin",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

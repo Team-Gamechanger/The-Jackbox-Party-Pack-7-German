@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Denzel Washington",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "actor",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Denzel|Denzel Hayes Washington|Denzel Hayes Washington Jr.|Denzel Washington Jr.|Denzel Washington Jr|Denzle Washington|Denzle|Denzal Washington|Denzal|Washington",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

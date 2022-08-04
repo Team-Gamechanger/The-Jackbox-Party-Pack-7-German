@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "A Wrinkle in Time",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "book",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Wrinkle in Time|A Rinkle in Time|Rinkle in Time|Wrinkles in Time|A Wrinkel in Time|Wrinkel in Time|Wrinkels in Time|A Rinkel in Time|Rinkel in Time|A Winkle in Time|Winkle in Time",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

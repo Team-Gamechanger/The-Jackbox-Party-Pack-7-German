@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Candy Land",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "game",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "candy",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Candyland|candyland game",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

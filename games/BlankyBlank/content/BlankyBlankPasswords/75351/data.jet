@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Jennifer Lopez",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "celebrity",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Lopez|Jennifer Lynn Lopez|JLO|J.LO|J LO|Jay Low|J-LO|Jenifer Lopez|Jeniffer Lopez|Jenniffer Lopez",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

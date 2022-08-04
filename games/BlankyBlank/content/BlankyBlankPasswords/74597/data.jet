@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Ronda Rousey",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "athlete",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Rhonda Rousey|Rhonda Rousy|Ronda Rousy|Rousey|Rowdy|Rowdy!|Ronda Jean Rousey|Ronda Rowdy|Rowdy Ronda|Ronda Rowdy Rousey|Ronda Ruosey",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

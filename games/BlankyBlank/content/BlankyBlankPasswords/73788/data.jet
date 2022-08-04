@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Hot Pockets",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "edible",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "hot",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Hot Pocket|Hotpocket|hotpockets",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

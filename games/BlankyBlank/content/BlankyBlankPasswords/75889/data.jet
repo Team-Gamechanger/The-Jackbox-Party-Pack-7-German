@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Axe body spray",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "axe|body|spray",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Axe|Axe spray|Lynx|Ax body spray|Ax|Ax spray|Ax deodorant|Axe deodorant|lynx body spray",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

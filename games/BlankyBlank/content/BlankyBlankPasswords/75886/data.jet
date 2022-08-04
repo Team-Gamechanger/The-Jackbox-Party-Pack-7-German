@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "string cheese",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "edible",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "cheesy|cheese|stringy|string",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "string cheese stick|stringed cheese|stringy cheese|string cheeses|string cheese sticks|cheese stick|cheese sticks",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

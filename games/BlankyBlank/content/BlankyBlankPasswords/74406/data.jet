@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Adventure Time",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "animation",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "adventure|time",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Adventures Time|Adventurer Time|Adventure Times|Adventures Times|Adventurer Times|Adventure Time with Finn & Jake|Adventure Time with Finn and Jake|Adventuring Time|Adventer Time|Adventere Time|Adventers Times|Advent Time",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

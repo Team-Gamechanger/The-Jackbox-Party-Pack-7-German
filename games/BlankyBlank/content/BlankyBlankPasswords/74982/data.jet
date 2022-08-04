@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Han Solo",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "fictional",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "star",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Hann Solo|Hansolo|Hans Solo",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "scrunchie",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "scrunchy|scrunchies|a scrunchy|a scrunchie|scrunchy hair tie|a scrunchy hair tie|scrunchie hair tie|a scrunchie hair tie|scrunchy hair ties|scrunchie hair ties|scrunchy hairties|scrunchie hairties|scrunchie hairtie|scrunchy hairtie",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

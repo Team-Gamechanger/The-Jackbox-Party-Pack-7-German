@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Murder, She Wrote",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "tv",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "murder",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Murder She Wrote|Murder. She Wrote|Murder She Rote",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

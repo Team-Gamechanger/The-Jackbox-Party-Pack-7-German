@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Winnie the Pooh",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "fictional",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "bear",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Pooh|Pooh Bear|Poo Bear|Whinnie the Pooh|Whinnie Pooh|Winnie Pooh|Winnie the Poo|Whinnie the Poo|Winnie Poo|Winny the Pooh|Winny Pooh|Winny Poo",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Dead Sea",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "watery",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "dead",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "The Dead Sea|The Sea of Salt|Sea of Salt|Buhayrat|Bahret|Birket Lu|The Eastern Sea",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

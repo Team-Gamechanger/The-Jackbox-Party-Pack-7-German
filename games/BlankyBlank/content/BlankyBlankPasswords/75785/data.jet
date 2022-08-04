@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "pet rock",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "toy",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "pet|rock",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "a pet rock|pet rocks|toy rock|a toy rock|toy rocks",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

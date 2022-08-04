@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "DMV",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "vehicle",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Department of Motor Vehicles|the dmv|d.m.v.",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

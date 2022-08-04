@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Night of the Living Dead",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "zombie|dead",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Living Dead|The Night of the Living Dead|Night of Living Dead",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Legoland",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "brand",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "land|brick",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Lego Land|Legos Land|leggoland|leggo land",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

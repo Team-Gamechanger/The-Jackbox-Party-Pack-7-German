@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Secret Garden",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "book",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "secret",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Secret Garden|The Seceret Garden|Seceret Garden|The Secret Gardan|The Secret Gaurdian",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

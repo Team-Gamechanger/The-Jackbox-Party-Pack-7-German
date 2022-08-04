@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "One Flew Over the Cuckoo's Nest",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "boovie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Cuckoo's Nest|One Flew Over the Kookoo's Nest|OFOTCN|One Flew Over the Cuckoos Nest|One Flew Over the KooKoos Nest|Cuckoos Nest|Over the Cuckoo's Nest|The Cuckoo's Nest",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

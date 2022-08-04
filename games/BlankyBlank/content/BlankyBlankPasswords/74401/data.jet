@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "20,000 Leagues Under The Sea",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "book",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "20000 Leagues Under The Sea|20000 Leagues|20,000 Leagues|Twenty Thousand Leagues|Twenty Thousand Leagues Under The Sea|20.000 Leagues Under the Sea|20,000 Legues Under the Sea|20000 Legues Under the Sea|20.000 Legues Under the Sea|Twenty Thousand Legues Under the Sea|20,000 Leagues Under the See|20.000 Leagues Under the See|20000 Leagues Under the See|2000 Leagues Under the Sea|2,000 Leagues Under the Sea",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

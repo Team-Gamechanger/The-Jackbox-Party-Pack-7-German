@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "hoverboard",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "toy",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "board|hover",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "hover board|a hover board|a hoverboard|hoverboards|hover boards|self-balancing scooter|self balancing scooter|selfbalancing scooter",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

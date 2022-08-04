@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Rocky Horror Picture Show",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "musical",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Rocky Horror|Rocky Horror Picture Show|RHPS|TRHPS|The Rocky Horror Show|Rocky Horror Show|Rocky Horror Picture|The Rocky Horror Picture|Rock Horror Picture Show|The Rock Horror Picture Show|The Rocky Horror Show Picture",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

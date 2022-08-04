@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Chronicles of Narnia",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "boovie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "lion|witch|wardrobe",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Narnia|The Lion the Witch and the Wardrobe|The Lion, the Witch and the Wardrobe|Chronicles of Narnia|The Lion, the Witch, and the Wardrobe|The Chronicals of Narnia|Chronicals of Narnia",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

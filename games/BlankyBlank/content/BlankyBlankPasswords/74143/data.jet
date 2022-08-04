@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Michael Phelps",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "athlete",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "olympian|swimming|swimmer|olympic",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Michael Fred Phelps|Michael Fred Phelps II|Mike Phelps|Phelps|Micheal Phelps|Michael Phelp|Micheal Phelp|Michael Felps|Micheal Felps",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

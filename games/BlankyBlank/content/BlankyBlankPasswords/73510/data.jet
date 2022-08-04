@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Planet of the Apes",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Planet of Apes|Planet of the Ape|The Planet of the Apes|The Planet of Apes|Rise of the Planet of the Apes|Dawn of the Planet of the Apes|War for the Planet of the Apes",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

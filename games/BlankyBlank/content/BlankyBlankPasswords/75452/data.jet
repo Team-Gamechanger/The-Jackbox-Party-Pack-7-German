@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Vanna White",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "celebrity",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "White|Vanna Marie White|Vanna Rosich|Rosich|Vana White|Vena White|Vanna Wite|Vinna White|Van White|Vanna Marie Rosich|Vanna Marie",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

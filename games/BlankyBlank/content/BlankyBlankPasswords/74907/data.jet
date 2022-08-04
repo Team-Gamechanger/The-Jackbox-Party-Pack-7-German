@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Mariah Carey",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "musician",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Mimi|Carey|Mimi Carey|Maria Carey|Mariah Carrie|Maria Carrie|Mariah Carrey|Maria Carrey|Mariah Carry|Maria Carry",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

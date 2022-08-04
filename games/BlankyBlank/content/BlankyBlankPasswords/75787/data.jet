@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "saxophone",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "phone",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "sax|alto sax|bari sax|saxaphone|saxophones|saxaphones|the sax|alto saxophone|bari saxophone|tenor sax|tenor saxophone",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

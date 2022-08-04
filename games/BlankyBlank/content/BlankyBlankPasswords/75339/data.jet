@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Chester Cheetah",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "mascot",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Chester|Chester Cheeta|Cheetos Cheetah|Cheeto's Cheetah|The Cheetos Cheetah|Chester the Cheetah|Chester Cheetos Cheetah|Cheetohs Mascot",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

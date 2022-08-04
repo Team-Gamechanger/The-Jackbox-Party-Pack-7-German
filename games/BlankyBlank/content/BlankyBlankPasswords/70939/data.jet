@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Charlie's Angels",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "angel",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Charlies Angels|Charlie's Angel|Charlies Angel|Charlie's Angles|Charlie's Angle|Charlies Angles|Charlies Angle|Charlie's Angels: Full Throttle|Charlie's Angels Full Throttle",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

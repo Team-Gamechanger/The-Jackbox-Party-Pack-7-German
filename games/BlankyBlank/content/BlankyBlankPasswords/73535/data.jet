@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Jurassic Park",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "dinosaur|jurassic|park",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Jurasic Park|Jurrasic Park|Jurrassic Park",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

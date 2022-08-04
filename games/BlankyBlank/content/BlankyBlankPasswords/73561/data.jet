@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Star Wars",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "war",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Star War|Star Wars: A New Hope|Star Wars A New Hope|Star Wars Episode IV A New Hope|A New Hope|Star Wars: Episode IV - A New Hope|Star Wars: Episode IV|Star Wars Episode IV",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Ben-Hur",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Ben Herr|Ben Hur|Ben Her|Ben-Her|Ben-Hurr|Ben-Hur: A Tale of the Christ|Benhur|Benher|Benherr|Benhur",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

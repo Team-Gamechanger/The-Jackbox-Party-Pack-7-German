@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Naked Gun",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Naked Gun|The Nacked Gun|Nacked Gun|The Naked Gun: From the Files of Police Squad!|From the Files of Police Squad!|From the Files of Police Squad|The Naked Gun From the Files of Police Squad|Naked Gun Police Squad|Police Squad|The Naked Gun Police Squad",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "George Jetson",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "fictional",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "George J Jetson|George J. Jetson|Mr. Jetson|Mr Jetson|Mister Jetson|Jetson Dad|Jetsons Dad|Jetson's Dad|The Jetson Dad|The Jetsons Dad",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

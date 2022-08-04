@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "War of the Worlds",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "War|World",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "War of the World|The War of the Worlds|The War of the World",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

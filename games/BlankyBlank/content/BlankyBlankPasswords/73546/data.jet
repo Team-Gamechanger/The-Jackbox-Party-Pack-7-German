@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Power Rangers",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "tv",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Power Ranger|Powerrangers|Powerranger|Mighty Morphin Power Rangers|Mighty Morphin Power Ranger|The Power Rangers|The Mighty Morphin Power Rangers|The Power Ranger|The Powerrangers|The Powerranger",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

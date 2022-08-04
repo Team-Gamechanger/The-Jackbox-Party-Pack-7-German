@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Sahara desert",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "nature",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "desert|dessert",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "sahara|the sahara|the sahara desert|saharan desert|the saharan desert|sahara dessert|the sahara dessert|sa'hra|The Greatest Desert",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

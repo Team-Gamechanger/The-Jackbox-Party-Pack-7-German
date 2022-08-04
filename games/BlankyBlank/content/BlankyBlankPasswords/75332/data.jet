@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Energizer Bunny",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "mascot",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "energetic|electric",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "the energizer bunny|energy bunny|battery bunny",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

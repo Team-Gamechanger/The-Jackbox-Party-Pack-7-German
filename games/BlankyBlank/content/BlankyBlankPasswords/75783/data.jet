@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Snapchat",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "chat",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Snap|snap chat|snapchat app|snap chat app|snapchats|snaps|snap chats",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Cape Canaveral",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "cultural",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Kennedy Space Center|Cape Kennedy|Space Coast|The Kennedy Space Center|The Space Coast|Merritt Island|Canaveral|Canaveral National Seashore|Canaveral Space Coast|Spacecoast|Cape Canaveral Air Force Station|The Space Center|Space Center|Port Canaveral|JFK Cape|JFK Space Center|Cape Canaveral Florida|NASA Space Center|Florida Space Station|Florida Space Center|Canaveral Florida|Florida Space Coast",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

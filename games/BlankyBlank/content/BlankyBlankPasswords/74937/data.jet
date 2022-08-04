@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Leaning Tower Of Pisa",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "cultural",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "tower",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Tower of Pisa|Leaning Tower|Leaning Tower of Pizza|The Leaning Tower of Pisa|The Leaning Tower|the leaning tower of pizza",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Sleepless in Seattle ",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Sleepless Seattle|Sleepy Seattle|Sleepy in Seattle|Sleeping Seattle|Sleeping in Seattle|Sleepless|Sleepless in Seattel|Sleepless in Seatle|Sleepless in Seatel",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

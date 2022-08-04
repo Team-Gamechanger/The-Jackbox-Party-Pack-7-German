@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Banjo",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "guitar",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Banjoe|Banjos|Banjoes",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

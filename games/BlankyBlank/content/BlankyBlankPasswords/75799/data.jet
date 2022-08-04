@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Magic 8-Ball",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "toy",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Magic Eight Ball|Eight Ball|Magic Eight-Ball|Magic 8 Ball|Magic 8Ball|8-Ball|8Ball|8 Ball|Eight-Ball|Eightball|Magic Eightball",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

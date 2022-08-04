@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Fast and the Furious",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "furious",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Fast and the Furious|The Fast Saga|The Fast & The Furious|The Fast and the Fury|Fast and Fury|The Fast and the Furrious|Fast Furious|Fast Saga|Fast & Furious|Fast and Furious|Fast & the Furious|Fast & Fury|Fast and Furrious|Fast and the Furrious|Fast & Furrious",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

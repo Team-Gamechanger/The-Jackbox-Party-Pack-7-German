@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "chandelier",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "girandole|girandoles|candelabra lamp|suspended lights|suspended light|suspended lighting|chandelier lamp|chandelier light|chandeliers|a chandelier|chandeler|chandelers|shandelier|a shandelier|shandeliers",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

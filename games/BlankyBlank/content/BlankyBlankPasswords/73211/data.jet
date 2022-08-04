@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Back to the Future",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Back 2 the Future|Back to Future|Back to the Future Part II|Back to the Future Part III|Back to the Future Part I|Back to the Futures|Back to the Futer|Back to the Futur|Back to the Futere",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

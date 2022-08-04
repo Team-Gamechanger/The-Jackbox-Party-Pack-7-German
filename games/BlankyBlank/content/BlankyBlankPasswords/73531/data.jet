@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Teenage Mutant Ninja Turtles",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "animation",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "TMNT|Ninja Turtles|The Teenage Mutant Ninja Turtles|Teen Mutant Ninja Turtles|Teenage Mutant Hero Turtles|TMHT",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

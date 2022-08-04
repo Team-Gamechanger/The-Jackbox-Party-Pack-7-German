@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Mrs. Claus",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "fictional",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "santa's wife|Mrs Claus|Mrs Santa Claus|Bride of Santa|santas wife|Ms Claus|Ms. Claus|Mrs Clause|Mrs. Clause|Ms Clause|Ms. Clause|Miss Claus|Miss Clause",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

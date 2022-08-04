@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Superbad",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "Super|Bad",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Super Bad|super-bad",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

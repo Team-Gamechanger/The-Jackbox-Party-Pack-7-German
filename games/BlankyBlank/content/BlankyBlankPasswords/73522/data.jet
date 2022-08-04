@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Sleeping Beauty",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "beauty",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Sleepy Beauty|Princess Aurora|Sleeping Beauties|Sleepy Beauties|The Sleeping Beauty|The Sleepy Beauty",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "My Cousin Vinny",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "cousin",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "My Cousin Vinnie|My Cousin Viny|My Cousin Vinie|My Cousin Vinni|My Cousin Vini",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "UFO",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "flying saucer|U.F.O.|alien spaceship|unidentified flying object|alien saucer|alien spacecraft|unidentified flying objects|a UFO|an UFO|UFOs|flying object|flying saucers|saucer|saucers",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

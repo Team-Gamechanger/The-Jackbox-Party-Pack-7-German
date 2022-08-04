@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Highlander",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "land",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Hilander|The Highlander|The Hilander|Highlanders|Hilanders",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

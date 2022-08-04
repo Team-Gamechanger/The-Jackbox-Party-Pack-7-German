@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Little Richard",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "musician",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "little",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Richard|Richard Wayne Penniman|Richard Penniman|Lil Richard|Lil' Richard",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

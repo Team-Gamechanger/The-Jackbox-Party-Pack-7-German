@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Big Little Lies",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "tv",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "big|little",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Big Little Lie|Little Big Lies|Little Big Lie|Big Little Liars|Big Little Liar",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

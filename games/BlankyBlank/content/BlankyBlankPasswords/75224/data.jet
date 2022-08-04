@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Blazing Saddles",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "blazing|saddle",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Blaze Saddles|Blazing Saddels|Blaze Saddels|Blazing Sadles|Blazing Sadels|Blazed Saddles|Blazed Saddels|Blazed Sadels|Blazed Sadles",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

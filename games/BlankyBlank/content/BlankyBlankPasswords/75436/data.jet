@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "A Midsummer Night's Dream",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "play",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "night|dream",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Midsummer Night's Dream|A Midsummer Nights Dream|Midsummer Nights Dream|Midsummer",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

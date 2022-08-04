@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Jolly Green Giant",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "mascot",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "green|jolly",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Green Giant|The Jolly Green Giant|The Green Giant|The Jolly Giant|Jolly Giant|The Jolly Green Jiant|The Green Jiant|The Jolly Jiant|Jolly Green Jiant|Green Jiant",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

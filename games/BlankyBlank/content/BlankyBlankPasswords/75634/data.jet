@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Kate Middleton",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "famous",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Catherine Middleton|Duchess of Cambridge|The Duchess of Cambridge|Princess Catherine|Princess Kate|Princess Cate|Cate Middleton|Middleton",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

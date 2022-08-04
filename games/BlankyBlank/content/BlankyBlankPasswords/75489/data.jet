@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Mean Girls",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "mean|girl",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Mean Girl|Meangirls|Meangirl",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

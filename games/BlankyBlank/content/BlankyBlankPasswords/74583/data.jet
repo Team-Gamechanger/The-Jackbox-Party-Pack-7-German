@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Goodnight Moon",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "book",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "good|night|moon",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Good Night Moon",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

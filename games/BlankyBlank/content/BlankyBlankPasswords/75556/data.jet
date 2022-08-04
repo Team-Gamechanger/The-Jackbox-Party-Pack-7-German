@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "typewriter",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "type|write",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "typewriters|type writer|type writers|typerighter|typewrighter",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

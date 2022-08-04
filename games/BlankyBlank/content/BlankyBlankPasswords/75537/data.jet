@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Liberty Bell",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "liberty|bell",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "The Liberty Bell|The State House Bell|The Old State House Bell|Liberty Bel|The Philly Bell|The Freedom Bell|Freedom Bell|Philly Bell",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

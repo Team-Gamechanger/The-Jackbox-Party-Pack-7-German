@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Scream",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "screams|screaming",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Scream 2|Scream 3|Scream 4|Scream 5|Screams",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

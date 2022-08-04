@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "seesaw",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "toy",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "teeter totter|see-saw|sesaw|see saw|tetter totters|tetter totter|teeter totters|teetertotter|a teeter totter|a seesaw|seesaws|see saws|sesaws|a sesaw",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

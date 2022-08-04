@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Ferris Bueller's Day Off",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Ferris Bueller|Ferris Buellers Day Off|Ferris Bueller Day Off|Feriss Bueller's Day Off|Feriss Buellers Day Off|Ferriss Bueller's Day Off|Ferriss Buellers Day Off|Ferris Bueler's Day Off|Ferris Buelers Day Off|Ferris Buerler Day Off|Ferris Bueler|Ferris Bueller's|Ferris Buellers|Feriss Bueller|Ferriss Bueller|Feriss Bueler",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Fresh Prince of Bel-Air",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "tv",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Fresh Prince|Fresh Prince of Bel-Air|The Fresh Prince|The Fresh Prince of Belair|Fresh Prince of Belair|The Fresh Prince of Bel Air|Fresh Prince of Bel Air",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

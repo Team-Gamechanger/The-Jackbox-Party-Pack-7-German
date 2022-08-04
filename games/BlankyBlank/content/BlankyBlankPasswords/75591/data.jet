@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Super Soaker",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "toy",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "soaked",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "supersoaker|nerf super soaker|nerf supersoaker|super soaker gun|nerf soaker|nerf supersoaker gun",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

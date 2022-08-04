@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Container Store",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "brand",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "contain|container|store",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Container Store|The Containers Store|Containers Store",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

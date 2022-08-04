@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "A Series of Unfortunate Events",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "boovie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "unfortunate|event",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Series of unfortunate events|unfortunate events",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

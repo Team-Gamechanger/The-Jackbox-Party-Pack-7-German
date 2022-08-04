@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Jigsaw puzzle",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "toy",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "puzzle|puzzling|piece",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "tiling puzzle|jigsaw|a jigsaw puzzle|a tiling puzzle|jigsaw puzzles|tiling puzzles|jigsaws|jigsaw puzzel|tiling puzzel",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

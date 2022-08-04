@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Lord of the Flies",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "book",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Lord of Flies|The Lord of the Flies|The Lord of Flies|Lord of the Fly|The Lord of the Fly|The Lord of Fly|Lord of the Flys|The Lord of the Flys|The Lord of Flys",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

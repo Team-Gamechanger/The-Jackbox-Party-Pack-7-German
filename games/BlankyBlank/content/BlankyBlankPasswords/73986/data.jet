@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Transformers",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Transformer|Revenge of the Fallen|Dark of the Moon|Age of Extinction|The Last Knight|Bumblebee|The Transformers|Transformers: Revenge of the Fallen|Transformers: Dark of the Moon|Transformers: The Last Knight|Transformers: Age of Extinction",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

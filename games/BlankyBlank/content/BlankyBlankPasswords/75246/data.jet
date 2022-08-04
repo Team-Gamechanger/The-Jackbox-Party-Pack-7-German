@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Swan Lake ",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "play",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "swan|lake ",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Swan Lakes|Swanlake|Swan Lake Ballet|Swan Ballet|Swans Lake",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

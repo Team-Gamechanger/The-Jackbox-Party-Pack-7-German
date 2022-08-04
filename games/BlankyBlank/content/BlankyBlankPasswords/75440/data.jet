@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Nicki Minaj",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "musician",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Nicki|Nikie Minaj|Nickie|Nicki Minaj|Niki|Onika Tanya Maraj-Petty|Minaj|Nikki|Nikki Minaj|Nikie",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

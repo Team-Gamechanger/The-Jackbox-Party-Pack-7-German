@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "King of the Hill",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "animation",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "king|hill",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "the king of the hill",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

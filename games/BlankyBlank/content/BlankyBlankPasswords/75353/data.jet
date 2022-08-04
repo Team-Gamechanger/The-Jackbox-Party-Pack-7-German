@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Book of Mormon",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "musical",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "book",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Book of Mormon|The Book of Morman|Book of Morman|The Book of Moreman|Book of Moreman|The Book of Moremon|Book of Moremon|The Book of Mormons|Book of Mormons|The Book of Mormin|Book of Mormin|The Book of Mormen|Book of Mormen",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

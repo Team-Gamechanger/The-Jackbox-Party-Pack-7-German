@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Great Gatsby",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "boove",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "great",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Great Gatsby|Gatsby|The Great Gasby|Great Gasby|The Great Gatby|Great Gatby",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

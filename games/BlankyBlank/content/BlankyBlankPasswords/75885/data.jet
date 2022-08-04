@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "curly fries",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "edible",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "fry|fried|curly|curled",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "curly fry|curly french fries|curly french fry|curli fries|curl fries|curl fry|curli fry",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

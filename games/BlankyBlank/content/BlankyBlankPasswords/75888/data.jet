@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Lyft",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "lift",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Lift|Lyft Ride|Lyft Ride-Share|Lyft Ride Share|Lyft Car|Lyft Driver",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

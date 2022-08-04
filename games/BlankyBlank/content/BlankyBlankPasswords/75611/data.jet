@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Lunchables",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "edible",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "lunch",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "lunch-ables|lunchable|a lunchable|lunchible|lunchibles",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

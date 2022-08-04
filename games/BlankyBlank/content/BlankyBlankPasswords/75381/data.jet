@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Glengarry Glen Ross",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "play",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Glengary Glen Ross|Glengarry Glenross|Glengary Glenross|Glenngary Glen Ross|Glenngary Glenross|Glengarry Glen Rose|Glengary Glen Rose|Glengarrie Glen Ross",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

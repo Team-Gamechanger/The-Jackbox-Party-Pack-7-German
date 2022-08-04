@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "cruise ship",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "boat",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "cruise line|cruise|cruiseship|cruises|cruise boat|boat cruise",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Easy Bake Oven",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "toy",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "bake|oven|easy",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Easybake Oven|Easy-Bake Oven|Easybake|Easy bake",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

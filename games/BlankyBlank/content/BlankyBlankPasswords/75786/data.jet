@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "fidget spinner",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "toy",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "spin|fidget",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "fidget spinners|fidget spin|fidget spins|fidget wheel|fidget|fidgetspinner|fidget spiner|fidget spiners",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Death of a Salesman",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "play",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "The Death of a Salesman|Death of the Salesman|The Death of the Salesman|Death of Salesmen|The Death of Salesmen|The Death of the Salesmen|Death of the Salesmen|Death of a Saleman|Death of the Saleman|The Death of a Saleman|The Death of the Saleman",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

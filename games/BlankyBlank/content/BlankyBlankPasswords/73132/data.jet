@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Haunted House",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "ghost",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "haunted mansion|haunted houses|haunted mansions|a haunted house|a haunted mansion|the haunted mansion|ghost house|horror house",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

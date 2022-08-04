@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "E.T.  the Extra-Terrestrial",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "alien",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "E.T.|ET|ET the Extra-Terrestrial|E T|E. T.|ET.|E.T",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

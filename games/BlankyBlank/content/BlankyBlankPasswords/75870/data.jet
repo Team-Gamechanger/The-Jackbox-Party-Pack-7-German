@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "McDonald's PlayPlace",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "brand",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "play|place",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "PlayPlace|PlayPlace at McDonald's|McDonald's Playground|McDonalds Playplace|Mcdonalds Playground|McDonald's Play Ground|McDonalds Play Ground|McDonald's Play Place|McDonalds Play Place|Play Place",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

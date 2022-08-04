@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Albert Einstein",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "celebrity",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "einstein",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Einstein|Al Einstein|Albert Einstien|Einstien|Al Einstien",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

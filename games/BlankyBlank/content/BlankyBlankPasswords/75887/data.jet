@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Dick's Sporting Goods",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "brand",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "sport",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Dick's|Dicks|Dick|Dicks Sporting Goods|Dick Sporting Goods|Dick's Sports|Dicks Sports|Dick Sports|Dick's Sports Goods|Dicks Sports Goods|Dick Sport Goods",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

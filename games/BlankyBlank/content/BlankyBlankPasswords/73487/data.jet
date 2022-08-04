@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Golden Girls",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "tv",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "Gold|Golden|Girl",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Golden Girls|Golden Girl|The Golden Girl|Goldengirls|The Goldengirls",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

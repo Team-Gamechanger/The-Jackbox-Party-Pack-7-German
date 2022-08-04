@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Westworld",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "tv",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "West|World",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "West World|The Westworld|The West World|West Worlds|Westworlds",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

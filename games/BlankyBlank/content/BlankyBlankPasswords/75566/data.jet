@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Etch A Sketch",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "toy",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "sketch|sketching",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Etch-A-Sketch|etchasketch|etch sketch|etch-sketch|etch-uh-sketch|etch uh sketch|etch a sketches|sketches",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

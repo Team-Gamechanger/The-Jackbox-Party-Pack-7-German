@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Green Eggs and Ham",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "book",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "green",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Green Eggs & Ham|Green Egg and Ham|Green Egg & Ham",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

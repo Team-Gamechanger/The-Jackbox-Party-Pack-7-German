@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "SeaWorld",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "brand",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "fish|zoo",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "sea world|seaworld park|sea world park",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

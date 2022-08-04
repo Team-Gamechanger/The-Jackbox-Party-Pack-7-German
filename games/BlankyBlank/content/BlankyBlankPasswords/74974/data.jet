@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Easter Island",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "country",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "island",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Rapa Nui|Isla de Pascua|Moai Island|Rapanui|Ester Island|Easter Islands",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

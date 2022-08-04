@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "SpongeBob SquarePants",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "fictional",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Spongebob Square Pants|Sponge Bob Square Pants|Spongebob|Sponge Bob Squarepants|Spongebob Squarepant|sponge bob|bob squarepants|spongeboy|spongeboy me bob|spongeboy, me bob|spongeboy, me bob!|spongeboy me bob!",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

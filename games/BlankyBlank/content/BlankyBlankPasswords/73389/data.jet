@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Die Hard",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Die Harder|Diehard|Die Hard 2|Die Hard II|Die Hard Two|Die Hard with a Vengeance|A Good Day to Die Hard|Live Free or Die Hard|Dye Hard",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

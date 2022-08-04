@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "7-Eleven",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "brand",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "7 11|7-11|711|7 Eleven|Seven Eleven|7Eleven|Seven-11|Seven-Eleven|Seven 11|Seven11|7 to 11|Seven to Eleven",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

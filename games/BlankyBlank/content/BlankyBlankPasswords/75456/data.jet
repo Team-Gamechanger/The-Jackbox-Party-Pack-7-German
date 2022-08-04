@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "A Chorus Line",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "musical",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "line",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Chorus Line|A Choros Line|Choros Line|A Corus Line|Corus Line",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

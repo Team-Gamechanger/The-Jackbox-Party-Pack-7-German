@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Tiger Woods",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "athlete",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Woods|Tiger|Eldrick Tont \"Tiger\" Woods|Eldrick Woods|Eldrick Tong Woods|Tiger Wood|Tigers Wood|Tigers Woods",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

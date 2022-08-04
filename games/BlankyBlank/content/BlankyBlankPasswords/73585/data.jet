@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Princess Bride",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Princess Bride|The Princesses Bride|Princesses Bride|The Prince's Bride|Prince's Bride|Princes Bride|The Princes Bride|The Princess' Bride|Princess' Bride|The Princess's Bride|Princess's Bride",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

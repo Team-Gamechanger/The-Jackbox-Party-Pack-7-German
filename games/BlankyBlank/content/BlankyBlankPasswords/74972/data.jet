@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Barbra Streisand",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "musician",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Babs|Barbara Streisand|Streisand|Barbara Joan Streisand|Barbara|Barbra Strisand|Barbra Striesend|Barbra Strisend|Barbara Strisand|Barbara Striesend|Barbara Strisend",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

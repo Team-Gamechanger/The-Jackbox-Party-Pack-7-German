@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Dunkin'",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "brand",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "dunk",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Dunkin Doughnuts|Dunking Donuts|Dunkin Donuts|Dunkin|Dunkin' Donuts|Dunkin' Doughnuts|DD|Dunking Doughnuts|D' D|D'D",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

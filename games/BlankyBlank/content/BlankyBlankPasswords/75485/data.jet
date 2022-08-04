@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Yu-Gi-Oh!",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "tv",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Yugioh|Yu Gi Oh|Yu-Gi-Oh|Yu Gi Oh!|Yugioh!|Yu-Gi Oh|Yu Gee Oh|You Gee Oh|Yougeeoh|Yugeeoh|You Gi Oh|Yu-Gi-O|Yugio|Yu Gi O|Yu-Gi-O!",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

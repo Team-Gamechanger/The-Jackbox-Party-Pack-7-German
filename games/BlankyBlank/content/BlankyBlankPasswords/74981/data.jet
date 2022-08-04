@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Buckingham Palace",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "cultural",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "Palace",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Buckingam Palace|The Palace|buckingham|buckingam|the buckingham palace",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

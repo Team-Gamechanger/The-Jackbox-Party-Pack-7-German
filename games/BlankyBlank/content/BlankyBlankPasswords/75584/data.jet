@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "pizza rolls",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "edible",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Totinos|Totinos Pizza Rolls|Pizza Roll|Totinos Pizza Roll|Totino's|Totino's Pizza Rolls|Pizza Bites|Pocket Pizza",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Ripley's Believe It Or Not!",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "cultural",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "belief|believe",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Ripley's |Ripley's Odditorium|Ripley's Believe It Or Not Odditorium|Ripleys|Ripleys Believe it or Not|Ripley's Believe it or Not|Ripleys Believe it or Not!|Ripleys Odditorium|Ripley Believe it or Not!|Ripley Believe it or Not|Ripley|Believe it or Not!|Believe it or Not",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Black Mirror",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "tv",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "black|mirror",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Black Mirrors|The Black Mirror|Black Miror|Black Mirrer|Black Meeror|Bandersnatch|Black Mirror Bandersnatch|Black Mirror: Bandersnatch",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

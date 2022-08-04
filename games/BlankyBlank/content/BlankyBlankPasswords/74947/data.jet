@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Beetlejuice",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "beetle|juice ",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Beetlejuice Beetlejuice Bettlejuice|Beatlejuice|Beeteljuice|Beateljuice|Beetle Juice|Beatle Juice|Beetel Juice|Beatel Juice|Bettlejuice|Beetelsjuice",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "barbed wire",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "barbed",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "barb wire|razor wire|concertina wire|barbedwire|barbwire|barbbed wire|barbed wires|barb wires|bobbed wire|bobbed wires|bob wire",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "glow stick",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "glowstick|glow bracelet|neon bracelet|a glow stick|glow sticks|glowsticks|neon glow stick|neon glowstick|neon glowsticks|neon glow sticks|a neon glow stick|a neon glowstick",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

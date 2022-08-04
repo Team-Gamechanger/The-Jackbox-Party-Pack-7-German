@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Thor",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "fictional",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "god|godly",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Thor|Thunder God|God Of Thunder|Thor God of Thunder|Thor Odinson|Thore|Thorr",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

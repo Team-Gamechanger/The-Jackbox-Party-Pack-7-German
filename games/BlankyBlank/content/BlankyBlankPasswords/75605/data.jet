@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Ph.D.",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "philosophy",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Doctor of Philosophy|Doctorate|Doctoral Degree|PhD|DPhil|Ph D|Ph. D.",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

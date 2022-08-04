@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "GameStop",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "brand",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "game|stop",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Game Stop|Games Stop|gamestops|game stops",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

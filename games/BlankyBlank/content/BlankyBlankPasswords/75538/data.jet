@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Velveteen Rabbit",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "book",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Velveteen Rabbit|How Toys Become Real|The Velveeta Rabbit|The Velvateen Rabbit|Velvateen Rabbit|The Velveteen Rabit|Velveteen Rabit",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

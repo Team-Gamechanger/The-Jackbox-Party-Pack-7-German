@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Big Ben",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "cultural",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "big",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Big Ben Clock|Big Ben Clock Tower|Big Ben Tower|Big Ben Clocktower|Bigben|The Big Ben|Elizabeth Tower|The Elizabeth Tower|London Clock|London Clock Tower|The Big Ben Tower|Great Bell|The ",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

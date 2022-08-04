@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Stranger Things",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "tv",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "thing|strange",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Stranger Thing|Strange Things|Strange Thing|Strangest Things|Strangest Thing|Strangre Things|Strangure Things|The Stranger Things",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

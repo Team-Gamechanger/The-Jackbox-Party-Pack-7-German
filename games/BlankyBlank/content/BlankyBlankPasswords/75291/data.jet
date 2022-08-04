@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Citizen Kane",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Citizen Cane|Citizen Cayne|Citizen Kayne|Citizen Kain|Citizen Cain|Citizens Cane|Citizens Kane|Citizens Cayne|Citizens Kayne|Citizens Cain|Citizens Kain",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

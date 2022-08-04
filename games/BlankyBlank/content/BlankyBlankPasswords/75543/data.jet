@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Mission: Impossible",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Mission Impossible|Mission Imposible|Mission Impossibel|Mission Imposibel|M:I|M: I|MI|Mission:Impossible|Mission: Imposible|Mision: Impossible|Mission: Imposibel|Missing Impossible",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "mini golf course",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "mini",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "mini golf|minigolf",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

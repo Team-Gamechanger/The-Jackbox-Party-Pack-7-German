@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Little Red Riding Hood",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "myth",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "red",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Red Riding Hood|Lil Red Riding Hood|Riding Hood",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

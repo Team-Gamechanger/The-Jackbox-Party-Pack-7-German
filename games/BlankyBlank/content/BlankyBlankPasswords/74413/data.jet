@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Shining",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "shining",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "The Shinning|Shining",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

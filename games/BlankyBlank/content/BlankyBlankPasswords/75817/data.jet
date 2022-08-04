@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Mr. Potato Head",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "toy",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Mr Potato Head|Potato Head|Mrs. Potato Head|Mister Potato Head|Mr. Potatohead|Mr Potatohead|Mister Potatohead|Mrs Potato Head|Mrs. Potatohead|Mrs Potatohead|Mr. Potatoe Head|Mr Potatoe Head|Mister Potatoe Head",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

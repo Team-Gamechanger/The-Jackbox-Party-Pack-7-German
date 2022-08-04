@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Vincent Van Gogh",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "artist",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Van Gogh|VanGogh|Vincent Willem van Gogh|Vincent Vangogh|Vincent Van Goh|Vincent Van Go|Van Goh|Van Go|Vincent Vango|Vincent Vangoh|Vango|Vangoh",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

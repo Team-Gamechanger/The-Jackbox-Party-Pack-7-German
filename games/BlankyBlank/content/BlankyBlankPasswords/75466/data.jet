@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Diff'rent Strokes",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "tv",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Different Strokes|Diffrent Strokes|Diff'rent Stroke|Diffrent Stroke|Different Stroke|Dif'rent Strokes|Diff'erent Strokes|Dif'erent Strokes|Difrent Strokes",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

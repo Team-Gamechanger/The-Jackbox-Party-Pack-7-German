@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Brooklyn",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "city",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "new york city|nyc|new york",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Brooklin|Brooklynn|Brookelyn|Brookelin|Brooklyn NYC|Brooklyn New York|Brooklyn, New York|Brooklyn NY",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

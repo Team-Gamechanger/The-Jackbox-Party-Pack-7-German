@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Bridget Jones's Diary",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Bridgit Jones Diary|Bridget Jones Diary|Bridgit Jone's Diary|Bridget Jones' Diary|Bridget Joness Diary|Bridget Jone's Diary",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

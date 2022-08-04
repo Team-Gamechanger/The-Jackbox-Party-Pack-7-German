@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Guy Fieri",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "celebrity",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "guy",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Guy Firi|Guy Fury|Guy Feiri|Guy Ferry",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

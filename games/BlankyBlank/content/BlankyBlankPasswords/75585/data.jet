@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Katana",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "sharp",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "wakizashi|kantana",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

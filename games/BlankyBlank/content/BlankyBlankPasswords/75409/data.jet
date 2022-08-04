@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Jennifer Aniston",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "actor",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Jennifer Anniston|Jen Anniston|Jen Aniston|Aniston|Jennifer Joanna Aniston|Jeniffer Aniston|Jenniffer Aniston|Jennifer Aninston|Jen Aninston|Aninston",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

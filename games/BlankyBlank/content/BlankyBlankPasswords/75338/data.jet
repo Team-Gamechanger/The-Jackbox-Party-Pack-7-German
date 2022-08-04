@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Babe Ruth",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "athlete",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "easy",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "The Babe|The Bambino|George Ruth| George Herman Ruth|George Herman Ruth Jr.|The Bambino|The Sultan of Swat|\"Babe\" Ruth|Babe Ruth Jr.|Babe Ruth Jr|Babe|Babe Rooth|Ruth",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

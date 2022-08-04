@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Curious Case of Benjamin Button",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "curious",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Benjamin Button|Benji Butts|Curious Case of Benjamin Button|Ben Button|Curious Case|The Mysterious Case of Benjamin Button|Mysterious Case of Benjamin Button",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

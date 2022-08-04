@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Santa's Workshop",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "fictional",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "santa",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "North Pole|santas workshop|the north pole|santa's toyshop|santas toyshop|santa's work shop|santas work shop|santas toy shop|santa's toy shop",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

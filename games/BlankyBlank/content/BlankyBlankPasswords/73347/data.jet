@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Dreamgirls",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "musical",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "girlish|dreamy",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Dream Girls|Dreamgirl|Dream Girl|The Dreamettes|Dreamettes|The Dream Girls|The Dreamgirls|The Dream Girl|The Dreamgirl",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

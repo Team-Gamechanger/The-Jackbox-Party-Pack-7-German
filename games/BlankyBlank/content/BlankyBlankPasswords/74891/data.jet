@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Breaking Bad",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "tv",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "breaking|blue",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Braking Bad",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Xbox",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "thing",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "box",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Xbox 360|Xbox One|Xbox One X|Xbox Series X|The Xbox|An Xbox|A Xbox|Xbox Series S|Xbox One Series X|Xbox X|Xbone|Xbox 1|Microsoft Xbox|Original Xbox|The Original Xbox|Xbox Game Pass|Xbox Games|Xbox Console",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

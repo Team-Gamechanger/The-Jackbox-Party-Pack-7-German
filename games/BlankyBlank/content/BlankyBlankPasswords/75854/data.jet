@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Route 66",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "place",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "cultural",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Route Sixty Six|Rt. 66|Rout 66|Rt. Sixty Six|U.S. Route 66|U.S. Highway 66|US 66|U.S. Route Sixty-Six|Highway 66|Highway Sixty-Six|Rout Sixty Six|High Way 66|US Sixty Six|US66|Route66|Root 66|Root Sixty Six|Root Sixty-Six|Rt 66|Will Rogers Highway|The Mother Road|The Main Street|The Main Street of America|Main Street of America",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

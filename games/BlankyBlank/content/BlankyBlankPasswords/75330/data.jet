@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Gritty",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "mascot",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "gritty",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Philadelphia Flyers|Philly Flyers|Flyers",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

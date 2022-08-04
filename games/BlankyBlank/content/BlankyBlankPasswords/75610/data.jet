@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Dirty Dancing",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "medium",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "dancing",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Dirty Dance|Dirt Dancing|Dirtydancing|Dirty-Dancing|Dirty Danceing|Dirt Danceing",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

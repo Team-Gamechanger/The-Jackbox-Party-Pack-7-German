@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "I Love Lucy",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "tv",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "love",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "I luv lucy|love lucy",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

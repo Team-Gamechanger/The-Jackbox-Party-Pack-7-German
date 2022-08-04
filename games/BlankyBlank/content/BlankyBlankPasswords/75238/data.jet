@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "The Addams Family ",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "movie",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "family",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Addams Family |Adams Family|The Adams Family|The Addam Family|Addam Family|The Adam Family|Adam Family|The Adam's Family|The Addam's Family|Adam's Family|Addam's Family",
+   "n": "AlternateSpellings"
+  }
+ ]
+}

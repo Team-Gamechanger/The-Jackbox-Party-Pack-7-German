@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "Teletubbies",
+   "n": "Password"
+  },
+  {
+   "t": "S",
+   "v": "story",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "tv",
+   "n": "Subcategory"
+  },
+  {
+   "t": "S",
+   "v": "hard",
+   "n": "Difficulty"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ForbiddenWords"
+  },
+  {
+   "t": "S",
+   "v": "Teletubby|The teletubbies|Teletubbys|The Teletubbys|Telatubbies|Tele-tubbies|Tele-tubby|Teletummies|Teletummy|Telebuddies",
+   "n": "AlternateSpellings"
+  }
+ ]
+}
