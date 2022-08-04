@@ -4,46 +4,46 @@
    "category": "thing",
    "id": "70571",
    "structures": [
-    "Es ist <article-1> <thing-adjective-simple> <thing-noun-simple>.",
+    "Es ist <article-1> <thing-noun-simple>, <relative-pronoun-1> <thing-adjective-simple> <be-forms-1>.",
     "Es <thing-verb-simple> <article-2> <thing-noun-simple>.",
     "Wirklich sehr <thing-adjective-complex>!",
     "Es <thing-verb-simple> <article-2> <thing-noun-complex>.",
-    "Oh, <thing-noun-complex>!",
-    "Einfach gesagt, es ist <article-1> <thing-adjective-complex> <thing-noun-complex>."
+    "Oh, <thing-noun-complex>! Wow!",
+    "Einfach gesagt, es ist <article-1> <thing-noun-complex>. Einfach <thing-adjective-complex>!"
    ]
   },
   {
    "category": "place",
    "id": "70714",
    "structures": [
-    "Es ist <article-1> <place-adjective-simple> <place-noun-simple-s1>.",
-    "Hier <place-verb-simple> man <article-2> <place-noun-simple-s2>.",
-    "So viel <place-noun-complex>!",
-    "Dieser Ort hat <article-1> <place-adjective-complex> <place-noun-complex>.",
-    "Da <place-verb-simple> du <article-2> <place-noun-complex>."
+    "Es ist <article-1> <place-noun-simple-s1>. <person-pronoun-1> <place-adjective-simple>!",
+    "Hier <place-verb-simple> <place-noun-simple-s2>.",
+    "Atemberaubend! <place-noun-complex>!",
+    "Dieser Ort hat <article-1> <place-noun-complex>. Ziemlich <place-adjective-complex>!",
+    "Da <place-verb-simple> <article-2> <place-noun-complex>."
    ]
   },
   {
    "category": "person",
    "id": "70743",
    "structures": [
-    "Die Figur ist <article-1> <person-adjective-simple> <person-noun-simple>.",
+    "Die Figur ist <article-1> <person-noun-simple>. <person-pronoun-1> <person-adjective-simple>.",
     "Die Figur <person-verb-simple> <article-2> <person-noun-simple-s2>.",
     "<person-pronoun-1> so <person-adjective-complex>!",
-    "Bekannt für <person-adjective-complex> <person-noun-complex>.",
-    "Und die Figur <person-verb-simple> <article-2> <person-noun-complex>."
+    "Bekannt für <person-noun-complex>, <relative-pronoun-1> <person-adjective-complex> <be-forms-1>.",
+    "Außerdem <person-verb-simple> die Figur <article-2> <person-noun-complex>."
    ]
   },
   {
    "category": "story",
    "id": "70758",
    "structures": [
-    "Eine Geschichte über <article-1> <story-adjective-simple> <story-noun-simple>.",
-    "Und noch <story-adjective-simple> <story-noun-simple-s2>.",
-    "Krass! <story-adjective-complex> <story-noun-complex>.",
+    "Eine Geschichte über <article-1> <story-adjective-simple>, <relative-pronoun-1> <story-noun-simple> <be-forms-1>.",
+    "Und es gibt noch <article-2> <story-adjective-simple>, <relative-pronoun-1> <be-forms-1> <story-noun-simple-s2>.",
+    "Krass! <story-noun-complex> ist <story-adjective-complex>.",
     "Der Held <story-verb-simple> <article-2> <story-noun-complex>.",
-    "Schließlich gibt es <story-adjective-complex> <story-noun-complex>.",
-    "Danach, <article-2> <story-noun-complex> <story-verb-ending>."
+    "Zudem gibt es <article-1> <story-noun-complex>. <person-pronoun-1> <story-adjective-complex>!",
+    "Schlussendlich <story-verb-ending> <article-2> <story-noun-complex>."
    ]
   },
   {

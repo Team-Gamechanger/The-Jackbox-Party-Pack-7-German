@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "creature",
+   "n": "Name"
+  },
+  {
+   "t": "B",
+   "v": "false",
+   "n": "Optional"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Amount"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "MaxChoices"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Placeholder"
+  }
+ ]
+}

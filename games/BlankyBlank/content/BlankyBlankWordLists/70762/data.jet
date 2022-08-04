@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "story-noun-simple-s2",
+   "n": "Name"
+  },
+  {
+   "t": "B",
+   "v": "false",
+   "n": "Optional"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Amount"
+  },
+  {
+   "t": "S",
+   "v": "2",
+   "n": "MaxChoices"
+  },
+  {
+   "t": "S",
+   "v": "blank",
+   "n": "Placeholder"
+  }
+ ]
+}

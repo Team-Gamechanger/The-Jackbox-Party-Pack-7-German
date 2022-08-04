@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "general-verb-dump",
+   "n": "Name"
+  },
+  {
+   "t": "B",
+   "v": "false",
+   "n": "Optional"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Amount"
+  },
+  {
+   "t": "S",
+   "v": "1",
+   "n": "MaxChoices"
+  },
+  {
+   "t": "S",
+   "v": "blanks",
+   "n": "Placeholder"
+  }
+ ]
+}

@@ -76,6 +76,56 @@
         },
         {
             "amount": "",
+            "id": "70578",
+            "maxChoices": "1",
+            "name": "relative-pronoun-1",
+            "optional": true,
+            "placeholder": "das",
+            "words": [
+                {
+                    "alwaysChoose": true,
+                    "word": "das"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "die"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "der"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "welche"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "welches"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "welcher"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "welchen"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "welchem"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "dass"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "wo"
+                }
+            ]
+        },
+        {
+            "amount": "",
             "id": "70580",
             "maxChoices": "3",
             "name": "thing-adjective-simple",
@@ -122,6 +172,24 @@
                     "alwaysChoose": false,
                     "word": "<color>"
                 }
+            ]
+        },
+        {
+            "amount": "",
+            "id": "70581",
+            "maxChoices": "1",
+            "name": "be-forms-1",
+            "optional": true,
+            "placeholder": "ist",
+            "words": [
+                {
+                    "alwaysChoose": true,
+                    "word": "ist"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "sind"
+                },
             ]
         },
         {
@@ -3269,11 +3337,31 @@
                 },
                 {
                     "alwaysChoose": true,
+                    "word": "ist"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "hat"
+                },
+                {
+                    "alwaysChoose": true,
                     "word": "haben"
                 },
                 {
                     "alwaysChoose": true,
                     "word": "tun"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "gibt"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "gibt es"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "geben"
                 },
                 {
                     "alwaysChoose": false,
@@ -6049,7 +6137,7 @@
                 },
                 {
                     "alwaysChoose": true,
-                    "word": "lebt glücklich bis ans Lebensende"
+                    "word": "verschwindet"
                 },
                 {
                     "alwaysChoose": false,

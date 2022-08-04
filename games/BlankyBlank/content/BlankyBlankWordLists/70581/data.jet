@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "be-forms-1",
+   "n": "Name"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "Optional"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Amount"
+  },
+  {
+   "t": "S",
+   "v": "1",
+   "n": "MaxChoices"
+  },
+  {
+   "t": "S",
+   "v": "is",
+   "n": "Placeholder"
+  }
+ ]
+}

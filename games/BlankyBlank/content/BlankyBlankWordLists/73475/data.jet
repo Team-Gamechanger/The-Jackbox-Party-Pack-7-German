@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "response-sentence-place",
+   "n": "Name"
+  },
+  {
+   "t": "B",
+   "v": "false",
+   "n": "Optional"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Amount"
+  },
+  {
+   "t": "S",
+   "v": "1",
+   "n": "MaxChoices"
+  },
+  {
+   "t": "S",
+   "v": "blanky ",
+   "n": "Placeholder"
+  }
+ ]
+}

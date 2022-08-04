@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "thing-adjective-simple",
+   "n": "Name"
+  },
+  {
+   "t": "B",
+   "v": "false",
+   "n": "Optional"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Amount"
+  },
+  {
+   "t": "S",
+   "v": "3",
+   "n": "MaxChoices"
+  },
+  {
+   "t": "S",
+   "v": "blanky",
+   "n": "Placeholder"
+  }
+ ]
+}

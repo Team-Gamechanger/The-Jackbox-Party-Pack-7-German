@@ -1,0 +1,29 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "response-sentence-clue",
+   "n": "Name"
+  },
+  {
+   "t": "B",
+   "v": "false",
+   "n": "Optional"
+  },
+  {
+   "t": "S",
+   "v": "4",
+   "n": "Amount"
+  },
+  {
+   "t": "S",
+   "v": "1",
+   "n": "MaxChoices"
+  },
+  {
+   "t": "S",
+   "v": "The first letter is the same as",
+   "n": "Placeholder"
+  }
+ ]
+}
