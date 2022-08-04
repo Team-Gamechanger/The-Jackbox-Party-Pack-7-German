@@ -126,6 +126,32 @@
         },
         {
             "amount": "",
+            "id": "70579",
+            "maxChoices": "1",
+            "name": "optional-pronoun-1",
+            "optional": true,
+            "placeholder": "Sie ist",
+            "words": [
+                {
+                    "alwaysChoose": true,
+                    "word": "Sie ist"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "Er ist"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "Es ist"
+                },
+                {
+                    "alwaysChoose": true,
+                    "word": "Sie sind"
+                }
+            ]
+        },
+        {
+            "amount": "",
             "id": "70580",
             "maxChoices": "3",
             "name": "thing-adjective-simple",

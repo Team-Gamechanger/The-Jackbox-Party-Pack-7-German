@@ -16,7 +16,7 @@
    "category": "place",
    "id": "70714",
    "structures": [
-    "Es ist <article-1> <place-noun-simple-s1>. <person-pronoun-1> <place-adjective-simple>!",
+    "Es ist <article-1> <place-noun-simple-s1>. <optional-pronoun-1> <place-adjective-simple>!",
     "Hier <place-verb-simple> <place-noun-simple-s2>.",
     "Atemberaubend! <place-noun-complex>!",
     "Dieser Ort hat <article-1> <place-noun-complex>. Ziemlich <place-adjective-complex>!",
@@ -27,7 +27,7 @@
    "category": "person",
    "id": "70743",
    "structures": [
-    "Die Figur ist <article-1> <person-noun-simple>. <person-pronoun-1> <person-adjective-simple>.",
+    "Die Figur ist <article-1> <person-noun-simple>. <optional-pronoun-1> <person-adjective-simple>.",
     "Die Figur <person-verb-simple> <article-2> <person-noun-simple-s2>.",
     "<person-pronoun-1> so <person-adjective-complex>!",
     "Bekannt für <person-noun-complex>, <relative-pronoun-1> <person-adjective-complex> <be-forms-1>.",
@@ -38,11 +38,11 @@
    "category": "story",
    "id": "70758",
    "structures": [
-    "Eine Geschichte über <article-1> <story-adjective-simple>, <relative-pronoun-1> <story-noun-simple> <be-forms-1>.",
-    "Und es gibt noch <article-2> <story-adjective-simple>, <relative-pronoun-1> <be-forms-1> <story-noun-simple-s2>.",
+    "Eine Geschichte über <article-1> <story-noun-simple>, <relative-pronoun-1> <story-adjective-simple> <be-forms-1>.",
+    "Und es gibt noch <article-2> <story-noun-simple-s2>, <relative-pronoun-1> <be-forms-1> <story-adjective-simple>.",
     "Krass! <story-noun-complex> ist <story-adjective-complex>.",
     "Der Held <story-verb-simple> <article-2> <story-noun-complex>.",
-    "Zudem gibt es <article-1> <story-noun-complex>. <person-pronoun-1> <story-adjective-complex>!",
+    "Zudem gibt es <article-1> <story-noun-complex>. <optional-pronoun-1> so <story-adjective-complex>!",
     "Schlussendlich <story-verb-ending> <article-2> <story-noun-complex>."
    ]
   },
