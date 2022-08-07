@@ -1,0 +1,1140 @@
+{
+    "payload": [
+        {
+            "id": "WALLET",
+            "category": "WALLET",
+            "name": "dem Geldbeutel der Eltern",
+            "locations": [
+                {
+                    "id": "FRIDGETOP",
+                    "name": "Auf dem Kühlschrank"
+                },
+                {
+                    "id": "UNDERCOUCH",
+                    "name": "Unter dem Sofa"
+                },
+                {
+                    "id": "NEXTTOTOILET",
+                    "name": "Neben der Toilette"
+                },
+                {
+                    "id": "YARD",
+                    "name": "Im Garten"
+                },
+                {
+                    "id": "PANTS",
+                    "name": "In der Hose von gestern"
+                },
+                {
+                    "id": "CAR",
+                    "name": "Im Auto"
+                }
+            ]
+        },
+        {
+            "id": "LIPBALM",
+            "category": "LIPBALM",
+            "name": "dem Lippenbalsam",
+            "locations": [
+                {
+                    "id": "CUSIONS",
+                    "name": "Unter den Sofakissen"
+                },
+                {
+                    "id": "COUCH",
+                    "name": "Unter dem Sofa"
+                },
+                {
+                    "id": "STAIRS",
+                    "name": "Bei den Treppen"
+                },
+                {
+                    "id": "CLOSET",
+                    "name": "In der Abstellkammer"
+                },
+                {
+                    "id": "FRIDGE",
+                    "name": "Im Kühlschrank"
+                },
+                {
+                    "id": "LAUNDRY",
+                    "name": "Im Wäschekorb"
+                },
+                {
+                    "id": "TOILET",
+                    "name": "Neben der Toilette"
+                }
+            ]
+        },
+        {
+            "id": "DINNERWARE",
+            "category": "DINNERWARE",
+            "name": "dem guten Porzellan",
+            "locations": [
+                {
+                    "id": "DISHWASHER",
+                    "name": "In der Spülmaschine"
+                },
+                {
+                    "id": "HIGHCAB",
+                    "name": "Im Schrank"
+                },
+                {
+                    "id": "GARAGE",
+                    "name": "In der Garage"
+                },
+                {
+                    "id": "PROMO",
+                    "name": "Hinter den Werbegläsern"
+                },
+                {
+                    "id": "CUTTERS",
+                    "name": "Unter dem Plätzchenform-Stapel"
+                },
+                {
+                    "id": "ATTIC",
+                    "name": "Auf dem Dachboden"
+                }
+            ]
+        },
+        {
+            "id": "THERMOMETER",
+            "category": "THERMOMETER",
+            "name": "dem Thermometer",
+            "locations": [
+                {
+                    "id": "CABINET",
+                    "name": "Im Badschrank"
+                },
+                {
+                    "id": "DRAWER",
+                    "name": "In der Schublade für Krimskrams"
+                },
+                {
+                    "id": "PLASTIC",
+                    "name": "In den Küchenschubladen"
+                },
+                {
+                    "id": "TOILETTHERM",
+                    "name": "Hinter der Toilette"
+                },
+                {
+                    "id": "BIN",
+                    "name": "Im mit 'Thermometer' beschrifteten Behälter"
+                },
+                {
+                    "id": "PILE",
+                    "name": "Im von der letzten Krankheit übrig gebliebenen Haufen"
+                }
+            ]
+        },
+        {
+            "id": "ADAPTERS",
+            "category": "ADAPTERS",
+            "name": "den internationalen Stromadaptern",
+            "locations": [
+                {
+                    "id": "ATTIC2",
+                    "name": "Auf dem Dachboden"
+                },
+                {
+                    "id": "BACKCLOSET",
+                    "name": "Ganz hinten im Schrank"
+                },
+                {
+                    "id": "SUITCASES",
+                    "name": "In den alten Koffern"
+                },
+                {
+                    "id": "KID",
+                    "name": "Im Haufen an Kinderspielzeug"
+                },
+                {
+                    "id": "UNDERWEAR",
+                    "name": "In der Unterwäscheschublade"
+                },
+                {
+                    "id": "DUFFEL",
+                    "name": "Am Boden des ranzigen Seesacks"
+                }
+            ]
+        },
+        {
+            "id": "GORBO",
+            "category": "GORBO",
+            "name": "der Hypothekenrechnung",
+            "locations": [
+                {
+                    "id": "SUITCASE",
+                    "name": "Unter Gorbos Koffer"
+                },
+                {
+                    "id": "CLOTHES",
+                    "name": "Unter Gorbos Kleidung"
+                },
+                {
+                    "id": "CANDY",
+                    "name": "Unter Gorbos Bonbonpapier"
+                },
+                {
+                    "id": "CREAMS",
+                    "name": "Unter Gorbos Feuchtigkeitscreme"
+                },
+                {
+                    "id": "GORBO",
+                    "name": "Unter Gorbo"
+                }
+            ]
+        },
+        {
+            "id": "LOOSECHANGE",
+            "category": "LOOSECHANGE",
+            "name": "Kleingeld",
+            "locations": [
+                {
+                    "id": "LEFTCOUCH",
+                    "name": "Unter dem linken Sofakissen"
+                },
+                {
+                    "id": "CENTERCOUCH",
+                    "name": "Unter dem mittleren Sofakissen"
+                },
+                {
+                    "id": "RIGHTCOUCH",
+                    "name": "Unter dem rechten Sofakissen"
+                },
+                {
+                    "id": "ARMCHAIR",
+                    "name": "Hinter dem Sessel"
+                },
+                {
+                    "id": "BLANKET",
+                    "name": "In der großen Decke"
+                },
+                {
+                    "id": "FUND",
+                    "name": "Im mit \"NUR FÜR NOTFÄLLE! NICHT ANFASSEN!\" beschrifteten Glas"
+                }
+            ]
+        },
+        {
+            "id": "ASTEROIDLASER",
+            "category": "ASTEROIDLASER",
+            "name": "dem Laserbauteil",
+            "locations": [
+                {
+                    "id": "ENGINE",
+                    "name": "Im Automotor"
+                },
+                {
+                    "id": "ROBOT",
+                    "name": "Im Spielzeugroboter"
+                },
+                {
+                    "id": "HVAC",
+                    "name": "In der Klimaanlage"
+                },
+                {
+                    "id": "RADIO",
+                    "name": "Im Küchenradio"
+                },
+                {
+                    "id": "GARAGELASER",
+                    "name": "Im Garagentoröffner"
+                }
+            ]
+        },
+        {
+            "id": "CLUES",
+            "category": "CLUES",
+            "name": "wichtigen Hinweisen",
+            "locations": [
+                {
+                    "id": "CULDESAC",
+                    "name": "In der ruhigen Sackgasse der Vorstadt"
+                },
+                {
+                    "id": "AMUSE",
+                    "name": "Im verlassenen Freizeitpark"
+                },
+                {
+                    "id": "BASKETBALL",
+                    "name": "Auf dem alten Tennisplatz"
+                },
+                {
+                    "id": "OLDMAN",
+                    "name": "Auf dem Hof des alten Herrn Alterchen"
+                },
+                {
+                    "id": "HIGHSCHOOL",
+                    "name": "Auf dem Highschool-Parkplatz"
+                }
+            ]
+        },
+        {
+            "id": "NEWCAR",
+            "category": "NEWCAR",
+            "name": "dem Gerümpel zum Verkaufen",
+            "locations": [
+                {
+                    "id": "OLDCLOTHES",
+                    "name": "Im Kleiderschrank"
+                },
+                {
+                    "id": "OLDPHONES",
+                    "name": "Im Stapel alter Handys"
+                },
+                {
+                    "id": "ACTIONFIGURES",
+                    "name": "In der Sammlung alter Actionfiguren"
+                },
+                {
+                    "id": "UNLABELED",
+                    "name": "In der unbeschrifteten Kiste in der Garage"
+                },
+                {
+                    "id": "APPLIANCES",
+                    "name": "Im Regal voller selten benutzter Geräte"
+                }
+            ]
+        },
+        {
+            "id": "DANCESNACKS",
+            "category": "DANCESNACKS",
+            "name": "den guten Snacks",
+            "locations": [
+                {
+                    "id": "BLEACHERS",
+                    "name": "Unter der Tribüne"
+                },
+                {
+                    "id": "DJ",
+                    "name": "Neben dem DJ"
+                },
+                {
+                    "id": "PHOTOBOOTH",
+                    "name": "Im Fotoautomaten"
+                },
+                {
+                    "id": "JANITOR",
+                    "name": "In der Kammer des Hausmeisters"
+                }
+            ]
+        },
+        {
+            "id": "SLUMBERSEARCH",
+            "category": "SLUMBERSEARCH",
+            "name": "den Kindern, die sich rausgeschlichen haben",
+            "locations": [
+                {
+                    "id": "GARAGESLUMBER",
+                    "name": "In der Garage"
+                },
+                {
+                    "id": "NEIGHBORYARD",
+                    "name": "Im Garten der Nachbarn"
+                },
+                {
+                    "id": "STORMDRAIN",
+                    "name": "Auf dem gruseligen Schrottplatz"
+                },
+                {
+                    "id": "CONVENIENCE",
+                    "name": "Auf dem Supermarkt-Parkplatz"
+                },
+                {
+                    "id": "CIRCUS",
+                    "name": "Im Wanderzirkus"
+                },
+                {
+                    "id": "HOUSE",
+                    "name": "Nochmal im Haus"
+                }
+            ]
+        },
+        {
+            "id": "MAKEUPWORK",
+            "category": "MAKEUPWORK",
+            "name": "dem verlegten Make-up",
+            "locations": [
+                {
+                    "id": "ATTICKWORK",
+                    "name": "Auf dem Dachboden"
+                },
+                {
+                    "id": "BACKCLOSETWORK",
+                    "name": "Ganz hinten im Schrank"
+                },
+                {
+                    "id": "SUITCASESWORK",
+                    "name": "In den alten Koffern"
+                },
+                {
+                    "id": "KIDWORK",
+                    "name": "Im Haufen an Kinderspielzeug"
+                },
+                {
+                    "id": "UNDERWEARWORK",
+                    "name": "In der Unterwäscheschublade"
+                },
+                {
+                    "id": "DUFFELWORK",
+                    "name": "Am Boden des ranzigen Seesacks"
+                }
+            ]
+        },
+        {
+            "id": "GUITAR",
+            "category": "GUITAR",
+            "name": "der alten Gitarre",
+            "locations": [
+                {
+                    "id": "CLOSETGUITAR",
+                    "name": "Im Schrank"
+                },
+                {
+                    "id": "PLAYROOM",
+                    "name": "Im Kinderzimmer"
+                },
+                {
+                    "id": "BASEMENT",
+                    "name": "Im Keller"
+                },
+                {
+                    "id": "SECRETBASE",
+                    "name": "Im geheimen Keller"
+                },
+                {
+                    "id": "ATTICGUITAR",
+                    "name": "Auf dem Dachboden"
+                }
+            ]
+        },
+        {
+            "id": "GRONK",
+            "category": "GRONK",
+            "name": "Klenk-Utensilien",
+            "locations": [
+                {
+                    "id": "BEDGRONK",
+                    "name": "Unter dem Bett"
+                },
+                {
+                    "id": "DESKGRONK",
+                    "name": "In den Schubladen des Schreibtisches"
+                },
+                {
+                    "id": "BOOKGRONK",
+                    "name": "In den ausgehöhlten Büchern"
+                },
+                {
+                    "id": "CANDYGRONK",
+                    "name": "Unter dem Bonbonpapier-Stapel"
+                },
+                {
+                    "id": "CLOSETGRONK",
+                    "name": "Ganz hinten im Schrank"
+                },
+                {
+                    "id": "LIZARDGRONK",
+                    "name": "Im Terrarium der Haustier-Eidechse"
+                }
+            ]
+        },
+        {
+            "id": "DIGSITE",
+            "category": "DIGSITE",
+            "name": "einer guten Stelle für die Zeitkapsel",
+            "locations": [
+                {
+                    "id": "OAK",
+                    "name": "Unter der schattenspendenen Eiche"
+                },
+                {
+                    "id": "ANTHILL",
+                    "name": "Beim bedrohlichen Ameisenhaufen"
+                },
+                {
+                    "id": "CLOTHESLINE",
+                    "name": "Bei der Wäscheleine"
+                },
+                {
+                    "id": "HAMMOCK",
+                    "name": "Neben der Hängematte"
+                },
+                {
+                    "id": "CHAINLINK",
+                    "name": "Beim Maschendrahtzaun"
+                },
+                {
+                    "id": "GRAVEL",
+                    "name": "Bei der seltsamen Kiesgrube"
+                }
+            ]
+        },
+        {
+            "id": "ROMPO",
+            "category": "ROMPO",
+            "name": "Cousin Rompos heißgeliebten Kendama",
+            "locations": [
+                {
+                    "id": "VACUUM",
+                    "name": "Im von Rompo zerstörten Staubsauger"
+                },
+                {
+                    "id": "ROOF",
+                    "name": "Auf dem Dach, auf das Rompo geklettert ist"
+                },
+                {
+                    "id": "KITCHENWRECK",
+                    "name": "In den verbrannten Trümmern der Küche"
+                },
+                {
+                    "id": "HAND",
+                    "name": "In Rompos Hand"
+                }
+            ]
+        },
+        {
+            "id": "SCARLETLETTER",
+            "category": "SCARLETLETTER",
+            "name": "dem vorherrschenden Thema in 'Der scharlachrote Buchstabe'",
+            "locations": [
+                {
+                    "id": "MORAL",
+                    "name": "Nach Moral und Gerechtigkeit"
+                },
+                {
+                    "id": "REVENGE",
+                    "name": "Nach dem Konzept der Rache"
+                },
+                {
+                    "id": "FEMININITY",
+                    "name": "Nach dem Bild der Frau"
+                },
+                {
+                    "id": "FORGIVE",
+                    "name": "Nach der Idee der Vergebung"
+                }
+            ]
+        },
+        {
+            "id": "COALS",
+            "category": "COALS",
+            "name": "den erlesenen Kohlen der Unterwelt",
+            "locations": [
+                {
+                    "id": "SHED",
+                    "name": "Im Schuppen"
+                },
+                {
+                    "id": "COALSGARAGE",
+                    "name": "In der Garage"
+                },
+                {
+                    "id": "BOX",
+                    "name": "In der Kiste mit Erbstücken"
+                },
+                {
+                    "id": "TARP",
+                    "name": "Unter der alten Plane"
+                },
+                {
+                    "id": "DUNGEON",
+                    "name": "Im Hausverlies"
+                }
+            ]
+        },
+        {
+            "id": "HOTSAUCE",
+            "category": "HOTSAUCE",
+            "name": "der scharfen Soße",
+            "locations": [
+                {
+                    "id": "KITCHENCAB",
+                    "name": "Im Küchenschrank"
+                },
+                {
+                    "id": "GRILLDRAWER",
+                    "name": "In der Schublade mit dem Grillzeug"
+                },
+                {
+                    "id": "CATBED",
+                    "name": "Im Katzenbett"
+                },
+                {
+                    "id": "GRAMPASTASH",
+                    "name": "In Opas Geheimversteck"
+                },
+                {
+                    "id": "SAUCEHOLE",
+                    "name": "Im Kinderzimmer"
+                }
+            ]
+        },
+        {
+            "id": "OUTSIDE",
+            "category": "OUTSIDE",
+            "name": "der Katze",
+            "locations": [
+                {
+                    "id": "CATROOF",
+                    "name": "Auf dem Dach"
+                },
+                {
+                    "id": "NEIGHBORS_HOUSE",
+                    "name": "Im Haus der Nachbarn"
+                },
+                {
+                    "id": "PETUNIA_PATCH",
+                    "name": "Im Petunienbeet"
+                },
+                {
+                    "id": "UNDER_DECK",
+                    "name": "Unter der Terrasse"
+                },
+                {
+                    "id": "GARBAGE",
+                    "name": "Im Mülleimer"
+                },
+                {
+                    "id": "IN_TREE",
+                    "name": "Auf dem Baum"
+                },
+                {
+                    "id": "CAR_HOOD",
+                    "name": "Auf der Motorhaube des Autos"
+                }
+            ]
+        },
+        {
+            "id": "INSOLES",
+            "category": "INSOLES",
+            "name": "den orthopädischen Einlagen der Eltern",
+            "locations": [
+                {
+                    "id": "UNDERBED",
+                    "name": "Unter dem Bett"
+                },
+                {
+                    "id": "CATSTUFF",
+                    "name": "Im Krimskrams der Katze"
+                },
+                {
+                    "id": "REMOTEBASKET",
+                    "name": "Im Korb mit den ganzen Kabeln"
+                },
+                {
+                    "id": "UNDERTABLE",
+                    "name": "Unter dem Esstisch"
+                },
+                {
+                    "id": "INSHOES",
+                    "name": "Tatsächlich in den Schuhen"
+                }
+            ]
+        },
+        {
+            "id": "PROMISERING",
+            "category": "PROMISERING",
+            "name": "dem Ring des Teenagers",
+            "locations": [
+                {
+                    "id": "ONDRESSER",
+                    "name": "Auf der Kommode"
+                },
+                {
+                    "id": "CLOSET3",
+                    "name": "Im Schrank"
+                },
+                {
+                    "id": "FISHBOWL",
+                    "name": "Im Aquarium"
+                },
+                {
+                    "id": "JEANSHORTS",
+                    "name": "In den Hosentaschen"
+                },
+                {
+                    "id": "JEWELRYBOX",
+                    "name": "Im Schmuckkästchen"
+                }
+            ]
+        },
+        {
+            "id": "CANDLES",
+            "category": "CANDLES",
+            "name": "den Geburtstagskerzen",
+            "locations": [
+                {
+                    "id": "JUNKDRAWER",
+                    "name": "In der Schublade für Krimskrams"
+                },
+                {
+                    "id": "PURSE",
+                    "name": "Im Geldbeutel"
+                },
+                {
+                    "id": "PANTRY",
+                    "name": "In der Speisekammer"
+                },
+                {
+                    "id": "CRAFTCLOSET",
+                    "name": "In der Bastelkiste"
+                },
+                {
+                    "id": "GARAGE2",
+                    "name": "In der Garage"
+                },
+                {
+                    "id": "CAKE",
+                    "name": "Auf dem Kuchen vom letzten Jahr"
+                }
+            ]
+        },
+        {
+            "id": "RABBITFOOT",
+            "category": "RABBITFOOT",
+            "name": "der Glücks-Hasenpfote",
+            "locations": [
+                {
+                    "id": "UNDERLADDER",
+                    "name": "Unter der Leiter"
+                },
+                {
+                    "id": "BROKENMIRROR",
+                    "name": "Neben dem kaputten Spiegel"
+                },
+                {
+                    "id": "BLACKCAT",
+                    "name": "Bei der schwarzen Katze"
+                },
+                {
+                    "id": "CRACK",
+                    "name": "In einem Spalt des Gehwegs"
+                },
+                {
+                    "id": "OTHERFEET",
+                    "name": "Im dreizehnten Zimmer"
+                }
+            ]
+        },
+        {
+            "id": "DRIVERSLICENSE",
+            "category": "DRIVERSLICENSE",
+            "name": "dem Führerschein",
+            "locations": [
+                {
+                    "id": "WALLET",
+                    "name": "Im Geldbeutel"
+                },
+                {
+                    "id": "DESKDRAWER",
+                    "name": "In der Schublade des Schreibtisches"
+                },
+                {
+                    "id": "GLOVECOMPARTMENT",
+                    "name": "Im Handschuhfach"
+                },
+                {
+                    "id": "FILING",
+                    "name": "Im Aktenordner"
+                },
+                {
+                    "id": "MICROWAVE",
+                    "name": "In der Mikrowelle"
+                }
+            ]
+        },
+        {
+            "id": "STUDENTID",
+            "category": "STUDENTID",
+            "name": "dem Studentenausweis",
+            "locations": [
+                {
+                    "id": "UNDERBED2",
+                    "name": "Unter dem Bett"
+                },
+                {
+                    "id": "KHAKIS",
+                    "name": "In den Hosentaschen"
+                },
+                {
+                    "id": "LAVALAMP",
+                    "name": "Neben der Lavalampe"
+                },
+                {
+                    "id": "COMICBOOK",
+                    "name": "Im Comic"
+                },
+                {
+                    "id": "BLACKLIGHT",
+                    "name": "Unter dem Schwarzlicht-Plakat"
+                }
+            ]
+        },
+        {
+            "id": "HAIRTIE",
+            "category": "HAIRTIE",
+            "name": "dem Haargummi",
+            "locations": [
+                {
+                    "id": "CLOSET4",
+                    "name": "Im Schrank"
+                },
+                {
+                    "id": "BATHROOMDRAWER",
+                    "name": "Im Badschrank"
+                },
+                {
+                    "id": "VANITY",
+                    "name": "Im Bett"
+                },
+                {
+                    "id": "COUCHCUSHIONS",
+                    "name": "Auf dem Sofa"
+                },
+                {
+                    "id": "HIGHPILE",
+                    "name": "Auf dem Teppich"
+                }
+            ]
+        },
+        {
+            "id": "BASEBALL",
+            "category": "BASEBALL",
+            "name": "dem verlorenen Baseball",
+            "locations": [
+                {
+                    "id": "NEIGHBORYARD2",
+                    "name": "Im Garten der Nachbarn"
+                },
+                {
+                    "id": "NEIGHBORPORCH",
+                    "name": "Auf der Veranda der Nachbarn"
+                },
+                {
+                    "id": "NEIGHBORFLOWERS",
+                    "name": "Im Blumenbeet der Nachbarn"
+                },
+                {
+                    "id": "NEIGHBORDRIVE",
+                    "name": "In der Einfahrt der Nachbarn"
+                },
+                {
+                    "id": "NEIGHBORWINDOW",
+                    "name": "Beim kaputten Fenster der Nachbarn"
+                }
+            ]
+        },
+        {
+            "id": "DENTURES",
+            "category": "DENTURES",
+            "name": "Opas Gebiss",
+            "locations": [
+                {
+                    "id": "KITCHENSINK",
+                    "name": "Im Spülbecken"
+                },
+                {
+                    "id": "LIVINGROOMFLOOR",
+                    "name": "Auf dem Boden im Wohnzimmer"
+                },
+                {
+                    "id": "TOILETTANK",
+                    "name": "Im Wasserkocher"
+                },
+                {
+                    "id": "DININGROOMTABLE",
+                    "name": "Auf dem Esstisch"
+                },
+                {
+                    "id": "INFRIDGE",
+                    "name": "Im Kühlschrank"
+                }
+            ]
+        },
+        {
+            "id": "BEEPING",
+            "category": "BEEPING",
+            "name": "der Quelle des nervigen Piepens",
+            "locations": [
+                {
+                    "id": "SMOKEDETECTOR",
+                    "name": "Beim Rauchmelder"
+                },
+                {
+                    "id": "CO2ALARM",
+                    "name": "carbon monoxide alarm"
+                },
+                {
+                    "id": "SECURITY",
+                    "name": "Bei der Alarmanlage"
+                },
+                {
+                    "id": "CABLEBOX",
+                    "name": "Beim Fernseher"
+                },
+                {
+                    "id": "COMPUTER",
+                    "name": "Beim Computer"
+                },
+                {
+                    "id": "METALBOX",
+                    "name": "In der geheimnisvollen (dir unbekannten) Metallkiste"
+                }
+            ]
+        },
+        {
+            "id": "INKCARTRIDGE",
+            "category": "INKCARTRIDGE",
+            "name": "der cyanfarbigen Tintenpatrone",
+            "locations": [
+                {
+                    "id": "CLOSET5",
+                    "name": "Im Schrank"
+                },
+                {
+                    "id": "GARAGE3",
+                    "name": "In der Garage"
+                },
+                {
+                    "id": "SHED2",
+                    "name": "Im Schuppen"
+                },
+                {
+                    "id": "DESKDRAWER2",
+                    "name": "In der Schublade des Schreibtisches"
+                },
+                {
+                    "id": "ATTIC3",
+                    "name": "Auf dem Dachboden"
+                },
+                {
+                    "id": "BASEMENT2",
+                    "name": "Im Keller"
+                }
+            ]
+        },
+        {
+            "id": "GLASSEYE",
+            "category": "GLASSEYE",
+            "name": "Omas Glasauge",
+            "locations": [
+                {
+                    "id": "UNDERBED3",
+                    "name": "Unter dem Bett"
+                },
+                {
+                    "id": "UNDERCOUCH2",
+                    "name": "Unter dem Sofa"
+                },
+                {
+                    "id": "UNDERTABLE2",
+                    "name": "Unter dem Tisch"
+                },
+                {
+                    "id": "UNDERTV",
+                    "name": "Unter dem Fernseher"
+                },
+                {
+                    "id": "CATSMOUTH",
+                    "name": "Im Maul der Katze"
+                }
+            ]
+        },
+        {
+            "id": "WORDJUMBLE",
+            "category": "WORDJUMBLE",
+            "name": "dem Wort Elefant im Suchsel",
+            "locations": [
+                {
+                    "id": "HORIZONTAL",
+                    "name": "Horizontal"
+                },
+                {
+                    "id": "VERTICAL",
+                    "name": "Vertikal"
+                },
+                {
+                    "id": "DIAGONAL",
+                    "name": "Diagonal"
+                },
+                {
+                    "id": "FORWARDS",
+                    "name": "Vorwärts"
+                },
+                {
+                    "id": "BACKWARDS",
+                    "name": "Rückwärts"
+                }
+            ]
+        },
+        {
+            "id": "THUMBTACK",
+            "category": "THUMBTACK",
+            "name": "der heruntergefallenen Reißzwecke",
+            "locations": [
+                {
+                    "id": "CARPET",
+                    "name": "Auf dem Teppich"
+                },
+                {
+                    "id": "DOORMAT",
+                    "name": "Auf der Türmatte"
+                },
+                {
+                    "id": "THROWRUG",
+                    "name": "Auf dem Bettvorleger"
+                },
+                {
+                    "id": "BATHMAT",
+                    "name": "Auf der Badematte"
+                },
+                {
+                    "id": "SHOESOLE",
+                    "name": "In der Schuhsohle"
+                }
+            ]
+        },
+        {
+            "id": "QUARTERS",
+            "category": "QUARTERS",
+            "name": "der Münzsammlung",
+            "locations": [
+                {
+                    "id": "COINDESK",
+                    "name": "Im Münzregal"
+                },
+                {
+                    "id": "STAMPDRAWER",
+                    "name": "Im Fach mit den Briefmarken"
+                },
+                {
+                    "id": "COMICBOOKSHELF",
+                    "name": "Im Comicregal"
+                },
+                {
+                    "id": "ROCKDISPLAY",
+                    "name": "In der Vitrine für Steine"
+                },
+                {
+                    "id": "FIGUREINENOOK",
+                    "name": "In der Nische für Sammelfiguren"
+                }
+            ]
+        },
+        {
+            "id": "THINGY",
+            "category": "THINGY",
+            "name": "einem funktionierenden Kugelschreiber",
+            "locations": [
+                {
+                    "id": "JUNKDRAWER2",
+                    "name": "Im Mülleimer"
+                },
+                {
+                    "id": "DOODADDRAWER",
+                    "name": "In der Schublade für Krimskrams"
+                },
+                {
+                    "id": "LOSTITEMLEDGE",
+                    "name": "Auf dem Kühlschrank"
+                },
+                {
+                    "id": "ATTIC4",
+                    "name": "Im Kinderzimmer"
+                },
+                {
+                    "id": "BASEMENT3",
+                    "name": "In der Hose von gestern"
+                },
+                {
+                    "id": "PILEBOXES",
+                    "name": "Unter dem Esstisch"
+                }
+            ]
+        },
+        {
+            "id": "TIMEMIME",
+            "category": "TIMEMIME",
+            "name": "der 6. DVD aus der Sonderedition der Serie 'Zeitgreise'",
+            "locations": [
+                {
+                    "id": "DEN",
+                    "name": "Auf dem Dachboden"
+                },
+                {
+                    "id": "BASEMENT4",
+                    "name": "Im Keller"
+                },
+                {
+                    "id": "FIREPLACE",
+                    "name": "An der Feuerstelle"
+                },
+                {
+                    "id": "TRASH",
+                    "name": "Im Mülleimer"
+                },
+                {
+                    "id": "BEHINDSOFA",
+                    "name": "Hinter dem Sofa"
+                }
+            ]
+        },
+        {
+            "id": "MOTIVATIONALNOTE",
+            "category": "MOTIVATIONALNOTE",
+            "name": "der peinlichen Motivationsnotiz (sie ist SEHR PEINLICH!)",
+            "locations": [
+                {
+                    "id": "TRASH2",
+                    "name": "Im Mülleimer"
+                },
+                {
+                    "id": "BATHROOMMIRROR",
+                    "name": "Am Badspiegel"
+                },
+                {
+                    "id": "DESKDRAWER3",
+                    "name": "In der Schublade des Schreibtisches"
+                },
+                {
+                    "id": "BACKPACK",
+                    "name": "Im Rucksack"
+                },
+                {
+                    "id": "FRONTPORCH",
+                    "name": "An der Haustür"
+                }
+            ]
+        },
+        {
+            "id": "RUINEDSALAD",
+            "category": "RUINEDSALAD",
+            "name": "einem Ort zum Vergraben des ungenießbaren Salates",
+            "locations": [
+                {
+                    "id": "HOLE1",
+                    "name": "Im Loch im Garten"
+                },
+                {
+                    "id": "HOLE2",
+                    "name": "In einem anderen Loch im Garten"
+                },
+                {
+                    "id": "HOLE3",
+                    "name": "Im Loch im Vorgarten"
+                },
+                {
+                    "id": "ATTIC5",
+                    "name": "Auf dem Dachboden"
+                },
+                {
+                    "id": "SALADTREE",
+                    "name": "Im Keller"
+                }
+            ]
+        }
+    ]
+}

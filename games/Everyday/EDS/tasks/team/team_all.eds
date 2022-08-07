@@ -2746,7 +2746,7 @@ END
 
 REM : Search for the 6th DVD from the special edition box set of "Time Mime"
 CLONE DEED "SearchID" "SearchTimeMime"
-    SET INSTRUCTIONS "Nach der 6. DVD aus der Sonderedition der Serie 'Zeitkreise' suchen"
+    SET INSTRUCTIONS "Nach der 6. DVD aus der Sonderedition der Serie 'Zeitgreise' suchen"
     SET CONTENT_ID "TIMEMIME"
 END
 

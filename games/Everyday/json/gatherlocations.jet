@@ -452,7 +452,7 @@
                         },
                         {
                             "id": "COOKIES",
-                            "name": "Cookies",
+                            "name": "Kekse",
                             "bgColor": "8d3901",
                             "textColor": "ffffff"
                         }
@@ -1192,7 +1192,7 @@
             "containers": [
                 {
                     "id": "ACTION",
-                    "name": "Actionfilme",
+                    "name": "Action",
                     "bgColor": "FFFFFF",
                     "textColor": "000000",
                     "contents": [
@@ -1234,7 +1234,7 @@
                         },
                         {
                             "id": "MT.ST.‘SPLOS",
-                            "name":"Dr. Kampffaust",
+                            "name": "Dr. Kampffaust",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1332,7 +1332,7 @@
                 },
                 {
                     "id": "ADVENTURE",
-                    "name": "Abenteuerfilme",
+                    "name": "Abenteuer",
                     "bgColor": "FFFFFF",
                     "textColor": "000000",
                     "contents": [
@@ -1460,49 +1460,43 @@
                 },
                 {
                     "id": "COMEDY",
-                    "name": "Komödien",
+                    "name": "Comedy",
                     "bgColor": "FFFFFF",
                     "textColor": "000000",
                     "contents": [
                         {
-                            "id": "AVERYWACKYPR",
-                            "name": "A Very Wacky Prayer",
+                            "id": "WEDGIEUNIVER",
+                            "name": "3,2,1 Abschluss! - Die Wedgie University",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "BILLYMEETSAW",
-                            "name": "Billy Meets a Walrus",
+                            "name": "Billy und das Walross",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "BOATLOADO’FR",
-                            "name": "Boatload o’ Franks",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "CHASTECONTEM",
-                            "name": "Chaste Contemplation in the City",
+                            "id": "THEOLD-TIMEY",
+                            "name": "Die altmodisch-cartoonige Comedy Kinder- & Rentnershow",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THECHIMPANZE",
-                            "name": "The Chimpanzee That Wore Clothes And Did Hijinks",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "CRUMMYDAYFOR",
-                            "name": "Crummy Day for Crudité",
+                            "name": "Dieter, der menschgewordene Schimpanse",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "DINOSAURCLOW",
-                            "name": "Dinosaur Clown",
+                            "name": "Dinoclown - Aussterben vor Lachen",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "GOLDENRETRIE",
+                            "name": "Dr. Golden Retriever - Arzt auf vier Pfoten",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1513,74 +1507,80 @@
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "GOLDENRETRIE",
-                            "name": "Golden Retriever M.D.",
+                            "id": "AVERYWACKYPR",
+                            "name": "Ein sehr verrücktes Gebet",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "HELP!MYDADIS",
-                            "name": "Help! My Dad Is A Dog!",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "HULLABALOO:U",
-                            "name": "Hullabaloo: Unrated",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "IHAVEMADEATE",
-                            "name": "I Have Made A Terrible Pizza Pie",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "INCONTINENT&",
-                            "name": "Incontinent & Incontinenter",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "JOENUTZGOEST",
-                            "name": "Joe Nutz Goes to Paris",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "THISMANISRUD",
-                            "name": "This Man is Rude",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "NO,NOTMYGROI",
-                            "name": "No, Not My Groin!",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "THEOLD-TIMEY",
-                            "name": "The Old-Timey-Sketch-Boys Comedy-Laff-O-Rama Half-Hour",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "PASSIVEAGGRE",
-                            "name": "Passive Aggressive Pie Fight",
+                            "id": "BOATLOADO’FR",
+                            "name": "Eine Schiffsladung Würstchen",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "VEGETABLESFO",
-                            "name": "Vegetables for Dessert?!",
+                            "name": "Gemüse zum Nachtisch?!",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "WEDGIEUNIVER",
-                            "name": "Wedgie University",
+                            "id": "THISMANISRUD",
+                            "name": "Grobian will's wissen",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HELP!MYDADIS",
+                            "name": "Hilfe! Mein Vater ist eine Ameise!",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "INCONTINENT&",
+                            "name": "Inkontinent & Inkontinenter",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CHASTECONTEM",
+                            "name": "Keusche Beschaulichkeit VI",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "JOENUTZGOEST",
+                            "name": "Kevin wird von seiner Familie vernachlässigt 2",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "IHAVEMADEATE",
+                            "name": "Liebling, ich habe Kinder erschaffen",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CRUMMYDAYFOR",
+                            "name": "Mieser Tag für Midas",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "NO,NOTMYGROI",
+                            "name": "Nein, nicht meine Leiste!",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "PASSIVEAGGRE",
+                            "name": "Passiv-aggressive Tortenschlacht",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HULLABALOO:U",
+                            "name": "Tohuwabohu Total",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         }
@@ -1588,127 +1588,127 @@
                 },
                 {
                     "id": "DOCMENTARY",
-                    "name": "Documentary",
+                    "name": "Dokumentationen",
                     "bgColor": "FFFFFF",
                     "textColor": "000000",
                     "contents": [
                         {
                             "id": "ANIMALSBEING",
-                            "name": "Animals Being Outright Surly",
+                            "name": "Ausgesprochen überhebliche Tiere",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "CARLDREAMSOF",
-                            "name": "Carl Dreams of Creamed Corn",
+                            "name": "Charlotte träumt von geschäumter Karotte",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "CLOWNFISH",
-                            "name": "Clownfish",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "COAL:THECOMB",
-                            "name": "Coal: The Combustible Miracle",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "FREEYOLO",
-                            "name": "Free Yolo",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "FUNWARFACTSF",
-                            "name": "Fun War Facts For Dads",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "HAIRSTYLESOF",
-                            "name": "Hairstyles of the 1650s",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "THEHISTORYOF",
-                            "name": "The History Of Bran",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "HORSESHAVENO",
-                            "name": "Horses Have No Right To Look This Good",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "KELP",
-                            "name": "Kelp",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "MAKINGAMUDDE",
-                            "name": "Making a Mudder",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "NINEHOURSOFT",
-                            "name": "Nine Hours Of Talking About President Polk",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "THERUBBERPLA",
-                            "name": "The Rubber Plant and You",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "RYAN:WEINTER",
-                            "name": "Ryan: We Interviewed Him",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "SPACEISN’TRE",
-                            "name": "Space Isn’t Real",
+                            "name": "Clownfisch",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "TIMETOGETMAD",
-                            "name": "Time To Get Mad",
+                            "name": "Die Salamiherstellung mit Dumbo Reiert",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "WATCHYOURBAC",
-                            "name": "Watch Your Back: A Treatise On Self-Voyeurism",
+                            "name": "Ent-Spannen: Aufhören mit dem Selbst-Voyeurismus",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THERUBBERPLA",
+                            "name": "Flexi - Meine Gummipflanze und ich",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HAIRSTYLESOF",
+                            "name": "Frisuren der 1650er",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEHISTORYOF",
+                            "name": "Geschichte des Spam",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FREEYOLO",
+                            "name": "Jugendsprache extrem - 3 Tage im Kindergarten",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "COAL:THECOMB",
+                            "name": "Kohle: Das komprimierte Wunder",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FUNWARFACTSF",
+                            "name": "Lustige Kriegsfakten für Väter",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "NINEHOURSOFT",
+                            "name": "Neunstündige Analyse der guatemalischen Energiepolitik",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HORSESHAVENO",
+                            "name": "Pferde haben kein Recht, so gut auszusehen",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "RYAN:WEINTER",
+                            "name": "Ryan: Wir haben ihn interviewt",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "MAKINGAMUDDE",
+                            "name": "Terra Fix",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "KELP",
+                            "name": "Teufel leben unter uns! Geheime(!) Beweissammlung!!",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "WATERFEST:AF",
-                            "name": "Water Fest: A Festival That Went Really Well",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "WHICHSENATOR",
-                            "name": "Which Senator Didn't Mess Up Bad?",
+                            "name": "Unspektakuläre Gerichtsverhandlungen der Geschichte",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "WHOOPSIE:IDI",
-                            "name": "Whoopsie: I Did A White Collar Crime",
+                            "name": "Upsi, ich habe 28,5 Millionen an Steuern hinterzogen",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SPACEISN’TRE",
+                            "name": "Warum das Universum ein Hologram ist",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "WHICHSENATOR",
+                            "name": "Welcher Verkehrsminister hat nicht versagt?",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         }
@@ -1716,73 +1716,79 @@
                 },
                 {
                     "id": "DRAMA",
-                    "name": "Drama",
+                    "name": "Dramas",
                     "bgColor": "FFFFFF",
                     "textColor": "000000",
                     "contents": [
                         {
-                            "id": "AVERYSICKDOG",
-                            "name": "A Very Sick Dog",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
                             "id": "ALLTHATWASLE",
-                            "name": "All That Was Left",
+                            "name": "Alles was uns bleibt",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "BADVIBESFROM",
-                            "name": "Bad Vibes from Kevin Today",
+                            "id": "THEHORSEDIES",
+                            "name": "Das Pferd stirbt - Warte, das hast du jetzt nicht als Titel geschrieben, oder Dan?",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "BOUNDLESSGRI",
-                            "name": "Boundless Grief, Finite Snacks",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "THECOUNTESSA",
-                            "name": "The Countess and the Contessa",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "COUSINBETRAY",
-                            "name": "Cousin Betrayal",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "THECUTICLEDR",
-                            "name": "The Cuticle Dramas",
+                            "id": "LASTDAYOFTHE",
+                            "name": "Der Tag, an dem der Rodeoclown starb",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "DISINTEREST",
-                            "name": "Disinterest",
+                            "name": "Desinteresse",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THEENDLESSMO",
-                            "name": "The Endless Mourning Part XXXVII",
+                            "name": "Die ewige Trauer Teil XXXVII",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEVANDERBUN",
+                            "name": "Die Talenvans-Konkordanz",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "AVERYSICKDOG",
+                            "name": "Ein schwerkranker Hund",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "ESOTERICESOT",
-                            "name": "Esoteric Esoterica",
+                            "name": "Esoterische Esoterik",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "COUSINBETRAY",
+                            "name": "Fetter Vettern-Verrat",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "IPROMISEDI’D",
+                            "name": "Gebrochene Nasen & Zertrümmerte Herzen",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "GLORIFYINGSA",
-                            "name": "Glorifying Sadness",
+                            "name": "Glorifizierte Schwermut",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THECOUNTESSA",
+                            "name": "Graf und Gräfin - Verliebt, Verlobt & Tod",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1793,65 +1799,59 @@
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "THEHORSEDIES",
-                            "name": "The Horse Dies Wait You Didn’t Actually Write That For The Title, Right Dan?",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "IPROMISEDI’D",
-                            "name": "I Promised I’d Remember You, But I Forgot",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "INLOVEWITHTW",
-                            "name": "In Love With Two Viceroys",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "LASTDAYOFTHE",
-                            "name": "Last Day of The Rodeo Clowns of the Mist",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
                             "id": "LOVEISAFIB",
-                            "name": "Love is a Fib",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "RICHMANLEARN",
-                            "name": "Rich Man Learns Lesson",
+                            "name": "Liebe ist ein Märchen",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THESECRETLIF",
-                            "name": "The Secret Life Of Cheese",
+                            "name": "Lies - Verrat ist überall",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "THEYWEREMEAN",
-                            "name": "They Were Mean",
+                            "id": "THECUTICLEDR",
+                            "name": "Nagelhautdramen (DVD-Sammlung)",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "THEVANDERBUN",
-                            "name": "The Vanderbunk Concordance",
+                            "id": "RICHMANLEARN",
+                            "name": "Reicher Mann lernt eine Lektion",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BADVIBESFROM",
+                            "name": "Schlechte Vibes von Kevin",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "WEEP",
-                            "name": "WEEP",
+                            "name": "SEUFZ",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
-                        }
+                        },
+                        {
+                            "id": "THEYWEREMEAN",
+                            "name": "Sie waren gemein",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BOUNDLESSGRI",
+                            "name": "Unendlicher Kummer, endliche Snackvorräte",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                         {
+                            "id": "INLOVEWITHTW",
+                            "name": "Viceroys - Zwei royale Liebhaber",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        }   
                     ]
                 },
                 {
@@ -1861,38 +1861,38 @@
                     "textColor": "000000",
                     "contents": [
                         {
-                            "id": "THEBADSKULL",
-                            "name": "The Bad Skull",
+                            "id": "TURNSOUTWE’R",
+                            "name": "Anscheinend sind wir Geister",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "BLOODONTHEFE",
-                            "name": "Blood on the Fern",
+                            "name": "Blutbedeckter Farn",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "MOREBLOODTHA",
+                            "name": "Blutiger als erwartet",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "BLOOD,MAYBE",
-                            "name": "Blood, Maybe",
+                            "name": "Blut (vielleicht)",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "CLIMATECHANG",
-                            "name": "Climate Change",
+                            "id": "THEBADSKULL",
+                            "name": "Böse Schädel",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "SPOOKED2:2SP",
-                            "name": "Creeped 2: 2 Creeped",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "THECORPORATE",
-                            "name": "The Corporate Workshop Massacre",
+                            "id": "HOUSEOFACOUP",
+                            "name": "Corpses II: Durch das Leichenhaus",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1903,110 +1903,110 @@
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "DON’TTOUCHTH",
-                            "name": "Don’t Touch That!",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "THEEDIBLECOF",
-                            "name": "The Edible Coffin",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "EVILBOAT",
-                            "name": "Evil Boat",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "FRANKENSTEIN",
-                            "name": "Frankenstein Meets the In-Laws",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "GHOSTROACH:E",
-                            "name": "Ghost Roach: Ethereal Infestation",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "GHOULS!GHOUL",
-                            "name": "Ghouls! Ghouls! Ghouls!",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "GREASYGRIMYG",
-                            "name": "Greasy Grimy Gopher Guts",
+                            "id": "THECORPORATE",
+                            "name": "Das massakrierte Massaker",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "HAUNTEDASCAN",
-                            "name": "Haunted as Can Be",
+                            "name": "Der blanke Horror",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "HOUSEOFACOUP",
-                            "name": "House of A Couple Corpses",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "ICKYSCENESWI",
-                            "name": "Icky Scenes with Scary Music",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "MOREBLOODTHA",
-                            "name": "More Blood Than You’d Expect",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "MR.CHOPPYTHE",
-                            "name": "Mr. Choppy the Mannequin Who Commits Crimes",
+                            "id": "SPOOKED2:2SP",
+                            "name": "Der Kriecher 2",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THENECKTHATW",
-                            "name": "The Neck That Wouldn’t Stop Growing",
+                            "name": "Der unaufhörlich wachsende Hals",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "SKELETONSARE",
-                            "name": "Skeletons Are Jerks",
+                            "id": "THEEDIBLECOF",
+                            "name": "Die Geschichte des essbaren Sarges",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "STABBING&GAB",
-                            "name": "Stabbing & Gabbing",
+                            "id": "EVILBOAT",
+                            "name": "Evil Boat - Schiffbrüchig",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "THATKNIFEFEL",
-                            "name": "That Knife Fella’s Back",
+                            "id": "DON’TTOUCHTH",
+                            "name": "Finger weg!",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "TURNSOUTWE’R",
-                            "name": "Turns Out We’re Ghosts",
+                            "id": "FRANKENSTEIN",
+                            "name": "Frankenstein trifft seine Schwiegereltern",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "YOURINSIDESA",
-                            "name": "Your Insides Are Out",
+                            "name": "GedärmeGemetzelBoy",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "GHOSTROACH:E",
+                            "name": "Geisterschabe: Übernatürliche Seuche",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CLIMATECHANG",
+                            "name": "Klimawandel",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "STABBING&GAB",
+                            "name": "Lynchen und Labern",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THATKNIFEFEL",
+                            "name": "Messerstecher 3: Er ist doch nicht tot",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "MR.CHOPPYTHE",
+                            "name": "Mr. Hackebeil, die Schaufensterpuppe",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "ICKYSCENESWI",
+                            "name": "Schaurige Szenen mit gruseliger Musik",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SKELETONSARE",
+                            "name": "Skelette sind Blödmänner",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "GREASYGRIMYG",
+                            "name": "Vermeide die Eingeweide",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "GHOULS!GHOUL",
+                            "name": "Zombies! Zombies! Zombies!",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         }
@@ -2014,121 +2014,97 @@
                 },
                 {
                     "id": "MYSTERY",
-                    "name": "Mystery",
+                    "name": "Krimis",
                     "bgColor": "FFFFFF",
                     "textColor": "000000",
                     "contents": [
                         {
+                            "id": "MYSTERYATQUE",
+                            "name": "Das Geheimnis von Fragestein",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
                             "id": "THECASEOFTHE",
-                            "name": "The Case of the Stolen Case",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "CHURCHOFTHEK",
-                            "name": "Church of the Knife",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "THECRIMELIME",
-                            "name": "The Crime Lime",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "DAVEDIDIT",
-                            "name": "Dave Did It",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "DETECTIVECON",
-                            "name": "Detective Constableman",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "DIAGNOSIS:SH",
-                            "name": "Diagnosis: Shenanigans",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "ENHANCE!AFOR",
-                            "name": "Enhance! A Forensic Photo-Looking Adventure",
+                            "name": "Der Fall der gestohlenen Falle",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THEGO-KARTMU",
-                            "name": "The Go-Kart Murders",
+                            "name": "Der Kartmörder",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "HERBERTACHRI",
-                            "name": "Herberta Christine Presents a Cornelius Thornwhistle Mystery: Foul Play At The Cornwallis-Smythe Incorporated Estate (Including Stables)",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "THEHOUSETHAT",
-                            "name": "The House that Was Only Butlers",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "IDON’THAVEAD",
-                            "name": "I Don’t Have a Doorbell?!",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "ILOVETHESUSP",
-                            "name": "I Love the Suspect",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "IWANTCLUES!",
-                            "name": "I Want Clues!",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "JUSTWAITIN’F",
-                            "name": "Just Waitin’ For Murder",
+                            "id": "DIAGNOSIS:SH",
+                            "name": "Diagnose: Schabernack",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THELITTLERID",
-                            "name": "The Little Riddle Of The Middle Fiddle",
+                            "name": "Die Kommissarin",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "MAYBEHEDROWN",
-                            "name": "Maybe He Drowned",
+                            "id": "THEHOUSETHAT",
+                            "name": "Ein Haus voller Butler",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "MYSTERYATQUE",
-                            "name": "Mystery At Question Manor",
+                            "id": "DAVEDIDIT",
+                            "name": "Es war Dave",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEVANISHEDB",
+                            "name": "Es war sicher nicht der Gärtner",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "POISONISKETO",
-                            "name": "Poison is Keto",
+                            "name": "Gift macht schlank",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "QUESTIONMARX",
-                            "name": "Question Marx",
+                            "name": "Holger Holgerson und die Wellen",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "IDON’THAVEAD",
+                            "name": "Ich habe keine Türklingel?!",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HERBERTACHRI",
+                            "name": "Inspector Barbany",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "MAYBEHEDROWN",
+                            "name": "Ist er ertrunken?",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CHURCHOFTHEK",
+                            "name": "Kirche des Dolches",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THECRIMELIME",
+                            "name": "Schauplatz des Verbrechens",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -2139,14 +2115,38 @@
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "UNSATISFYING",
-                            "name": "Unsatisfying Conclusion",
+                            "id": "IWANTCLUES!",
+                            "name": "Soko Sommerloch",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "THEVANISHEDB",
-                            "name": "The Vanished Butt",
+                            "id": "UNSATISFYING",
+                            "name": "Unzufriedenstellende Auflösung",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "ENHANCE!AFOR",
+                            "name": "Verbessern! Abenteuer der forensischen Bildbearbeitung",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "ILOVETHESUSP",
+                            "name": "Verdächtige Liebe",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "DETECTIVECON",
+                            "name": "Wachtmeister Kripo",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "JUSTWAITIN’F",
+                            "name": "Warten auf den Mord",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         }
@@ -2154,133 +2154,133 @@
                 },
                 {
                     "id": "ROMANCE",
-                    "name": "Romance",
+                    "name": "Romantik",
                     "bgColor": "FFFFFF",
                     "textColor": "000000",
                     "contents": [
                         {
-                            "id": "ASTEWFORTWO",
-                            "name": "A Stew for Two",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "ATIMETOTOUCH",
-                            "name": "A Time To Touch",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "AMOREO’CLOCK",
-                            "name": "Amore O’Clock",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "BETWIXTLOVEA",
-                            "name": "Betwixt Love And Lust",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "THEBIGSMOOCH",
-                            "name": "The Big Smooch",
+                            "id": "IWANNAHOLDYO",
+                            "name": "69 Schattierungen von Grau",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "BORINGATFIRS",
-                            "name": "Boring at First",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "CASUALFRIDAY",
-                            "name": "Casual Fridays With Cassie",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "FALLINGINTOA",
-                            "name": "Falling Into An Autumnal Relationship",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "FOREVERDULL",
-                            "name": "Forever Dull",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "THEGENERALTH",
-                            "name": "The General Throbbing",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "HERECOMETHEL",
-                            "name": "Here Come The Lips",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "IKNOWTHOSELI",
-                            "name": "I Know Those Lips",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "IWANNAHOLDYO",
-                            "name": "I Wanna Hold Your Calf",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "KISSMEI'MCLE",
-                            "name": "Kiss Me I'm Clever",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "THEMUSKOFLON",
-                            "name": "The Musk Of Longing",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "SCENT",
-                            "name": "Scent",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "SOMEBODYLOVE",
-                            "name": "Somebody Loves Francis",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "STRAWBERRYHU",
-                            "name": "Strawberry Hunk",
+                            "name": "Anfangs langweilig",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "TEMPORARYISF",
-                            "name": "Temporary is Forever",
+                            "name": "Aufgeschoben ist aufgehoben",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEGENERALTH",
+                            "name": "Das ewige Aufbrausen",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEBIGSMOOCH",
+                            "name": "Das große Knutschen",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "ASTEWFORTWO",
+                            "name": "Eintopf für zwei",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "STRAWBERRYHU",
+                            "name": "Erdbeerhengst",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FOREVERDULL",
+                            "name": "Für immer und ewig öde",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FALLINGINTOA",
+                            "name": "Goldene Herbstbeziehung",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HERECOMETHEL",
+                            "name": "Hier kommen die Lippen",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "WEDDINGONTHE",
-                            "name": "Wedding On The Go",
+                            "name": "Hochzeit zum Mitnehmen",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "IKNOWTHOSELI",
+                            "name": "I know those lips",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SOMEBODYLOVE",
+                            "name": "Jemand liebt Francis",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "KISSMEI'MCLE",
+                            "name": "Küss mich, ich bin schlau",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CASUALFRIDAY",
+                            "name": "Legere Freitage mit Lene",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEMUSKOFLON",
+                            "name": "Moschus der Sehnsucht",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SCENT",
+                            "name": "Scent - Parfüm",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "AMOREO’CLOCK",
+                            "name": "Stunde der Romantik",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "WHO’LLKISSPA",
-                            "name": "Who’ll Kiss Patsy",
+                            "name": "Wer küsst Patsy?",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "ATIMETOTOUCH",
+                            "name": "Zeit für Berührungen",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BETWIXTLOVEA",
+                            "name": "Zwischen Liebe und Lust",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         }
@@ -2294,43 +2294,43 @@
                     "contents": [
                         {
                             "id": "A.B.D.U.C.T.",
-                            "name": "A.B.D.U.C.T.I.O.N.: Alien Beings Doing Unseemly Crimes To Innocents Of Nebraska",
+                            "name": "A.B.D.U.C.T.I.O.N.: Aliens Belauschen Dan Und Charlie Tagelang - Infiltration Ohne Nutzen",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "ANALLEGORYFO",
-                            "name": "An Allegory for Our Modern Times, In Space",
+                            "name": "Analogie an unsere moderne Zeit 2 - Jetzt im Weltraum!!!",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THENOTGREATP",
+                            "name": "Der mäßig gute Planet",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THEBIGGESTBA",
-                            "name": "The Biggest Bang",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "CLEANTHESTAR",
-                            "name": "Clean the Starship",
+                            "name": "Der Uhr-Urknall",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "DURNROBITTRI",
-                            "name": "Durn Robit Tricked Me Again",
+                            "name": "Durn Robit - Täuscher und Trickser",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "FRATERNALCLO",
-                            "name": "Fraternal Clones",
+                            "id": "CLEANTHESTAR",
+                            "name": "Große Raumschiffreinigung",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "HUMANSARETHE",
-                            "name": "Humans Are the Virus: A Spoilers Production",
+                            "name": "Humans Are the Virus - Spoiler im Titel",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -2341,26 +2341,20 @@
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "LET’SSHOOTTH",
-                            "name": "Let’s Shoot These Old Guys Into Orbit",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
                             "id": "LUCKYNUMBERI",
-                            "name": "Lucky Number Infinity",
+                            "name": "Lucky Number Infinity - In die Unendlichkeit",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "NASAVSMOONSH",
-                            "name": "NASA vs Moon Shark",
+                            "name": "NASA vs Mondhai",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "THENOTGREATP",
-                            "name": "The Not Great Planet",
+                            "id": "UTI:UNIDENTI",
+                            "name": "NTI: Nichtidentifizierbare terrestrische Intelligenz",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -2372,43 +2366,49 @@
                         },
                         {
                             "id": "RADIOACTIVEA",
-                            "name": "Radioactive Active Radio",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "TECHNOSCAPE:",
-                            "name": "Technoscape: Cyborgs Bounty Hunters Of The Year 1995",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "TIMEMIME",
-                            "name": "Time Mime",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "UTI:UNIDENTI",
-                            "name": "UTI: Unidentified Terrestrial Intelligence",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "WEREBUILTLIN",
-                            "name": "We Rebuilt Lincoln",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "WHYSQUIDDNA?",
-                            "name": "Why Squid DNA?",
+                            "name": "Radioaktives aktives Radio",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "YIKES,NOTGOO",
-                            "name": "Yikes, Not Good For Earth",
+                            "name": "Raumschiff Borion",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "LET’SSHOOTTH",
+                            "name": "Schieß die Kerle zum Mond",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "WEREBUILTLIN",
+                            "name": "Star Star Base",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TECHNOSCAPE:",
+                            "name": "Technoscape: Cyborg-Kopfgeldjäger des Jahres 1995",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "WHYSQUIDDNA?",
+                            "name": "Warum so viele Tentakel?",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TIMEMIME",
+                            "name": "Zeitgreise",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FRATERNALCLO",
+                            "name": "Zwillingsklone",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         }
@@ -2421,62 +2421,68 @@
                     "textColor": "000000",
                     "contents": [
                         {
-                            "id": "CHASEOFTHEPU",
-                            "name": "Chase of the Pursuers",
+                            "id": "RETIREDASSAS",
+                            "name": "Assassine im Ruhestand 3",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "THEDENTISTHU",
-                            "name": "The Dentist Hunch",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "DIAL9FORANOU",
-                            "name": "Dial 9 for an Outside Line",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "EMBEZZLEMENT",
-                            "name": "Embezzlement Island",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "FAKEBUTT,REA",
-                            "name": "Fake Butt, Real Murderer",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "THEFILBERBIX",
-                            "name": "The Filberbixby Murders",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "FRENEMYFILES",
-                            "name": "Frenemy Files",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "GENTLEMANWEI",
-                            "name": "Gentleman Weirdo",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "HERCONFUSING",
-                            "name": "Her Confusing Voicemail",
+                            "id": "SPEEDWALKING",
+                            "name": "Der Sprinter",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "IKNOWWHATYOU",
-                            "name": "I Know What You Did Five Minutes Ago",
+                            "name": "Die endliche Geschichte",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THENECKLACEN",
+                            "name": "Die Halskette des Verderbens",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEFILBERBIX",
+                            "name": "Die Silbersee-Morde",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEDENTISTHU",
+                            "name": "Drei Teufelskerle",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THESECRETEVE",
+                            "name": "Ein offenes Geheimnis",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FAKEBUTT,REA",
+                            "name": "Falscher Po, echter Mörder",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FRENEMYFILES",
+                            "name": "Frenemy Files - Unter dem Radar",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HERCONFUSING",
+                            "name": "Ihre verwirrende Sprachnachricht",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "EMBEZZLEMENT",
+                            "name": "Insel der Veruntreuung",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -2488,13 +2494,13 @@
                         },
                         {
                             "id": "MYDRYCLEANER",
-                            "name": "My Dry Cleaner, My Enemy",
+                            "name": "Meine Putzfrau, mein Feind",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "THENECKLACEN",
-                            "name": "The Necklace Nobody Wanted",
+                            "id": "GENTLEMANWEI",
+                            "name": "Mr. Freak - Der Wahnsinn des Alltags",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -2505,44 +2511,38 @@
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "RETIREDASSAS",
-                            "name": "Retired Assassin Kills Again",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "THESECRETEVE",
-                            "name": "The Secret Everyone Knew",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "SPEEDWALKING",
-                            "name": "Speed Walking Man",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
-                            "id": "STRANGERSONA",
-                            "name": "Strangers on a Text Thread",
-                            "bgColor": "607ed2",
-                            "textColor": "ffffff"
-                        },
-                        {
                             "id": "STRESSFULTEN",
-                            "name": "Stressful Tension",
+                            "name": "Spannung",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "TICKTOCK,BOM",
-                            "name": "Tick Tock, Bomb Clock",
+                            "name": "Timer - Wer entschärft die Bombe",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "STRANGERSONA",
+                            "name": "Unbekannte im Blog",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CHASEOFTHEPU",
+                            "name": "Verfolgung der Verfolger",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "TREACHERYATT",
-                            "name": "Treachery At Treason Beach",
+                            "name": "Verrat am Strand des Verrats",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "DIAL9FORANOU",
+                            "name": "Wählen sie 9 um sich zu freu'n",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         }
