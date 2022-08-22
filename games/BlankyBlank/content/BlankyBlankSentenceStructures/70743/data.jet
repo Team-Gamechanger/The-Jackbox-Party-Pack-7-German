@@ -7,7 +7,7 @@
   },
   {
    "t": "S",
-   "v": "Die Figur ist <article-1> <person-noun-simple>. <person-pronoun-1> <person-adjective-simple>.|Die Figur <person-verb-simple> <article-2> <person-noun-simple-s2>.|<person-pronoun-1> so <person-adjective-complex>!|Bekannt für <person-noun-complex>, <relative-pronoun-1> <person-adjective-complex> <be-forms-1>.|Außerdem <person-verb-simple> die Figur <article-2> <person-noun-complex>.",
+   "v": "Die Figur ist <article-1> <person-noun-simple> . <person-pronoun-1> <person-adjective-simple>.|Die Figur <person-verb-simple> <article-2> <person-noun-simple-s2>.|<person-pronoun-1> so <person-adjective-complex>!|Bekannt für <person-noun-complex> , <relative-pronoun-1> <person-adjective-complex> <be-forms-1>.|Außerdem <person-verb-simple> die Figur <article-2> <person-noun-complex>.",
    "n": "Structures"
   }
  ]

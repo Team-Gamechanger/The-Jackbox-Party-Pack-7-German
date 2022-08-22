@@ -7,7 +7,7 @@
   },
   {
    "t": "S",
-   "v": "Es ist <article-1> <place-noun-simple-s1>. <person-pronoun-1> <place-adjective-simple>!|Hier <place-verb-simple> <place-noun-simple-s2>.|Atemberaubend! <place-noun-complex>!|Dieser Ort hat <article-1> <place-noun-complex>. Ziemlich <place-adjective-complex>!|Da <place-verb-simple> <article-2> <place-noun-complex>.",
+   "v": "Es ist <article-1> <place-noun-simple-s1> . <person-pronoun-1> <place-adjective-simple>!|Hier <place-verb-simple> <place-noun-simple-s2>.|Atemberaubend! <place-noun-complex>!|Dieser Ort hat <article-1> <place-noun-complex> . Ziemlich <place-adjective-complex>!|Da <place-verb-simple> <article-2> <place-noun-complex>.",
    "n": "Structures"
   }
  ]
