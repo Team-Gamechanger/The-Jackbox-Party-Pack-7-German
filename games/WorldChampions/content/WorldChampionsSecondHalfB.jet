@@ -487,8 +487,8 @@
 			"x": true
 		},
 		{
-			"contest": "Der Champion des misverstanden seins",
-			"gameText": "des misverstanden seins",
+			"contest": "Der Champion des missverstanden seins",
+			"gameText": "des missverstanden seins",
 			"id": "72074",
 			"includesPlayerName": false,
 			"linkedPrompts": [],
