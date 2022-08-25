@@ -1,0 +1,323 @@
+DEF EPISODE "ReportCard"
+    SET CHOOSABLE TRUE
+    SET EMERGENCY "EmergencyTasks"
+    SET NAME "Zeugnis ablegen"
+    SET DESCRIPTION "Die <font color='#AF0000'>Zeugnisse</font> sind in der Post. Einige sind gut und andere sind... weniger gut. Übersteht die Familie diese akademischen Höhen und Tiefen?"
+    SET SUCCESS_MESSAGE "Gute Noten wurden belohnt, schlechte Noten wurden besprochen und alle Teufel bekommen eine 1 für '1-A-Familiendynamiken'. Ach und eine echte Note habt ihr auch noch bekommen."
+    SET FAILURE_MESSAGE "Die Familie hat versagt und wird diese sozialen Interaktionen wohl noch einmal nacharbeiten müssen. Fangt am besten schon mal damit an, indem ihr 100 Mal 'Wir sind schlecht in Partyspielen' auf die nächstbeste Tafel schreibt."
+
+
+    REM : ------------------------------
+
+    REM : SCORE TARGETS
+    INCLUDE "../templates/default/score_target.eds"
+    
+    REM : TASK SCHEDULE
+    INCLUDE "../templates/default/schedule.eds"
+    
+    REM : MEALS
+    INCLUDE "../templates/default/meals.eds"
+
+    REM : ------------------------------
+     
+    REM : ROUND 1 STORY TASKS
+    SCHEDULE TASK "ReportCardFridge" <1 9:00>
+    SCHEDULE TASK "ChangeReportCard" <1 11:00>
+    SCHEDULE TASK "CallTeenTeacher" <1 13:00>
+         
+    REM : ROUND 2 STORY TASKS
+    SCHEDULE TASK "TakeTeenPhone" <2 8:00>
+    SCHEDULE TASK "TravelPizzaRedeem" <2 10:00>
+    SCHEDULE TASK "StealBackPhone" <2 13:00>
+    
+    REM : ROUND 3 STORY TASKS
+    SCHEDULE TASK "FindToy" <3 8:00>
+    SCHEDULE TASK "TextMakeUpWork" <3 10:00>
+    SCHEDULE TASK "DigOutReportCards" <3 13:00>
+    SCHEDULE TASK "EduGame" <3 15:00>
+
+END
+
+
+REM : ------------------------------
+
+REM : Define this episode's story tasks below
+
+REM : Put A+ report card on fridge
+CLONE DEED "SwipeDown" "ReportCardFridge1"
+    SET INSTRUCTIONS "Remove sibling's picture"
+END
+
+CLONE DEED "Tap1" "ReportCardFridge2"
+    SET INSTRUCTIONS "Place report card on fridge with magnet"
+END
+
+CLONE DEED "Tap1" "ReportCardFridge3"
+    SET INSTRUCTIONS "Use the nicer magnet"
+END
+
+DEF TASK "ReportCardFridge"
+    SET NAME "Put A+ report card on fridge"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "ReportCardFridge1"
+    STEP "2" "ReportCardFridge2"
+    STEP "3" "ReportCardFridge3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Intercept and change bad report card
+CLONE DEED "Tap4" "ChangeReportCard1"
+    SET INSTRUCTIONS "tiptoe to mailbox"
+END
+
+CLONE DEED "Rotate180" "ChangeReportCard2"
+    SET INSTRUCTIONS "Remove REAL report card"
+END
+
+CLONE DEED "Rotate180Counter" "ChangeReportCard3"
+    SET INSTRUCTIONS "Insert DECOY report card"
+END
+
+CLONE DEED "QuickTap4" "ChangeReportCard4"
+    SET INSTRUCTIONS "tiptoe away"
+END
+
+DEF TASK "ChangeReportCard"
+    SET NAME "Intercept and change bad report card"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "ChangeReportCard1"
+    STEP "2" "ChangeReportCard2"
+    STEP "3" "ChangeReportCard3"
+    STEP "4" "ChangeReportCard4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Call teen's teacher
+CLONE DEED "PhoneID" "CallTeenTeacher1"
+    SET INSTRUCTIONS "Call teen's teacher"
+    SET CONTENT_ID "YANLUO"
+END
+
+CLONE DEED "DialogID" "CallTeenTeacher2"
+    SET INSTRUCTIONS "Talk to Ms. Yanluo"
+    SET CONTENT_ID "REPORTCARD_TEACHER"
+END
+
+DEF TASK "CallTeenTeacher"
+    SET NAME "Call teen's teacher"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "CallTeenTeacher1"
+    STEP "2" "CallTeenTeacher2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : -------------------------------------------------
+
+REM : Take teen's phone
+CLONE DEED "Nothing3" "TakeTeenPhone1"
+    SET INSTRUCTIONS "Stare down teen"
+END
+
+CLONE DEED "SwipeUp" "TakeTeenPhone2"
+    SET INSTRUCTIONS "Extend hand for phone"
+END
+
+CLONE DEED "Tap1" "TakeTeenPhone3"
+    SET INSTRUCTIONS "Say 'This is for your own good!'"
+END
+
+CLONE DEED "Tap1" "TakeTeenPhone4"
+    SET INSTRUCTIONS "Take phone"
+END
+
+DEF TASK "TakeTeenPhone"
+    SET NAME "Take teen's phone away as punishment"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "TakeTeenPhone1"
+    STEP "2" "TakeTeenPhone2"
+    STEP "3" "TakeTeenPhone3"
+    STEP "4" "TakeTeenPhone4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Redeem good grades for pizza
+CLONE DEED "TravelID" "TravelPizzaRedeem"
+    SET INSTRUCTIONS "Drive to Pizza Fun Time"
+    SET CONTENT_ID "PIZZA_FUN_TI"
+END
+
+DEF TASK "TravelPizzaRedeem"
+    SET NAME "Redeem good grades for pizza"
+    SET ASKER_NAME "Get a ride to redeem good grades for pizza"
+    SET HELPER_NAME "Drive <ASKER> to redeem good grades for pizza"
+    SET CAPTAIN "ADULTS"
+    SET PARTICIPANT "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "TravelPizzaRedeem"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Steal phone back from parents
+CLONE DEED "Tap3" "StealBackPhone1"
+    SET INSTRUCTIONS "Army crawl into parents' bedroom"
+END
+
+CLONE DEED "SwipeUp" "StealBackPhone2"
+    SET INSTRUCTIONS "Sneak phone out of drawer"
+END
+
+CLONE DEED "QuickTap5" "StealBackPhone3"
+    SET INSTRUCTIONS "Text friends: 'Phone gone. Use telegraph.'"
+END
+
+CLONE DEED "SwipeDown" "StealBackPhone4"
+    SET INSTRUCTIONS "Return phone to drawer"
+END
+
+DEF TASK "StealBackPhone"
+    SET NAME "Steal your phone back"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "StealBackPhone1"
+    STEP "2" "StealBackPhone2"
+    STEP "3" "StealBackPhone3"
+    STEP "4" "StealBackPhone4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : ------------------------------------------------------------
+
+REM : Choose new reward toy
+REM : Replace with TOYS
+CLONE DEED "FindCategory" "FindToy"
+    SET INSTRUCTIONS "Choose new reward toy"
+    SET CATEGORY "TOYS"
+END
+
+DEF TASK "FindToy"
+    SET NAME "Choose new reward toy"
+    SET ASKER_NAME "Get help choosing a new reward toy"
+    SET HELPER_NAME "Help <ASKER> choose a new reward toy"
+    SET CAPTAIN "MATURE"
+    SET PARTICIPANT "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "FindToy"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Do make-up assignment
+CLONE DEED "TextBase" "TextMakeUpWork"
+    SET CATEGORY "GEOGRAPHY"
+END
+
+DEF TASK "TextMakeUpWork"
+    SET NAME "Do make up assignment"
+    SET ASKER_NAME "Get help from parent with your make up assignment"
+    SET HELPER_NAME "Help <ASKER> with their make up assignment"
+    SET CAPTAIN "ADULTS"
+    SET PARTICIPANT "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "TextMakeUpWork"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Dig out your old report cards
+CLONE DEED "QuickTap4" "DigOutReportCards1"
+    SET INSTRUCTIONS "Climb up to attic"
+END
+
+CLONE DEED "Tap2" "DigOutReportCards2"
+    SET INSTRUCTIONS "Open old shoebox"
+END
+
+CLONE DEED "Nothing3" "DigOutReportCards3"
+    SET INSTRUCTIONS "Stare at your old grades in horror"
+END
+
+CLONE DEED "Tap1" "DigOutReportCards4"
+    SET INSTRUCTIONS "Close box and accept your hypocrisy"
+END
+
+DEF TASK "DigOutReportCards"
+    SET NAME "Dig out your old report cards"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "DigOutReportCards1"
+    STEP "2" "DigOutReportCards2"
+    STEP "3" "DigOutReportCards3"
+    STEP "4" "DigOutReportCards4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Play eductaional board game 
+CLONE DEED "Nothing4" "EduGame"
+    SET INSTRUCTIONS "Have fun being edu-tained!"
+END
+
+DEF TASK "EduGame"
+    SET NAME "Play educational board game as a family"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "EduGame"
+
+    NEXT "1" SUCCESS FAILURE
+END

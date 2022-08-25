@@ -1,0 +1,408 @@
+DEF EPISODE "NewSchool"
+    SET CHOOSABLE TRUE
+    SET EMERGENCY "EmergencyTasks"
+    SET NAME "Verdammte Lehrjahre"
+    SET DESCRIPTION "Die Teufel melden ihre Kinder an der schicken <font color='#AF0000'>neuen Schule</font> der Stadt an. Wird diese Umstellung reibungslos ablaufen oder muss die Familie, was das angeht, noch mal die Schulbank drücken?"
+    SET SUCCESS_MESSAGE "Ein Vögelchen hat uns gezwitschert, dass ihr den Tag überstanden habt und nun Allegorien in Texten erkennen könnt. Das ist eine Fähigkeit, die sich sehr gut vermarkten lässt!"
+    SET FAILURE_MESSAGE "Jeder Einzelne von euch hat sich bis auf die Knochen blamiert und niemand an der ganzen Schule wird es jemals vergessen. Niemand!"
+
+
+    REM : ------------------------------
+
+    REM : SCORE TARGETS
+    INCLUDE "../templates/default/score_target.eds"
+    
+    REM : TASK SCHEDULE
+    INCLUDE "../templates/default/schedule.eds"
+    
+    REM : MEALS
+    REM : SCHEDULE TASK "GatherBreakfast" <1 7:01>
+    SCHEDULE TASK "GatherLunch" <2 13:01>
+    SCHEDULE TASK "GatherDinner" <3 17:01>
+
+    REM : ------------------------------
+     
+    REM : ROUND 1 STORY TASKS
+    SCHEDULE TASK "PackLunchBoxes" <1 7:00>
+    SCHEDULE TASK "FindShirtNewSchool" <1 11:00>
+    SCHEDULE TASK "BackpackBugs" <1 13:00>
+    SCHEDULE TASK "DriveSchoolSupplies" <1 15:00>
+         
+    REM : ROUND 2 STORY TASKS
+    SCHEDULE TASK "GiveApple" <2 8:00>
+    SCHEDULE TASK "DoubleDutch" <2 10:00>
+    SCHEDULE TASK "FindHatNewSchool" <2 11:00>
+    SCHEDULE TASK "CoolKidPose" <2 13:00>
+    SCHEDULE TASK "ShamePE" <2 15:00>
+
+    REM : ROUND 3 STORY TASKS
+    SCHEDULE TASK "ScarletLetter" <3 8:00>
+    SCHEDULE TASK "TalkToPTA" <3 10:00>
+    SCHEDULE TASK "EmbarrassKids" <3 13:00>
+    SCHEDULE TASK "ReminisceSchool" <3 15:00>
+    SCHEDULE TASK "NewSchoolGeographyHomework" <3 18:00>
+        
+END
+
+
+REM : ------------------------------
+
+REM : Define this episode's story tasks below
+
+REM : Pack lunch boxes
+CLONE DEED "GatherID" "PackLunchBoxes"
+    SET INSTRUCTIONS "Pack lunch boxes"
+    SET CONTENT_ID "TUNA_SALAD_SANDWICHES"
+END
+
+DEF TASK "PackLunchBoxes"
+    SET NAME "Pack lunch boxes"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "PackLunchBoxes"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Pick out cool first day outfit
+CLONE TASK "FindShirt" "FindShirtNewSchool"
+    SET NAME "Pick out cool first day of school outfit"
+    SET ASKER_NAME "Get help picking out cool first day of school outfit"
+    SET HELPER_NAME "Help <ASKER> pick out cool first day of school outfit"
+    SET CAPTAIN "CHILDREN"
+    SET PARTICIPANT "MATURE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H> 
+END
+
+REM : Stuff your backpack full of cool bugs to show everyone
+CLONE DEED "ScrubMedium" "BackpackBugs1"
+    SET INSTRUCTIONS "Search yard for insects"
+END
+
+CLONE DEED "SwipeUp" "BackpackBugs2"
+    SET INSTRUCTIONS "Pick up worm"
+END
+
+CLONE DEED "Tap3" "BackpackBugs3"
+    SET INSTRUCTIONS "Collect ants"
+END
+
+CLONE DEED "Rotate90" "BackpackBugs4"
+    SET INSTRUCTIONS "Take roly-poly bug"
+END
+
+CLONE DEED "SwipeDown" "BackpackBugs5"
+    SET INSTRUCTIONS "Put in bag. The teachers will love these!"
+END
+
+DEF TASK "BackpackBugs"
+    SET NAME "Stuff your backpack full of cool bugs to show off"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BackpackBugs1"
+    STEP "2" "BackpackBugs2"
+    STEP "3" "BackpackBugs3"
+    STEP "4" "BackpackBugs4"
+    STEP "5" "BackpackBugs5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Drive into town for school supplies
+CLONE DEED "TravelCategory" "DriveSchoolSupplies"
+    SET INSTRUCTIONS "Drive into town for school supplies"
+    SET CATEGORY "SHOPPING"
+END
+
+DEF TASK "DriveSchoolSupplies"
+    SET NAME "Drive into town for new school supplies"
+    SET ASKER_NAME "Get ride into town for school supplies"
+    SET HELPER_NAME "Drive <ASKER> into town for school supplies"
+    SET CAPTAIN "ADULTS"
+    SET PARTICIPANT "YOUNG"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "DriveSchoolSupplies"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : ------------------------------------------------------
+
+REM : Give an apple to your teacher
+CLONE DEED "Rotate270" "GiveApple1"
+    SET INSTRUCTIONS "Dump apple out of bag"
+END
+
+CLONE DEED "SwipeUp" "GiveApple2"
+    SET INSTRUCTIONS "Pick apple up off floor"
+END
+
+CLONE DEED "ScrubShort" "GiveApple3"
+    SET INSTRUCTIONS "Polish apple on your shirt"
+END
+
+CLONE DEED "Tap2" "GiveApple4"
+    SET INSTRUCTIONS "Accidentally sneeze on apple"
+END
+
+CLONE DEED "SwipeRight" "GiveApple5"
+    SET INSTRUCTIONS "Give apple to teacher"
+END
+
+DEF TASK "GiveApple"
+    SET NAME "Give an apple to the teacher"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "GiveApple1"
+    STEP "2" "GiveApple2"
+    STEP "3" "GiveApple3"
+    STEP "4" "GiveApple4"
+    STEP "5" "GiveApple5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Dominate at Double Dutch on the playground
+CLONE DEED "Tap3" "DoubleDutch1"
+    SET INSTRUCTIONS "Jump rope"
+END
+
+CLONE DEED "QuickTap5" "DoubleDutch2"
+    SET INSTRUCTIONS "Ropes are getting faster!"
+END
+
+CLONE DEED "Rotate180" "DoubleDutch3"
+    SET INSTRUCTIONS "Do a handstand"
+END
+
+CLONE DEED "QuickTap5" "DoubleDutch4"
+    SET INSTRUCTIONS "Jump rope WHILE doing handstand"
+END
+
+CLONE DEED "Nothing3" "DoubleDutch5"
+    SET INSTRUCTIONS "You're a schoolyard legend! Bask in glory."
+END
+
+DEF TASK "DoubleDutch"
+    SET NAME "Dominate at Double Dutch on the playground"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "DoubleDutch1"
+    STEP "2" "DoubleDutch2"
+    STEP "3" "DoubleDutch3"
+    STEP "4" "DoubleDutch4"
+    STEP "5" "DoubleDutch5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Find cool hat for new year new you look
+CLONE TASK "FindHat" "FindHatNewSchool"
+    SET NAME "Find cool hat for 'new year, new you' look"
+    SET ASKER_NAME "Get help finding cool hat for 'new year, new you' look"
+    SET HELPER_NAME "Help <ASKER> find cool hat for 'new year, new you' look"
+    SET CAPTAIN "TEENS"
+    SET PARTICIPANT "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H> 
+END
+
+REM : Perfect your cool kid pose
+CLONE TASK "ExudeCool" "CoolKidPose"
+    SET NAME "Perfect your cool kid pose"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H> 
+END
+
+REM : Experience the shame of P.E.
+CLONE DEED "ScrubShort" "ShamePE1"
+    SET INSTRUCTIONS "Change into your gym clothes under a towel"
+END
+
+CLONE DEED "Rotate360" "ShamePE2"
+    SET INSTRUCTIONS "Run laps"
+END
+
+CLONE DEED "SwipeUp" "ShamePE3"
+    SET INSTRUCTIONS "Try to climb rope"
+END
+
+CLONE DEED "SwipeUp" "ShamePE4"
+    SET INSTRUCTIONS "Try really hard to climb rope"
+END
+
+CLONE DEED "SwipeDown" "ShamePE5"
+    SET INSTRUCTIONS "Slide down in failure and get rope burn"
+END
+
+DEF TASK "ShamePE"
+    SET NAME "Experience the shame of P.E."
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "ShamePE1"
+    STEP "2" "ShamePE2"
+    STEP "3" "ShamePE3"
+    STEP "4" "ShamePE4"
+    STEP "5" "ShamePE5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : ---------------------------------------------
+
+REM : Search for the most dominate theme in The Scarlet Letter
+CLONE DEED "SearchID" "ScarletLetter"
+    SET INSTRUCTIONS "Search for the most dominate theme in 'The Scarlet Letter'"
+    SET CONTENT_ID "SCARLETLETTER"
+END
+
+DEF TASK "ScarletLetter"
+    SET NAME "Search for the most dominate theme in 'The Scarlet Letter'"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "MEDIUM"
+    SET THEME "SEARCH_FIND"
+    SET DURATION <8H>
+
+    STEP "1" "ScarletLetter"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Talk with the head of the PTA
+CLONE DEED "DialogID" "TalkToPTA"
+    SET INSTRUCTIONS "Talk with head of the PTA"
+    SET CONTENT_ID "NEWSCHOOL_PTA"
+END
+
+DEF TASK "TalkToPTA"
+    SET NAME "Talk with the head of the PTA"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "TalkToPTA"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Embarrass your kids while dropping them off
+CLONE DEED "Instructions4" "EmbarrassKids"
+    SET INSTRUCTIONS "Embarrass your kids while dropping them off"
+
+    SET MECHANIC_0 "SWIPE_UP"
+    SET INSTRUCTIONS_0 "Pull up to Dante Alighieri Public School"
+    SET MECHANIC_1 "SWIPE_DOWN"
+    SET INSTRUCTIONS_1 "Beg parent not to drive right up to the entrance"
+    SET MECHANIC_2 "TAP_3"
+    SET INSTRUCTIONS_2 "Beg parent not to shout 'Hugs and kisses, kiddo!'"
+END
+
+DEF TASK "EmbarrassKids"
+    SET NAME "Embarrass kids while dropping them off"
+    SET ASKER_NAME "Beg parent not to embarrass you"
+    SET HELPER_NAME "Embarrass <ASKER> outside school"
+    SET CAPTAIN "ADULTS"
+    SET PARTICIPANT "YOUNG"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "EmbarrassKids"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Reminisce on your school years
+CLONE DEED "Rotate180Counter" "ReminisceSchool1"
+    SET INSTRUCTIONS "Remember your glory days"
+END
+
+CLONE DEED "SwipeLeft" "ReminisceSchool2"
+    SET INSTRUCTIONS "Browse through your yearbook"
+END
+
+CLONE DEED "Tap3" "ReminisceSchool3"
+    SET INSTRUCTIONS "See you were voted Most Likely to Succeed"
+END
+
+CLONE DEED "Hold3" "ReminisceSchool4"
+    SET INSTRUCTIONS "Stare ahead blankly"
+END
+
+DEF TASK "ReminisceSchool"
+    SET NAME "Reminisce on your own school years"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "ReminisceSchool1"
+    STEP "2" "ReminisceSchool2"
+    STEP "3" "ReminisceSchool3"
+    STEP "4" "ReminisceSchool4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Help kid with geography homework
+CLONE DEED "TextBase" "NewSchoolGeographyHomework"
+    SET CATEGORY "GEOGRAPHY"
+END
+
+DEF TASK "NewSchoolGeographyHomework"
+    SET NAME "Do geography homework"
+    SET ASKER_NAME "Get help from parent with your geography homework"
+    SET HELPER_NAME "Help <ASKER> with their geography homework"
+    SET CAPTAIN "ADULTS"
+    SET PARTICIPANT "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "NewSchoolGeographyHomework"
+
+    NEXT "1" SUCCESS FAILURE
+END

@@ -1,0 +1,365 @@
+DEF EPISODE "HousePest"
+    SET CHOOSABLE TRUE
+    SET EMERGENCY "EmergencyTasks"
+    SET NAME "Untermieter aus der Hölle"
+    SET DESCRIPTION "Schlechte Neuigkeiten! Die Familie hat ein kleines Ungezieferproblem. Und mit 'kleines Ungeziefer' meinen wir '<font color='#AF0000'>riesige dämonische Fledermaus</font>'. Anscheinend ist das Untier aus der Unterwelt entkommen und hält sich jetzt in eurem Haus versteckt. Viel Glück!"
+    SET SUCCESS_MESSAGE "Was für ein Höllenjob! Wir verzeihen euch, dass ihr ein wenig Magie benutzt habt, um das verfluchte Biest zu vertreiben. Von nun an empfehlen wir euch aber, mit Schädlingen auf die normale menschliche Art umzugehen, indem ihr einfach einen großen Amboss auf sie werft."
+    SET FAILURE_MESSAGE "Es scheint, als würde dieses geflügelte Unding nun bei euch wohnen. Es wird sich tief in euren Wänden ansiedeln, den Wiederverkaufswert eures Hauses senken, euch in euren Albträumen heimsuchen und sehr wüste Beleidigungen zuflüstern, wann immer ihr alleine seid."
+
+
+    REM : ------------------------------
+
+    REM : SCORE TARGETS
+    INCLUDE "../templates/default/score_target.eds"
+    
+    REM : TASK SCHEDULE
+    INCLUDE "../templates/default/schedule.eds"
+    
+    REM : MEALS
+    INCLUDE "../templates/default/meals.eds"
+
+    REM : ------------------------------
+     
+    REM : ROUND 1 STORY TASKS
+    SCHEDULE TASK "BatSnack" <1 8:00>
+    SCHEDULE TASK "BatVacuum" <1 10:00>
+    SCHEDULE TASK "SearchBat" <1 13:00>
+         
+    REM : ROUND 2 STORY TASKS    
+    SCHEDULE TASK "LayBatTrap" <2 8:00>
+    SCHEDULE TASK "DriveBuyBatTraps" <2 13:00>
+
+    REM : ROUND 3 STORY TASKS
+    SCHEDULE TASK "WatchBatTrap" <3 8:00>
+    SCHEDULE TASK "CallBatExterminator" <3 10:00>
+    SCHEDULE TASK "TalkBatExterminator" <3 13:00>
+    SCHEDULE TASK "GatherBat" <3 15:00>
+    SCHEDULE TASK "ChantSpell" <3 18:00>
+        
+END
+
+
+REM : ------------------------------
+
+REM : Define this episode's story tasks below
+
+REM : Get a morning snack
+CLONE DEED "SwipeUp" "BatSnack1"
+    SET INSTRUCTIONS "Grab some fried plantain chips"
+END
+
+CLONE DEED "Nothing3" "BatSnack2"
+    SET INSTRUCTIONS "There are tiny bite marks in EVERY chip"
+END
+
+CLONE DEED "SwipeDown" "BatSnack3"
+    SET INSTRUCTIONS "Hold back urge to vomit"
+END
+
+DEF TASK "BatSnack"
+    SET NAME "Get a morning snack"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BatSnack1"
+    STEP "2" "BatSnack2"
+    STEP "3" "BatSnack3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Try to vacuum
+CLONE DEED "Tap1" "BatVacuum1"
+    SET INSTRUCTIONS "Turn on vacuum"
+END
+
+CLONE DEED "QuickTap5" "BatVacuum2"
+    SET INSTRUCTIONS "THE BAT HATES THE VACUUM! THE BAT HATES THE VACUUM!"
+END
+
+CLONE DEED "Tap1" "BatVacuum3"
+    SET INSTRUCTIONS "Turn off vacuum"
+END
+
+DEF TASK "BatVacuum"
+    SET NAME "Try to vacuum"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BatVacuum1"
+    STEP "2" "BatVacuum2"
+    STEP "3" "BatVacuum3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Search house for bat
+CLONE DEED "QuickTap4" "SearchBat1"
+    SET INSTRUCTIONS "Tiptoe around the house"
+END
+
+CLONE DEED "Rotate180" "SearchBat2"
+    SET INSTRUCTIONS "Take a look around..."
+END
+
+CLONE DEED "Nothing3" "SearchBat3"
+    SET INSTRUCTIONS "...it's right behind you"
+END
+
+CLONE DEED "QuickTap5" "SearchBat4"
+    SET INSTRUCTIONS "RUN!!!"
+END
+
+DEF TASK "SearchBat"
+    SET NAME "Search house for the bat"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SearchBat1"
+    STEP "2" "SearchBat2"
+    STEP "3" "SearchBat3"
+    STEP "4" "SearchBat4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : ------------------------------------
+
+REM : Lay out bait for bat
+CLONE DEED "Tap3" "LayBatTrap1"
+    SET INSTRUCTIONS "Lay out fresh fried plantains"
+END
+
+CLONE DEED "Rotate90" "LayBatTrap2"
+    SET INSTRUCTIONS "Grab blanket"
+END
+
+CLONE DEED "Hold5" "LayBatTrap3"
+    SET INSTRUCTIONS "Play the waiting game"
+END
+
+DEF TASK "LayBatTrap"
+    SET NAME "Lay out bait for bat"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "LayBatTrap1"
+    STEP "2" "LayBatTrap2"
+    STEP "3" "LayBatTrap3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+    
+    CONSEQUENCE SUCCESS "CatchBatBlanket"
+END
+
+REM : Try to catch bat in blanket
+CLONE DEED "Nothing5" "CatchBatBlanket1"
+    SET INSTRUCTIONS "Wait for bat to take the bait"
+END
+
+CLONE DEED "SwipeUp" "CatchBatBlanket2"
+    SET INSTRUCTIONS "Jump on it!"
+END
+
+CLONE DEED "ScrubMedium" "CatchBatBlanket3"
+    SET INSTRUCTIONS "Hold 'em in the blanket!"
+END
+
+CLONE DEED "Nothing3" "CatchBatBlanket4"
+    SET INSTRUCTIONS "The bat BREATHES FIRE apparently! He is gone."
+END
+
+DEF TASK "CatchBatBlanket"
+    SET NAME "Try to catch bat in blanket"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "CatchBatBlanket1"
+    STEP "2" "CatchBatBlanket2"
+    STEP "3" "CatchBatBlanket3"
+    STEP "4" "CatchBatBlanket4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Buy real bat traps
+CLONE DEED "TravelID" "DriveBuyBatTraps"
+    SET INSTRUCTIONS "Buy professional bat traps"
+    SET CONTENT_ID "CAVE_O’_SAVI"
+END
+
+DEF TASK "DriveBuyBatTraps"
+    SET NAME "Buy professional bat traps"
+    SET ASKER_NAME "Get ride to buy professional bat traps"
+    SET HELPER_NAME "Drive <ASKER> to buy professional bat traps"
+    SET CAPTAIN "MATURE"
+    SET PARTICIPANT "YOUNG"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "DriveBuyBatTraps"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "AssembleBatTrap"
+END
+
+REM : Assemble complicated bat trap
+CLONE DEED "Instructions4" "AssembleBatTrap"
+    SET INSTRUCTIONS "Assemble complicated bat trap"
+
+    SET MECHANIC_0 "ROTATE_CLOCK"
+    SET INSTRUCTIONS_0 "Pour parts out of box"
+    SET MECHANIC_1 "TAP_3"
+    SET INSTRUCTIONS_1 "Assemble A, B, and C rods"
+    SET MECHANIC_2 "ROTATE_CLOCK"
+    SET INSTRUCTIONS_2 "Wind it up"
+    SET MECHANIC_3 "SWIPE_DOWN"
+    SET INSTRUCTIONS_3 "Place trap in position"
+END
+
+DEF TASK "AssembleBatTrap"
+    SET NAME "Assemble complicated bat trap"
+    SET ASKER_NAME "Get help assembling complicated bat trap"
+    SET HELPER_NAME "Help <ASKER> assemble complicated bat trap"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "AssembleBatTrap"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : -------------------------------------------------------------
+
+REM : Watch bat trap in action
+CLONE DEED "Hold3" "WatchBatTrap1"
+    SET INSTRUCTIONS "Watch bat land on trap"
+END
+
+CLONE DEED "Tap1" "WatchBatTrap2"
+    SET INSTRUCTIONS "Press button"
+END
+
+CLONE DEED "Nothing3" "WatchBatTrap3"
+    SET INSTRUCTIONS "Watch bat TURN INTO MIST and escape"
+END
+
+CLONE DEED "ScrubShort" "WatchBatTrap4"
+    SET INSTRUCTIONS "Crush useless trap with foot"
+END
+
+DEF TASK "WatchBatTrap"
+    SET NAME "Watch fancy bat trap in action"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "WatchBatTrap1"
+    STEP "2" "WatchBatTrap2"
+    STEP "3" "WatchBatTrap3"
+    STEP "4" "WatchBatTrap4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Call exterminator/exorcist
+CLONE DEED "PhoneID" "CallBatExterminator"
+    SET INSTRUCTIONS "Call Rodent Capture & Rapture"
+    SET CONTENT_ID "RODENT_RAP"
+END
+
+DEF TASK "CallBatExterminator"
+    SET NAME "Call exterminator/exorcist"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "CallBatExterminator"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Explain 'bat' problem to paranormal exterminator
+CLONE DEED "DialogID" "TalkBatExterminator"
+    SET INSTRUCTIONS "Explain 'bat' problem"
+    SET CONTENT_ID "HOUSEPEST_BAT"
+END
+
+DEF TASK "TalkBatExterminator"
+    SET NAME "Explain 'bat' problem to paranormal exterminator"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "TalkBatExterminator"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Create anti-bat potion
+CLONE DEED "GatherID" "GatherBat"
+    SET INSTRUCTIONS "Gather ingredients for anti-demon-bat ward"
+    SET CONTENT_ID "BAT_WARD"
+END
+
+DEF TASK "GatherBat"
+    SET NAME "Get ingredients for anti-demon-bat ward"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "GatherBat"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Chant anti-demon-bat spell
+CLONE DEED "Nothing4" "ChantSpell"
+    SET INSTRUCTIONS "Everyone chant 'GET THEE OUT, DEMON BAT!'"
+    SET PARTICIPATION "ALL"
+END
+
+DEF TASK "ChantSpell"
+    SET NAME "Chant anti-demon-bat spell"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "ChantSpell"
+
+    NEXT "1" SUCCESS FAILURE
+END

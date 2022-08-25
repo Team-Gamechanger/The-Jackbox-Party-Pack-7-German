@@ -1,0 +1,300 @@
+DEF EPISODE "Mystery"
+    SET CHOOSABLE TRUE
+    SET EMERGENCY "EmergencyTasks"
+    SET NAME "Der Fall der verfluchten Vorstadt"
+    SET DESCRIPTION "Die Nachbarschaft ist in heller Aufregung, nachdem mehrfach Berichte von der Sichtung eines <font color='#AF0000'>spukenden alten Kapitäns</font> in Umlauf geraten sind. Jetzt liegt es an der Familie, <font color='#AF0000'>dieses Rätsel zu lösen</font>. Vor allem, weil es sonst niemand machen will."
+    SET SUCCESS_MESSAGE "Wir waren erfreut zu lesen, dass ihr die Schreckensherrschaft des falschen Geistes beendet habt. Die Welt der Menschen hat jetzt einen schrulligen alten Mann weniger, mit dem sie sich herumschlagen muss."
+    SET FAILURE_MESSAGE "Bei Hades, war das ein unbefriedigendes Ende für ein Mysterium. Wir haben euch ausdrücklich gefragt, ob ihr nicht doch lieber den sprechenden Kerberos haben möchtet, der Verbrechen aufklärt. Aber nein, ihr wolltet ja unbedingt die Katze. Selbst schuld."
+
+
+    REM : ------------------------------
+
+    REM : SCORE TARGETS
+    INCLUDE "../templates/default/score_target.eds"
+    
+    REM : TASK SCHEDULE
+    INCLUDE "../templates/default/schedule.eds"
+    
+    REM : MEALS
+    INCLUDE "../templates/default/meals.eds"
+
+    REM : ------------------------------
+     
+    REM : ROUND 1 STORY TASKS
+    SCHEDULE TASK "MysteryFindBook" <1 8:00>
+    SCHEDULE TASK "TalkGhostWitness" <1 11:00>
+    SCHEDULE TASK "GhostHunterEquip" <1 13:00>
+
+    REM : ROUND 2 STORY TASKS
+    SCHEDULE TASK "MysteryFootprints" <2 8:00>
+    SCHEDULE TASK "SearchClues" <2 10:00>
+    SCHEDULE TASK "ExamineMachine" <2 13:00>
+    SCHEDULE TASK "WackyGhostChase" <2 15:00>
+
+    REM : ROUND 3 STORY TASKS
+    SCHEDULE TASK "MysteryPapers" <3 8:00>
+    SCHEDULE TASK "MysteryGhostTrap" <3 10:00>
+    SCHEDULE TASK "HideWaitGhost" <3 13:00>
+    SCHEDULE TASK "UnmaskGhost" <3 16:00>
+
+END
+
+
+REM : ------------------------------
+
+REM : Define this episode's story tasks below
+
+REM : Find book about the town's paranormal history
+CLONE DEED "FindID" "MysteryFindBook"
+    SET INSTRUCTIONS "Find the paranormal history book"
+    SET CATEGORY "BOOK"
+END
+
+DEF TASK "MysteryFindBook"
+    SET NAME "Find book about town's paranormal history"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "MysteryFindBook"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Talk with witness to the ghost attack
+CLONE DEED "DialogID" "TalkGhostWitness"
+    SET INSTRUCTIONS "Talk to witness"
+    SET CONTENT_ID "MYSTERY_WITNESS"
+END
+
+DEF TASK "TalkGhostWitness"
+    SET NAME "Talk with witness to the ghost attack"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "SEARCH_FIND"
+    SET DURATION <8H>
+
+    STEP "1" "TalkGhostWitness"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Set up ghost hutner equipment
+CLONE DEED "Gizmos3" "GhostHunterEquip"
+    SET INSTRUCTIONS "Set up equipment"
+    SET NAME "Spectral Locator"
+END
+
+DEF TASK "GhostHunterEquip"
+    SET NAME "Set up ghost hunter equipment"
+    SET ASKER_NAME "Get help setting up ghost hunter equipment"
+    SET HELPER_NAME "Help <ASKER> set up ghost hunter equipment"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "GhostHunterEquip"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : --------------------------------------------------
+
+REM : Discover mysterious ghost footrpints
+CLONE DEED "SwipeUp" "MysteryFootprints1"
+    SET INSTRUCTIONS "Get out magnifying glass"
+END
+
+CLONE DEED "Nothing3" "MysteryFootprints2"
+    SET INSTRUCTIONS "Scrutinize footprint shape"
+END
+
+CLONE DEED "Hold3" "MysteryFootprints3"
+    SET INSTRUCTIONS "Pour plaster cast"
+END
+
+CLONE DEED "Nothing3" "MysteryFootprints4"
+    SET INSTRUCTIONS "Wait. Do ghosts have feet?"
+END
+
+DEF TASK "MysteryFootprints"
+    SET NAME "Discover mysterious ghost footprints"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "MysteryFootprints1"
+    STEP "2" "MysteryFootprints2"
+    STEP "3" "MysteryFootprints3"
+    STEP "4" "MysteryFootprints4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Search the neighborhood for important clues
+CLONE DEED "SearchID" "SearchClues"
+    SET INSTRUCTIONS "Search for clues"
+    SET CONTENT_ID "CLUES"
+END
+
+DEF TASK "SearchClues"
+    SET NAME "Search the neighborhood for important clues"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SearchClues"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Examine suspicious machine
+CLONE DEED "Instructions3" "ExamineMachine"
+    SET INSTRUCTIONS "Examine suspicious machine"
+
+    SET MECHANIC_0 "SWIPE_UP"
+    SET INSTRUCTIONS_0 "Remove conspicuous tarp"
+    SET MECHANIC_1 "TAP_3"
+    SET INSTRUCTIONS_1 "Turn on strange machine"
+    SET MECHANIC_2 "TAP_HOLD"
+    SET INSTRUCTIONS_2 "Wonder what a holographic projector is doing in Old Man Oldman's basement"
+END
+
+DEF TASK "ExamineMachine"
+    SET NAME "Examine suspicious machine"
+    SET ASKER_NAME "Get help examining suspicious machine"
+    SET HELPER_NAME "Help <ASKER> examine suspicious machine"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "ExamineMachine"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Get into wacky chase with the ghost
+CLONE DEED "TapAll" "WackyGhostChase"
+    SET INSTRUCTIONS "Feets don't fail us now!"
+END
+
+DEF TASK "WackyGhostChase"
+    SET NAME "Get into wacky chase with the ghost"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "WackyGhostChase"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : ----------------------------------------------------
+
+REM : Discover incriminating financial papers
+CLONE DEED "SwipeBase" "MysteryPapers1"
+    SET INSTRUCTIONS "Flip through legal papers"
+    SET DIRECTION "RIGHT,RIGHT,RIGHT,RIGHT"
+END
+
+CLONE DEED "Hold2" "MysteryPapers2"
+    SET INSTRUCTIONS "Spot a page with Old man Oldman's name"
+END
+
+CLONE DEED "Nothing3" "MysteryPapers3"
+    SET INSTRUCTIONS "It's starting to come together..."
+END
+
+DEF TASK "MysteryPapers"
+    SET NAME "Discover incriminating financial papers"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "MysteryPapers1"
+    STEP "2" "MysteryPapers2"
+    STEP "3" "MysteryPapers3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Set up complicated ghost trap
+CLONE DEED "Instructions4" "MysteryGhostTrap"
+    SET INSTRUCTIONS "Set up ghost trap"
+
+    SET MECHANIC_0 "ROTATE_COUNTER"
+    SET INSTRUCTIONS_0 "Wind the pully"
+    SET MECHANIC_1 "TAP_3"
+    SET INSTRUCTIONS_1 "Hammer in the nails"
+    SET MECHANIC_2 "TAP_HOLD"
+    SET INSTRUCTIONS_2 "Raise the net"
+    SET MECHANIC_3 "SWIPE_UP"
+    SET INSTRUCTIONS_3 "Arm the robot claw"
+END
+
+DEF TASK "MysteryGhostTrap"
+    SET NAME "Set up complicated ghost trap"
+    SET ASKER_NAME "Get help setting up complicated ghost trap"
+    SET HELPER_NAME "Help <ASKER> set up complicated ghost trap"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "MysteryGhostTrap"
+    
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Hide and wait for ghost
+CLONE DEED "Nothing3" "HideWaitGhost"
+    SET INSTRUCTIONS "Sssshh!"
+    SET PARTICIPATION "ALL"
+END
+
+DEF TASK "HideWaitGhost"
+    SET NAME "Hide and wait for ghost"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "HideWaitGhost"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Unmask the ghost!
+CLONE DEED "Tap5" "UnmaskGhost1"
+    SET INSTRUCTIONS "Remove the ghost's mask..."
+END
+
+CLONE DEED "Nothing3" "UnmaskGhost2"
+    SET INSTRUCTIONS "It was Old man Oldman all along!"
+END
+
+DEF TASK "UnmaskGhost"
+    SET NAME "Unmask the ghost!"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "UnmaskGhost1"
+    STEP "2" "UnmaskGhost2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END

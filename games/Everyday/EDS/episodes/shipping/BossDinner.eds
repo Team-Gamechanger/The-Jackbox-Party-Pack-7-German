@@ -1,0 +1,334 @@
+DEF EPISODE "BossDinner"
+    SET CHOOSABLE TRUE
+    SET EMERGENCY "EmergencyTasks"
+    SET NAME "Dinner-Gewimmer"
+    SET DESCRIPTION "Die <font color='#AF0000'>Chefin kommt zum Abendessen</font> und eine fette Beförderung steht auf Messers Schneide. Jetzt muss sich die Familie von ihrer besten Seite zeigen, um sich bei dem hohen Tier beliebt zu machen."
+    SET SUCCESS_MESSAGE "Unsere Berichte deuten darauf hin, dass die Chefin den Abend sehr genossen hat. Dadurch rückt eine Beförderung zum Vizepräsident der wichtigen Dinge in greifbare Nähe."
+    SET FAILURE_MESSAGE "Es wird gemunkelt, dass der Abend eine halbgare Enttäuschung war, bei der nur die Gesellschaft schlimmer war als das Essen. Besorgt euch besser Schneeschuhe, denn ihr werdet demnächst in die sibirische Außenstelle versetzt."
+
+    REM : ------------------------------
+
+    REM : SCORE TARGETS
+    INCLUDE "../templates/longweekend/score_target.eds"
+    
+    REM : TASK SCHEDULE
+    INCLUDE "../templates/longweekend/schedule.eds"
+    
+    REM : MEALS
+    INCLUDE "../templates/longweekend/meals.eds"
+
+    REM : ------------------------------
+     
+    REM : ROUND 1 STORY TASKS
+    SCHEDULE TASK "InviteBossDinner" <1 10:00>
+    SCHEDULE TASK "CleanBoss" <1 11:00>
+    SCHEDULE TASK "SearchDinnerware" <1 13:00>
+    SCHEDULE TASK "SetTableBoss" <1 15:00>
+         
+    REM : ROUND 2 STORY TASKS
+    SCHEDULE TASK "FindTieBoss" <2 10:00>
+    SCHEDULE TASK "BossBirdBook" <2 13:00>
+    SCHEDULE TASK "GatherBossMeal" <2 15:00>
+
+    
+    REM : ROUND 3 STORY TASKS
+    SCHEDULE TASK "GreetBoss" <3 18:01>
+    SCHEDULE TASK "BossDinnerConvo" <3 19:00>
+    SCHEDULE TASK "SingSongBoss" <3 20:00>
+    SCHEDULE TASK "FlatterBoss" <3 20:30>
+    SCHEDULE TASK "BrewCoffeeBoss" <3 21:00>
+        
+END
+
+
+REM : ------------------------------
+
+
+REM : Invite boss to dinner
+CLONE DEED "PhoneCategory" "PhoneBoss"
+    SET INSTRUCTIONS "Call your boss (*GULP*)"
+    SET CATEGORY "BOSS"
+END
+
+CLONE DEED "DialogID" "InviteBoss"
+    SET INSTRUCTIONS "Invite your boss to dinner"
+    SET CONTENT_ID "BOSS_INVITE"
+END
+
+DEF TASK "InviteBossDinner"
+    SET NAME "Invite boss to dinner"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "PhoneBoss"
+    STEP "2" "InviteBoss"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+
+REM : Clean the house for boss
+CLONE TASK "CleanHouse" "CleanBoss"
+    SET NAME "Clean the house for boss's arrival"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+END
+
+
+REM : Search for china
+CLONE DEED "SearchID" "SearchDinnerware"
+    SET INSTRUCTIONS "Search for the good china"
+    SET CONTENT_ID "DINNERWARE"
+END
+
+DEF TASK "SearchDinnerware"
+    SET NAME "Search for the good china"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SearchDinnerware"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+REM : Set the table
+CLONE TASK "SetTable" "SetTableBoss"
+    SET NAME "Set the table for fancy dinner"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+END
+
+REM : -------------------
+
+REM : Find tie
+CLONE TASK "FindTie" "FindTieBoss"
+    SET NAME "Pick out a tie the boss will like"
+    SET ASKER_NAME "Get help finding a tie the boss will like"
+    SET HELPER_NAME "Help <ASKER> find a tie the boss will like"
+    SET CAPTAIN "EVERYONE"
+    SET PARTICIPANT "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+    CONSEQUENCE SUCCESS "TieaTieBoss"
+END
+
+
+REM : Tie boss tie
+CLONE TASK "TieaTie" "TieaTieBoss"
+    SET NAME "Tie your tie"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET CAPTAIN "TEENS"
+    SET DURATION <8H>
+END
+
+
+REM : Learn birds
+CLONE DEED "SwipeUp" "DigOutBook"
+    SET INSTRUCTIONS "Dig out bird book the boss recommended last year"
+END
+
+CLONE DEED "Hold2" "BlowDustBook"
+    SET INSTRUCTIONS "Blow off the dust"
+END
+
+CLONE DEED "SwipeBase" "FlipBirdBook"
+    SET INSTRUCTIONS "Flip through the book"
+    SET DIRECTION "LEFT,LEFT,LEFT"
+END
+
+CLONE DEED "Hold3" "AbsorbBird"
+    SET INSTRUCTIONS "Try to absorb bird info"
+END
+
+CLONE DEED "SwipeRight" "CloseBook"
+    SET INSTRUCTIONS "You get the idea"
+END
+
+DEF TASK "BossBirdBook"
+    SET NAME "The boss likes birds. Learn about birds."
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "DigOutBook"
+    STEP "2" "BlowDustBook"
+    STEP "3" "FlipBirdBook"
+    STEP "4" "AbsorbBird"
+    STEP "5" "CloseBook"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+
+REM : Boss Meal Gather
+CLONE DEED "GatherMeal" "BossMealIngredients"
+    SET INSTRUCTIONS "Gather ingredients for fancy dinner"
+    SET CATEGORY "DINNER"
+
+END
+
+DEF TASK "GatherBossMeal"
+    SET DURATION <8H>
+    SET NAME "Gather ingredients for fancy dinner"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET CAPTAINLESS_BEHAVIOR "KICK_ALL"
+    
+    STEP "1" "BossMealIngredients"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "CookBossMeal"
+END
+
+
+REM : Boss Meal Cook
+CLONE DEED "Tap3" "CramBossMeal"
+    SET INSTRUCTIONS "Cram it in the fridge until tomorrow"
+END
+
+DEF TASK "CookBossMeal"
+    SET DURATION <8H>
+    SET NAME "Prepare fancy dinner for boss"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+
+    STEP "1" "Stir"
+    STEP "2" "CramBossMeal"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+
+REM : -------------------
+
+REM : Greet Boss
+
+CLONE DEED "Hold2" "CheckTeeth"
+    SET INSTRUCTIONS "Check teeth in mirror before answering the door"
+END
+
+CLONE DEED "SwipeRight" "OpenDoorBoss"
+    SET INSTRUCTIONS "Open the door"
+END
+
+CLONE DEED "DialogID" "DialogBossDoor"
+    SET INSTRUCTIONS "Greet the boss"
+    SET CONTENT_ID "BOSS_GREET"
+END
+
+DEF TASK "GreetBoss"
+    SET NAME "Greet the boss at the door"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "CheckTeeth"
+    STEP "2" "OpenDoorBoss"
+    STEP "3" "DialogBossDoor"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+
+REM : Dinner conversation
+
+CLONE DEED "DialogID" "BossDinnerConvo"
+    SET INSTRUCTIONS "Chat with the boss"
+    SET CONTENT_ID "BOSS_DINNER"
+END
+
+DEF TASK "BossDinnerConvo"
+    SET NAME "Engage the boss in polite dinner conversation"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BossDinnerConvo"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Sing a song
+CLONE DEED "Tap3" "TapToes"
+    SET INSTRUCTIONS "Tap your toes"
+END
+
+CLONE DEED "SwipeLeft" "SashayLeft"
+    SET INSTRUCTIONS "Sashay to the left"
+END
+
+CLONE DEED "SwipeRight" "SashayRight"
+    SET INSTRUCTIONS "Sashay to the right"
+END
+
+CLONE DEED "Hold2" "BigFinish"
+    SET INSTRUCTIONS "Hold pose for big finish"
+END
+
+DEF TASK "SingSongBoss"
+    SET NAME "Sing an adorable little song for the boss"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "TapToes"
+    STEP "2" "SashayLeft"
+    STEP "3" "SashayRight"
+    STEP "4" "BigFinish"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Flatter boss
+
+CLONE DEED "DialogID" "FlatterBoss"
+    SET INSTRUCTIONS "Flatter boss"
+    SET CONTENT_ID "BOSS_FLATTER"
+END
+
+DEF TASK "FlatterBoss"
+    SET NAME "Flatter boss by pretending to want career advice"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "FlatterBoss"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Brew coffee
+CLONE TASK "BrewCoffee" "BrewCoffeeBoss"
+    SET NAME "Make the boss after-dinner coffee"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET CAPTAIN "ADULTS"
+    SET DURATION <8H>
+END

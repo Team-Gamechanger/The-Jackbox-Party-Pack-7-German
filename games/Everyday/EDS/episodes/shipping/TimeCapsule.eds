@@ -1,0 +1,463 @@
+DEF EPISODE "TimeCapsule"
+    SET CHOOSABLE TRUE
+    SET EMERGENCY "EmergencyTasks"
+    SET NAME "Zeit macht nicht mal vor den Teufeln halt"
+    SET DESCRIPTION "<font color='#AF0000'>Zeitkapseln</font> helfen dem zukünftigen Ich, sich an die Vergangenheit zu erinnern, indem man seine vergangenen Vorlieben in eine Kapsel für die Zukunft packt. In dieser Woche macht sich die Familie selbst ein Geschenk, das sie erst in 15 Jahren öffnen wird."
+    SET SUCCESS_MESSAGE "Nicht nur waren wir begeistert von der Zeitkapsel, die ihr zusammengestellt habt, sondern auch von der alten Kapsel, die ihr ausgegraben habt. Denn sie enthielt Hunderte Aktien von Pear Computers! Wir sind reich! Selbstverständlich kriegt ihr auch etwas vom Kuchen ab - ganze 2 % Finderlohn."
+    SET FAILURE_MESSAGE "Scheint so, als hättet ihr jetzt doppelt so viel Müll wie vorher. Überall in eurem Garten sind Löcher und irgendwas, dass ihr ausgegraben habt, ist schon vor Jahrzehnten gestorben."
+
+
+    REM : ------------------------------
+
+    REM : SCORE TARGETS
+    INCLUDE "../templates/default/score_target.eds"
+    
+    REM : TASK SCHEDULE
+    INCLUDE "../templates/default/schedule.eds"
+    
+    REM : MEALS
+    INCLUDE "../templates/default/meals.eds"
+
+    REM : ------------------------------
+     
+    REM : ROUND 1 STORY TASKS
+    SCHEDULE TASK "BuyCapsule" <1 8:00>
+    SCHEDULE TASK "TCDecideCapsule" <1 10:00>
+    SCHEDULE TASK "HideTaxPapers" <1 13:00>
+    SCHEDULE TASK "ComplainTC" <1 15:00>
+         
+    REM : ROUND 2 STORY TASKS
+    SCHEDULE TASK "WriteLetterSelfKid" <2 8:00>
+    SCHEDULE TASK "WriteLetterSelfTeen" <2 10:00>
+    SCHEDULE TASK "WriteLetterSelfParent" <2 13:00>
+    SCHEDULE TASK "SearchDigSpot" <2 15:00>
+
+    REM : ROUND 3 STORY TASKS    
+    SCHEDULE TASK "DigUp90sTC" <3 8:00>
+    SCHEDULE TASK "SlapBracelet" <3 10:00>
+    SCHEDULE TASK "DenimJacket" <3 13:00>
+    SCHEDULE TASK "Chew90sGum" <3 15:00>
+    SCHEDULE TASK "Read90sComic" <3 18:00>
+        
+END
+
+
+REM : ------------------------------
+
+REM : Define this episode's story tasks below
+
+REM : Buy empty time capsule at capsule store
+CLONE DEED "TravelID" "BuyCapsule"
+    SET INSTRUCTIONS "Drive to the capsule store"
+    SET CONTENT_ID "CONTAINER"
+END
+
+DEF TASK "BuyCapsule"
+    SET NAME "Buy empty time capsule at the capsule store"
+    SET ASKER_NAME "Get a ride to the store to buy empty time capsule"
+    SET HELPER_NAME "Drive <ASKER> to the store to buy empty time capsule"
+    SET CAPTAIN "MATURE"
+    SET PARTICIPANT "YOUNG"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BuyCapsule"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Decide which comic book to put in time capsule
+CLONE DEED "Hold2" "TCDecideCapsule1"
+    SET INSTRUCTIONS "Could you part with your 'Superguy' comic?"
+END
+
+CLONE DEED "SwipeRight" "TCDecideCapsule2"
+    SET INSTRUCTIONS "Maybe give up 'Captain Knife' instead..."
+END
+
+CLONE DEED "SwipeLeft" "TCDecideCapsule3"
+    SET INSTRUCTIONS "Would future generations enjoy reading 'Stupendous Six'?"
+END
+
+CLONE DEED "Tap3" "TCDecideCapsule4"
+    SET INSTRUCTIONS "Wrestle with indecision"
+END
+
+CLONE DEED "SwipeDown" "TCDecideCapsule5"
+    SET INSTRUCTIONS "Put in your sibling's 'Pony Patrol' comic"
+END
+
+DEF TASK "TCDecideCapsule"
+    SET NAME "Decide which comic book to put in time capsule"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "TCDecideCapsule1"
+    STEP "2" "TCDecideCapsule2"
+    STEP "3" "TCDecideCapsule3"
+    STEP "4" "TCDecideCapsule4"
+    STEP "5" "TCDecideCapsule5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Hide incriminating tax papers in time capsule
+CLONE DEED "Hold2" "HideTaxPapers1"
+    SET INSTRUCTIONS "Hmmm, the IRS can't see these"
+END
+
+CLONE DEED "Tap3" "HideTaxPapers2"
+    SET INSTRUCTIONS "It'd be a real shame if they were buried for the next decade"
+END
+
+CLONE DEED "SwipeDown" "HideTaxPapers3"
+    SET INSTRUCTIONS "Whoops! Dropped them in the time capsule"
+END
+
+CLONE DEED "SwipeDown" "HideTaxPapers4"
+    SET INSTRUCTIONS "Oops, clumsy me! Did it again!"
+END
+
+DEF TASK "HideTaxPapers"
+    SET NAME "Hide incriminating tax papers in time capsule"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "HideTaxPapers1"
+    STEP "2" "HideTaxPapers2"
+    STEP "3" "HideTaxPapers3"
+    STEP "4" "HideTaxPapers4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Complain that this is stupid
+CLONE DEED "Tap4" "ComplainTC1"
+    SET INSTRUCTIONS "Argue it's idiotic to bury your stuff in a hole"
+END
+
+CLONE DEED "Nothing2" "ComplainTC2"
+    SET INSTRUCTIONS "Be ignored by your whole family"
+END
+
+CLONE DEED "SwipeDown" "ComplainTC3"
+    SET INSTRUCTIONS "Stamp your feet"
+END
+
+CLONE DEED "SwipeLeft" "ComplainTC4"
+    SET INSTRUCTIONS "March off in a huff"
+END
+
+DEF TASK "ComplainTC"
+    SET NAME "Complain that time capsules are stupid"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "ComplainTC1"
+    STEP "2" "ComplainTC2"
+    STEP "3" "ComplainTC3"
+    STEP "4" "ComplainTC4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : -----------------------------------------
+
+REM : Write letter to your future self KID
+CLONE DEED "SwipeUp" "WriteLetterSelfKid1"
+    SET INSTRUCTIONS "Take out paper"
+END
+
+CLONE DEED "Rotate270" "WriteLetterSelfKid2"
+    SET INSTRUCTIONS "Take out crayon"
+END
+
+CLONE DEED "ScrubMedium" "WriteLetterSelfKid3"
+    SET INSTRUCTIONS "Threaten future self into taking good care of your comic book"
+END
+
+CLONE DEED "SwipeDown" "WriteLetterSelfKid4"
+    SET INSTRUCTIONS "Signed and sealed!"
+END
+
+DEF TASK "WriteLetterSelfKid"
+    SET NAME "Write adorable letter to your future self"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "WriteLetterSelfKid1"
+    STEP "2" "WriteLetterSelfKid2"
+    STEP "3" "WriteLetterSelfKid3"
+    STEP "4" "WriteLetterSelfKid4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Write letter to your future self TEEN
+CLONE DEED "SwipeUp" "WriteLetterSelfTeen1"
+    SET INSTRUCTIONS "Take out paper"
+END
+
+CLONE DEED "Rotate270" "WriteLetterSelfTeen2"
+    SET INSTRUCTIONS "Uncap pen"
+END
+
+CLONE DEED "ScrubMedium" "WriteLetterSelfTeen3"
+    SET INSTRUCTIONS "Scribble crude drawing"
+END
+
+DEF TASK "WriteLetterSelfTeen"
+    SET NAME "Write irreverent letter to your future self"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "WriteLetterSelfTeen1"
+    STEP "2" "WriteLetterSelfTeen2"
+    STEP "3" "WriteLetterSelfTeen3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Write letter to your future self PARENT
+CLONE DEED "ScrubMedium" "WriteLetterSelfParent1"
+    SET INSTRUCTIONS "Summarize your life so far"
+END
+
+CLONE DEED "Hold2" "WriteLetterSelfParent2"
+    SET INSTRUCTIONS "Have existential crisis"
+END
+
+CLONE DEED "Tap3" "WriteLetterSelfParent3"
+    SET INSTRUCTIONS "jot down hopes and dreams"
+END
+
+CLONE DEED "Hold2" "WriteLetterSelfParent4"
+    SET INSTRUCTIONS "Dread future"
+END
+
+CLONE DEED "SwipeDown" "WriteLetterSelfParent5"
+    SET INSTRUCTIONS "Drop it in the capsule!"
+END
+
+DEF TASK "WriteLetterSelfParent"
+    SET NAME "Write angst-ridden letter to your future self"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "WriteLetterSelfParent1"
+    STEP "2" "WriteLetterSelfParent2"
+    STEP "3" "WriteLetterSelfParent3"
+    STEP "4" "WriteLetterSelfParent4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Dig holes until you find a spot that isn't full of pipes
+CLONE DEED "SearchID" "SearchDigSpot"
+    SET INSTRUCTIONS "Dig holes until you find a good spot"
+    SET CONTENT_ID "DIGSITE"
+END
+
+DEF TASK "SearchDigSpot"
+    SET NAME "Find a spot to bury the time capsule that isn't full of pipes"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SearchDigSpot"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : --------------------------------------------
+
+REM : Accdientally dig up time capsule from the 90s
+CLONE DEED "Nothing3" "DigUp90sTC1"
+    SET INSTRUCTIONS "Whoa! It's full of cool 90s junk!"
+    SET PARTICIPATION "ALL"
+END
+
+CLONE DEED "Nothing3" "DigUp90sTC2"
+    SET INSTRUCTIONS "Forget your capsule, it's 90s time, baby!"
+    SET PARTICIPATION "ALL"
+END
+
+DEF TASK "DigUp90sTC"
+    SET NAME "Accidentally dig up other time capsule from the 90s"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "DigUp90sTC1"
+    STEP "2" "DigUp90sTC2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : Slap on slap bracelet
+CLONE DEED "SwipeUp" "SlapBracelet1"
+    SET INSTRUCTIONS "Raise it up..."
+END
+
+CLONE DEED "SwipeDown" "SlapBracelet2"
+    SET INSTRUCTIONS "Slap!"
+END
+
+CLONE DEED "Rotate180" "SlapBracelet3"
+    SET INSTRUCTIONS "The height of fashion"
+END
+
+DEF TASK "SlapBracelet"
+    SET NAME "Slap on slap bracelet"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SlapBracelet1"
+    STEP "2" "SlapBracelet2"
+    STEP "3" "SlapBracelet3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Try on denim jacket
+CLONE DEED "SwipeUp" "DenimJacket1"
+    SET INSTRUCTIONS "So cool..."
+END
+
+CLONE DEED "Hold2" "DenimJacket2"
+    SET INSTRUCTIONS "Pose"
+END
+
+CLONE DEED "Rotate270" "DenimJacket3"
+    SET INSTRUCTIONS "Looking fly!"
+END
+
+DEF TASK "DenimJacket"
+    SET NAME "Try on denim jacket"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "DenimJacket1"
+    STEP "2" "DenimJacket2"
+    STEP "3" "DenimJacket3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Chew gum from the 1990s
+CLONE DEED "Rotate270" "Chew90sGum1"
+    SET INSTRUCTIONS "Unwrap dusty packaging"
+END
+
+CLONE DEED "SwipeDown" "Chew90sGum2"
+    SET INSTRUCTIONS "Bite rock-hard gum"
+END
+
+CLONE DEED "Tap4" "Chew90sGum3"
+    SET INSTRUCTIONS "Chew dry shards"
+END
+
+CLONE DEED "SwipeDown" "Chew90sGum4"
+    SET INSTRUCTIONS "Swallow musty goo"
+END
+
+CLONE DEED "Rotate360Counter" "Chew90sGum5"
+    SET INSTRUCTIONS "Feel nauseous"
+END
+
+DEF TASK "Chew90sGum"
+    SET NAME "Chew gum from the 1990s"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "Chew90sGum1"
+    STEP "2" "Chew90sGum2"
+    STEP "3" "Chew90sGum3"
+    STEP "4" "Chew90sGum4"
+    STEP "5" "Chew90sGum5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Read vintage 1990s comic
+CLONE DEED "SwipeLeft" "Read90sComic1"
+    SET INSTRUCTIONS "Read 'Captain Internet' #1"
+END
+
+CLONE DEED "Tap5" "Read90sComic2"
+    SET INSTRUCTIONS "Witness his battle with the evil Dr. Y2K"
+END
+
+CLONE DEED "SwipeDown" "Read90sComic3"
+    SET INSTRUCTIONS "Spill your juice on comic"
+END
+
+CLONE DEED "Hold3" "Read90sComic4"
+    SET INSTRUCTIONS "Watch everyone freak out when they learn it was worth $20,000"
+END
+
+DEF TASK "Read90sComic"
+    SET NAME "Read vintage 1990s comics"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "Read90sComic1"
+    STEP "2" "Read90sComic2"
+    STEP "3" "Read90sComic3"
+    STEP "4" "Read90sComic4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
