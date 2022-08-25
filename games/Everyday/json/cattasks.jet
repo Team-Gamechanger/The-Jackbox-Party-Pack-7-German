@@ -1,0 +1,69 @@
+{
+    "payload":[
+        { 
+            "id": "EAT_BUGS",
+            "name": "BRAVES KÄTZCHEN! Fresse die Käfer",
+            "taskIdToSpawn": "AudienceGiveKittyTreat"
+        },
+        { 
+            "id": "POSE_FOR_PIC",
+            "name": "BRAVES KÄTZCHEN! Posiere für ein Foto",
+            "taskIdToSpawn": "AudienceTakeKittyPic"
+        },
+        { 
+            "id": "SHOW_BELLY",
+            "name": "BRAVES KÄTZCHEN! Lege dich hin und zeige deinen Bauch",
+            "taskIdToSpawn": "AudiencePetKitty"
+        },
+        { 
+            "id": "SHOW_CLAWS",
+            "name": "BRAVES KÄTZCHEN! Lass die Teufel deine Krallen schneiden",
+            "taskIdToSpawn": "AudienceClipClaws"
+        },
+        { 
+            "id": "FIGHT_VACUUM",
+            "name": "BÖSES KÄTZCHEN! Kämpfe mit dem Staubsauger",
+            "taskIdToSpawn": "AudienceFixVacuum"
+        },
+        { 
+            "id": "DESTROY_LITTER",
+            "name": "BÖSES KÄTZCHEN! Zerstöre das Katzenklo",
+            "taskIdToSpawn": "AudienceCleanLitter"
+        },
+        { 
+            "id": "LAY_ON_LAPTOP",
+            "name": "BÖSES KÄTZCHEN! Lege dich auf den Laptop",
+            "taskIdToSpawn": "AudienceMoveKitty"
+        },
+        { 
+            "id": "VOMIT",
+            "name": "BÖSES KÄTZCHEN! Übergebe dich gezielt auf dem sauberen Laken",
+            "taskIdToSpawn": "AudienceVetTrip"
+        },
+        { 
+            "id": "DART_OUT",
+            "name": "BÖSES KÄTZCHEN! Husche aus der Haustür und verschwinde",
+            "taskIdToSpawn": "AudienceFindKitty"
+        },
+        { 
+            "id": "SCRATCH_CHAIR",
+            "name": "BÖSES KÄTZCHEN! Zerkratze den guten Stuhl",
+            "taskIdToSpawn": "AudienceScoldKitty"
+        },
+        { 
+            "id": "KNOCK_ITEMS",
+            "name": "BÖSES KÄTZCHEN! Stoße wahllos Gegenstände vom Schreibtisch",
+            "taskIdToSpawn": "AudiencePickUp"
+        },
+        { 
+            "id": "PAW_WATER",
+            "name": "BÖSES KÄTZCHEN! Stecke deine Pfote in das Wasserglas deiner Besitzer",
+            "taskIdToSpawn": "AudienceGetWater"
+        },
+        { 
+            "id": "SHOW_BELLY_TRAP",
+            "name": "BÖSES KÄTZCHEN! Lege dich hin und zeige deinen Bauch (Es ist eine Falle)",
+            "taskIdToSpawn": "AudiencePetKittyScratch"
+        }
+    ]
+}
