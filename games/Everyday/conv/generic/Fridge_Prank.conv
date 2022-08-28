@@ -1,0 +1,30 @@
+MAIN(Nichtsahnendes Opfer): Hallo? Wer ist da? 
+-UNDERSELL-> Haben Sie einen Ort, an dem Sie Ihre Lebensmittel kühl halten können?
+-CLASSIC-> Funktioniert Ihr Kühlschrank? 
+-OVERSHOOT-> Hi, wie gehts Ihrem Kühlschränkchen?
+-LOSTIT-> Ähh...nicht so wichtig. 
+
+
+UNDERSELL(Nichtsahnendes Opfer): Ja! Und tatsächlich macht der gerade ziemlich Probleme. Können Sie zum Reparieren vorbeikommen? 
+-SUCCESS-> Jetzt lerne ich wohl hautnah einen Beruf kennen. Oh großer Streichgott, warum tust du mir das an?
+
+
+CLASSIC(Nichtsahnendes Opfer): Ja, natürlich tut er das! Vielen Dank für die Frage! 
+-SUCCESS-> Man kann sich unterhalten! 
+
+
+OVERSHOOT(Nichtsahnendes Opfer): Ihm sind Beine gewachsen und er ist losgelaufen! Ich bin ruiniert! 
+-SUCCESS-> Das Ende eines Kleinunternehmens...der ultimative Streich. 
+
+
+LOSTIT(Nichtsahnendes Opfer): Sicher, dass du deinen kleinen Streich nicht doch abziehen willst?
+-FORGOT-> Welcher Streich?? Ich bin total ein echter Kunde. Zwei Portionen von allem bitte!
+-TRYAGAIN-> Oh, okay! Lassen Sie mich kurz Mut sammeln...
+
+FORGOT (Nichtsahnendes Opfer): Es ist mir ein Vergnügen, mit Ihnen Geschäfte zu machen!
+-FAILURE-> Du hast vergessen, ihn reinzulegen.
+
+TRYAGAIN(Nichtsahnendes Opfer): Ähm...'Hallo?'
+-UNDERSELL-> Haben Sie einen Ort, an dem Sie Ihre Lebensmittel kühl halten können?
+-CLASSIC-> Funktioniert Ihr Kühlschrank? 
+-OVERSHOOT-> Hi, wie gehts Ihrem Kühlschränkchen?

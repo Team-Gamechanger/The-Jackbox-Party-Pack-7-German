@@ -1,0 +1,34 @@
+MAIN(Erzfeind): He, Nachbar! Ich bin es dein Erzfeind! Bist du bereit für unseren finalen Showdown, Weichei? 
+-ENGAGE-> Dann kämpfe, Schurke!
+-RUNAWAY-> Dann fang mich, wenn du kannst! 
+-TRICK-> Du spielst mit dem Feuer. Da verbrennt man sich schnell höllisch die Finger.
+-FORGOT-> Warte, wer sind Sie noch gleich?
+
+
+ENGAGE(Erzfeind): Die Zeit meiner Rache ist gekommen! Schwertkampf. Im Garten. In fünf Minuten. 
+-SUCCESS-> Ich hoffe, du glaubst an das Herz der Karten, denn es ist Zeit für ein D-D-D-D-Duell!
+
+
+RUNAWAY(Erzfeind): Du kannst mir nicht entkommen! Die Flamme meines Zornes währt ewig! 
+-FAILURE-> Zeit für den Zeugenschutz!
+
+
+TRICK(Erzfeind): Deine Flamme ist schon lange erloschen. Meine hingegen ist...äh...nicht...erloschen? Ich hätte mir coole Sprüche aufschreiben sollen.
+-SUCCESS-> Amateur! Dich besiege ich mit links.
+
+
+FORGOT(Erzfeind): Ich bin's! Dein Erzfeind? Ein ehemaliger Freund, der nach dem ultimativen Verrat zu deinem größten Rivalen wurde?
+-SUCCESS-> Hmmm, da klingelt nichts. Aber schön Sie kennenzulernen!
+-TRYAGAIN-> Ohhh, stimmt! Ist das eine neue Augenklappe?
+
+
+TRYAGAIN(Erzfeind): Nein, die hatte ich auch schon vorher. Bist du nun endlich bereit für unseren finalen Showdown, oder willst du dein Schicksal noch weiter hinauszögern?
+-ENGAGE-> Dann kämpfe, Schurke!
+-RUNAWAY-> Dann fang mich, wenn du kannst! 
+-TRICK-> Du spielst mit dem Feuer. Da verbrennt man sich schnell höllisch die Finger.
+-COWARD-> Ach, ist das denn eine Option?
+
+
+COWARD(Erzfeind): Nein. Du bist noch immer der gleiche Feigling von früher.
+-ENGAGE-> Genug ist genug. Kämpfe, Schurke!
+-RUNAWAY-> Tja, das ist dann wohl mein Stichwort. Fang mich doch, wenn du kannst!

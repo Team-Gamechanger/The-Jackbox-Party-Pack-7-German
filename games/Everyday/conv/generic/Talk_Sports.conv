@@ -1,0 +1,18 @@
+MAIN(Nachbar): Haben Sie gestern Abend das Spiel gesehen?
+-WOW-> Wow, was für ein Pass!
+-WOW-> Wow, was für eine Verteidigung!
+
+WOW(Nachbar): Was sagen Sie zu dieser grandiosen Parade in der Verlängerung?
+-AMAZING-> Der Spieler hatte keine Chance. Dieser Torwart ist einfach ein Genie.
+-AMAZING-> Von allen Paraden, die ich je gesehen habe, war diese wirklich am beeindruckensten.
+
+AMAZING(Nachbar): Man muss schon sagen, dass war ein absoluter Traum von einem Spiel.
+-CHAMPION-> Oh ja! Unser Team ist das beste Team!
+-BONSAI-> Tatsächlich züchte ich lieber Bonsai, anstatt Sport anzuschauen.
+
+BONSAI(Nachbar): Hm? Ich dachte, Sie wären auch ein Sportfan.
+-FAILURE-> Nein, ich stehe auf Bonsai. Schätze, wir können keine Freunde sein.
+-CHAMPION-> Ich meine natürlich: Ich liebe Sport. JUHUU SPORT! Sport ist mein Leben! Ja!
+
+CHAMPION(Nachbar): Ich bin mir sicher, das ist unser Jahr. Dieses Jahr gewinnen wir endlich wieder die Meisterschaft.
+-SUCCESS-> Über welche Sportart wir auch immer geredet haben, ich stimme zu!

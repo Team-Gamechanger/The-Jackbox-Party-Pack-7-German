@@ -1,0 +1,54 @@
+MAIN(Karl): Was möchtest du denn wissen?
+-ETHEL-> Was gibt es Neues von Gabi?
+-MITCH-> Hast du etwas gegen Mitch in der Hand?
+-FRUMP-> Was hat Herr Müller denn so getrieben?
+
+ETHEL(Karl): OMG, fang gar nicht erst an. Du weißt, dass sie jedem erzählt, dass ihr Vater Cro kennt?
+-ETHEL2-> Ja...
+-ETHEL2-> Tatsächlich nicht...
+
+ETHEL2(Karl): Es ist auf jeden Fall komplett gelogen. Klar, sie gingen auf die selbe Grundschule, aber das liegt JAHRE auseinander. Wie alt ist ihr Vater? Hundert?
+-ETHEL3-> SKANDAL!
+-ETHEL3-> Ist das alles, was du hast?
+-ETHEL3-> Ich habe einmal Til Schweiger getroffen.
+
+ETHEL3(Karl): Und ihr linker unterer Schneidezahn? Unecht! Mit 15 Jahren hat sie ihn sich bei einem Wasserball-Unfall ausgeschlagen und irgendein teurer Geheimarzt hat ihn ersetzt.
+-END-> DAS. IST. WILD.
+-END-> Das ist...gar nicht so unüblich.
+-END-> Til war ein richtiger Schatz. Wie man ihn sich vorstellt.
+
+MITCH(Karl): Mitch? Es heißt, er sei auf Bananen-Diät.
+-MITCH2-> Erzähl!
+-MITCH2-> Warte, was?
+
+MITCH2(Karl): Keine anderen Lebensmittel als Bananen und keine Flüssigkeit außer Hühnerbrühe. Angeblich der letzte Schrei in Amerika.
+-MITCH3-> Das wollte ich auch mal ausprobieren.
+-MITCH3-> Es scheint zu funktionieren. Mitch sieht SUPER aus.
+-MITCH3-> Das ist ekelerregend.
+
+MITCH3(Karl): Natürlich wird er nicht lange daran festhalten. Das ist genau wie der letztjährige Gelatine- und Muschelsafttrend.
+-END-> Wahre Worte.
+-END-> Komm schon, Mitch braucht jetzt unsere Unterstützung.
+-END-> Das war wirklich erst letztes Jahr?
+
+FRUMP(Karl): Das wird dir gefallen: Gestern hat Bobbie Grätenzieher in Müllers Klasse alle Frösche freigelassen! Sie hüpften wie verrückt herum und Müller war so wütend, dass er angefangen hat, diesen einen hohen Quietschton zu machen. 
+-FRUMP2-> NICHT WIRKLICH! DAS GEHT IN DIE GESCHICHTE EIN!
+-FRUMP2-> Bobbie ist so lustig!
+-FRUMP2-> Warte...die Sezierfrösche?
+
+FRUMP2(Karl): Jeder wusste, dass Bobbie es getan hat, aber Müller hat ihn nicht gesehen. Also rannte er umher und schrie alle an, dass sie doch endlich gestehen sollen. Ich hab mich nicht mehr eingekriegt!
+-FRUMP3-> Unglaublich, dass ich das verpasst habe!
+-FRUMP3-> Bobbie und ich sollten daten, oder?
+-FRUMP32-> Aber die Sezierfrösche haben die Stunde überlebt?
+
+FRUMP3(Karl): Er wollte die ganze Klasse nachsitzen lassen, aber der Schulleiter sagte, dass er das nicht dürfe. Müller sah so enttäuscht aus...
+-END-> Das Ende war etwas melancholisch, trotzdem wurde ich durch die Geschichte bestens unterhalten.
+-END-> Sollte ich Bobbie um einen Tanz bitten? Oh, vergiss es. Das meine ich total nicht ernst. Hahaha.
+-END-> Bobbie Grätenzieher, der große Froschretter... Ja, wenn man es so sagt, klingt es irgendwie nicht mehr so heldenhaft.
+
+
+END(Karl): Wie auch immer, jetzt bist du auf dem neuesten Stand.
+-SUCCESS-> Das ist genug Tratsch fürs Erste. Man sieht sich, Karl.
+-ETHEL-> Noch mal zurück zu Gabi.
+-MITCH-> Noch mal zurück zu Mitch.
+-FRUMP-> Noch mal zurück zu Herrn Müller.

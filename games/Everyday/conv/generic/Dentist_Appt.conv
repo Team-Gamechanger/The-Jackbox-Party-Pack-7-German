@@ -1,0 +1,17 @@
+MAIN(Zahnarzt): Was ist der Anlass Ihres Besuches?
+-CLEAN-> Ich brauche eine Zahnreinigung.
+-PAIN-> Mein Mund tut sehr stark weh.
+-HUM-> Mein Zahnfleisch blutet.
+-MISS-> Ich vermisse dich.
+
+CLEAN(Zahnarzt): Alles klar! Man sieht sich am Montag!
+-SUCCESS-> Ich hoffe, ich wirkte nicht zu verzweifelt.
+
+PAIN(Zahnarzt): Oh Backe! Kommen Sie direkt am Montag!
+-SUCCESS-> Vielen Da..uaghgaAAAHH!!!!
+
+HUM(Zahnarzt): Also das Übliche. Kommen Sie am Montag.
+-SUCCESS-> Alles klar! Bis Montag
+
+MISS(Zahnarzt): Das...ist kein Grund für einen Besuch.
+-FAILURE-> Ich und meine verflixt gesunden Zähne. 

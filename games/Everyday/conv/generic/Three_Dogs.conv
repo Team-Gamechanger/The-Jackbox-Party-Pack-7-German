@@ -1,0 +1,28 @@
+MAIN(3 Hunde in einem Trenchcoat): Hilfe! Es gab einen Unfall und ich brauche ganz dringend Ihre Niere!
+-YES-> Aber natürlich. Für meine Nachba... Moment, ihr seid doch drei Hunde in einem Trenchcoat!
+-NO-> Niemals! Ich werde meine Niere nie an... Moment, seid ihr nicht drei Hunde in einem Trenchcoat?
+-COAT-> Klar, ich... Sekunde, irre ich mich, oder seid ihr nur drei Hunde in einem Trenchcoat?
+-WHY-> ...Was haben Sie damit vor?
+
+
+YES(3 Hunde in einem Trenchcoat): Wuff Wuff, liebster Nachbar. Sie haben den Test bestanden. Schönen Tag noch, Wuff!
+-SUCCESS-> Sieht so aus, als wäre ich hier das Alphatier!
+
+
+NO(3 Hunde in einem Trenchcoat): Knurr! Verflucht! Schon wieder aufgeflogen! Rückzug!
+-SUCCESS-> Meine Niere verbringt einen weiteren Tag dort, wo sie hingehört - in MEINEM Bauch.
+
+
+COAT(3 Hunde in einem Trenchcoat): Dann versuchen wir es einfach nebenan noch mal. Kommt schon Männer, den Letzten beißen die Hunde!
+-SUCCESS-> Sowohl die Autoren als auch der Übersetzer entschuldigen sich für eventuelle psychische Belastungen, die durch diese Konversation verursacht wurden.
+
+
+WHY(3 Hunde in einem Trenchcoat): Sie nicht...zu essen...
+-FAILURE-> Wenn das so ist, aber gerne doch! Für meinen menschlichen Nachbarn tue ich doch alles.
+-TRYAGAIN-> Erklären Sie mir das Ganze noch einmal...
+
+
+TRYAGAIN(3 Hunde in einem Trenchcoat): Ich brauche einfach nur Ihre Niere! Machen Sie daraus keinen Staatsakt!
+-YES-> Aber natürlich. Für meine Nachba... Moment, ihr seid doch drei Hunde in einem Trenchcoat!
+-NO-> Niemals! Ich werde meine Niere nie an... Moment, seid ihr nicht drei Hunde in einem Trenchcoat?
+-COAT-> Klar, ich... Sekunde, irre ich mich, oder seid ihr nur drei Hunde in einem Trenchcoat?

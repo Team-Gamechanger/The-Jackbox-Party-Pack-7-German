@@ -1,0 +1,17 @@
+MAIN(Katze): Miau?
+-TWO-> Nein! Böse Katze!
+-TWO-> Dieser Stuhl war ein Erbstück von Oma Pazuzu!
+-SCRATCH-> Wie würde es dir gefallen, wenn ich deine Sachen zerkratzen würde?!
+
+TWO(Katze): *Starrt ins Nichts*
+-END-> Ich habe dir so viele Dinge gekauft, die du zerkratzen kannst!
+-SPRITZ-> Das reicht! Ich werde dich mit Wasser vollspritzen!
+
+SCRATCH(Katze): Mrrr
+-END-> Ich werde es tun! Ich zerkratze dein Lieblingsspielzeug!
+
+SPRIZ(Katze): Miiiaaaauuh!
+-END-> Toll. Jetzt fühle ich mich wie ein Idiot.
+
+END(Katze): *Leckt sich ab*
+-SUCCESS-> Oh, ich kann dir einfach nicht lange böse sein!

@@ -1,0 +1,17 @@
+MAIN(Nachbarin): Kann ich mir eine Tasse Zucker von Ihnen borgen?
+-SURE-> Klar!
+-NOPE-> Nee.
+-ONE-> Nur eine?
+-BORROW-> Borgen?
+
+SURE(Nachbarin): Das ist sehr süß von Ihnen!
+-SUCCESS-> Zuckersüß möchte man meinen!
+
+NOPE(Nachbarin): ...Entschuldigen Sie die Störung.
+-FAILURE-> Mein Zucker-Notvorrat hat mich schon so viele Freunde gekostet.
+
+ONE(Nachbarin): Wenn Sie den Zucker entbehren können, nehme ich auch gleich 5 Kilogramm.
+-SUCCESS-> Na aber sicher doch!
+
+BORROW(Nachbarin): Ich werde ihn zurückbringen.
+-SUCCESS-> Ach, stimmt ja. Sie macht ja nur ihren wöchentlichen Zuckerspaziergang.

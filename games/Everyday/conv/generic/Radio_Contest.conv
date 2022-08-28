@@ -1,0 +1,24 @@
+MAIN(Radiomoderator): Hallo, du bist live in Martin Wuschelkopfs Stau-Radioshow! Und du bist nur ein paar Fragen davon entfernt, einen brandneuen Waschtrockner zu gewinnen!
+-EXCITED-> Los gehts, super!
+-EXCITED-> Super, los gehts!
+
+EXCITED(Radiomoderator): Welches australische Tier ist dafür bekannt, dass es besonders gut springen kann?
+-WRONG-> Einfach, es ist der Hund.
+-WRONG-> Pferd. Die Antwort ist Pferd.
+-KANGAROO-> Känguru?
+
+KANGAROO(Radiomoderator): Korrekt! Nächste Frage: H2O ist die chemische Formel welcher Flüssigkeit?
+-WRONG-> Ketchup!
+-WRONG-> Ähh...Essig?
+-WATER-> Mist, das weiß ich doch...ähm, es ist Wasser!
+
+WATER(Radiomoderator): Letzte Frage! Welche gehörnten Ungeheuer leben angeblich in einem feurigen Reich unter der Erde?
+-WIN-> Teufel.
+-WIN-> Oh, das ist eine harte Nuss. Sind es...Teufel?
+-WIN-> Ich muss raten, aber sind es vielleicht Teufel?
+
+WRONG(Radiomoderator): Wow, ich kann nicht glauben, dass du bei einer solchen Frage versagt hast. Sorry, aber du hast verloren.
+-FAILURE-> Verdammt, ich wollte diesen Waschtrockner unbedingt.
+
+WIN(Radiomoderator): Glückwunsch, wir haben einen Gewinner!
+-SUCCESS-> Endlich! Mein eigener Waschtrockner, den ich nicht mit dem Rest meiner Familie teilen muss!

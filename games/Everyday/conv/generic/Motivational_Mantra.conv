@@ -1,0 +1,16 @@
+MAIN(Motivationskassette): Du bist durch und durch wunderschön.
+-REASSURE-> Ich bin durch und durch wunderschön.
+-DOUBT-> Ich bin ein Wrack.
+
+DOUBT(Motivationskassette):*Ausgeschaltet*
+-FAILURE-> Komischerweise fühle ich mich gar nicht besser.
+
+REASSURE(Motivationskassette): Du kannst alles erreichen.
+-DESPAIR-> Mein Leben liegt in Trümmern.
+-BELIEVEINYOURSELF-> Ich kann alles erreichen.
+
+DESPAIR(Motivationskassette):*Ausgeschaltet*
+-FAILURE-> Ich bin verloren! Verloren!
+
+BELIEVEINYOURSELF(Motivationskassette): Du wirst den heutigen Tag überstehen. Alles ist gut.
+-SUCCESS-> Ich werde den heutigen Tag überstehen. Alles ist gut.

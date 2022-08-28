@@ -1,0 +1,18 @@
+MAIN(Tratschender Nachbar): Was haben Lisa und Sean im Morgengrauen nur auf Seans Rasen gemacht?!
+-FIGHT-> Gekämpft
+-SMOOCH-> Herumgeknutscht
+-ASTRO-> Astrophysik
+-NONE-> Das geht mich nichts an
+
+
+FIGHT(Tratschender Nachbar): Erzählen Sie weiter!
+-SUCCESS-> Mit ihren WORTEN!!!
+
+SMOOCH(Tratschender Nachbar): Erzählen Sie weiter!
+-SUCCESS-> Mit Zunge!!!
+
+ASTRO(Tratschender Nachbar): Romantische Astrophysik?
+-SUCCESS-> Gibt es eine andere Art?
+
+NONE(Tratschender Nachbar): Sie sind langweilig.
+-FAILURE-> Stimmt ja... Menschen spionieren sich gegenseitig zum Spaß aus.

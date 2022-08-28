@@ -1,0 +1,18 @@
+MAIN(Nachbarskind): Kann ich meinen Frisbee zurückhaben?
+-NEVER-> Niemals!
+-YEP-> Klaro!
+-MAYBE-> Vielleicht!
+-PLEASE-> Nimm ihn! Er ist verflucht!
+
+
+NEVER(Nachbarskind): DU BIST DOOF!!!!
+-FAILURE-> Warum stoße ich Menschen immer von mir?
+
+YEP(Nachbarskind): Vielen Dank!
+-SUCCESS-> Ich bin ein Held.
+
+MAYBE(Nachbarskind): Du kannst auch mit uns mitspielen.
+-SUCCESS-> Abgemacht!
+
+PLEASE(Nachbarskind): Ich glaube nicht, dass er das ist.
+-SUCCESS-> Und wie trotzt er dann der Schwerkraft?!?!

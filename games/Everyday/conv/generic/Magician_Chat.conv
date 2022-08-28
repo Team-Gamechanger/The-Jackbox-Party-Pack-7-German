@@ -1,0 +1,22 @@
+Main(Magier): Guten Tag, ich bin ein Wandermagier. Möchten Sie eine Karte ziehen?? 
+-YES-> Klar, ich liebe es, anderen Leuten Dinge aus der Hand zu nehmen!
+-NO-> Nein danke, mein Leben ist so schon magisch genug.
+-REVERSE-> Gerne. Aber lassen Sie mich zuerst meine Hand über diesen Zylinder kreisen...
+-NOTSURE-> Ich weiß nicht, ich bin noch unentschlossen.
+
+
+YES(Magier): Fantastisch! Lassen Sie mich meine Karten mischen uuuund...ist DAS Ihre Karte? Nein? Verflixt. 
+-SUCCESS-> Das war nur leicht verschwendete Zeit!
+
+
+NO(Magier): Sie haben recht. Ich sollte zurück in mein langweiliges Leben als Bankkaufmann. 
+-SUCCESS-> Ein Sieg für die finanzielle Sicherheit!
+
+
+REVERSE(Magier): Das, was Sie da eben gemacht haben, hat mich berührt, wie noch nie etwas zuvor. BITTE, lehren Sie mich Ihre Tricks!
+-FAILURE-> Na ganz toll, jetzt muss ich auch noch Zauberstunden geben.
+
+
+NOTSURE(Magier): Und wenn ich Ihnen 10 Mäuse gebe? Würden Sie sich dann den Trick anschauen?
+-SUCCESS-> Meine Aufmerksamkeit ist nicht käuflich! Auf Nimmerwiedersehen!
+-YES-> Zehn Piepen?? Los gehts!

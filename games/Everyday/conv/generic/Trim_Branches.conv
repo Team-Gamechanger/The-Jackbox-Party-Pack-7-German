@@ -1,0 +1,18 @@
+MAIN(Nachbar): Könnten Sie die Äste Ihrer Bäume stutzen?
+-RIGHT-> Schon dabei!
+-FINE-> UFF....MEINETWEGEN!
+-LOVE-> Nein, ich liebe sie!
+-COOK-> Für einen Keks als Gegenleistung.
+
+
+RIGHT(Nachbar): Vielen Dank!
+-SUCCESS-> Danke, dass SIE mir die Möglichkeit geben, Dinge zu zerschneiden.
+
+FINE(Nachbar): PAH....Danke auch!
+-SUCCESS-> PAH...Gern geschehen! WAS FÜR EIN TOLLER FREUND!!!
+
+LOVE(Nachbar): Herrje, mein Beileid.
+-SUCCESS-> Immerhin haben meine Freunde ASTreine Manieren! 
+
+COOK(Nachbar): Ein halber Keks!
+-SUCCESS-> Abgemacht!

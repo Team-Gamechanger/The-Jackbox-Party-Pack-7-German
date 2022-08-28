@@ -1,0 +1,24 @@
+MAIN(Verkäuferin): Guten Tag! Welche gefrorene Köstlichkeit möchten Sie? Das Angebot steht auf der Seite des Wagens.
+-VANILLA-> Vanille-Chaos
+-CHOCO-> Keks-plosion
+-GRAPE-> Traubenschraube
+-NONE-> Doch keine Lust....
+
+VANILLA(Verkäuferin): Bitte sehr!
+-SUCCESS-> Ein uninspirierter Genuss!
+
+CHOCO(Verkäuferin): Bitte sehr!
+-SUCCESS-> Einfach Bombe!
+
+GRAPE(Verkäuferin): Bitte sehr!
+-SUCCESS-> Schmeckt irgendwie nicht lila genug...
+
+NONE(Verkäuferin): Letzte Chance?
+-FAILURE-> Zeit abzuhauen!
+-TRYAGAIN-> Vielleicht nehme ich doch was....
+
+TRYAGAIN(Verkäuferin): Ich habe Zeit.
+-VANILLA-> Vanille-Chaos
+-CHOCO-> Keks-plosion
+-GRAPE-> Traubenschraube
+-NONE-> Doch keine Lust....

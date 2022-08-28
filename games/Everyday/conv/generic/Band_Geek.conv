@@ -1,0 +1,23 @@
+﻿MAIN(Musiknerd): Die Marschkapelle sieht echt schlimm aus! Würden Sie Geld für neue Uniformen spenden? 
+-DOLLAR-> Hier ist eine Münze. 
+-TWENTY-> Wie wäre es mit zwanzig Mäusen? 
+-NOMONEY-> Während des Musizierens zu Gehen ist ein Gräuel. 
+
+
+DOLLAR(Musiknerd): Oh... Danke, schätze ich.  
+-SUCCESS-> Kurz und schmerzlos. 
+
+
+TWENTY(Musiknerd): Oh Junge! Neue Mundstücke für alle! 
+-SUCCESS-> Lokale Kunst zu unterstützen ist wichtig. Aber man sollte auch nicht übertreiben. 
+
+
+NOMONEY(Musiknerd): Dann müssen wir die Parade wohl abblasen...es sei denn, sie ändern ihre Meinung? 
+-SUCCESS-> Niemals! Schlagen Sie hier Wurzeln oder verschwinden Sie! 
+-TRYAGAIN-> Hmm... 
+
+
+TRYAGAIN(Musiknerd): Supi! Wie viel sind Sie denn bereit zu geben? 
+-DOLLAR-> Hier ist eine Münze. 
+-TWENTY-> Wie wäre es mit zwanzig Mäusen? 
+-NOMONEY-> Während des Musizierens zu Gehen ist ein Gräuel. 

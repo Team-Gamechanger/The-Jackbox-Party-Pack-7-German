@@ -1,0 +1,33 @@
+MAIN(Meinungsforscher): Guten Tag, haben Sie einen Moment Zeit, um über Ihre Vorlieben bei Limonade zu sprechen?
+-HAPPY-> Ich liebe Limonade und würde mich freuen, mich mit Ihnen darüber zu unterhalten.
+-ANGRY-> Ich bin stinksauer und habe einige Beschwerden über Limonade. Also spitzen Sie mal die Ohren.
+
+HAPPY(Meinungsforscher): Wunderbar. Was mögen Sie am liebsten an Limonade?
+-THANKS-> Die Luftbläschen.
+-THANKS-> Der süße Geschmack.
+-THANKS-> Dass jederzeit Limonadenzeit sein kann.
+
+ANGRY(Meinungsforscher): Äh, okay? Was stört Sie denn am meisten an Limonade?
+-THANKS-> Ich möchte eine Limonade, die nach Salami schmeckt.
+-THANKS-> Vom Anschauen der Luftbläschen wird mir schwindelig.
+-THANKS-> Ich ziehe es vor, durstig zu bleiben.
+
+THANKS(Meinungsforscher): Danke, dass Sie Ihre Ansichten zu Limonade mit mir geteilt haben.
+-SUCCESS-> Gern geschehen. Jetzt muss ich mich wieder an die Hausarbeit machen und unsere Familienwertung verbessern.
+-MOREOPINIONS-> Nicht so schnell, ich habe noch viel mehr über Limonade zu sagen! 
+
+MOREOPINIONS(Meinungsforscher): Sind Sie sicher? Haben Sie nichts Besseres zu tun?
+-SUCCESS-> Sie haben recht, dieser Anruf dauert schon ewig und in der Zeit kann ich keine Punkte verdienen. Auf Wiederhören.
+-SODAHOT-> Limonade muss heiß sein. Kochend heiß.
+
+SODAHOT(Meinungsforscher): Ich habe alle Informationen, die ich von Ihnen benötige. Bitte lassen Sie mich gehen.
+-SUCCESS-> Ich freue mich, dass ich mit meiner bescheidenen Meinung zu einer sprudelnden Zukunft der Limonade beitragen konnte. Tschüss. 
+-DONOTDARE-> Wagen Sie es ja nicht, jetzt aufzulegen. Ich habe noch nicht einmal angefangen!
+
+DONOTDARE(Meinungsforscher): ...
+-MORESODA-> Limonade ist zu laut! Das Zischen schmerzt in meinen Ohren!
+-MORESODA-> Limonade ist meine drittliebste Flüssigkeit, gleich nach Benzin und Ketchup.
+-MORESODA-> Es ist nur eine Idee, aber wie wäre es, wenn man Limonade wie ein Deo verwenden könnte?
+
+MORESODA(Meinungsforscher): *Dut* *Dut* *Dut*
+-SUCCESS-> Hallo? Hallo?!

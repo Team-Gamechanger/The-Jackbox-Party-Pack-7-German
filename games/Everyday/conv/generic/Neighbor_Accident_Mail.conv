@@ -1,0 +1,17 @@
+MAIN(Nachbar): Guten Tag, ich glaube, ich habe aus Versehen Ihre Post bekommen. Hier ist sie.
+-THANKS-> Vielen Dank, mein Freund.
+-KEEPIT-> Sie können sie behalten.
+-THIEF-> DIEB!
+-REWARD-> Hier ist Ihre Belohnung!
+
+THANKS(Nachbar): Immer wieder gern, Kumpel!
+-SUCCESS-> Man versteht sich gut.
+
+KEEPIT(Nachbar): Danke! Da sind sogar Gutscheine dabei!
+-SUCCESS-> Ich war 'höflich und nett' und habe tolle Angebote verpasst. War es das wert?
+
+THIEF(Nachbar): Wie können Sie nur? Ich werde dieses Flugblatt behalten, um damit meine Tränen zu trocknen!
+-SUCCESS-> Also jetzt übertreibt er aber.
+
+REWARD(Nachbar): Vielen Dank! Das ist sehr nett...aber ist die Auszahlung in 2-Cent-Münzen wirklich nötig?
+-SUCCESS-> Endlich weniger Kupfer im Geldbeutel. Win-Win!

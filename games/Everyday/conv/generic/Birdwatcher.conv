@@ -1,0 +1,22 @@
+﻿MAIN(Vogelbeobachter): So eben habe ich einen seltenen Rubinkehlstar in Ihrem Garten gesichtet! Dürfte ich vielleicht ein Foto machen?
+-YES-> Aber natürlich!
+-MONEY-> Sicher... für zwanzig Mäuse geht alles.
+-NO-> Was sind wir hier, ein Vogelmuseum? Verschwinden Sie!
+
+YES(Vogelbeobachter): Hmmm, er ist an der Spitze dieser wackeligen Birke. Denken Sie, ich kann da hochklettern?
+-LADDER-> Ich hole die Leiter.
+-YES2-> Ein Versuch ist es wert.
+-NO2-> Okay, das wird langsam unheimlich. Verschwinden Sie!
+
+MONEY(Vogelbeobachter): Hier ist Ihr Geld, Sie Tierhändler.
+-SUCCESS-> Er hat sein Foto, aber irgendwie lässt mich die Freude an der Vogelbeobachtung ziemlich kalt.
+
+NO(Vogelbeobachter): Ich bin mit dem Bürgermeister befreundet. Er wird hiervon erfahren!
+-FAILURE-> Mein Hass gegen Vögel und sämtliche ihrer fanatischen Verbündeten siegt erneut.
+
+LADDER(Vogelbeobachter): Das ist perfekt! Sehen Sie sich dieses Gefieder an. Danke!
+-SUCCESS-> Ein Sieg für Vögel ist ein Sieg für alle! Und damit auch für mich!
+YES2(Vogelbeobachter): Immerhin konnte ich noch ein Foto machen, bevor der Ast herunterstürzte. Mein Arm wird sich sicher bald erholen.
+-SUCCESS-> Ich vergaß, wie gewaltvoll die Vogelbeobachtung sein kann.
+NO2(Vogelbeobachter): Ist das Ihr Ernst? Aber ich bin doch so nah dran! Sie sind echt das Letzte...
+-FAILURE-> Meine Manieren sind hier die WIRKLICH bedrohte Art... 

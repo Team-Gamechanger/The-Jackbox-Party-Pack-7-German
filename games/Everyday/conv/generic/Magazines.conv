@@ -1,0 +1,24 @@
+MAIN(Nachbarskind): Hallo, ich würde Ihnen gerne in paar Zeitschriften verkaufen. Was möchten Sie?
+-GARDENS-> Schmuddelige Gärten
+-CELEB-> Promisnacks
+-DOGS-> Hunde und Knarren
+-NONE-> Wir sind keine wirklich großen Leser...
+
+GARDENS(Nachbarskind): Super! Hier unterschreiben!
+-SUCCESS-> Diese Zeitschrift kenne ich aus dem Wartezimmer meines Friseurs.
+
+CELEB(Nachbarskind): Super! Hier unterschreiben!
+-SUCCESS-> Dann schauen wir Mal, was die Regenbogenpresse heute serviert.
+
+DOGS(Nachbarskind): Super! Hier unterschreiben!
+-SUCCESS-> Tja, jetzt werde ich vermutlich vom Verfassungsschutz beobachtet.
+
+NONE(Nachbarskind): Schade, sind Sie sich wirklich sicher?
+-SUCCESS-> Ich schütze Bäume!
+-TRYAGAIN-> Nein...
+
+TRYAGAIN(Nachbarskind):
+-GARDENS-> Schmuddelige Gärten
+-CELEB-> Promisnacks
+-DOGS-> Hunde und Knarren
+-NONE-> Printmedien sind tot!

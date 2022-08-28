@@ -1,0 +1,17 @@
+MAIN(Kühlschrankprofi): Okay, was für ein Geräusch macht Ihr Kühlschrank denn?
+-HURM-> HHuurrMM-Hrr-Hrrr
+-CHUNK-> Klimper-Schepper-Knall
+-BZZZ-> Bzzzzzzzzzz
+-FINE-> Vergessen Sie es... er läuft problemlos.
+
+HURM(Kühlschrankprofi): Geben Sie ihm einfach einen sanften Tritt.
+-SUCCESS-> Wow, er läuft besser als vorher!
+
+CHUNK(Kühlschrankprofi): Sie werden wohl einen neuen Kühlschrank brauchen.
+-SUCCESS-> Dann vernichte ich am besten schnell den ganzen Aufschnitt.
+
+BZZZ(Kühlschrankprofi): Geben Sie ihm einfach einen sanften Tritt.
+-SUCCESS-> Er klingt... besser..?
+
+FINE(Kühlschrankprofi): Was wollen Sie dann von mir? 
+-SUCCESS-> Das hätte besser laufen können. 

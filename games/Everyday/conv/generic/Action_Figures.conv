@@ -1,0 +1,18 @@
+MAIN(Captain Muckimann): Sei gegrüßt, Held! Ich brauche deine Hilfe, um Dr. Gemeinplan zu besiegen.
+-YES-> Ich werde ihn mit meinem Laserschwert zerhacken!
+-NAH-> Das ist öde, vielleicht sollte ich fernsehen...
+
+NAH(Captain Muckimann): Ohne dich ist Scyscraper City dem Untergang geweiht!
+-FAILURE-> Ich bin zu alt, um mit Actionfiguren zu spielen. Wo ist die Fernbedienung?
+-YES-> Okay, ich betäube Dr. Gemeinplan mit meinem Hitzeblick!
+
+YES(Dr Gemeinplan): Hahaha! Sobald ich meine Robokühe entfesselt habe, ist Skyscraper City mein!
+-DOOMED-> Oh nein, ich sollte mich wohl ergeben.
+-NOTSOFAST-> Nicht so schnell, Doktor. Bamm! Zack! Kaboom!
+
+DOOMED(Dr Gemeinplan): Wirklich? Du lässt mich einfach so gewinnen?
+-NOTSOFAST-> Nein, ich wollte dich nur ablenken... um dich mit meiner Laserkanone zu grillen! BOOM!
+-FAILURE-> Superhelden sind langweilig. Wo ist die blöde Fernbedienung hin?
+
+NOTSOFAST(Captain Muckimann): Hurra! Dr. Gemeinplan ist ausgeschaltet und die Stadt gerettet! Danke!
+-SUCCESS-> Tja, für den größten Helden der Welt ist nichts unmöglich!

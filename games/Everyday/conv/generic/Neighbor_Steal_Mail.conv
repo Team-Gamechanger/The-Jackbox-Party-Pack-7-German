@@ -1,0 +1,17 @@
+MAIN(Nachbarin): Hallo, ich habe heute Morgen meine Zeitung nicht bekommen. Haben Sie sie gesehen?
+-YES-> Ja. Hier ist sie!
+-NO-> Nein. Ich hasse Nachrichten.
+-PAPERBOY-> Dieser verflixte Zeitungsjunge!
+-STOLEPAPER-> SIE haben MEINE Zeitung gestohlen!
+
+YES(Nachbarin): Danke!
+-SUCCESS-> Gut. Sie war überhaupt nicht misstrauisch...
+
+NO(Nachbarin): Und was ist dann das?
+-SUCCESS-> Mein aus einer Zeitung gefalteter Hut hat mich verraten.
+
+PAPERBOY(Nachbarin): Ich hasse ihn auch!
+-SUCCESS-> Ich habe eine neue Verbündete in meinem Feldzug gegen den Zeitungsjungen gefunden.
+
+STOLEPAPER(Nachbarin): Sie haben recht. Hier ist sie. 
+-SUCCESS-> Ich habe eine Zeitung gewonnen, aber eine Nachbarin verloren.
