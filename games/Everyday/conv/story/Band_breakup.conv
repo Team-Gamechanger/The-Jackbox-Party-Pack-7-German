@@ -1,0 +1,18 @@
+MAIN(Presse): Warum lösen Sie die Band auf?
+-EGO-> Zu viele Egomanen.
+-SOLD-> Wir haben unsere Seelen verkauft.
+-SOLO-> Ich bin jetzt solo unterwegs.
+-MUSIC-> Die Musik steht nicht mehr an erster Stelle.
+
+
+EGO(Presse): Herzzerreißend.
+-SUCCESS-> Bitte respektieren Sie in dieser schweren Zeit unsere Privatsphäre.
+
+SOLD(Presse): Offensichtlicherweise.
+-SUCCESS-> Bitte kaufen Sie auf dem Weg nach draußen etwas Merchandise.
+
+SOLO(Presse): Was haben Sie in der Band noch gleich gemacht?
+-SUCCESS-> Anscheinend habe ich nicht die Fangemeinde, die ich erwartet habe.
+
+MUSIC(Presse): Herzzerreißend.
+-SUCCESS-> Bitte respektieren Sie in dieser schweren Zeit unsere Privatsphäre.

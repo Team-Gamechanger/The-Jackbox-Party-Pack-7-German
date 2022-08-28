@@ -1,0 +1,17 @@
+MAIN(Agent): Ihr habt einen guten Sound. Wie nennt ihr euch?
+-SIN-> "Böse Biester"
+-HECK-> "Das Höllenhaus"
+-PITCH-> "Die Mistgabelmeute"
+-BRIM-> "Die feurige Familie"
+
+SIN(Agent): Meinetwegen. Hier unterschreiben!
+-SUCCESS-> Lasst uns das Geld gleich ausgeben!
+
+HECK(Agent): Ändert es zu etwas Ausgefallenerem und wir haben einen Deal.
+-SUCCESS-> Wir verkaufen jetzt schon unsere Seele!
+
+PITCH(Agent): Top! Ich habe da genau das richtige Festival für euch!
+-SUCCESS-> Wehe es ist nicht Wacken.
+
+BRIM(Agent): Meinetwegen. Hier unterschreiben!
+-SUCCESS-> Lasst uns das Geld gleich ausgeben!
