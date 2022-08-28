@@ -410,7 +410,7 @@
         },
         {
             "category": "SPELLING",
-            "value": "BAROCK"
+            "value": "BRUTTOSOZIALPRODUKT"
         },
         {
             "category": "SPELLING",
@@ -426,11 +426,11 @@
         },
         {
             "category": "SPELLING",
-            "value": "FRIEDHOF"
+            "value": "KATAKOMBEN"
         },
         {
             "category": "SPELLING",
-            "value": "GEWISSEN"
+            "value": "KALAUER"
         },
         {
             "category": "SPELLING",
@@ -438,7 +438,7 @@
         },
         {
             "category": "SPELLING",
-            "value": "KONSUMENT"
+            "value": "DONAUDAMPFSCHIFFFAHRT"
         },
         {
             "category": "SPELLING",
@@ -458,7 +458,7 @@
         },
         {
             "category": "SPELLING",
-            "value": "EXISTENZ"
+            "value": "EXISTENZEN"
         },
         {
             "category": "SPELLING",
@@ -506,7 +506,7 @@
         },
         {
             "category": "SPELLING",
-            "value": "SCHWARZ"
+            "value": "FINSTERNIS"
         },
         {
             "category": "SPELLING",
@@ -522,7 +522,7 @@
         },
         {
             "category": "SPELLING",
-            "value": "WAHN"
+            "value": "DURCHGEKNALLT"
         },
         {
             "category": "SPELLING",
@@ -538,7 +538,7 @@
         },
         {
             "category": "SPELLING",
-            "value": "VAKUUM"
+            "value": "SCHWARZES LOCH"
         },
         {
             "category": "SPELLING",
@@ -554,7 +554,7 @@
         },
         {
             "category": "HOA CHECK VALUE",
-            "value": "NEUNHUNDERTNEUNUNDNEUNZIG TALER"
+            "value": "NEUNHUNDERTNEUNUNDNEUNZIG PIEPEN"
         },
         {
             "category": "KIDMATH",
@@ -746,19 +746,19 @@
         },
         {
             "category": "GEOGRAPHY",
-            "value": "STRAIT OF GIBRALTAR"
+            "value": "STRASSE VON GIBRALTAR"
         },
         {
             "category": "GEOGRAPHY",
-            "value": "GREAT PYRAMID OF GIZA"
+            "value": "CHEOPS-PYRAMIDE"
         },
         {
             "category": "GEOGRAPHY",
-            "value": "GREAT WALL OF CHINA"
+            "value": "CHINESISCHE MAUER"
         },
         {
             "category": "GEOGRAPHY",
-            "value": "COLOSSEUM"
+            "value": "KOLOSSEUM"
         },
         {
             "category": "GEOGRAPHY",
@@ -778,7 +778,7 @@
         },
         {
             "category": "SCIENCE",
-            "value": "HYDROGEN"
+            "value": "WASSERSTOFF"
         },
         {
             "category": "SCIENCE",
@@ -786,19 +786,19 @@
         },
         {
             "category": "SCIENCE",
-            "value": "CLIMATOLOGIST"
+            "value": "KLIMATOLOGE"
         },
         {
             "category": "SCIENCE",
-            "value": "DATUM"
+            "value": "OXIDATIONSZAHL"
         },
         {
             "category": "SCIENCE",
-            "value": "GRADUATED CYLINDER"
+            "value": "MESSZYLINDER"
         },
         {
             "category": "SCIENCE",
-            "value": "ICHTHYOLOGY"
+            "value": "ICHTHYOLOGIE"
         },
         {
             "category": "SCIENCE",
@@ -806,7 +806,7 @@
         },
         {
             "category": "SCIENCE",
-            "value": "VOLUMETRIC FLASK"
+            "value": "MESSKOLBEN"
         }
     ]
 }
