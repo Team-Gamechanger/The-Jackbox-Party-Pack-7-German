@@ -1,0 +1,17 @@
+MAIN(Metzger): Ich nehme nicht an, dass ihr noch Platz für eine weitere Person habt.
+-COURSE-> Aber klar doch!
+-FAMILY-> Nur für Familie.
+-CHAIRS-> Wir haben keine Stühle mehr.
+-NOT-> Ja, solange du es nicht bist.
+
+COURSE(Metzger): Toll! Ich nehme die Kinder mit.
+-SUCCESS-> Der Garten wird langsam voll...
+
+FAMILY(Metzger): Ich verstehe.
+-SUCCESS-> Ach, du bist doch auf merkwürdige Art auch Teil der Familie. Kannst kommen!
+
+CHAIRS(Metzger): Ich sitze auch auf dem Boden.
+-SUCCESS-> Man sieht sich auf der Feier!
+
+NOT(Metzger): Können immerhin meine Kinder kommen?
+-SUCCESS->...Meinetwegen.

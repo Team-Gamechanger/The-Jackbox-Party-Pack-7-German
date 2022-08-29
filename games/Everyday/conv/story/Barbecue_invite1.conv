@@ -1,0 +1,17 @@
+MAIN(Nachbar): Soll ich irgendetwas mitbringen?
+-MAC-> Snacks, Dips und gute Laune!
+-BEAN-> Nudelsalat!
+-KEG-> Ein Gläschen Senf!
+-HUNGRY-> Nur hungrige Freunde!
+
+MAC(Nachbar): Zwei Drittel davon kann ich anbieten!
+-SUCCESS-> Alles fügt sich zusammen.
+
+BEAN(Nachbar): Habe leider nur noch Spaghetti übrig... Das geht sicherlich auch!
+-SUCCESS-> Alles fügt sich zusammen.
+
+KEG(Nachbar): Scharf oder süß?
+-SUCCESS> Beides! Das wird eine lange Nacht!
+
+HUNGRY(Nachbar): Spitze! Dann bringe ich gleich auch meinen dreißigköpfigen Chor mit.
+-SUCCESS-> Das kann ja was werden.
