@@ -1,0 +1,17 @@
+MAIN(Reparaturdienst): Wie schwerwiegend ist Ihr Problem?
+-SMOKE-> Die Klimaanlage raucht.
+-COUCH-> Mein Sofa schmilzt.
+-FLAME-> Unsere Katze steht in Flammen.
+-COOL-> Meine Familie ist cool.
+
+SMOKE(Reparaturdienst): Das kann bis morgen warten.
+-SUCCESS-> *Hust* *Hust*
+
+COUCH(Reparaturdienst): Das kann bis morgen warten.
+-SUCCESS-> Tschüss Lieblingssitzplatz.
+
+FLAME(Reparaturdienst): Nur eine Katze? Das hat Zeit...
+-SUCCESS-> Ich hole den Feuerlöscher.
+
+COOL(Reparaturdienst): Tja, meine nicht. Schönen Tag auch. *Aufgelegt*
+-SUCCESS-> Ich bin echt schlecht im Telefonieren.
