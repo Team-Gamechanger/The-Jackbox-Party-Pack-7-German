@@ -1,0 +1,17 @@
+MAIN(Süße Mitschülerin): Nein, ich habe noch kein Date für den Frühjahrstanz... Warum fragst du?
+-WANT-> Möchtest du mit mir hingehen?
+-GROUP-> Komm mit meiner Gruppe mit!
+-MOCK-> Geh mit mir und lass uns die ganzen anderen Loser verhöhnen.
+-SURVEY-> Ich mache nur eine Umfrage. Ich gehe nicht mal hin.
+
+SURVEY(Süße Mitschülerin): Oh. Okay.
+-SUCCESS-> Jetzt muss ich meine ganze Klasse anrufen, um meine Geschichte glaubhaft zu machen.
+
+WANT(Süße Mitschülerin): Klar! Klingt gut!
+-SUCCESS-> Moment. Ist es gut, offen gegenüber anderen zu sein?
+
+GROUP(Süße Mitschülerin): Kla... Oh. Okay.
+-SUCCESS-> Vielleicht habe ich etwas zu tief gegriffen.
+
+MOCK(Süße Mitschülerin): Ich liebe es, Dinge zu hassen!
+-SUCCESS-> Das wird die hasserfüllteste Nacht aller Zeiten!

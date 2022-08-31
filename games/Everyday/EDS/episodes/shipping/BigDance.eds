@@ -47,24 +47,24 @@ REM : ------------------------------
 
 REM : Pick out balloons
 CLONE DEED "Tap2" "PickUpBalloons"
-    SET INSTRUCTIONS "Pick up some loose balloons"
+    SET INSTRUCTIONS "Lose Luftballons nehmen"
 END
 
 CLONE DEED "Hold3" "BlowUp"
-    SET INSTRUCTIONS "Blow 'em up!"
+    SET INSTRUCTIONS "Aufpusten!"
 END
 
 CLONE DEED "SwipeBase" "ArrangeBalloons"
-    SET INSTRUCTIONS "Arrange!"
+    SET INSTRUCTIONS "Schön anordnen!"
     SET DIRECTION "LEFT,RIGHT,DOWN"
 END
 
 CLONE DEED "Nothing2" "AdmireArch"
-    SET INSTRUCTIONS "Admire your magnificent arch"
+    SET INSTRUCTIONS "Beeindruckenden Bogen bewundern"
 END
 
 DEF TASK "PickOutBalloons"
-    SET NAME "Pick out balloons for the dance"
+    SET NAME "Luftballons vorbereiten"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -84,12 +84,12 @@ END
 REM : Ask someone to dance
 
 CLONE DEED "DialogID" "AskDateDance"
-    SET INSTRUCTIONS "Get a date!"
+    SET INSTRUCTIONS "Verabrede dich!"
     SET CONTENT_ID "BIGDANCE_GETDATE"
 END
 
 DEF TASK "AskDateDance"
-    SET NAME "Ask someone to the dance"
+    SET NAME "Ein Date beschaffen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -102,20 +102,20 @@ END
 
 REM : Chaperone supplies
 CLONE DEED "PhoneID" "CallChaperoneStore"
-    SET INSTRUCTIONS "Call the chaperone supply store"
+    SET INSTRUCTIONS "Den Schickimicki-Ausstattungsladen anrufen"
     SET CONTENT_ID "CHAP_PIER"
 END
 
 CLONE DEED "SwipeUp" "GoodTissues"
-    SET INSTRUCTIONS "Splurge on the nice tissues"
+    SET INSTRUCTIONS "Sau viel Geld für schöne Taschentücher ausgeben"
 END
 
 CLONE DEED "Tap3" "GearUpChaperone"
-    SET INSTRUCTIONS "Gear up!"
+    SET INSTRUCTIONS "Das muss alles auch noch mit!"
 END
 
 DEF TASK "ChaperoneSupply"
-    SET NAME "Call chaperone supply store"
+    SET NAME "Schickimicki-Ausstattungsladen anrufen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -134,24 +134,24 @@ END
 
 REM : Help pick outfit
 CLONE DEED "Instructions4" "PickOutfitDance"
-    SET INSTRUCTIONS "Pick out the perfect outfit"
+    SET INSTRUCTIONS "Perfektes Outfit auswählen"
 
     SET MECHANIC_0 "SWIPE_UP"
-    SET INSTRUCTIONS_0 "Put on those pants"
+    SET INSTRUCTIONS_0 "Die Hose anziehen"
     SET MECHANIC_1 "SWIPE_DOWN"
-    SET INSTRUCTIONS_1 "No, not those pants. Take them off"
+    SET INSTRUCTIONS_1 "Nein, nicht die Hose. Ausziehen"
     SET MECHANIC_2 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_2 "Start makeover montage"
+    SET INSTRUCTIONS_2 "Umstylings-Montage starten"
     SET MECHANIC_3 "TAP_3"
-    SET INSTRUCTIONS_3 "Add a bowtie for the finishing touch"
+    SET INSTRUCTIONS_3 "Eine Fliege als letzten Schliff hinzufügen"
 END
 
 DEF TASK "PickOutfitDance"
-    SET NAME "Pick out the perfect outfit for the dance"
-    SET ASKER_NAME "Help pick the perfect outfit for the dance"
-    SET HELPER_NAME "Try on outfits with <ASKER> for the dance"
-    SET CAPTAIN "CHILDREN"
-    SET PARTICIPANT "TEENS"
+    SET NAME "Perfektes Outfit für den Abend wählen"
+    SET ASKER_NAME "Helfe bei der Auswahl des perfekten Outfits"
+    SET HELPER_NAME "Mit <ASKER> Outfits für den Abend anprobieren"
+    SET CAPTAIN "TEENS"
+    SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET DURATION <8H>
@@ -164,24 +164,24 @@ END
 
 REM : Shave for the dance
 CLONE DEED "Tap3" "DabShaving"
-    SET INSTRUCTIONS "Dab on shaving cream"
+    SET INSTRUCTIONS "Rasierschaum auftupfen"
 END
 
 CLONE DEED "SwipeDown" "CarefulShave"
-    SET INSTRUCTIONS "Carefully shave..."
+    SET INSTRUCTIONS "Vorsichtig rasieren..."
 END
 
 CLONE DEED "SwipeBase" "BloodyShave"
-    SET INSTRUCTIONS "Just... get... through it..."
+    SET INSTRUCTIONS "Das... wird... schon... schiefgehen..."
     SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT"
 END
 
 CLONE DEED "SwipeDown" "RinseOffShave"
-    SET INSTRUCTIONS "Rinse off!"
+    SET INSTRUCTIONS "Abspülen!"
 END
 
 DEF TASK "ShaveForDance"
-    SET NAME "Shave for the dance"
+    SET NAME "Für den Ball rasieren"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -201,24 +201,24 @@ END
 REM : ----------------------------------------------
 
 CLONE DEED "SwipeBase" "SwipeThroughDisguises"
-    SET INSTRUCTIONS "Select the perfect disguise"
+    SET INSTRUCTIONS "Perfekte Verkleidung auswählen"
     SET DIRECTION "LEFT,LEFT,LEFT"
 END
 
 CLONE DEED "Tap3" "StackKids"
-    SET INSTRUCTIONS "Stack!"
+    SET INSTRUCTIONS "Stapeln!"
 END
 
 CLONE DEED "Hold3" "KeepBalance"
-    SET INSTRUCTIONS "Keep your balance"
+    SET INSTRUCTIONS "Nicht das Gleichgewicht verlieren"
 END
 
 CLONE DEED "Tap2" "WalkAdult"
-    SET INSTRUCTIONS "Walk like a human adult"
+    SET INSTRUCTIONS "Wie ein total echter Erwachsener gehen"
 END
 
 DEF TASK "SneakIntoDance"
-    SET NAME "Sneak into the dance"
+    SET NAME "Auf den Ball schleichen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -238,13 +238,13 @@ END
 
 REM : Gather corsage
 CLONE DEED "GatherBase" "GatherCorsage"
-    SET INSTRUCTIONS "Gather ingredients for the corsage"
+    SET INSTRUCTIONS "Die Materialien für die Ansteckblume sammeln"
     SET CONTENT_ID "PROM_CORSAGE"
 END
 
 DEF TASK "GatherCorsage"
     SET DURATION <3H>
-    SET NAME "Gather items for a corsage"
+    SET NAME "Materialien für Ansteckblume sammeln"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAINLESS_BEHAVIOR "KICK_ALL"
@@ -259,24 +259,24 @@ END
 REM : Arrange corsage
 
 CLONE DEED "SwipeUp" "ReadTut"
-    SET INSTRUCTIONS "Read the tutorial"
+    SET INSTRUCTIONS "Die Anleitung lesen"
 END
 
 CLONE DEED "Rotate180" "InspectFlower"
-    SET INSTRUCTIONS "Inspect the perfect flower"
+    SET INSTRUCTIONS "Die perfekte Blume finden"
 END
 
 CLONE DEED "SwipeBase" "BabyBreath"
-    SET INSTRUCTIONS "Now some baby's breath..."
+    SET INSTRUCTIONS "Etwas Gipskraut hinzufügen"
     SET DIRECTION "LEFT,RIGHT"
 END
 
 CLONE DEED "Hold1" "Dashing"
-    SET INSTRUCTIONS "Dashing!"
+    SET INSTRUCTIONS "Das Meisterwerk betrachten"
 END
 
 DEF TASK "ArrangeCorsage"
-    SET NAME "Arrange your own corsage"
+    SET NAME "Eigene Ansteckblume basteln"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -296,14 +296,14 @@ END
 
 REM : Pick up date
 CLONE DEED "TravelCategory" "PickUpDate"
-    SET INSTRUCTIONS "Pick up date"
+    SET INSTRUCTIONS "Das Date mit dem Wagen abholen"
     SET CATEGORY "RESIDENCE"
 END
 
 DEF TASK "PickUpDate"
-    SET NAME "Drive to pick up date"
-    SET ASKER_NAME "Get ride to pick up date"
-    SET HELPER_NAME "Drive <ASKER> to pick up date"
+    SET NAME "Das Date abholen"
+    SET ASKER_NAME "Hole mit jemand Anderem das Date ab"
+    SET HELPER_NAME "Hole mit <ASKER> das Date ab"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "TEENS"
     SET CATEGORY "STORY"
@@ -317,23 +317,23 @@ END
 
 REM : Take too many pictures
 CLONE DEED "Tap1" "SayCheese"
-    SET INSTRUCTIONS "Say cheese!"
+    SET INSTRUCTIONS "Sagt Ameisenscheisse!"
 END
 
 CLONE DEED "Tap1" "SillyOne"
-    SET INSTRUCTIONS "Now a silly one"
+    SET INSTRUCTIONS "Jetzt noch ein Albernes..."
 END
 
 CLONE DEED "Tap3" "OneMore"
-    SET INSTRUCTIONS "One more..."
+    SET INSTRUCTIONS "Eins noch..."
 END
 
 CLONE DEED "QuickTap3" "OneMoreMore"
-    SET INSTRUCTIONS "Just one more..."
+    SET INSTRUCTIONS "Nur noch ein Weiteres..."
 END
 
 DEF TASK "TooManyPics"
-    SET NAME "Take too many pictures of the couple"
+    SET NAME "Zu viele Fotos vom Paar machen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -352,24 +352,24 @@ END
 
 REM : Dance at a respectful distance
 CLONE DEED "Hold2" "TouchShoulders"
-    SET INSTRUCTIONS "Gently touch shoulders"
+    SET INSTRUCTIONS "Sanft die Schultern berühren"
 END
 
 CLONE DEED "SwipeLeft" "MoreSpace"
-    SET INSTRUCTIONS "Maybe a little more space"
+    SET INSTRUCTIONS "Vielleicht etwas mehr Abstand"
 END
 
 CLONE DEED "SwipeLeft" "EvenMoreSpace"
-    SET INSTRUCTIONS "Just a little bit more"
+    SET INSTRUCTIONS "Nur noch ein kleines bisschen"
 END
 
 CLONE DEED "SwipeBase" "Sway"
-    SET INSTRUCTIONS "Lightly sway!"
+    SET INSTRUCTIONS "Leicht schwanken!"
     SET DIRECTION "RIGHT,LEFT,RIGHT,LEFT"
 END
 
 DEF TASK "RespectfulDance"
-    SET NAME "Dance at a respectful distance"
+    SET NAME "In angemessenem Abstand tanzen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -389,24 +389,24 @@ END
 REM : ----------------------------------------
 
 CLONE DEED "SwipeBase" "ShakeStink"
-    SET INSTRUCTIONS "Shake up the stink bomb"
+    SET INSTRUCTIONS "Stinkbombe gut schütteln"
     SET DIRECTION "UP,DOWN"
 END
 
 CLONE DEED "Hold2" "PullPin"
-    SET INSTRUCTIONS "Pull the pin"
+    SET INSTRUCTIONS "Den Stift ziehen"
 END
 
 CLONE DEED "SwipeLeft" "TossStink"
-    SET INSTRUCTIONS "Toss under the bleachers"
+    SET INSTRUCTIONS "Unter die Tribüne werfen"
 END
 
 CLONE DEED "Tap3" "CheeseIt"
-    SET INSTRUCTIONS "Cheese it!"
+    SET INSTRUCTIONS "Abhauen!"
 END
 
 DEF TASK "StinkBomb"
-    SET NAME "Unleash stink bomb prank"
+    SET NAME "Stinkbombenstreich starten"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -427,13 +427,14 @@ END
 
 REM : Defuse stink bomb
 CLONE DEED "Gizmos3" "DefuseStinkBomb"
-    SET INSTRUCTIONS "Defuse the stink bomb prank"
+    SET INSTRUCTIONS "Die Stinkbombe entschärfen"
+    SET NAME "Stinkbombe"
 END
 
 DEF TASK "DefuseStinkBomb"
-    SET NAME "Defuse the sink bomb prank"
-    SET ASKER_NAME "Get help defusing the stink bomb"
-    SET HELPER_NAME "Help <ASKER> defuse the stink bomb"
+    SET NAME "Stinkbombe entschärfen"
+    SET ASKER_NAME "Erhalte Hilfe, die Stinkbombe zu entschärfen"
+    SET HELPER_NAME "Helfe <ASKER> die Stinkbombe zu entschärfen"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -447,23 +448,23 @@ END
 
 REM : Chaperone fight
 CLONE DEED "Nothing2" "ThoughtfulDiscussion"
-    SET INSTRUCTIONS "Have a thoughtful discussion"
+    SET INSTRUCTIONS "Eine fundierte Diskussion führen"
 END
 
 CLONE DEED "ScrubShort" "ConsiderPoint"
-    SET INSTRUCTIONS "Consider opposing point of view"
+    SET INSTRUCTIONS "Gegnerischen Standpunkt akzeptieren"
 END
 
 CLONE DEED "Tap3" "DefendPosition"
-    SET INSTRUCTIONS "Defend your position"
+    SET INSTRUCTIONS "Eigene Position darstellen"
 END
 
 CLONE DEED "Hold2" "LeavePeacefully"
-    SET INSTRUCTIONS "Leave peacefully"
+    SET INSTRUCTIONS "Friedlich nach Hause aufbrechen"
 END
 
 DEF TASK "ChaperoneFight"
-    SET NAME "Get in a fight with another chaperone"
+    SET NAME "Mit anderen Eltern zanken"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -482,24 +483,24 @@ END
 
 REM : Go in for the smoooch
 CLONE DEED "SwipeBase" "LipsReady"
-    SET INSTRUCTIONS "Ready..."
+    SET INSTRUCTIONS "Bereit..."
     SET DIRECTION "LEFT,RIGHT"
 END
 
 CLONE DEED "Hold3" "AimLips"
-    SET INSTRUCTIONS "Aim..."
+    SET INSTRUCTIONS "Zielen und..."
 END
 
 CLONE DEED "Tap3" "LipsFire"
-    SET INSTRUCTIONS "Fire!"
+    SET INSTRUCTIONS "Feuer!"
 END
 
 CLONE DEED "Nothing3" "BracesLocked"
-    SET INSTRUCTIONS "Braces are locked! Get the nurse!"
+    SET INSTRUCTIONS "Die Zahnspangen haben sich verhakt! Krankenschwester!"
 END
 
 DEF TASK "SmoochTime"
-    SET NAME "Go in for the smooch"
+    SET NAME "Zeit für den Kuss"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
