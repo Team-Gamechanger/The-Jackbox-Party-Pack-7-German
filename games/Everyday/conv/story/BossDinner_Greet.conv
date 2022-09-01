@@ -1,0 +1,30 @@
+MAIN(Chefin): Guten Abend.
+-POLITE-> Ihnen auch einen schönen Abend, gnädige Frau.
+-PARK-> Sie haben doch nicht auf der Straße geparkt, oder?
+-WRONG-> Sie müssen sich in der Adresse vertan haben.
+
+POLITE(Chefin): Wohin am besten mit meinem Mantel?
+-TAKECOAT-> Ich nehme ihn!
+-WHOCARES-> Juckt mich nicht.
+-WHOCARES-> Werfen Sie ihn einfach auf den Boden.
+
+TAKECOAT(Chefin): Oh, vielen Dank!
+-SUCCESS-> Alles läuft wie geschmiert!
+
+WHOCARES(Chefin): Äh... Ich denke, ich hänge ihn einfach an den Haken.
+-SOUNDSGOOD-> Klingt gut!
+-WHOCARES2-> Ich sagte doch schon, JUCKT MICH NICHT.
+
+WHOCARES2(Chefin): Ich bereue, dass ich dem hier zugestimmt habe.
+-SUCCESS-> Ich weiß nicht, was ich falsch gemacht habe.
+
+SOUNDSGOOD(Chefin): Toll, schätze ich.
+-SUCCESS-> Alles läuft wie geschmiert!
+
+PARK(Chefin): Doch, ist das ein Problem?
+-WHOCARES2-> Ja, ihre blöde Schrottkarre verdeckt mir die Sicht auf die schöne Straße.
+-TAKECOAT-> Ich werde das Auto mit meinem Leben beschützen.
+
+WRONG(Chefin): Aber ich bin mir sicher, dass das hier die richtige Adresse ist...
+-WHOCARES2-> Und ich bin mir sicher, dass mir das egal ist.
+-POLITE-> Kleiner Scherz! Willkommen in unserem Haus!

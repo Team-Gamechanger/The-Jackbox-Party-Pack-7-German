@@ -1,0 +1,24 @@
+MAIN(Chefin): Wie kann ich einem jungen Kapitalisten wie dir helfen?
+-ADVICE-> Wie kann ich so erfolgreich werden wie Sie?
+-BRATTY-> Wie kann ich Ihre vielen offensichtlichen Fehler vermeiden?
+-SHORTCUT-> Gibt es eine Abkürzung zum Erfolg, die nicht so viel "versuchen" erfordert?
+
+ADVICE(Chefin): Ehrlich gesagt, kommt es nur auf die Kleidung an. Lege dir einen guten Schneider zu und du bist auf dem Weg nach ganz oben.
+-TAILOR-> Wer ist Ihr Mann?
+-BODYTEMP-> Meine hohe, ja extrem hohe Körpertemperatur verträgt sich nicht gut mit Leinen.
+
+TAILOR(Chefin): Sprich mit Alfredo im Anzugsdepot und sag ihm, dass ich dich geschickt habe.
+-SUCCESS-> Wow, ich habe jetzt Connections!
+
+BODYTEMP(Chefin): Aus Meta-Aramid wird mittlerweile tolle Bürokleidung gemacht.
+-SUCCESS-> Nun, das war genug Gespräch für den Moment.
+
+BRATTY(Chefin): Ich schätze, indem du ins Jahr 1998 zurückreist und Karoline sagst, dass ich nicht möchte, dass sie in die Niederlande zieht.
+-SUCCESS-> Ach du Schande.
+
+SHORTCUT(Chefin): Das kommt darauf an. Wurdest du reich geboren?
+-NOTRICH-> Leider nicht.
+-NOTRICH-> Wenn dem so wäre, würde ich dann meine Zeit damit verschwenden, mit Ihnen zu reden?
+
+NOTRICH(Chefin): Dann kann ich nichts für dich tun.
+-SUCCESS-> Scharfsinnig.

@@ -1,0 +1,17 @@
+MAIN(Chefin): Ein Abendessen? Klingt entzückend! Gibt es etwas, dass ich mitbringen soll?
+-NOTHING-> Nein danke, nicht nötig!
+-APPETITE-> Hunger schadet nicht!
+-MEATLOAFS-> Ein paar Hackbraten!
+-WINE-> Eine Flasche Wein?
+
+NOTHING(Chefin): Dann freue ich mich schon!
+-SUCCESS-> Endlich Wertschätzung!
+
+APPETITE(Chefin): Das lässt sich einrichten!
+-SUCCESS-> Dieser Abend wird großartig.
+
+MEATLOAFS(Chefin): Ähh...nein.
+-SUCCESS-> Dieser Abend wurde gerade sehr unangenehm... Außerdem muss ich jetzt kochen.
+
+WINE(Chefin): Gute Idee!
+-SUCCESS-> Dieser Abend wird großartig.

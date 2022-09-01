@@ -1,0 +1,31 @@
+MAIN(Chefin): Was für ein herrliches Essen.
+-POLITE-> Vielen Dank, das ist zu freundlich von Ihnen.
+-CREEPY-> Das habe ich nur für Sie gemacht, meine perfekte Chefin!
+-BIRD1-> Nicht so schön wie der seltene Elfenbeinspecht! Ich interessiere mich übrigens sehr für Vögel.
+
+BIRD1(Chefin): Oh, ein Vogelfreund! Haben Sie bemerkt, dass ein Rotkopfwürger in Ihrem Vorgarten nistet?
+-OFCOURSE-> Aber natürlich habe ich das!
+-CORRECTBOSS-> Ein Rotkopfwürger? Mitnichten! Es handelt sich um einen gewöhnlichen Raubwürger.
+-HONEST-> Um ehrlich zu sein, habe ich keine Ahnung von Vögeln...
+
+OFCOURSE(Chefin): Reingelegt! Das ist ein normaler Raubwürger. Wie immer bin ich die Vogelmeisterin!
+-SUCCESS-> Genau mein Gedanke.
+
+CORRECTBOSS(Chefin): Oh... Sie haben recht.
+-SUCCESS-> Ich hoffe, sie bricht nicht in Tränen aus.
+
+HONEST(Chefin): Ich bewundere Ihre Ehrlichkeit, auch wenn mich Ihr mangelndes Wissen über Vögel betrübt.
+-SUCCESS-> Ein halber Erfolg?
+
+POLITE(Chefin): Sie haben recht, ich bin zu freundlich. Erinnern Sie mich daran, Ihr Gehalt zu kürzen.
+-SUCCESS-> Ich denke nicht daran.
+
+CREEPY(Chefin): Ähh, Sie sind mir ein wenig unheimlich.
+-JOKING-> Haha, ich mache doch nur Witze!
+-DOUBLEDOWN-> Darf ich Sie malen?
+
+JOKING(Chefin): Okay...
+-SUCCESS-> Gerade noch so die Kurve gekriegt!
+
+DOUBLEDOWN(Chefin): Nur leitende Vizepräsidenten und aufwärts dürfen mich malen.
+-SUCCESS-> Fragen schadet ja nicht.
