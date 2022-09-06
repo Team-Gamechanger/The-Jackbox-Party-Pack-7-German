@@ -1,0 +1,13 @@
+MAIN(Cousin Rompo): Wohin mit meiner Tasche?
+-TOSS-> Wirf sie einfach irgendwo hin.
+-DOOR-> Einfach im Eingang stehen lassen.
+-NEVER-> Auf gar keinen Fall ablegen. 
+
+TOSS(Cousin Rompo): *Schmeißt sie in die Vitrine*
+-SUCCESS-> Ich habe irgendwo gesagt.
+
+DOOR(Cousin Rompo): Dann füttere ich es besser erst einmal.
+-SUCCESS-> Warte...füttern?!
+
+NEVER(Cousin Rompo): Okay, dann sollte ich aber Flammen aus dem Weg gehen.
+-SUCCESS-> ...Was ist da drin?
