@@ -45,19 +45,19 @@ REM : Define this episode's story tasks below
 
 REM : Watch news to learn about 'gronking'
 CLONE DEED "QuickTap3" "LocalNews1"
-    SET INSTRUCTIONS "Change channel to local news"
+    SET INSTRUCTIONS "Auf den Lokalnachrichten-Sender wechseln"
 END
 
 CLONE DEED "Nothing4" "LocalNews2"
-    SET INSTRUCTIONS "Listen to anchor describe new teen craze 'gronking.'"
+    SET INSTRUCTIONS "Beschreibung des neuen Teenager-Trends 'Klenken' lauschen"
 END
 
 CLONE DEED "Hold4" "LocalNews3"
-    SET INSTRUCTIONS "Shudder in moral panic"
+    SET INSTRUCTIONS "Vor Panik erschaudern"
 END
 
 DEF TASK "LocalNews"
-    SET NAME "Watch news to learn about 'gronking'"
+    SET NAME "Nachrichten über 'Klenken' anschauen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -74,11 +74,11 @@ END
 
 REM : Try 'gronking'...just once
 CLONE DEED "Nothing3" "TryGronk1"
-    SET INSTRUCTIONS "Read about 'gronking' online"
+    SET INSTRUCTIONS "Im Internet über 'Klenken' informieren"
 END
 
 CLONE DEED "Tap1" "TryGronk2"
-    SET INSTRUCTIONS "Gronk"
+    SET INSTRUCTIONS "Klenken ausprobieren"
 END
 
 CLONE DEED "Nothing3" "TryGronk3"
@@ -86,11 +86,11 @@ CLONE DEED "Nothing3" "TryGronk3"
 END
 
 CLONE DEED "Tap3" "TryGronk4"
-    SET INSTRUCTIONS "Gronk more"
+    SET INSTRUCTIONS "Mehr klenken"
 END
 
 DEF TASK "TryGronk"
-    SET NAME "Try 'gronking'... just once"
+    SET NAME "Klenken ausprobieren... nur einmal"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -109,19 +109,19 @@ END
 
 REM : Watch anti-gronking PSA
 CLONE DEED "QuickTap3" "GronkPSA1"
-    SET INSTRUCTIONS "Change channel to after-school special"
+    SET INSTRUCTIONS "Kinderfernsehen anschalten"
 END
 
 CLONE DEED "Nothing3" "GronkPSA2"
-    SET INSTRUCTIONS "Learn all about 'gronking'"
+    SET INSTRUCTIONS "Erfahren, dass 'Klenken' sehr unartig ist"
 END
 
 CLONE DEED "Nothing3" "GronkPSA3"
-    SET INSTRUCTIONS "Now you're even more curious..."
+    SET INSTRUCTIONS "Jetzt bist du noch viel neugieriger..."
 END
 
 DEF TASK "GronkPSA"
-    SET NAME "Watch 'anti-gronking' PSA"
+    SET NAME "'Klenken'-Abschreckvideo anschauen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -140,17 +140,17 @@ REM : ------------------------------------------------------
 
 REM : Join anti=gronking parents' group
 CLONE DEED "PhoneID" "JoinGronkGroup1"
-    SET INSTRUCTIONS "Call Cassiel Seraph"
+    SET INSTRUCTIONS "Rufe Cassandra Weberknecht an"
     SET CONTENT_ID "CASSIEL"
 END
 
 CLONE DEED "DialogID" "JoinGronkGroup2"
-    SET INSTRUCTIONS "Join anti-gronking group"
+    SET INSTRUCTIONS "Anti-Klenk-Gruppe anschließen"
     SET CONTENT_ID "DANGEROUSTREND_JOIN"
 END
 
 DEF TASK "JoinGronkGroup"
-    SET NAME "Join anti-gronking parents' group"
+    SET NAME "Anti-Klenk-Elternbewegung beitreten"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -165,23 +165,23 @@ END
 
 REM : Spy on teen gronking
 CLONE DEED "Tap3" "SpyTeenGronk1"
-    SET INSTRUCTIONS "Sneak into closet"
+    SET INSTRUCTIONS "In den Schrank schleichen"
 END
 
 CLONE DEED "ScrubMedium" "SpyTeenGronk2"
-    SET INSTRUCTIONS "Bury self in dirty clothes"
+    SET INSTRUCTIONS "In schmutziger Wäsche verstecken"
 END
 
 CLONE DEED "Hold3" "SpyTeenGronk3"
-    SET INSTRUCTIONS "Don't pass out from smell"
+    SET INSTRUCTIONS "Nicht vom Gestank ohnmächtig werden"
 END
 
 CLONE DEED "Nothing3" "SpyTeenGronk4"
-    SET INSTRUCTIONS "Watch gronking"
+    SET INSTRUCTIONS "Klenken beobachten"
 END
 
 DEF TASK "SpyTeenGronk"
-    SET NAME "Spy on teen gronking"
+    SET NAME "Teenie beim Klenken beobachten"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -200,19 +200,19 @@ END
 
 REM : Hide gronking paraphernalia
 CLONE DEED "SwipeRight" "HideGronk1"
-    SET INSTRUCTIONS "Throw open closet"
+    SET INSTRUCTIONS "Schrank aufmachen"
 END
 
 CLONE DEED "ScrubMedium" "HideGronk2"
-    SET INSTRUCTIONS "Dig through dirty clothes"
+    SET INSTRUCTIONS "Deine Schmutzwäsche durchwühlen"
 END
 
 CLONE DEED "Tap1" "HideGronk3"
-    SET INSTRUCTIONS "Carefully insert beloved gronking paraphernalia"
+    SET INSTRUCTIONS "Heißgeliebte Klenk-Utensilien verstecken"
 END
 
 DEF TASK "HideGronk"
-    SET NAME "Hide gronking paraphernalia"
+    SET NAME "Klenk-Utensilien verstecken"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -229,19 +229,19 @@ END
 
 REM : Skip school to go to gronking party
 CLONE DEED "Tap1" "SkipSchoolGronk1"
-    SET INSTRUCTIONS "Step off school bus"
+    SET INSTRUCTIONS "Aus dem Schulbus aussteigen"
 END
 
 CLONE DEED "Hold3" "SkipSchoolGronk2"
-    SET INSTRUCTIONS "Hide in bushes"
+    SET INSTRUCTIONS "In Büschen verstecken"
 END
 
 CLONE DEED "QuickTap4" "SkipSchoolGronk3"
-    SET INSTRUCTIONS "Run down street to party"
+    SET INSTRUCTIONS "Zur Party flitzen"
 END
 
 DEF TASK "SkipSchoolGronk"
-    SET NAME "Skip school to go to gronking party"
+    SET NAME "Für Klenk-Party die Schule schwänzen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -260,12 +260,12 @@ REM : -----------------------------------------------
 
 REM : Search teen's room
 CLONE DEED "SearchID" "SearchGronk"
-    SET INSTRUCTIONS "Search teen's room for gronking paraphernalia"
+    SET INSTRUCTIONS "Zimmer des Teenies nach Klenk-Utensilien filzen"
     SET CONTENT_ID "GRONK"
 END
 
 DEF TASK "SearchGronk"
-    SET NAME "Search teen's room for gronking paraphernalia"
+    SET NAME "Teenie-Zimmer nach Klenk-Utensilien filzen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -278,12 +278,12 @@ END
 
 REM : Family conversation about gronking
 CLONE DEED "Nothing5" "GronkConversation"
-    SET INSTRUCTIONS "Everybody share your feelings about gronking"
+    SET INSTRUCTIONS "Gemeinsam über das Klenken sprechen"
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "GronkConversation"
-    SET NAME "Family conversation about dangers of gronking"
+    SET NAME "Familiengespräch über die Gefahren des Klenkens"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -296,19 +296,19 @@ END
 
 REM : Quit gronking cold turkey
 CLONE DEED "SwipeUp" "QuitGronk1"
-    SET INSTRUCTIONS "Throw gronking paraphernalia out window"
+    SET INSTRUCTIONS "Klenk-Utensilien aus dem Fenster werfen"
 END
 
 CLONE DEED "Rotate180" "QuitGronk2"
-    SET INSTRUCTIONS "Turn on cold shower"
+    SET INSTRUCTIONS "Kalte Dusche anstellen"
 END
 
 CLONE DEED "Tap1" "QuitGronk3"
-    SET INSTRUCTIONS "Hang inspirational poster"
+    SET INSTRUCTIONS "Inspirierendes Poster aufhängen"
 END
 
 DEF TASK "QuitGronk"
-    SET NAME "Vow to quit gronking"
+    SET NAME "Geloben, mit dem Klenken aufzuhören"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -325,15 +325,15 @@ END
 
 REM : Sign anti-gronking pledge
 CLONE DEED "Tap1" "GronkPledge1"
-    SET INSTRUCTIONS "Sign Little Tyke's Against Gronking Pledge"
+    SET INSTRUCTIONS "'Kein Klenken'-Petition unterschreiben"
 END
 
 CLONE DEED "QuickTap3" "GronkPledge2"
-    SET INSTRUCTIONS "Receive 3 arcade tokens"
+    SET INSTRUCTIONS "3 Wertmarken für die Arcade erhalten"
 END
 
 DEF TASK "GronkPledge1"
-    SET NAME "Sign anti-gronking pledge"
+    SET NAME "Anti-Klenk-Petition unterschreiben"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"

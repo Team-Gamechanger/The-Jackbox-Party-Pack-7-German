@@ -1,0 +1,17 @@
+MAIN(Cassandra Weberknecht): Was wissen Sie übers "Klenken"?
+-DANCE-> Es ist ein Tanz....?
+-DRINK-> Es ist ein Getränk...?
+-INVENTED-> Ich habe "Klenken" erfunden!
+-NOTHING-> Nichts
+
+DANCE(Cassandra Weberknecht): Nicht mal ansatzweise. Wir schicken Ihnen eine Broschüre.
+-SUCCESS-> Endlich! Antworten auf Hochglanzpapier!
+
+DRINK(Cassandra Weberknecht): Nicht mal ansatzweise. Wir schicken Ihnen eine Broschüre.
+-SUCCESS-> Endlich! Antworten auf Hochglanzpapier!
+
+NOTHING(Cassandra Weberknecht): Eltern dürfen niemals Unwissenheit preisgeben.
+-SUCCESS-> Ich hoffe, meine Kinder spüren diese Schwäche nicht.
+
+INVENTED(Cassandra Weberknecht): Großartig! Dann können Sie uns sagen, was es ist!
+-SUCCESS-> Toll! Ich lüge definitiv nicht!
