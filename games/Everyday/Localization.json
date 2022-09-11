@@ -115,13 +115,13 @@
         "TARGET_MULTIPLIER": "Schwierigkeit",
         "TARGET_MULTIPLIER_DESCRIPTION": "Passt an, wie schwierig das Erhalten einer guten Bewertung ist.<br/>(\"Normal\" ist die Standardeinstellung).",
         
-        "STORY_PARAGRAPH_0_HEADER": "MENSCHLICHE AUFGABE DER WOCHE",
+        "STORY_PARAGRAPH_0_HEADER": "MENSCHLICHE HERAUSFORDERUNG",
         "STORY_PARAGRAPH_1_HEADER": "FAMILIENZIEL",
         "STORY_PARAGRAPH_1_TEXT": "Erreicht die tägliche Mindestpunktzahl um zu bestehen. Erledigt sämtliche Sonderaufgaben, um eine \"1\" zu erhalten.",
         
         "EMERGENCY_CAUSED_BY":"DAS EGOISTISCHE VERHALTEN VON <PLAYER_NAME> HAT DIESEN NOTFALL VERURSACHT",
         
-        "CAT_NAME_CHANGE_PROMPT": "Stimme für deinen liebsten Namen für die Katze ab!",
+        "CAT_NAME_CHANGE_PROMPT": "Wie soll die Katze der Familie heißen?",
         
         "TARGET_MULTIPLIER_VERY_EASY": "Sehr einfach",
         "TARGET_MULTIPLIER_EASY": "Einfach",

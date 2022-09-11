@@ -273,7 +273,7 @@ CLONE DEED "SearchID" "SearchLaserPart"
 END
 
 DEF TASK "SearchLaserPart"
-    SET NAME "Entscheidendes Bauteil für asteroidenzerstörenden Laser suchen"
+    SET NAME "Entscheidendes Bauteil für Laser suchen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
