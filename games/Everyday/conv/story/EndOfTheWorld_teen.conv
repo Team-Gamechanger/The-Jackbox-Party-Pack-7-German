@@ -1,0 +1,17 @@
+MAIN(Riley): D-D-Die Welt geht unter?
+-LOVE-> Ja, ich liebe dich. 
+-BREAK-> Ja, lass uns Schluss machen.
+-BYE-> Leider ja. Bye-bye.
+-RECORD-> Kann ich meine Schallplatten wiederbekommen?
+
+LOVE(Riley): Wenn wir das hier überleben sollten... Lass uns heiraten!
+-SUCCESS-> Oh Backe...
+
+BREAK(Riley): Und dabei versprach dieser Tag so gut zu werden!
+-SUCCESS-> Ich werde deinen Sarkasmus vermissen.
+
+BYE(Riley): Adieu mon cherie!
+-SUCCESS-> Wir haben das sehr besonnen gehandhabt.
+
+RECORD(Riley): Niemals!
+-SUCCESS-> Warum habe ich überhaupt Schallplatten?!

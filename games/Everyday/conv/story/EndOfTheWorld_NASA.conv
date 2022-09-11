@@ -1,0 +1,17 @@
+MAIN(NASA): Guten Tag. Was können wir für Sie tun?
+-AST-> Ein Asteroid rast auf die Erde zu!
+-DIE-> WIR WERDEN ALLE STERBEN!
+-SPACE-> Der Weltraum ist blöd!
+-BOOM-> Himmel macht Bumm-Bumm!
+
+AST(NASA): Ähh... Ich bin nur der Praktikant.
+-SUCCESS-> Wie bin ich nur an diese Nummer gekommen?
+
+DIE(NASA): Ahhhh!!!!
+-SUCCESS-> Immerhin konnte ich meinen Standpunkt klarmachen.
+
+SPACE(NASA): Wir sind da anderer Meinung!
+-SUCCESS-> Astrein. Ich habe ein Gespräch gestartet. 
+
+BOOM(NASA): Ich verstehe die Situation vollumfänglich.
+-SUCCESS-> Ich spreche die Sprache der Wissenschaft.
