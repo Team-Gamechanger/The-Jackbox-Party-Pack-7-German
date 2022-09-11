@@ -91,7 +91,7 @@ CLONE DEED "Nothing5" "CreekStep4"
 END
 
 DEF TASK "PlayCreek"
-    SET NAME "Am gefährlichen Bach spielen"
+    SET NAME "Am gefährlichen Spielplatz spielen"
     SET THEME "SELFISH"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "SELFISH"
