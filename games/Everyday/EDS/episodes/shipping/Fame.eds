@@ -46,23 +46,23 @@ REM : Define this episode's story tasks below
 
 REM : Audition to play the adorable child sidekick
 CLONE DEED "Hold3" "FameAudition1"
-    SET INSTRUCTIONS "Study your lines"
+    SET INSTRUCTIONS "Den Text lernen"
 END
 
 CLONE DEED "SwipeRight" "FameAudition2"
-    SET INSTRUCTIONS "Toss out the script and just improvise"
+    SET INSTRUCTIONS "Das Skript wegschmeißen und einfach improvisieren"
 END
 
 CLONE DEED "Tap3" "FameAudition3"
-    SET INSTRUCTIONS "Spout a few adorable catchphrases"
+    SET INSTRUCTIONS "Ein paar bezaubernde Sprüche zum Besten geben"
 END
 
 CLONE DEED "Rotate360" "FameAudition4"
-    SET INSTRUCTIONS "Do a cute little twirl"
+    SET INSTRUCTIONS "Und eine süße kleine Drehung"
 END
 
 DEF TASK "FameAudition"
-    SET NAME "Audition to play the adorable child sidekick"
+    SET NAME "Für die Rolle des niedlichen Kinder-Sidekicks vorsprechen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -81,24 +81,24 @@ END
 
 REM : Audition to play 'Cop #2'
 CLONE DEED "SwipeBase" "FameAuditionParent1"
-    SET INSTRUCTIONS "Shake hands with producer"
+    SET INSTRUCTIONS "Der Produzentin die Hand geben"
     SET DIRECTION "UP,DOWN,UP,DOWN"
 END
 
 CLONE DEED "ScrubMedium" "FameAuditionParent2"
-    SET INSTRUCTIONS "Attempt to wipe sweat off her hand"
+    SET INSTRUCTIONS "Versuche, deinen Schweiß von ihrer Hand zu wischen"
 END
 
 CLONE DEED "SwipeLeft" "FameAuditionParent3"
-    SET INSTRUCTIONS "Accidentally spill water on producer"
+    SET INSTRUCTIONS "Versehentlich die Produzentin mit Wasser übergießen"
 END
 
 CLONE DEED "Hold3" "FameAuditionParent4"
-    SET INSTRUCTIONS "Back slowly out of room"
+    SET INSTRUCTIONS "Langsam den Raum verlassen"
 END
 
 DEF TASK "FameAuditionParent"
-    SET NAME "Audition to play 'Cop #2'"
+    SET NAME "Vorsprechen für die Rolle 'Bulle Nr.2'"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -117,23 +117,23 @@ END
 
 REM : Sneak on to film set
 CLONE DEED "SwipeUp" "SneakFilmSet1"
-    SET INSTRUCTIONS "Vault over concrete barrier"
+    SET INSTRUCTIONS "Über die Betonbarriere springen"
 END
 
 CLONE DEED "Tap3" "SneakFilmSet2"
-    SET INSTRUCTIONS "tiptoe past craft services"
+    SET INSTRUCTIONS "Auf Zehenspitzen vorbeischleichen"
 END
 
 CLONE DEED "Hold2" "SneakFilmSet3"
-    SET INSTRUCTIONS "Peek into nearby trailer"
+    SET INSTRUCTIONS "In einen nahegelegenen Wohnwagen blicken"
 END
 
 CLONE DEED "Nothing3" "SneakFilmSet4"
-    SET INSTRUCTIONS "OMG it's teen heartthrob Billy O'Brien!!!"
+    SET INSTRUCTIONS "OMG es ist der Teenie-Schwarm Billy O'Brien!!!"
 END
 
 DEF TASK "SneakFilmSet"
-    SET NAME "Sneak onto nearby film set"
+    SET NAME "Aufs Filmset schleichen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -154,17 +154,17 @@ REM : ------------------------------------------
 
 REM : Call producer to ask for second audition
 CLONE DEED "PhoneID" "FameCallProducer1"
-    SET INSTRUCTIONS "Phone Omnipresent Studios"
+    SET INSTRUCTIONS "Rufe Omnipräsente Filmstudios an"
     SET CONTENT_ID "OMNI"
 END
 
 CLONE DEED "DialogID" "FameCallProducer2"
-    SET INSTRUCTIONS "Beg for second audition"
+    SET INSTRUCTIONS "Um ein zweites Vorsprechen betteln"
     SET CONTENT_ID "FAME_BEG"
 END
 
 DEF TASK "FameCallProducer"
-    SET NAME "Call producer to ask for second audition"
+    SET NAME "Produzentin um ein zweites Vorsprechen bitten"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -179,12 +179,12 @@ END
 
 REM : Rehearse lines with your co-star
 CLONE DEED "DialogID" "FameRehearseLines"
-    SET INSTRUCTIONS "Rehearse your lines"
+    SET INSTRUCTIONS "Den Text üben"
     SET CONTENT_ID "FAME_REHEARSE"
 END
 
 DEF TASK "FameRehearseLines"
-    SET NAME "Rehearse lines with your co-star"
+    SET NAME "Mit Co-Star den Text üben"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -197,15 +197,15 @@ END
 
 REM : Show up at producer's hotel room in costume
 CLONE DEED "Nothing3" "FameShowUpHotel1"
-    SET INSTRUCTIONS "You are arrested immediately"
+    SET INSTRUCTIONS "Stehen geblieben! 'Bulle Nr.2' nimmt Sie unverzüglich fest!"
 END
 
 CLONE DEED "Nothing3" "FameShowUpHotel2"
-    SET INSTRUCTIONS "You did not get the role"
+    SET INSTRUCTIONS "Du hast die Rolle nicht bekommen"
 END
 
 DEF TASK "FameShowUpHotel"
-    SET NAME "Show up at producer's hotel room in costume"
+    SET NAME "Kostümiert im Zimmer der Produzentin aufschlagen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -220,12 +220,12 @@ END
 
 REM : Meet teen heartthrob Billy O'Brien!
 CLONE DEED "DialogID" "MeetBilly"
-    SET INSTRUCTIONS "Talk to superstar Billy O'Brien!"
+    SET INSTRUCTIONS "Mit dem Superstar Billy O'Brien reden!"
     SET CONTENT_ID "FAME_BILLY"
 END
 
 DEF TASK "MeetBilly"
-    SET NAME "Meet teen heartthrob Billy O'Brien!"
+    SET NAME "Teenie-Schwarm Billy O'Brien treffen!"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -240,31 +240,31 @@ REM : ----------------------------------------------
 
 REM : Take selfie with Billy O'Brien!
 CLONE DEED "Tap1" "TakeSelfieBilly1"
-    SET INSTRUCTIONS "Say cheese!"
+    SET INSTRUCTIONS "Sag Käsekuchen!"
 END
 
 CLONE DEED "Tap1" "TakeSelfieBilly2"
-    SET INSTRUCTIONS "One more for safety..."
+    SET INSTRUCTIONS "Ein weiteres zur Sicherheit..."
 END
 
 CLONE DEED "Tap1" "TakeSelfieBilly3"
-    SET INSTRUCTIONS "Now a funny one..."
+    SET INSTRUCTIONS "Und jetzt ein lustiges..."
 END
 
 CLONE DEED "Tap1" "TakeSelfieBilly4"
-    SET INSTRUCTIONS "Just one more..."
+    SET INSTRUCTIONS "Nur noch eins..."
 END
 
 CLONE DEED "Tap1" "TakeSelfieBilly5"
-    SET INSTRUCTIONS "Last one for sure..."
+    SET INSTRUCTIONS "Das ist jetzt sicher das letzte..."
 END
 
 CLONE DEED "Tap1" "TakeSelfieBilly6"
-    SET INSTRUCTIONS "Best buds forever!!!"
+    SET INSTRUCTIONS "Beste Freunde auf ewig!!!"
 END
 
 DEF TASK "TakeSelfieBilly"
-    SET NAME "Take selfie with Billy O'Brien!"
+    SET NAME "Selfies mit Billy O'Brien machen!"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -287,22 +287,22 @@ END
 
 REM : Film the big scene
 CLONE DEED "Instructions4" "FilmBigScene"
-    SET INSTRUCTIONS "Film the big scene"
+    SET INSTRUCTIONS "Die große Szene drehen"
 
     SET MECHANIC_0 "TAP_3"
-    SET INSTRUCTIONS_0 "Hit your mark"
+    SET INSTRUCTIONS_0 "Die Einsätze treffen"
     SET MECHANIC_1 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_1 "Speed through your lines"
+    SET INSTRUCTIONS_1 "Durch die Sätze hetzen, dass es nur so pfeift"
     SET MECHANIC_2 "TAP_HOLD"
-    SET INSTRUCTIONS_2 "Emote intensely"
+    SET INSTRUCTIONS_2 "Etwas mehr Gefühl"
     SET MECHANIC_3 "TAP_3"
-    SET INSTRUCTIONS_3 "Run to your trailer to throw up"
+    SET INSTRUCTIONS_3 "Zum Kotzen in den Wohnwagen flitzen"
 END
 
 DEF TASK "FilmBigScene"
-    SET NAME "Film the big scene"
-    SET ASKER_NAME "Help kid film their big scene"
-    SET HELPER_NAME "Film your big scene with <ASKER>'s help"
+    SET NAME "Große Szene drehen"
+    SET ASKER_NAME "Dem Kind helfen, die große Szene zu drehen"
+    SET HELPER_NAME "Drehe deine große Szene mit der Hilfe von <ASKER>"
     SET CAPTAIN "CHILDREN"
     SET PARTICIPANT "MATURE"
     SET CATEGORY "STORY"
@@ -316,12 +316,12 @@ END
 
 REM : Drive to film premiere
 CLONE DEED "TravelCategory" "DrivePremiere"
-    SET INSTRUCTIONS "Drive to the film premiere"
+    SET INSTRUCTIONS "Zur Filmpremiere fahren"
     SET CATEGORY "THEATER"
 END
 
 DEF TASK "DrivePremiere"
-    SET NAME "Drive to the film premiere"
+    SET NAME "Zur Filmpremiere fahren"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -335,11 +335,11 @@ END
 
 REM : Sign autographs at the premiere
 CLONE DEED "ScrubXLong" "SignAutographs"
-    SET INSTRUCTIONS "Sign for your adoring fans"
+    SET INSTRUCTIONS "Den bewundernden Fans Autogramme geben"
 END
 
 DEF TASK "SignAutographs"
-    SET NAME "Sign autographs at the premiere"
+    SET NAME "Auf der Premiere Autogramme geben"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"

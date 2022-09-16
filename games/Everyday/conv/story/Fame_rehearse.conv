@@ -1,0 +1,17 @@
+MAIN(Produzentin): *Liest das Skript* "Wohin gehst du?"
+-DUCKS-> Wir müssen diese ENTEN retten!
+-MUST-> Wir MÜSSEN diese Enten retten!
+-THESE-> Wir müssen DIESE Enten retten!
+-SAVE-> Wir müssen diese Enten RETTEN!
+
+DUCKS(Produzentin): Gute Betonung. Die Enten SIND wichtig.
+-SUCCESS-> Volltreffer!
+
+MUST(Produzentin): Warum sagst du das so komisch?
+-SUCCESS-> Weil ich ein STAR bin.
+
+THESE(Produzentin): Gute Betonung. Die anderen Enten sind böse.
+-SUCCESS-> Volltreffer!
+
+SAVE(Produzentin): Großartig, aber vergiss den nächsten Satz nicht...
+-SUCCESS-> Weil ich sie LIEBE!

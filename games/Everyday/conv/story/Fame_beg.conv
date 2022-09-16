@@ -1,0 +1,10 @@
+MAIN(Produzentin): Hallo?
+-NORMAL-> Ich möchte Sie höflichst um ein zweites Vorsprechen bitten.
+-CRAZY-> Ähh, hier ist der Regisseur. Ich denke, wir sollten diesem attraktiven Teufel von vorhin die Rolle für 'Bulle Nr.2' geben!
+-CRAZY-> ICH BIN 'BULLE NR.2'! JEDE ZELLE MEINES KÖRPERS SCHREIT 'BULLE NR.2'!
+
+NORMAL(Produzentin): Ich habe nicht die geringste Ahnung, wer da spricht. Auf Wiedersehen.
+-SUCCESS-> Wenn sie sich nicht an mich erinnert, habe ich ja noch eine zweite Chance beim Casting!
+
+CRAZY(Produzentin): Löschen Sie diese Nummer unverzüglich.
+-SUCCESS-> Das klang nicht wie ein 'Nein'!
