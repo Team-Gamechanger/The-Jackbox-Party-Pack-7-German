@@ -1,0 +1,17 @@
+MAIN(Riley): Man sagte mir, dass Sie mit mir reden wollen?
+-COME-> Klar! Du musst unbedingt mal zum Essen vorbeikommen!
+-HAVE-> Mir ist zu Ohren gekommen, dass jemand aus unserer Familie dich ZUM FRESSEN gern hat!
+-GUESS-> Mein Haus. Heute Abend. Essen.
+-NEVER-> Ruf hier nie wieder an!
+
+COME(Riley): Okay. Warum nicht?
+-SUCCESS-> Das lief doch ganz gut.
+
+HAVE(Riley): Haha, das klingt ja so, als stände ich auf der Speisekarte.
+-SUCCESS-> Hmm... Jetzt brauche ich ein neues Hauptgericht.
+
+GUESS(Riley): ...Okay?
+-SUCCESS-> Das wird eine heikle Nacht.
+
+NEVER(Riley): Das war ein merkwürdiges Gespräch...
+-SUCCESS-> Ich werde ihn wohl zum Abendessen einladen müssen, um mich zu entschuldigen.

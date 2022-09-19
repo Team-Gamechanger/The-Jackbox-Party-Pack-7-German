@@ -46,23 +46,23 @@ REM : ------------------------------
 
 REM : Read teens diary
 CLONE DEED "Tap1" "LookLeft"
-    SET INSTRUCTIONS "Look left"
+    SET INSTRUCTIONS "Nach links schauen"
 END
 
 CLONE DEED "Tap2" "LookRight"
-    SET INSTRUCTIONS "Look right"
+    SET INSTRUCTIONS "Nach rechts schauen"
 END
 
 CLONE DEED "SwipeUp" "OpenDiary"
-    SET INSTRUCTIONS "All clear. Open it up."
+    SET INSTRUCTIONS "Entwarnung. Kannst es öffnen."
 END
 
 CLONE DEED "Nothing4" "DiscoverBoo"
-    SET INSTRUCTIONS "Turns out they have a secret boo!"
+    SET INSTRUCTIONS "Scheint so, als gäbe es da jemanden ganz Besonderes"
 END
 
 DEF TASK "TeenDiary"
-    SET NAME "Read older sibling's diary"
+    SET NAME "Tagebuch vom älteren Geschwisterchen lesen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -81,17 +81,17 @@ END
 
 REM : Phone teen's dating friend
 CLONE DEED "PhoneID" "PhoneRiley"
-    SET INSTRUCTIONS "Phone teen's dating friend"
+    SET INSTRUCTIONS "Die Liebelei vom Teenie anrufen"
     SET CONTENT_ID "RILEY"
 END
 
 CLONE DEED "DialogID" "InviteRileyDialog"
-    SET INSTRUCTIONS "Invite them over"
+    SET INSTRUCTIONS "Einfach mal zu euch einladen"
     SET CONTENT_ID "FIRSTDATE_INVITE"
 END
 
 DEF TASK "InviteRiley"
-    SET NAME "Phone teen's dating friend"
+    SET NAME "Liebelei vom Teenie anrufen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -106,11 +106,11 @@ END
 
 REM : Remove embarrassing photos
 CLONE DEED "Tap5" "RemovePhotos"
-    SET INSTRUCTIONS "Hide these quick!"
+    SET INSTRUCTIONS "Schnell verstecken!"
 END
 
 DEF TASK "RemovePhotos"
-    SET NAME "Remove embarrassing photos around house"
+    SET NAME "Peinliche Fotos im Haus entfernen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -123,14 +123,14 @@ END
 
 REM : Program thermostat for humans
 CLONE DEED "Gizmos3" "ThermostatForHumans"
-    SET INSTRUCTIONS "Make house comfy for humans"
-    SET NAME "Thermo-Tron 9X"
+    SET INSTRUCTIONS "Haus für Menschen erträglich machen"
+    SET NAME "Thermomatomato"
 END
 
 DEF TASK "ThermostatForHumans"
-    SET NAME "Program thermostat to human-friendly temperature"
-    SET ASKER_NAME "Get help programming the thermostat to human-friendly temperature"
-    SET HELPER_NAME "Help <ASKER> program the thermostat to human-friendly temperature"
+    SET NAME "Menschenerträgliche Temperatur einstellen"
+    SET ASKER_NAME "Erhalte Hilfe, eine menschenerträgliche Temperatur einzustellen"
+    SET HELPER_NAME "Helfe <ASKER> eine menschenerträgliche Temperatur einzustellen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -145,7 +145,7 @@ REM : ---------------------------------
 
 REM : Clean the house for Riley
 CLONE TASK "CleanHouse" "CleanRiley"
-    SET NAME "Clean the house for Riley's visit"
+    SET NAME "Haus für Rileys Besuch aufräumen"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET DURATION <8H>
@@ -153,12 +153,12 @@ END
 
 REM : Greet Riley
 CLONE DEED "DialogID" "RileyDoor"
-    SET INSTRUCTIONS "Greet Riley at the door"
+    SET INSTRUCTIONS "Riley an der Tür begrüssen"
     SET CONTENT_ID "FIRSTDATE_GREET"
 END
 
 DEF TASK "RileyDoor"
-    SET NAME "Greet Riley at the door"
+    SET NAME "Riley an der Tür begrüßen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -171,12 +171,12 @@ END
 
 REM : Tell awkward story
 CLONE DEED "DialogID" "RileyAwkwardStory"
-    SET INSTRUCTIONS "Tell awkward story about your sibling"
+    SET INSTRUCTIONS "Peinliche Geschichte erzählen"
     SET CONTENT_ID "FIRSTDATE_AKWARD"
 END
 
 DEF TASK "RileyAwkwardStory"
-    SET NAME "Tell awkward story about your sibling"
+    SET NAME "Riley peinliche Geschichten erzählen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -189,23 +189,23 @@ END
 
 REM : Take photo of couple
 CLONE DEED "SwipeUp" "ReadyCam"
-    SET INSTRUCTIONS "Get camera ready"
+    SET INSTRUCTIONS "Kamera bereitmachen"
 END
 
 CLONE DEED "Hold3" "WaitSmile1"
-    SET INSTRUCTIONS "Wait for them to smile..."
+    SET INSTRUCTIONS "Warte darauf, dass sie lächeln..."
 END
 
 CLONE DEED "Hold5" "WaitSmile2"
-    SET INSTRUCTIONS "Wait for it..."
+    SET INSTRUCTIONS "Sie lächeln sicherlich jede Sekunde..."
 END
 
 CLONE DEED "Tap1" "TakeWhatYouGet"
-    SET INSTRUCTIONS "Just take what you can get"
+    SET INSTRUCTIONS "Einfach das nehmen, was du kriegen kannst"
 END
 
 DEF TASK "CouplePhoto"
-    SET NAME "Take photo of the couple"
+    SET NAME "Glückliches Paar fotografieren"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -226,19 +226,19 @@ REM : ----------------------------
 
 REM : Go out with Riley
 CLONE DEED "QuickTap4" "QuickRun"
-    SET INSTRUCTIONS "Quickly run out of the house"
+    SET INSTRUCTIONS "Aus dem Haus flüchten"
 END
 
 CLONE DEED "Tap1" "JumpCar"
-    SET INSTRUCTIONS "Jump over convertible car door"
+    SET INSTRUCTIONS "Über die Autotür springen"
 END
 
 CLONE DEED "Hold3" "BangShin"
-    SET INSTRUCTIONS "Pretend you didn't bang your shin"
+    SET INSTRUCTIONS "Tue so, als hättest du dir nicht sehr wehgetan"
 END
 
 DEF TASK "GoOutRiley"
-    SET NAME "Go out with Riley"
+    SET NAME "Mit Riley herausschleichen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -255,11 +255,11 @@ END
 
 REM : Wait up for teen
 CLONE DEED "Nothing5" "WaitUp"
-    SET INSTRUCTIONS "It's not that I don't trust them. It's just this book is SO good!"
+    SET INSTRUCTIONS "Natürlich traue ich den beiden komplett. Das Buch ist einfach nur ZU gut!"
 END
 
 DEF TASK "WaitUp"
-    SET NAME "Wait up for teen"
+    SET NAME "Auf Rückkehr des Teenies warten"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -272,23 +272,23 @@ END
 
 REM : Get dropped off at home
 CLONE DEED "Tap1" "CloseCarDoor"
-    SET INSTRUCTIONS "Close car door"
+    SET INSTRUCTIONS "Autotür schließen"
 END
 
 CLONE DEED "Rotate180" "Turn1"
-    SET INSTRUCTIONS "Turn around for kiss"
+    SET INSTRUCTIONS "Für einen Kuss umdrehen"
 END
 
 CLONE DEED "Rotate180Counter" "Turn2"
-    SET INSTRUCTIONS "Get nervous and turn back around"
+    SET INSTRUCTIONS "Nervös werden und auf halbem Weg aufgeben"
 END
 
 CLONE DEED "Tap3" "SkipDoor"
-    SET INSTRUCTIONS "Skip to front door"
+    SET INSTRUCTIONS "Zur Haustür sprinten"
 END
 
 DEF TASK "GetDroppedOff"
-    SET NAME "Get dropped off at home"
+    SET NAME "Zu Hause abgesetzt werden"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"

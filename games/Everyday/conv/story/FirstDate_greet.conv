@@ -1,0 +1,21 @@
+MAIN(Riley): Hi, ich bin Riley.
+-COMEIN-> Komm doch bitte herein!
+-DISH-> Du hast doch sicherlich was zum Essen mitgebracht?
+-DONTSEE-> Ich verstehe nicht, was man an dir finden kann.
+
+COMEIN(Riley): Sie haben ein sehr schönes Haus!
+-THANKS-> Danke, es wurde von Dämonen eingerichtet!
+-THANKS-> Schalt mal nen Gang zurück, Riley.
+
+THANKS(Riley): Ich bin sehr nervös.
+-SUCCESS-> Es ist schön, sich einem Teenager überlegen fühlen zu können.
+
+DISH(Riley): Ach Mist. Oh nein, oh verdammt.
+-SUCCESS-> Ich habe erfolgreich einen unbeholfenen Teenager verunsichert.
+
+DONTSEE(Riley): Äh... Na ja... Die Leute sagen mir, ich hätte ein schönes Lächeln?
+-SUCCESS-> Ich nehme dich beim Wort.
+-SMILE-> Beweise es.
+
+SMILE(Riley): *Unbeholfenes Lächeln*
+-SUCCESS-> Strahlend.
