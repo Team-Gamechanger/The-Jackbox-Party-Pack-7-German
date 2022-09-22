@@ -44,15 +44,15 @@ REM : ------------------------------
 
 REM : Get Party Supplies
 CLONE DEED "TravelCategory" "TravelGrammaSupplies"
-    SET INSTRUCTIONS "Drive to the store for party supplies"
+    SET INSTRUCTIONS "Zum Laden für Partyzubehör fahren"
     SET CONTENT_ID "PARTYTOWNSHIP"
 END
 
 DEF TASK "TravelPartySupplies"
     SET DURATION <8H>
-    SET NAME "Drive to the store for party supplies"
-    SET ASKER_NAME "Go with someone older to get party supplies"
-    SET HELPER_NAME "Drive to the store with <ASKER> to get party supplies"
+    SET NAME "Partyzubehör einkaufen"
+    SET ASKER_NAME "Fahre mit jemand Älterem zum Partyzubehörladen"
+    SET HELPER_NAME "Mit <ASKER> zum Partyzubehörladen fahren"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAIN "MATURE"
@@ -64,15 +64,15 @@ END
 
 REM : Buy Grandma's Present
 CLONE DEED "TravelCategory" "TravelGrammaPresent"
-    SET INSTRUCTIONS "Go buy Grandma a present"
+    SET INSTRUCTIONS "Für Oma ein Geschenk einkaufen"
     SET CATEGORY "SHOPPING"
 END
 
 DEF TASK "TravelGrammaPresent"
     SET DURATION <8H>
-    SET NAME "Go buy Grandma a present"
-    SET ASKER_NAME "Get a ride to the store to buy grandma a present"
-    SET HELPER_NAME "Drive <ASKER> to the store to buy grandma a present"
+    SET NAME "Geschenk für Oma kaufen"
+    SET ASKER_NAME "Lasse dich zum Laden fahren, um ein Geschenk zu kaufen"
+    SET HELPER_NAME "Fahre <ASKER> zum Laden, um ein Geschenk zu kaufen"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAIN "MATURE"
@@ -86,15 +86,15 @@ END
 
 REM : Pick up Grandma
 CLONE DEED "TravelCategory" "TravelPickupGrandma"
-    SET INSTRUCTIONS "Pick up Grandma from the home"
+    SET INSTRUCTIONS "Oma aus dem Heim abholen"
     SET CONTENT_ID "EERIEACRES"
 END
 
 DEF TASK "TravelPickupGrandma"
     SET DURATION <8H>
-    SET NAME "Pick up Grandma from the home"
-    SET ASKER_NAME "Go with someone older to pick up Grandma"
-    SET HELPER_NAME "Go with <ASKER> to pick up Grandma"
+    SET NAME "Oma aus dem Heim abholen"
+    SET ASKER_NAME "Hole mit jemand Älterem Oma aus dem Heim ab"
+    SET HELPER_NAME "Hole mit <ASKER> Oma aus dem Heim ab"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAIN "MATURE"
@@ -109,18 +109,18 @@ END
 REM : Call Friend
 
 CLONE DEED "PhoneID" "CallHecuba"
-    SET INSTRUCTIONS "Call Aunt Hecuba"
+    SET INSTRUCTIONS "Rufe Tante Hecuba an"
     SET CONTENT_ID "HECUBA"
 END
 
 CLONE DEED "DialogBase" "GrandmaCallFriend"
-    SET INSTRUCTIONS "Talk to Aunt Hecuba"
+    SET INSTRUCTIONS "Mit Tante Hecuba sprechen"
     SET CONTENT_ID "GRANDMAS_FRIEND"
 END
 
 DEF TASK "CallFriendGrandma"
     SET DURATION <8H>
-    SET NAME "Invite Aunt Hecuba to the party"
+    SET NAME "Tante Hecuba zur Feier einladen"
     SET CATEGORY "STORY"
     SET THEME "STORY"
 
@@ -133,7 +133,7 @@ END
 
 REM : Clean the house
 CLONE TASK "CleanHouse" "CleanParty"
-    SET NAME "Clean up for the party"
+    SET NAME "Aufräumen"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET DURATION <8H>
@@ -142,7 +142,7 @@ END
 
 REM : Handmade present
 CLONE TASK "MakeSlimeMess" "GrandmaHandmadeGift"
-    SET NAME "Make grandma a handmade gift"
+    SET NAME "Oma ein Geschenk basteln"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAIN "CHILDREN"
@@ -152,25 +152,25 @@ END
 
 REM : Wrap present
 CLONE DEED "SwipeBase" "WrapGift"
-    SET INSTRUCTIONS "Wrap Grandma's gift"
+    SET INSTRUCTIONS "Das Geschenk für Oma einpacken"
     SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT,LEFT,RIGHT"
 END
 
 CLONE DEED "Rotate360Counter" "UnspoolRibbon"
-    SET INSTRUCTIONS "Unspool the ribbon"
+    SET INSTRUCTIONS "Geschenkband abrollen"
 END
 
 CLONE DEED "Hold3" "TapeDown"
-    SET INSTRUCTIONS "Tape down the corners"    
+    SET INSTRUCTIONS "Die Ecken ankleben"    
 END
 
 CLONE DEED "Tap1" "Bow"
-    SET INSTRUCTIONS "Add a bow"
+    SET INSTRUCTIONS "Eine schöne Schleife binden"
 END
 
 DEF TASK "WrapGrandmasGift"
     SET DURATION <8H>
-    SET NAME "Wrap Grandma's gift"
+    SET NAME "Omas Geschenk einpacken"
     SET CATEGORY "STORY"
     SET THEME "STORY"
 
@@ -188,14 +188,14 @@ END
 
 REM : Gramma Meal Cook
 CLONE DEED "GatherMeal" "GrammaMealIngredients"
-    SET INSTRUCTIONS "Gather ingredients for Grandma's favorite meal"
+    SET INSTRUCTIONS "Zutaten für Omas Leibspeise sammeln"
     SET CATEGORY "DINNER"
 
 END
 
 DEF TASK "GatherGrandmaMeal"
     SET DURATION <8H>
-    SET NAME "Gather ingredients for Grandma's favorite meal"
+    SET NAME "Zutaten für Omas Leibspeise sammeln"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAINLESS_BEHAVIOR "KICK_ALL"
@@ -210,12 +210,12 @@ END
 
 REM : Gramma Meal Gather
 CLONE DEED "Tap3" "CramGrandmaMeal"
-    SET INSTRUCTIONS "Cram it in the fridge until the party"
+    SET INSTRUCTIONS "Bis zur Feier in den Kühlschrank stopfen"
 END
 
 DEF TASK "CookGrandmaMeal"
     SET DURATION <8H>
-    SET NAME "Prepare Grandma's favorite meal"
+    SET NAME "Omas Lieblingsgericht kochen"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -231,11 +231,11 @@ END
 
 REM : Blow out candles
 CLONE DEED "Hold5" "GrandmaBlowCandles"
-    SET INSTRUCTIONS "Blow hard!"
+    SET INSTRUCTIONS "Feste Pusten!"
 END
 
 DEF TASK "GrandmaBlowCandles"
-    SET NAME "Help Grandma blow out her candles"
+    SET NAME "Oma beim Kerzenausblasen helfen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -249,12 +249,12 @@ END
 
 REM : Make small talk with Grandma
 CLONE DEED "DialogID" "GrandmaSmallTalk"
-    SET INSTRUCTIONS "Make small talk with Grandma"
+    SET INSTRUCTIONS "Mit Oma plaudern"
     SET CONTENT_ID "GRANDMAS_SMALLTALK"
 END
 
 DEF TASK "GrandmaSmallTalk"
-    SET NAME "Make small talk with Grandma"
+    SET NAME "Mit Oma plaudern"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -267,13 +267,13 @@ END
 
 REM : Make Grandma a bouquet
 CLONE DEED "GatherBase" "GatherGrandmaBouquet"
-    SET INSTRUCTIONS "Gather ingredients for the bouquet"
+    SET INSTRUCTIONS "Gegenstände für Blumenstrauß sammeln"
     SET CONTENT_ID "GRANDMAS_FLOWERS"
 END
 
 DEF TASK "GatherGrandmaBouquet"
     SET DURATION <3H>
-    SET NAME "Make Grandma a bouquet"
+    SET NAME "Oma einen Blumenstrauß binden"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAINLESS_BEHAVIOR "KICK_ALL"

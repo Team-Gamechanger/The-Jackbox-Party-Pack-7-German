@@ -1,0 +1,26 @@
+MAIN(Oma): Was?
+-POLITE-> Hallo Oma! Hast du einen schönen Geburtstag?
+-OLD-> Und wie ist es so, 666 Jahre alt zu sein?
+-INSULT-> Immer noch nicht ins Gras gebissen, du alte Schachtel?
+
+POLITE(Oma): Nein! Hier friert man sich ja den Hintern ab! Wo ist meine verdammte Suppe? Zu meiner Zeit gab es noch etwas, das nannte sich Respekt!
+-RANT2-> Ähhh...
+-RANT2-> Suppe?
+-INSULT-> Zu deiner Zeit trug Luzifer auch noch Windeln.
+
+RANT2(Oma): Niemand zieht sich mehr fürs Fliegen schick an! Das Fernsehen macht die jungen Leute weich! Früher hatten wir noch richtige Politiker!
+-RANT3-> Ich weiß ja nicht...
+-RANT3-> Na ja, das mit den Politikern ging auch mal schief...
+-INSULT-> Oma, du stinkst nach Füßen.
+
+RANT3(Oma): Tanzen ist heute so unanständig! Zu meiner Zeit brauchte man kein Ei, um einen Kuchen zu backen! Ausländer nehmen uns allen die Arbeitsplätze weg!
+-POLITE-> Aber sicher doch! Ansonsten geht es dir doch gut, oder?
+-SUCCESS->(Leise zurückziehen und das einfach einen Erfolg nennen)
+
+OLD(Oma): Schrecklich! Mir tut der Rücken weh! Meine Zähne sind voller Löcher! Meine Hörner sind spröde und schuppig! Ich kann nicht mehr alleine aufs Klo!
+-RANT2-> Tut mir leid, das zu hören.
+-INSULT-> Wen juckts?
+
+INSULT(Oma): Was hast du da gerade gesagt?!
+-RANT2-> Ich sagte, dass du mir von all deinen wunderbaren, komplett langweiligen Beschwerden erzählen sollst!
+-SUCCESS-> Vergiss es, ich stopfe mich jetzt mit Kuchen voll.

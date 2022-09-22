@@ -1,0 +1,49 @@
+MAIN(Tante Hecuba): Hallo? Wer ist da?
+-GRANDMA-> Du bist zu Oma Pazuzus Geburtstagsfeier eingeladen!
+-MURDER-> Du bist zu einer Kriminacht im Stil der Goldenen Zwanziger eingeladen!
+-SCAM-> Sie könnten von großartigen Sparangeboten bei Ferngesprächen profitieren! 
+
+GRANDMA(Tante Hecuba): Pazuzu? Ich hasse diese alte Schrapnelle! Vergiss es!
+-REASON-> Sagte ich Pazuzu? Ich meinte natürlich...jemanden, den du magst?
+-PIECE-> Dann komm doch zur Feier und sag ihr deine Meinung!
+
+REASON(Tante Hecuba): Wer's glaubt. Nenne mir einen guten Grund, warum ich zu dieser lahmen Party gehen sollte.
+-CAKE-> Kostenloser Kuchen.
+-PIECE-> Du kannst ihr endlich deine Meinung geigen.
+-TWENTY-> Ich gebe dir zwanzig Piepen.
+
+CAKE(Tante Hecuba): Es ist nicht viel, aber meinetwegen. Ich werde da sein.
+-SUCCESS-> Funktioniert immer.
+
+PIECE(Tante Hecuba): Ha! Jetzt sprichst du meine Sprache. Ich werde da sein.
+-SUCCESS-> Ich habe schon nicht mehr zugehört.
+
+TWENTY(Tante Hecuba): 50 Mäuse!
+-FINE-> Ugh. Meinetwegen.
+-NOWAY-> Vergiss es!
+
+NOWAY(Tante Hecuba): Dann komme ich eben nicht zur Feier!
+-FINE-> Warte! Ich zahle ja!
+-FINE-> Warte! Ich tue so, als würde ich zahlen!
+
+
+FINE(Tante Hecuba): Heißes Ding! Ich werde da sein!
+-SUCCESS-> Wehe, das ist es nicht wert.
+
+MURDER(Tante Hecuba): Ich hasse solchen Schnickschnack! Am Ende ist es eh immer der Gärtner!
+-GRANDMA-> Scherz! Oma Pazuzu hat Geburtstag.
+-ESCAPEROOM-> Wie wäre es stattdessen mit einem Escape Room?
+
+ESCAPEROOM(Tante Hecuba): Ich weiß nicht einmal, was das sein soll.
+-GRANDMA-> Nicht so wichtig. Ich versuche, dich zum Geburtstag von Oma Pazuzu einzuladen.
+
+SCAM(Tante Hecuba): Ach wirklich? Erzählen Sie mir mehr!
+-BIGBAND-> BigBand Internet hat einen Tarif für jedermann!
+-GRANDMA-> Nur ein Scherz! Oma Pazuzu hat Geburtstag.
+
+BIGBAND(Tante Hecuba): Wie sieht es mit Datenbegrenzungen aus?
+-LIMITS-> Einige Tarife haben zwar Limits, die meisten unserer Kunden überschreiten diese jedoch nie.
+-GRANDMA-> Vergiss es! Ich versuche dich zu Oma Pazuzus Geburtstagsfeier einzuladen.
+
+LIMITS(Tante Hecuba): Das sagen sie alle! Netter Versuch, Gauner! *Aufgelegt*
+-SUCCESS-> Ich bin stolz auf dich Tantchen und lade dich später einfach per SMS ein.
