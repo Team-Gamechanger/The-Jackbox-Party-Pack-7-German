@@ -94,7 +94,7 @@ END
 REM : Fix the vacuum
 REM : Spawned by FIGHT_VACUUM
 CLONE DEED "PhoneBase" "AudienceFixVacuum1"
-    SET INSTRUCTIONS "Call Quik Fix-A-Vac"
+    SET INSTRUCTIONS "Rufe Quik Gerätereparatur an"
     SET CONTENT_ID "FIX_A_VAC"
 END
 

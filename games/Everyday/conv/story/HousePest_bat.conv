@@ -1,0 +1,17 @@
+MAIN(Kammerjäger): Um was für eine Art der Fledermaus handelt es sich denn?
+-NORMAL-> Sie ist ganz normal
+-DEMON-> Sie ist dämonisch
+-CURSE-> Sie ist verflucht
+-EXTRA-> Sie ist eingebildet
+
+NORMAL(Kammerjäger): Dann kann ich ja normale Fledermausfallen verwenden.
+-SUCCESS-> Es war nett, Sie gekannt zu haben.
+
+DEMON(Kammerjäger): Mein Spezialgebiet! 
+-SUCCESS-> Ein Hoch auf mittelständische Unternehmen!
+
+CURSE(Kammerjäger): Mein Spezialgebiet!
+-SUCCESS-> Ein Hoch auf das Handwerk! 
+
+EXTRA(Kammerjäger): Gut. Ich bin für das Drama geboren.
+-SUCCESS-> Nimm dich besser in Acht, Fledermaus!
