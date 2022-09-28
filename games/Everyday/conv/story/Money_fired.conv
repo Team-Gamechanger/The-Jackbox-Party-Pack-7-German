@@ -1,0 +1,17 @@
+MAIN(Chef): Warum hast du deine Schicht versäumt?
+-CAR-> Probleme am Wagen....?
+-TIME-> Hausaufgaben...?
+-WOLF-> Flucht vor wilden Wölfen...?
+-LIKE-> Ich hasse Arbeit....?
+
+CAR(Chef): Ich respektiere deine Ehrlichkeit. Du bist trotzdem gefeuert.
+-SUCCESS-> ...Verständlich.
+
+TIME(Chef): Ich respektiere deine Ehrlichkeit. Du bist trotzdem gefeuert.
+-SUCCESS-> ...Verständlich.
+
+WOLF(Chef): Du lügst doch wie gedruckt... Du bist gefeuert!
+-SUCCESS-> Na schön! Dann geben Sie halt den Wölfen ihren Willen!
+
+LIKE(Chef): Gute Nachrichten! Du bist von dieser Qual auf ewig erlöst!
+-SUCCESS-> ...Ich frage mich, ob sie mich weiterhin bezahlen werden?

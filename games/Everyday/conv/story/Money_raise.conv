@@ -1,0 +1,13 @@
+MAIN(Chefin): Warum haben ausgerechnet Sie eine Gehaltserhöhung verdient?
+-WORK-> Ich arbeite hart!
+-TATTLE-> Ich verpfeife meine Kollegen!
+-WANT-> Weil ich es so will!
+
+WORK(Chefin): Sorry, aber so funktioniert das hier nicht.
+-SUCCESS-> Die Welt der Sterblichen ist komisch.
+
+TATTLE(Chefin): Deal!
+-SUCCESS-> Haha... Was scheren mich andere Menschen?
+
+WANT(Chefin): Sie haben Mumm. Das gefällt mir. Einverstanden!
+-SUCCESS-> So fühlt sich dieses Selbstvertrauen also an...

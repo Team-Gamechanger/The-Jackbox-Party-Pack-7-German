@@ -47,24 +47,24 @@ REM : Define this episode's story tasks below
 
 REM : Seaerch for tips on asking for a raise
 CLONE DEED "Tap5" "RaiseTips1"
-    SET INSTRUCTIONS "Enter carefully phrased search term"
+    SET INSTRUCTIONS "Sorgfältig ausformulierte Suchbegriffe eingeben"
 END
 
 CLONE DEED "Tap3" "RaiseTips2"
-    SET INSTRUCTIONS "Close pop-up ads"
+    SET INSTRUCTIONS "Pop-Up-Werbung schliessen"
 END
 
 CLONE DEED "Nothing3" "RaiseTips3"
-    SET INSTRUCTIONS "Get distracted by squirrel video"
+    SET INSTRUCTIONS "Von einem Eichhörnchenvideo ablenken lassen"
 END
 
 CLONE DEED "SwipeBase" "RaiseTips4"
-    SET INSTRUCTIONS "Give up and swipe through cute squirrel pics"
+    SET INSTRUCTIONS "Aufgeben und niedliche Eichhörnchenbilder anschauen"
     SET DIRECTION "LEFT,LEFT,LEFT"
 END
 
 DEF TASK "RaiseTips"
-    SET NAME "Search for tips on asking for a raise"
+    SET NAME "Nach Tipps für Gehaltserhöhungen suchen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -83,14 +83,14 @@ END
 
 REM : Go on food delivery
 CLONE DEED "TravelCategory" "FoodDelivery1"
-    SET INSTRUCTIONS "Deliver food order"
+    SET INSTRUCTIONS "Essensbestellung ausliefern"
     SET CATEGORY "RESIDENCE"
 END
 
 DEF TASK "FoodDelivery1"
-    SET NAME "Go out on food delivery"
-    SET ASKER_NAME "Go with teen on their food delivery job"
-    SET HELPER_NAME "Take <ASKER> along on your food delivery job"
+    SET NAME "Minijob als Essenslieferant"
+    SET ASKER_NAME "Begleite den Teenie beim Job als Essenslieferant"
+    SET HELPER_NAME "Nehme <ASKER> bei deinem Job als Essenslieferant mit"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -104,12 +104,12 @@ END
 
 REM : Search hosue for loose change
 CLONE DEED "SearchID" "SearchLooseChange"
-    SET INSTRUCTIONS "Search for loose change"
+    SET INSTRUCTIONS "Kleingeld finden"
     SET CONTENT_ID "LOOSECHANGE"
 END
 
 DEF TASK "SearchLooseChange"
-    SET NAME "Search the house for loose change"
+    SET NAME "Im Haus nach Kleingeld suchen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -122,24 +122,24 @@ END
 
 REM : Make a little presentation on why you deserve a raise
 CLONE DEED "Instructions4" "MakePresentationRaise"
-    SET INSTRUCTIONS "Make a presentation on why you deserve a raise"
+    SET INSTRUCTIONS "Präsentation machen, warum eine Gehaltserhöhung verdient ist"
 
     SET MECHANIC_0 "TAP_3"
-    SET INSTRUCTIONS_0 "Add slide highlighting your past accomplishments"
+    SET INSTRUCTIONS_0 "Eine Folie hinzufügen, die deine bisherigen Leistungen hervorhebt"
     SET MECHANIC_1 "TAP_HOLD"
-    SET INSTRUCTIONS_1 "Generate pie chart of your most valuable qualities"
+    SET INSTRUCTIONS_1 "Ein Tortendiagramm mit deinen wertvollsten Eigenschaften erstellen"
     SET MECHANIC_2 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_2 "Fade in inspirational music"
+    SET INSTRUCTIONS_2 "Inspirierende Musik hinzufügen"
     SET MECHANIC_3 "TAP_3"
-    SET INSTRUCTIONS_3 "Throw in a bunch of crazy animations"
+    SET INSTRUCTIONS_3 "Ganz viele verrückte Animationen noch dazu"
 END
 
 DEF TASK "MakePresentationRaise"
-    SET NAME "Make a little presentation on why you deserve a raise"
+    SET NAME "Präsentation für Arbeitgeber vorbereiten"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
-    SET ASKER_NAME "Help parent make a little presentation on why they deserve a raise"
-    SET HELPER_NAME "Make a little presentation on why you deserve a raise with <ASKER>'s help"
+    SET ASKER_NAME "Helfe dem Elternteil eine Präsentation für den Arbeitgeber vorzubereiten"
+    SET HELPER_NAME "Bereite mit <ASKER> eine Präsentation für deinen Arbeitgeber vor"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET DURATION <8H>
@@ -153,14 +153,14 @@ REM : ----------------------------------------------------
 
 REM : Go on another food delivery
 CLONE DEED "TravelCategory" "FoodDelivery2"
-    SET INSTRUCTIONS "Deliver food order"
+    SET INSTRUCTIONS "Essensbestellung ausliefern"
     SET CATEGORY "RESIDENCE"
 END
 
 DEF TASK "FoodDelivery2"
-    SET NAME "Go on another food delivery"
-    SET ASKER_NAME "Go with teen on another food delivery"
-    SET HELPER_NAME "Take <ASKER> along on another food delivery"
+    SET NAME "Minijob als Essenslieferant (Schon wieder)"
+    SET ASKER_NAME "Begleite den Teenie bei der nächsten Essenslieferung"
+    SET HELPER_NAME "Nehme <ASKER> bei der nächsten Essenslieferung mit"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -174,14 +174,14 @@ END
 
 REM : Blow off work to go to the movies
 CLONE DEED "TravelCategory" "BlowOffWork"
-    SET INSTRUCTIONS "Let's go to the movies!"
+    SET INSTRUCTIONS "Lass uns ins Kino gehen!"
     SET CATEGORY "THEATER"
 END
 
 DEF TASK "BlowOffWork"
-    SET NAME "Blow off work to go to the movies"
-    SET ASKER_NAME "Tag along as teen blows off work to go to the movies"
-    SET HELPER_NAME "Blow off work and take <ASKER> to the movies"
+    SET NAME "Arbeit sausen lassen und ins Kino gehen"
+    SET ASKER_NAME "Begleite den Teenie unerlaubt ins Kino"
+    SET HELPER_NAME "Lasse die Arbeit sausen und gehe mit <ASKER> ins Kino"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -195,24 +195,24 @@ END
 
 REM : Set up a lemonade stand
 CLONE DEED "Tap3" "SetUpLemonade1"
-    SET INSTRUCTIONS "Hammer in nails"
+    SET INSTRUCTIONS "Die Nägel reinhämmern"
 END
 
 CLONE DEED "SwipeBase" "SetUpLemonade2"
-    SET INSTRUCTIONS "Hang sign"
+    SET INSTRUCTIONS "Banner aufhängen"
     SET DIRECTION "LEFT,RIGHT"
 END
 
 CLONE DEED "Hold3" "SetUpLemonade3"
-    SET INSTRUCTIONS "Pour lemonade"
+    SET INSTRUCTIONS "Limonade einschenken"
 END
 
 CLONE DEED "Nothing3" "SetUpLemonade4"
-    SET INSTRUCTIONS "This always works on TV"
+    SET INSTRUCTIONS "Im Fernsehen funktioniert das immer"
 END
 
 DEF TASK "SetUpLemonade"
-    SET NAME "Set up a lemonade stand"
+    SET NAME "Limonadenstand eröffnen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -231,12 +231,12 @@ END
 
 REM : Get fired for blowing off work
 CLONE DEED "DialogID" "GetFiredTeen"
-    SET INSTRUCTIONS "Talk to your boss"
+    SET INSTRUCTIONS "Mit deinem Chef reden"
     SET CONTENT_ID "MONEY_FIRED"
 END
 
 DEF TASK "GetFiredTeen"
-    SET NAME "The boss is on the phone..."
+    SET NAME "Der Chef ruft an..."
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -251,12 +251,12 @@ REM : ---------------------------------------------------
 
 REM : Ask the boss for a raise
 CLONE DEED "DialogID" "AskForRaise"
-    SET INSTRUCTIONS "This is your moment!"
+    SET INSTRUCTIONS "Dein großer Moment!"
     SET CONTENT_ID "MONEY_RAISE"
 END
 
 DEF TASK "AskForRaise"
-    SET NAME "Ask the boss for that raise"
+    SET NAME "Chefin um Gehaltserhöhung bitten"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -269,14 +269,14 @@ END
 
 REM : Go driving anyway so family does't know you got fired
 CLONE DEED "TravelCategory" "TeenHideFired"
-    SET INSTRUCTIONS "Let's go shopping"
+    SET INSTRUCTIONS "Lass uns einkaufen gehen!"
     SET CATEGORY "SHOPPING"
 END
 
 DEF TASK "TeenHideFired"
-    SET NAME "Go driving anyway so family doesn't know you got fired"
-    SET ASKER_NAME "Go driving with teen so family doesn't know they got fired"
-    SET HELPER_NAME "Go driving with <ASKER> so family doesn't know you got fired"
+    SET NAME "Trotzdem fahren, damit niemand von der Kündigung erfährt"
+    SET ASKER_NAME "Fahre mit dem Teenie mit, damit niemand von der Kündigung erfährt"
+    SET HELPER_NAME "Fahre mit <ASKER> weg, damit niemand von der Kündigung erfährt"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -290,14 +290,14 @@ END
 
 REM : Drive to car dealership and ogle car you'll buy with raise money
 CLONE DEED "TravelCategory" "OgleCars"
-    SET INSTRUCTIONS "Go ogle new car"
+    SET INSTRUCTIONS "Neue Autos anschauen"
     SET CATEGORY "CAR"
 END
 
 DEF TASK "OgleCars"
-    SET NAME "Go ogle new car you'll buy with raise money"
-    SET ASKER_NAME "Go with adult to ogle car at the dealership"
-    SET HELPER_NAME "Take <ASKER> to ogle car you'll buy with raise money"
+    SET NAME "Gehaltserhöhung verprassen"
+    SET ASKER_NAME "Begleite ein Elternteil beim Verprassen der Gehaltserhöhung"
+    SET HELPER_NAME "Gehe mit <ASKER> die Gehaltserhöhung verprassen"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -311,27 +311,27 @@ END
 
 REM : Serve your first lemonade customer
 CLONE DEED "Tap1" "LemonadeCustomer1"
-    SET INSTRUCTIONS "Start with a friendly greeting"
+    SET INSTRUCTIONS "Mit einer freundlichen Begrüßung starten"
 END
 
 CLONE DEED "Hold5" "LemonadeCustomer2"
-    SET INSTRUCTIONS "Pour a big ol' glass of lemonade"
+    SET INSTRUCTIONS "Ein großes Glas Limonade einschenken"
 END
 
 CLONE DEED "SwipeUp" "LemonadeCustomer3"
-    SET INSTRUCTIONS "Hold out hand for payment"
+    SET INSTRUCTIONS "Die Hand ausstrecken"
 END
 
 CLONE DEED "Hold3" "LemonadeCustomer4"
-    SET INSTRUCTIONS "Wait a minute... examine that coin..."
+    SET INSTRUCTIONS "Warte... Das ist keine normale Münze..."
 END
 
 CLONE DEED "Nothing3" "LemonadeCustomer5"
-    SET INSTRUCTIONS "It's a rare buffalo head nickel! You're rich!"
+    SET INSTRUCTIONS "Eine unfassbar seltene Sondermünze! Du bist reich!"
 END
 
 DEF TASK "LemonadeCustomer"
-    SET NAME "Serve your first lemonade customer"
+    SET NAME "Ersten Limonaden-Kunden bedienen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
