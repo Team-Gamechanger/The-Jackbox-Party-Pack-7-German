@@ -268,7 +268,7 @@ CLONE DEED "Hold4" "UseUpData2"
 END
 
 CLONE DEED "Hold4" "UseUpData3"
-    SET INSTRUCTIONS "Für Freunde streamen"
+    SET INSTRUCTIONS "Mit Freunden videochatten"
 END
 
 CLONE DEED "Tap1" "UseUpData4"
