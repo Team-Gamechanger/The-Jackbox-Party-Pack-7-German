@@ -1,0 +1,13 @@
+MAIN(Zeuge): I-I-Ich habe ihn gesehen! Es war furchtbar!
+-DO-> Was hat der Geist gemacht?
+-LOOK-> Wie sah der Geist aus?
+-SINGLE-> Wirkte der Geist, als wäre er Single? Ich frage für einen Freund.
+
+DO(Zeuge): Er ist herumgelaufen! Langsam! Und er stöhnte merkwürdig!
+-SUCCESS-> Das klingt verdächtig nach Opa...
+
+LOOK(Zeuge): Er hatte zerrissene Kleidung, einen struppigen Bart und blasse Haut...
+-SUCCESS-> Erster Hinweis: Geist braucht dringend ein Umstyling.
+
+SINGLE(Zeuge): Tatsächlich fiel mir ein Ehering auf. Er sah genauso aus wie der, den der alte Herr Alterchen trägt...
+-SUCCESS-> Eine totale Sackgasse.

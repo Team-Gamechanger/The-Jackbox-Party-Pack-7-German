@@ -46,12 +46,12 @@ REM : Define this episode's story tasks below
 
 REM : Find book about the town's paranormal history
 CLONE DEED "FindID" "MysteryFindBook"
-    SET INSTRUCTIONS "Find the paranormal history book"
+    SET INSTRUCTIONS "Das paranormale Geschichtsbuch finden"
     SET CATEGORY "BOOK"
 END
 
 DEF TASK "MysteryFindBook"
-    SET NAME "Find book about town's paranormal history"
+    SET NAME "Buch über paranormale Stadtgeschichte suchen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -64,12 +64,12 @@ END
 
 REM : Talk with witness to the ghost attack
 CLONE DEED "DialogID" "TalkGhostWitness"
-    SET INSTRUCTIONS "Talk to witness"
+    SET INSTRUCTIONS "Mit Augenzeuge sprechen"
     SET CONTENT_ID "MYSTERY_WITNESS"
 END
 
 DEF TASK "TalkGhostWitness"
-    SET NAME "Talk with witness to the ghost attack"
+    SET NAME "Mit Augenzeuge der Geisterattacke sprechen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "SEARCH_FIND"
@@ -82,14 +82,14 @@ END
 
 REM : Set up ghost hutner equipment
 CLONE DEED "Gizmos3" "GhostHunterEquip"
-    SET INSTRUCTIONS "Set up equipment"
-    SET NAME "Spectral Locator"
+    SET INSTRUCTIONS "Die Geräte einstellen"
+    SET NAME "Spektrales Ortungsgerät"
 END
 
 DEF TASK "GhostHunterEquip"
-    SET NAME "Set up ghost hunter equipment"
-    SET ASKER_NAME "Get help setting up ghost hunter equipment"
-    SET HELPER_NAME "Help <ASKER> set up ghost hunter equipment"
+    SET NAME "Geisterjäger-Geräte einstellen"
+    SET ASKER_NAME "Erhalte Hilfe, die Geisterjäger-Geräte einzustellen"
+    SET HELPER_NAME "Helfe <ASKER> die Geisterjäger-Geräte einzustellen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -104,23 +104,23 @@ REM : --------------------------------------------------
 
 REM : Discover mysterious ghost footrpints
 CLONE DEED "SwipeUp" "MysteryFootprints1"
-    SET INSTRUCTIONS "Get out magnifying glass"
+    SET INSTRUCTIONS "Die Lupe herausholen"
 END
 
 CLONE DEED "Nothing3" "MysteryFootprints2"
-    SET INSTRUCTIONS "Scrutinize footprint shape"
+    SET INSTRUCTIONS "Form der Fußabdrücke untersuchen"
 END
 
 CLONE DEED "Hold3" "MysteryFootprints3"
-    SET INSTRUCTIONS "Pour plaster cast"
+    SET INSTRUCTIONS "Einen Gipsabdruck gießen"
 END
 
 CLONE DEED "Nothing3" "MysteryFootprints4"
-    SET INSTRUCTIONS "Wait. Do ghosts have feet?"
+    SET INSTRUCTIONS "Warte. Haben Geister überhaupt Füße?"
 END
 
 DEF TASK "MysteryFootprints"
-    SET NAME "Discover mysterious ghost footprints"
+    SET NAME "Mysteriöse Geisterfußabdrücke entdecken"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -139,12 +139,12 @@ END
 
 REM : Search the neighborhood for important clues
 CLONE DEED "SearchID" "SearchClues"
-    SET INSTRUCTIONS "Search for clues"
+    SET INSTRUCTIONS "Wichtige Hinweise finden"
     SET CONTENT_ID "CLUES"
 END
 
 DEF TASK "SearchClues"
-    SET NAME "Search the neighborhood for important clues"
+    SET NAME "Nachbarschaft nach wichtigen Hinweisen absuchen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -157,20 +157,20 @@ END
 
 REM : Examine suspicious machine
 CLONE DEED "Instructions3" "ExamineMachine"
-    SET INSTRUCTIONS "Examine suspicious machine"
+    SET INSTRUCTIONS "Verdächtige Maschine untersuchen"
 
     SET MECHANIC_0 "SWIPE_UP"
-    SET INSTRUCTIONS_0 "Remove conspicuous tarp"
+    SET INSTRUCTIONS_0 "Die auffällig unauffällige Plane entfernen"
     SET MECHANIC_1 "TAP_3"
-    SET INSTRUCTIONS_1 "Turn on strange machine"
+    SET INSTRUCTIONS_1 "Die merkwürdige Maschine anstellen"
     SET MECHANIC_2 "TAP_HOLD"
-    SET INSTRUCTIONS_2 "Wonder what a holographic projector is doing in Old Man Oldman's basement"
+    SET INSTRUCTIONS_2 "Fragen, was ein Holoprojektor im Keller vom alten Herrn Alterchen macht"
 END
 
 DEF TASK "ExamineMachine"
-    SET NAME "Examine suspicious machine"
-    SET ASKER_NAME "Get help examining suspicious machine"
-    SET HELPER_NAME "Help <ASKER> examine suspicious machine"
+    SET NAME "Verdächtige Maschine untersuchen"
+    SET ASKER_NAME "Erhalte Hilfe, die verdächtige Maschine zu untersuchen"
+    SET HELPER_NAME "Helfe <ASKER> die verdächtige Maschine zu untersuchen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -183,11 +183,11 @@ END
 
 REM : Get into wacky chase with the ghost
 CLONE DEED "TapAll" "WackyGhostChase"
-    SET INSTRUCTIONS "Feets don't fail us now!"
+    SET INSTRUCTIONS "Pausenlos laufen!"
 END
 
 DEF TASK "WackyGhostChase"
-    SET NAME "Get into wacky chase with the ghost"
+    SET NAME "Verrückte Geister-Verfolgungsjagd"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -202,20 +202,20 @@ REM : ----------------------------------------------------
 
 REM : Discover incriminating financial papers
 CLONE DEED "SwipeBase" "MysteryPapers1"
-    SET INSTRUCTIONS "Flip through legal papers"
+    SET INSTRUCTIONS "Durch Rechtsdokumente blättern"
     SET DIRECTION "RIGHT,RIGHT,RIGHT,RIGHT"
 END
 
 CLONE DEED "Hold2" "MysteryPapers2"
-    SET INSTRUCTIONS "Spot a page with Old man Oldman's name"
+    SET INSTRUCTIONS "Seite mit Namen des alten Herrn Alterchens entdecken"
 END
 
 CLONE DEED "Nothing3" "MysteryPapers3"
-    SET INSTRUCTIONS "It's starting to come together..."
+    SET INSTRUCTIONS "Das Puzzle beginnt sich zusammenzufügen..."
 END
 
 DEF TASK "MysteryPapers"
-    SET NAME "Discover incriminating financial papers"
+    SET NAME "Belastende Finanzunterlagen entdecken"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -232,22 +232,22 @@ END
 
 REM : Set up complicated ghost trap
 CLONE DEED "Instructions4" "MysteryGhostTrap"
-    SET INSTRUCTIONS "Set up ghost trap"
+    SET INSTRUCTIONS "Geisterfalle aufstellen"
 
     SET MECHANIC_0 "ROTATE_COUNTER"
-    SET INSTRUCTIONS_0 "Wind the pully"
+    SET INSTRUCTIONS_0 "Den Flaschenzug aufziehen"
     SET MECHANIC_1 "TAP_3"
-    SET INSTRUCTIONS_1 "Hammer in the nails"
+    SET INSTRUCTIONS_1 "Die Nägel reinhämmern"
     SET MECHANIC_2 "TAP_HOLD"
-    SET INSTRUCTIONS_2 "Raise the net"
+    SET INSTRUCTIONS_2 "Das Netz bereithalten"
     SET MECHANIC_3 "SWIPE_UP"
-    SET INSTRUCTIONS_3 "Arm the robot claw"
+    SET INSTRUCTIONS_3 "Die Roboterklaue bewaffnen"
 END
 
 DEF TASK "MysteryGhostTrap"
-    SET NAME "Set up complicated ghost trap"
-    SET ASKER_NAME "Get help setting up complicated ghost trap"
-    SET HELPER_NAME "Help <ASKER> set up complicated ghost trap"
+    SET NAME "Komplizierte Geisterfalle aufstellen"
+    SET ASKER_NAME "Erhalte Hilfe, die komplizierte Geisterfalle aufzustellen"
+    SET HELPER_NAME "Helfe <ASKER> die komplizierte Geisterfalle aufzustellen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -260,12 +260,12 @@ END
 
 REM : Hide and wait for ghost
 CLONE DEED "Nothing3" "HideWaitGhost"
-    SET INSTRUCTIONS "Sssshh!"
+    SET INSTRUCTIONS "Pssssst!"
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "HideWaitGhost"
-    SET NAME "Hide and wait for ghost"
+    SET NAME "Versteckt dem Geist auflauern"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -278,15 +278,15 @@ END
 
 REM : Unmask the ghost!
 CLONE DEED "Tap5" "UnmaskGhost1"
-    SET INSTRUCTIONS "Remove the ghost's mask..."
+    SET INSTRUCTIONS "Die Maske des Geistes abziehen..."
 END
 
 CLONE DEED "Nothing3" "UnmaskGhost2"
-    SET INSTRUCTIONS "It was Old man Oldman all along!"
+    SET INSTRUCTIONS "Es war die ganze Zeit über der alte Herr Alterchen!"
 END
 
 DEF TASK "UnmaskGhost"
-    SET NAME "Unmask the ghost!"
+    SET NAME "Geist demaskieren!"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
