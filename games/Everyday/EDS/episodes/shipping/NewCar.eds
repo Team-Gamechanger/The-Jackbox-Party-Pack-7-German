@@ -48,24 +48,24 @@ REM : Define this episode's story tasks below
 
 REM : Do a little car maintenance
 CLONE DEED "Instructions5" "CarMaintenance"
-    SET INSTRUCTIONS "Do a little car maintenance"
+    SET INSTRUCTIONS "Das neue Auto warten"
 
     SET MECHANIC_0 "TAP"
-    SET INSTRUCTIONS_0 "Kick the tires"
+    SET INSTRUCTIONS_0 "Die Reifen treten"
     SET MECHANIC_1 "SWIPE_DOWN"
-    SET INSTRUCTIONS_1 "Check the oil"
+    SET INSTRUCTIONS_1 "Den Ölstand überprüfen"
     SET MECHANIC_2 "TAP_HOLD"
-    SET INSTRUCTIONS_2 "Squeeze weird hose"
+    SET INSTRUCTIONS_2 "Einen seltsamen Schlauch zusammendrücken"
     SET MECHANIC_3 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_3 "Tighten what might be a lug nut"
+    SET INSTRUCTIONS_3 "Das festziehen, was theoretisch eine Radmutter sein könnte"
     SET MECHANIC_4 "SWIPE_DOWN"
-    SET INSTRUCTIONS_4 "Close the hood before you break something"
+    SET INSTRUCTIONS_4 "Die Motorhaube schließen, bevor du noch wirklich was kaputtmachst"
 END
 
 DEF TASK "CarMaintenance"
-    SET NAME "Do a little car maintenance"
-    SET ASKER_NAME "Get help with car maintenance"
-    SET HELPER_NAME "Help <ASKER> with car maintenance"
+    SET NAME "Autowartung vornehmen"
+    SET ASKER_NAME "Erhalte Hilfe bei der Autowartung"
+    SET HELPER_NAME "Helfe <ASKER> bei der Autowartung"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -79,15 +79,15 @@ END
 
 REM : Write name on side of car
 CLONE DEED "ScrubMedium" "NameOnCar1"
-    SET INSTRUCTIONS "Scribble your name on the car"
+    SET INSTRUCTIONS "Deinen Namen auf das neue Auto kritzeln"
 END
 
 CLONE DEED "Nothing3" "NameOnCar2"
-    SET INSTRUCTIONS "Admire your work"
+    SET INSTRUCTIONS "Dein Werk begutachten"
 END
 
 DEF TASK "NameOnCar"
-    SET NAME "Draw your name on the new car"
+    SET NAME "Eigenen Namen auf das neue Auto kritzeln"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -102,7 +102,7 @@ END
 
 REM : Wash the new car
 CLONE TASK "WashTheCar2" "WashTheNewCar"
-    SET NAME "Wash the new car"
+    SET NAME "Neues Auto waschen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -111,12 +111,12 @@ END
 
 REM : Search for stuff to sell online to pay car payment
 CLONE DEED "SearchID" "SearchCarPayment"
-    SET INSTRUCTIONS "Search for stuff to sell"
+    SET INSTRUCTIONS "Gerümpel zum Verkaufen finden"
     SET CONTENT_ID "NEWCAR"
 END
 
 DEF TASK "SearchCarPayment"
-    SET NAME "Search for stuff to sell online to pay car payment"
+    SET NAME "Gerümpel zum Abbezahlen des Autos verkaufen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -131,12 +131,12 @@ REM : -----------------------------------------
 
 REM : Brag to neighbor about car
 CLONE DEED "DialogID" "BragNeighborCar"
-    SET INSTRUCTIONS "Brag to neighbor about new car"
+    SET INSTRUCTIONS "Mit dem neuen Auto beim Nachbarn angeben"
     SET CONTENT_ID "NEWCAR_BRAG"
 END
 
 DEF TASK "BragNeighborCar"
-    SET NAME "Brag to neighbor about car"
+    SET NAME "Mit neuem Auto prahlen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -149,14 +149,14 @@ END
 
 REM : Go joyriding in the new car
 CLONE DEED "TravelCategory" "JoyrideNewCar"
-    SET INSTRUCTIONS "Go joyriding"
+    SET INSTRUCTIONS "Eine Spritztour machen"
     SET CATEGORY "SHOPPING"
 END
 
 DEF TASK "JoyrideNewCar"
-    SET NAME "Go joyriding in the new car"
-    SET ASKER_NAME "Go joyriding with sibling in the new car"
-    SET HELPER_NAME "Go joyriding with <ASKER> in the new car"
+    SET NAME "Kleine Spritztour im neuen Wagen"
+    SET ASKER_NAME "Mache mit einem Geschwisterchen eine Spritztour im neuen Wagen"
+    SET HELPER_NAME "Mache mit <ASKER> eine Spritztour im neuen Wagen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -169,22 +169,22 @@ END
 
 REM : Hide scratch from rest of family
 CLONE DEED "Instructions4" "HideCarScratch"
-    SET INSTRUCTIONS "Hide the scratch!"
+    SET INSTRUCTIONS "Den Kratzer beseitigen!"
 
     SET MECHANIC_0 "SWIPE_DOWN"
-    SET INSTRUCTIONS_0 "Glob some toothpaste on the scratch"
+    SET INSTRUCTIONS_0 "Etwas Zahnpasta auf den Kratzer geben"
     SET MECHANIC_1 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_1 "Clean the area with a circular motion"
+    SET INSTRUCTIONS_1 "Mit Kreisbewegungen verteilen"
     SET MECHANIC_2 "TAP_HOLD"
-    SET INSTRUCTIONS_2 "Hose it off"
+    SET INSTRUCTIONS_2 "Abspülen"
     SET MECHANIC_3 "TAP"
-    SET INSTRUCTIONS_3 "Realize you made it worse"
+    SET INSTRUCTIONS_3 "Realisieren, dass es nur schlimmer geworden ist"
 END
 
 DEF TASK "HideCarScratch"
-    SET NAME "Get help hiding scratch on the new car"
-    SET ASKER_NAME "Get help hiding scratch on the new car"
-    SET HELPER_NAME "Help <ASKER> hide scratch on the new car"
+    SET NAME "Kratzer im neuen Auto beseitigen"
+    SET ASKER_NAME "Erhalte Hilfe, den Kratzer im neuen Auto zu beseitigen"
+    SET HELPER_NAME "Helfe <ASKER> den Kratzer im neuen Auto zu beseitigen"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -198,14 +198,14 @@ END
 
 REM : Get the scratch buffed out at the repair shop
 CLONE DEED "TravelCategory" "GetScratchBuffed"
-    SET INSTRUCTIONS "Get the scratch buffed out at the repair shop"
+    SET INSTRUCTIONS "Den Kratzer in der Werkstatt ausbessern lassen"
     SET CATEGORY "CAR"
 END
 
 DEF TASK "GetScratchBuffed"
-    SET NAME "Get the scratch buffed out at the repair shop"
-    SET ASKER_NAME "Go with sibling to get scratch buffed out at repair shop"
-    SET HELPER_NAME "Go with <ASKER> to get scratch buffed out at repair shop"
+    SET NAME "Kratzer in Werkstatt ausbessern lassen"
+    SET ASKER_NAME "Lasse mit einem Geschwisterchen den Kratzer in der Werkstatt ausbessern"
+    SET HELPER_NAME "Lasse mit <ASKER> den Kratzer in der Werkstatt ausbessern"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -221,7 +221,7 @@ REM : -------------------------------
 
 REM : REM : Wash the new car
 CLONE TASK "WashTheCar2" "WashTheNewCarAgain"
-    SET NAME "Wash the new car again for good measure"
+    SET NAME "Auto vorsichtshalber erneut waschen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -230,7 +230,7 @@ END
 
 REM : REM : Wash the new car
 CLONE TASK "TakeSelfieBase" "TakeSelfieNewCar"
-    SET NAME "Take selfie on car hood"
+    SET NAME "Selfie auf Motorhaube machen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -239,9 +239,9 @@ END
 
 REM : Find the car manual you already lost
 CLONE TASK "FindBook" "FindCarManual"
-    SET NAME "Find the car manual you already lost"
-    SET ASKER_NAME "Get help finding the car manual you already lost"
-    SET HELPER_NAME "Help <ASKER> find the car manual you already lost"
+    SET NAME "Schon verlorenes Handbuch suchen"
+    SET ASKER_NAME "Erhalte Hilfe, das schon verlorene Handbuch zu finden"
+    SET HELPER_NAME "Helfe <ASKER> das schon verlorene Handbuch zu finden"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -250,14 +250,14 @@ END
 
 REM : Get the car detailed
 CLONE DEED "TravelCategory" "GetCarDetailed"
-    SET INSTRUCTIONS "Get the new car detailed"
+    SET INSTRUCTIONS "Das neue Auto herausputzen lassen"
     SET CATEGORY "CAR"
 END
 
 DEF TASK "GetCarDetailed"
-    SET NAME "Get the scratch buffed out at the repair shop"
-    SET ASKER_NAME "Go with someone older to get the new car detailed"
-    SET HELPER_NAME "Take <ASKER> along to get the new car detailed"
+    SET NAME "Neues Auto herausputzen lassen"
+    SET ASKER_NAME "Fahre mit jemand Älterem zur Autoaufbereitung"
+    SET HELPER_NAME "Fahre mit <ASKER> zur Autoaufbereitung"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -271,12 +271,12 @@ END
 
 REM : Take family photo with car
 CLONE DEED "Nothing5" "NewCarFamilyPhoto"
-    SET INSTRUCTIONS "Say 'car!'"
+    SET INSTRUCTIONS "Sagt 'Autobahnreise!'"
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "NewCarFamilyPhoto"
-    SET NAME "Take family photo with new car"
+    SET NAME "Familienfoto mit neuem Auto"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

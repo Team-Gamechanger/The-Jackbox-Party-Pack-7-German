@@ -1,0 +1,17 @@
+MAIN(Nachbar): Wow! Warum haben Sie sich denn den Schlitten gekauft?
+-MILEAGE-> Es ist sehr sparsam.
+-SEATS-> Es hat Ledersitze.
+-FAST-> Es ist... sauschnell.
+-FLY-> Es kann fliegen.
+
+MILEAGE(Nachbar): Sehr verantwortungsbewusst.
+-SUCCESS-> Bin ich gewohnt, so entscheide ich doch schon AUTOmatisch.
+
+SEATS(Nachbar): Cool!
+-SUCCESS-> Wie viele Kühe sind in Ihrem Auto?
+
+FAST(Nachbar): Das ist...echt cool.
+-SUCCESS-> Durch dieses Baby wird man automatisch angetrieben, jeden Blitzer mitzunehmen!
+
+FLY(Nachbar): Toll! Stürzen wir es von einer Klippe!
+-SUCCESS-> Um einen Autokumpel zu gewinnen, sind auch kleine Notlügen gerechtfertigt!
