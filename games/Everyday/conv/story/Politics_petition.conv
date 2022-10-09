@@ -1,0 +1,18 @@
+MAIN(Nachbarin): Eine Wahlkampf-Kampagne? Wie kann ich Ihnen helfen?
+-PETITION-> Indem Sie die Petition unterschreiben?
+-FORGE-> Indem Sie dreimal Wählen gehen?
+-DONATION-> Indem Sie uns Geld spenden?
+-BROCHURE-> Indem Sie sich diese Broschüre durchlesen?
+
+
+PETITION(Nachbarin): Klar, warum nicht?
+-SUCCESS-> Bitte groß unterschreiben!
+
+FORGE(Nachbarin): Ist das nicht verboten?
+-SUCCESS-> Nicht mehr, wenn wir an die Macht kommen!
+
+DONATION(Nachbarin): Klar, reichen 200 Mäuse?
+-SUCCESS-> Jackpot!
+
+BROCHURE(Nachbarin): Klar, warum nicht?
+-SUCCESS-> Die ist selbstgemacht!

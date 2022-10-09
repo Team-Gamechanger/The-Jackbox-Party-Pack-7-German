@@ -1,0 +1,14 @@
+MAIN(Mitschüler): Man sagte mir, du hättest... den "wirklich coolen Kram"?
+-PASSWORD-> Wie lautet das Passwort?
+-MONEY-> Das kommt darauf an. Hast du die Kohle?
+-NAIVE-> Nein, ich habe hier nur diese illegale Eiscreme!
+
+PASSWORD(Mitschüler): ..."Pistazie"
+-SUCCESS-> Ich bin mir nicht sicher, ob dass das Passwort war. Wird schon stimmen.
+
+MONEY(Mitschüler): Komm schon, der alten Zeiten willen!
+-SUCCESS-> Meinetwegen. Aber du schuldest mir einen Gefallen.
+
+NAIVE(Mitschüler): Bist du wahnsinnig, sei doch leise!
+-NAIVE2-> ICH REDE DOCH NUR VON DIESER WUNDERBAR ERFRISCHENDEN ILLEGALEN EISCREME!
+-SUCCESS-> Oh, stimmt ja. Illegal und so.

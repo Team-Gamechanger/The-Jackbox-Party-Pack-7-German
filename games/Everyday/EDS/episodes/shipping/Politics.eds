@@ -46,20 +46,20 @@ REM : ------------------------------
 REM : Define this episode's story tasks below
 REM : Call to declare candidacy
 CLONE DEED "PhoneID" "Declare1"
-    SET INSTRUCTIONS "Phone City Hall"
+    SET INSTRUCTIONS "Das Rathaus anrufen"
     SET CONTENT_ID "CITYHALL"
 END
 
 CLONE DEED "Tap1" "Declare2"
-    SET INSTRUCTIONS "Press 1 to run for City Council"
+    SET INSTRUCTIONS "Drücken Sie die 1, um für die Stadtratswahl zu kandidieren"
 END
 
 CLONE DEED "SwipeRight" "Declare3"
-    SET INSTRUCTIONS "Wipe sweat from brow"
+    SET INSTRUCTIONS "Schweiß von der Stirn wischen"
 END
 
 DEF TASK "Declare"
-    SET NAME "Call to declare candidacy for City Council"
+    SET NAME "Für Stadtrat kandidieren"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -81,9 +81,9 @@ END
 
 DEF TASK "TextCampaign"
     SET DURATION <8H>
-    SET NAME "Come up with 'cool' campaign hashtag"
-    SET ASKER_NAME "Get help coming up with COOL campaign hashtag"
-    SET HELPER_NAME "Help <ASKER> come up with 'cool' campaign hashtag"
+    SET NAME "'Coolen' Wahlkampf-Slogan ausdenken"
+    SET ASKER_NAME "Erhalte Hilfe einen COOLEN Wahlkampf-Slogan zu erfinden"
+    SET HELPER_NAME "Helfe <ASKER> einen 'coolen' Wahlkampf-Slogan zu erfinden"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAIN "TEENS"
@@ -96,23 +96,23 @@ END
 
 REM : Dress in power outfit
 CLONE DEED "SwipeLeft" "PowerOutfit1"
-    SET INSTRUCTIONS "Thumb through closet"
+    SET INSTRUCTIONS "Den Schrank durchforsten"
 END
 
 CLONE DEED "Tap1" "PowerOutfit2"
-    SET INSTRUCTIONS "Select BOLDEST color"
+    SET INSTRUCTIONS "Die AUFFÄLLIGSTE Farbe auswählen"
 END
 
 CLONE DEED "Rotate360" "PowerOutfit3"
-    SET INSTRUCTIONS "Add SMART tie"
+    SET INSTRUCTIONS "INTELLIGENTE Krawatte hinzufügen"
 END
 
 CLONE DEED "SwipeUp" "PowerOutfit4"
-    SET INSTRUCTIONS "Finish with SPICY bonnet"
+    SET INSTRUCTIONS "Mit RATTENSCHARFER Haube abrunden"
 END
 
 DEF TASK "PowerOutfit"
-    SET NAME "Dress in power outfit"
+    SET NAME "Power-Outfit anziehen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -131,19 +131,19 @@ END
 
 REM : Stage ice cream protest at school
 CLONE DEED "Nothing3" "IceCreamProtest1"
-    SET INSTRUCTIONS "Begin chanting 'No ice cream, no freedom!'"
+    SET INSTRUCTIONS "Ruft 'Kein Eis, keine Freiheit!'"
 END
 
 CLONE DEED "Nothing5" "IceCreamProtest2"
-    SET INSTRUCTIONS "Do it. Chant for real. Right now!"
+    SET INSTRUCTIONS "Los. Rufe es in echt. Genau jetzt!"
 END
 
 CLONE DEED "Nothing3" "IceCreamProtest3"
-    SET INSTRUCTIONS "Get everyone to chat!"
+    SET INSTRUCTIONS "Alle zum Rufen bringen!"
 END
 
 DEF TASK "IceCreamProtest"
-    SET NAME "Stage pro-ice-cream protest at school"
+    SET NAME "Pro-Eiscreme-Protest an Schule starten"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -162,12 +162,12 @@ REM : ---------------------------------------------------------------
 
 REM : Gather ingreditents for contraband ice cream
 CLONE DEED "GatherID" "GatherIceCream"
-    SET INSTRUCTIONS "Gather ice cream ingredients"
+    SET INSTRUCTIONS "Eiscreme-Zutaten sammeln"
     SET CONTENT_ID "ICE_CREAM"
 END
 
 DEF TASK "GatherIceCream"
-    SET NAME "Gather ingredients for contraband ice cream"
+    SET NAME "Zutaten für geschmuggeltes Eis sammeln"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -182,11 +182,11 @@ END
 
 REM : Churn contraband ice cream
 CLONE DEED "Rotate720" "ChurnIceCream"
-    SET INSTRUCTIONS "Churn!"
+    SET INSTRUCTIONS "Drehen! Drehen! Drehen!"
 END
 
 DEF TASK "ChurnIceCream"
-    SET NAME "Churn contraband ice cream"
+    SET NAME "Schmuggel-Eiscreme herstellen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -199,12 +199,12 @@ END
 
 REM : Ask neighbors to sign proce-ice-cream petition
 CLONE DEED "DialogID" "Petition"
-    SET INSTRUCTIONS "Ask neighbor to sign petition"
+    SET INSTRUCTIONS "Nachbarn bitten, die Petition zu unterzeichnen"
     SET CONTENT_ID "POLITICS_PETITION"
 END
 
 DEF TASK "Petition"
-    SET NAME "Ask neighbor to sign pro-ice-cream petition"
+    SET NAME "Unterschriften für Petition sammeln"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -217,23 +217,23 @@ END
 
 REM : Make campaign signs
 CLONE DEED "ScrubShort" "MakeSigns1"
-    SET INSTRUCTIONS "Draw your beloved parent"
+    SET INSTRUCTIONS "Dein geliebtes Elternteil zeichnen"
 END
 
 CLONE DEED "ScrubShort" "MakeSigns2"
-    SET INSTRUCTIONS "They'd look even better with a sweet mustache"
+    SET INSTRUCTIONS "Da fehlt noch was... Ein RIESIGER Schnurrbart!"
 END
 
 CLONE DEED "ScrubShort" "MakeSigns3"
-    SET INSTRUCTIONS "And a sweet sword!"
+    SET INSTRUCTIONS "Und ein kühnes Schwert!"
 END
 
 CLONE DEED "Nothing2" "MakeSigns4"
-    SET INSTRUCTIONS "That'll get some votes!"
+    SET INSTRUCTIONS "Das wird uns Stimmen ohne Ende einbringen!"
 END
 
 DEF TASK "MakeSigns"
-    SET NAME "Make campaign signs"
+    SET NAME "Wahlkampfschilder gestalten"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -254,12 +254,12 @@ REM : ---------------------------------------
 
 REM : Sell illegal ice cream in study hall
 CLONE DEED "DialogID" "SellIceCream"
-    SET INSTRUCTIONS "Sell illegal ice cream"
+    SET INSTRUCTIONS "Illegale Eiscreme verkaufen"
     SET CONTENT_ID "POLITICS_ICECREAM"
 END
 
 DEF TASK "SellIceCream"
-    SET NAME "Sell illegal ice cream in study hall"
+    SET NAME "Illegaler Eisverkauf auf dem Pausenhof"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -272,19 +272,19 @@ END
 
 REM : Sneak campaign sign onto neighbor's yard
 CLONE DEED "QuickTap4" "SneakSigns1"
-    SET INSTRUCTIONS "tiptoe onto yard"
+    SET INSTRUCTIONS "In den Garten des Nachbarn schleichen"
 END
 
 CLONE DEED "SwipeDown" "SneakSigns2"
-    SET INSTRUCTIONS "Push sign into perfect lawn"
+    SET INSTRUCTIONS "Schild in den perfekten Rasen stecken"
 END
 
 CLONE DEED "ScrubMedium" "SneakSigns3"
-    SET INSTRUCTIONS "Really work it in there"
+    SET INSTRUCTIONS "Feste reinhauen! Das muss halten!"
 END
 
 DEF TASK "SneakSigns"
-    SET NAME "Sneak campaign sign onto neighbor's yard"
+    SET NAME "Wahlkampfschilder in Nachbarschaft verteilen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -301,27 +301,27 @@ END
 
 REM : Sneak into teen's ice cream stash
 CLONE DEED "Tap3" "SneakStash1"
-    SET INSTRUCTIONS "Army crawl into bedroom"
+    SET INSTRUCTIONS "Auf allen Vieren ins Zimmer krabbeln"
 END
 
 CLONE DEED "SwipeUp" "SneakStash2"
-    SET INSTRUCTIONS "Lift up floorboard"
+    SET INSTRUCTIONS "Lose Diele anheben"
 END
 
 CLONE DEED "SwipeUp" "SneakStash3"
-    SET INSTRUCTIONS "Scoop out secret ice cream"
+    SET INSTRUCTIONS "Geheime Eiscreme auslöffeln"
 END
 
 CLONE DEED "Hold5" "SneakStash4"
-    SET INSTRUCTIONS "It's too strong! Brain Freeze!"
+    SET INSTRUCTIONS "Ahhh, Hirnfrost!"
 END
 
 CLONE DEED "Nothing3" "SneakStash5"
-    SET INSTRUCTIONS "Act cool... but not too cool"
+    SET INSTRUCTIONS "Sei unauffällig... aber nicht zu unauffällig"
 END
 
 DEF TASK "SneakStash"
-    SET NAME "Sneak into teen's ice cream stash"
+    SET NAME "Geheimen Eiscreme-Vorrat vom Teenie plündern"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -342,19 +342,19 @@ END
 
 REM : Make big campaign speech
 CLONE DEED "Nothing3" "BigSpeech1"
-    SET INSTRUCTIONS "Tell us why you love ice cream"
+    SET INSTRUCTIONS "Eiscreme zum großen Thema machen"
 END
 
 CLONE DEED "Nothing10" "BigSpeech2"
-    SET INSTRUCTIONS "Actually praise ice cream. In the room. Right now!"
+    SET INSTRUCTIONS "Lobe Eiscreme in den Himmel. Jetzt. Mach schon!"
 END
 
 CLONE DEED "Nothing3" "BigSpeech3"
-    SET INSTRUCTIONS "Hold for applause"
+    SET INSTRUCTIONS "Den Applaus abwarten"
 END
 
 DEF TASK "BigSpeech"
-    SET NAME "Make big campaign speech"
+    SET NAME "Große Wahlkampfrede abhalten"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -371,23 +371,23 @@ END
 
 REM : Decorate for campaign victory party
 CLONE DEED "SwipeUp" "DecorateCampaign1"
-    SET INSTRUCTIONS "Hang banners"
+    SET INSTRUCTIONS "Banner aufhängen"
 END
 
 CLONE DEED "Hold5" "DecorateCampaign2"
-    SET INSTRUCTIONS "Blow up balloons"
+    SET INSTRUCTIONS "Luftballons steigen lassen"
 END
 
 CLONE DEED "ScrubShort" "DecorateCampaign3"
-    SET INSTRUCTIONS "Draw 'Congrats!' on wall"
+    SET INSTRUCTIONS "'Glückwunsch' an die Wand schreiben"
 END
 
 CLONE DEED "ScrubMedium" "DecorateCampaign4"
-    SET INSTRUCTIONS "This was a bad idea. Wash wall."
+    SET INSTRUCTIONS "Das war keine gute Idee. Wand wieder saubermachen!"
 END
 
 DEF TASK "DecorateCampaign"
-    SET NAME "Decorate for campaign victory party"
+    SET NAME "Für Siegesfeier dekorieren"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
