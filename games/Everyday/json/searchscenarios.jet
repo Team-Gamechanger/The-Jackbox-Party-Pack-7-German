@@ -151,7 +151,7 @@
                 },
                 {
                     "id": "UNDERWEAR",
-                    "name": "In der Unterwäscheschublade"
+                    "name": "In der Socken-Schublade"
                 },
                 {
                     "id": "DUFFEL",
@@ -228,7 +228,7 @@
                 },
                 {
                     "id": "ROBOT",
-                    "name": "Im Spielzeugroboter"
+                    "name": "Im Spielzeug-Roboter"
                 },
                 {
                     "id": "HVAC",
@@ -240,7 +240,7 @@
                 },
                 {
                     "id": "GARAGELASER",
-                    "name": "Im Garagentoröffner"
+                    "name": "Im Garagentor-Öffner"
                 }
             ]
         },
@@ -263,7 +263,7 @@
                 },
                 {
                     "id": "OLDMAN",
-                    "name": "Auf dem Hof des alten Herrn Alterchen"
+                    "name": "Beim Haus des alten Herrn Alterchen"
                 },
                 {
                     "id": "HIGHSCHOOL",
@@ -371,11 +371,11 @@
                 },
                 {
                     "id": "KIDWORK",
-                    "name": "Im Haufen an Kinderspielzeug"
+                    "name": "Im Haufen an Spielzeug"
                 },
                 {
                     "id": "UNDERWEARWORK",
-                    "name": "In der Unterwäscheschublade"
+                    "name": "In der Socken-Schublade"
                 },
                 {
                     "id": "DUFFELWORK",
@@ -521,7 +521,7 @@
         {
             "id": "COALS",
             "category": "COALS",
-            "name": "den erlesenen Kohlen der Unterwelt",
+            "name": "der erlesenen Kohle der Unterwelt",
             "locations": [
                 {
                     "id": "SHED",
@@ -548,7 +548,7 @@
         {
             "id": "HOTSAUCE",
             "category": "HOTSAUCE",
-            "name": "der scharfen Soße",
+            "name": "der superscharfen Soße",
             "locations": [
                 {
                     "id": "KITCHENCAB",
@@ -560,7 +560,7 @@
                 },
                 {
                     "id": "CATBED",
-                    "name": "Im Katzenbett"
+                    "name": "Im Katzenkorb"
                 },
                 {
                     "id": "GRAMPASTASH",
@@ -657,7 +657,7 @@
                 },
                 {
                     "id": "JEWELRYBOX",
-                    "name": "Im Schmuckkästchen"
+                    "name": "Im Schmuck-Kästchen"
                 }
             ]
         },
@@ -1020,7 +1020,7 @@
                 },
                 {
                     "id": "FIGUREINENOOK",
-                    "name": "In der Nische für Sammelfiguren"
+                    "name": "In der Nische für Sammel-Figuren"
                 }
             ]
         },
@@ -1085,7 +1085,7 @@
         {
             "id": "MOTIVATIONALNOTE",
             "category": "MOTIVATIONALNOTE",
-            "name": "der peinlichen Motivationsnotiz (sie ist SEHR PEINLICH!)",
+            "name": "der (sehr!) peinlichen Motivationsnotiz",
             "locations": [
                 {
                     "id": "TRASH2",

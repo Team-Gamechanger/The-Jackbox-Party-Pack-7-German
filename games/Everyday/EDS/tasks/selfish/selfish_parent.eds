@@ -310,11 +310,11 @@ CLONE DEED "Tap1" "BrewTea1"
 END
 
 CLONE DEED "Rotate90Counter" "BrewTea2"
-    SET INSTRUCTIONS "Herd anstellen"
+    SET INSTRUCTIONS "Wasser aufkochen"
 END
 
 CLONE DEED "Nothing5" "BrewTea3"
-    SET INSTRUCTIONS "Kochen lassen"
+    SET INSTRUCTIONS "Ziehen lassen"
 END
 
 CLONE DEED "SwipeUp" "BrewTea4"
