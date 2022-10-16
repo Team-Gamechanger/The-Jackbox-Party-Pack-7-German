@@ -50,12 +50,12 @@ REM : Define this episode's story tasks below
 
 REM : Search for thermometer
 CLONE DEED "SearchID" "SearchThermo"
-    SET INSTRUCTIONS "Search for thermometer"
+    SET INSTRUCTIONS "Das Fieberthermometer finden"
     SET CONTENT_ID "THERMOMETER"
 END
 
 DEF TASK "SearchThermo"
-    SET NAME "Search for the thermometer"
+    SET NAME "Fieberthermometer suchen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -68,19 +68,19 @@ END
 
 REM : Take your temperature
 CLONE DEED "SwipeUp" "TakeTempPox1"
-    SET INSTRUCTIONS "Place thermometer under tongue"
+    SET INSTRUCTIONS "Fieberthermometer unter die Zunge stecken"
 END
 
 CLONE DEED "Hold3" "TakeTempPox2"
-    SET INSTRUCTIONS "Hold it..."
+    SET INSTRUCTIONS "Kurz warten..."
 END
 
 CLONE DEED "Nothing2" "TakeTempPox3"
-    SET INSTRUCTIONS "Yep. You're sick."
+    SET INSTRUCTIONS "Du bist definitiv krank."
 END
 
 DEF TASK "TakeTempPox"
-    SET NAME "Take your temperature"
+    SET NAME "Körpertemperatur messen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -97,23 +97,23 @@ END
 
 REM : Blow your nose
 CLONE DEED "SwipeUp" "BlowNosePox1"
-    SET INSTRUCTIONS "Grab a tissue"
+    SET INSTRUCTIONS "Taschentuch nehmen"
 END
 
 CLONE DEED "Hold3" "BlowNosePox2"
-    SET INSTRUCTIONS "Blow!"
+    SET INSTRUCTIONS "Und schnäuzen!"
 END
 
 CLONE DEED "ScrubShort" "BlowNosePox3"
-    SET INSTRUCTIONS "Wipe your nose"
+    SET INSTRUCTIONS "Nase abwischen"
 END
 
 CLONE DEED "Nothing3" "BlowNosePox4"
-    SET INSTRUCTIONS "Watch acid snot eat through tissue"
+    SET INSTRUCTIONS "Ätzender Rotze beim Zersetzen des Papiers zuschauen"
 END
 
 DEF TASK "BlowNosePox"
-    SET NAME "Blow your nose"
+    SET NAME "Nase putzen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -132,12 +132,12 @@ END
 
 REM : Text friend to cancel weekend plans
 CLONE DEED "DialogID" "TeenCancelPlans"
-    SET INSTRUCTIONS "Cancel weekend plans"
+    SET INSTRUCTIONS "Wochenendpläne absagen"
     SET CONTENT_ID "POX_CANCEL"
 END
 
 DEF TASK "TeenCancelPlans"
-    SET NAME "Text friend to cancel weekend plans"
+    SET NAME "Wochenendpläne mit Freunden absagen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -152,11 +152,11 @@ REM : ---------------------------------------------
 
 REM : Make blandest possible meal
 CLONE DEED "GatherID" "BlandMeal"
-    SET INSTRUCTIONS "Make the blandest possible meal"
+    SET INSTRUCTIONS "Das einfachst mögliche Essen kochen"
     SET CONTENT_ID "BLAND_MEAL"
 END
 DEF TASK "BlandMeal"
-    SET NAME "Make the blandest possible meal"
+    SET NAME "Einfachst mögliches Essen kochen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -169,7 +169,7 @@ END
 
 REM : Watch daytime TV on the couch
 CLONE TASK "ChannelSurf" "ChannelSurfPox"
-    SET NAME "Watch daytime TV on the couch"
+    SET NAME "Durch Fernsehen ablenken"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET DURATION <8H>
@@ -178,14 +178,14 @@ END
 REM : Find antihistimine
 REM : Replace with antihistamine
 CLONE DEED "FindCategory" "FindAntihistamine"
-    SET INSTRUCTIONS "Find the antihistamines"
+    SET INSTRUCTIONS "Erkältungsmittel finden"
     SET CATEGORY "ASPRIN"
 END
 
 DEF TASK "FindAntihistamine"
-    SET NAME "Find the antihistamines"
-    SET ASKER_NAME "Get help finding antihistamines"
-    SET HELPER_NAME "Help <ASKER> find antihistamines"
+    SET NAME "Erkältungsmittel suchen"
+    SET ASKER_NAME "Erhalte Hilfe, das Erkältungsmittel zu finden"
+    SET HELPER_NAME "Helfe <ASKER> das Erkältungsmittel zu finden"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -198,14 +198,14 @@ END
 
 REM : Set up the humidifier
 CLONE DEED "Gizmos3" "Humidifier"
-    SET INSTRUCTIONS "Set up the humidifier"
-    SET NAME "WetLung Humidifier"
+    SET INSTRUCTIONS "Luftbefeuchter aktivieren"
+    SET NAME "Nassbereich Luftbefeuchter"
 END
 
 DEF TASK "Humidifier"
-    SET NAME "Set up the humidifier"
-    SET ASKER_NAME "Get help setting up the humidifier"
-    SET HELPER_NAME "Help <ASKER> set up the humidifier"
+    SET NAME "Luftbefeuchter aufstellen"
+    SET ASKER_NAME "Erhalte Hilfe, einen Luftbefeuchter aufzustellen"
+    SET HELPER_NAME "Helfe <ASKER> einen Luftbefeuchter aufzustellen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -218,14 +218,14 @@ END
 
 REM : Run to the pharmacy for supplies
 CLONE DEED "TravelCategory" "TravelPharmacy"
-    SET INSTRUCTIONS "Run to the pharmacy"
+    SET INSTRUCTIONS "Zur Apotheke hetzen"
     SET CATEGORY "PHARMACY"
 END
 
 DEF TASK "TravelPharmacy"
-    SET NAME "Run to the pharmacy for supplies"
-    SET ASKER_NAME "Get a ride to the pharmacy for supplies"
-    SET HELPER_NAME "Drive with <ASKER> to the pharmacy for supplies"
+    SET NAME "Nachschub in Apotheke kaufen"
+    SET ASKER_NAME "Lasse dich zur Apotheke fahren, um Nachschub zu kaufen"
+    SET HELPER_NAME "Fahre mit <ASKER> zur Apotheke, um Nachschub zu kaufen"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -241,12 +241,12 @@ REM : ------------------------------------------------
 
 REM : Call the doctor
 CLONE DEED "PhoneCategory" "PoxCallDoctor"
-    SET INSTRUCTIONS "Call the doctor"
+    SET INSTRUCTIONS "Den Arzt anrufen"
     SET CATEGORY "DOCTOR"
 END
 
 DEF TASK "PoxCallDoctor"
-    SET NAME "Call the doctor"
+    SET NAME "Arzttermin vereinbaren"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -259,12 +259,12 @@ END
 
 REM : Describe your weird devil pox to the doctor
 CLONE DEED "DialogID" "DoctorDiagnosePox"
-    SET INSTRUCTIONS "Describe your devil pox to the doctor"
+    SET INSTRUCTIONS "Dem Arzt die Dämonenpocken beschreiben"
     SET CONTENT_ID "POX_DOCTOR"
 END
 
 DEF TASK "DoctorDiagnosePox"
-    SET NAME "Describe your weird devil pox to the doctor"
+    SET NAME "Arzt komische Dämonenpocken beschreiben"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -277,23 +277,23 @@ END
 
 REM : Try to impress the hot doctor
 CLONE DEED "Hold2" "ImpressDoctor1"
-    SET INSTRUCTIONS "Play violin really loud near hot doctor"
+    SET INSTRUCTIONS "Nahe dem attraktiven Arzt sehr laut Geige spielen"
 END
 
 CLONE DEED "Nothing3" "ImpressDoctor2"
-    SET INSTRUCTIONS "Listen intently to hot doctor's advice"
+    SET INSTRUCTIONS "Dem attraktiven Arzt aufmerksam zuhören"
 END
 
 CLONE DEED "Rotate270" "ImpressDoctor3"
-    SET INSTRUCTIONS "Make delicious soup to thank hot doctor"
+    SET INSTRUCTIONS "Zum Dank köstliche Suppe für attraktiven Arzt machen"
 END
 
 CLONE DEED "SwipeDown" "ImpressDoctor4"
-    SET INSTRUCTIONS "Accidentally sneeze into soup. You're still super sick."
+    SET INSTRUCTIONS "Aus Versehen reinniesen. Du bist immer noch total krank."
 END
 
 DEF TASK "ImpressDoctor"
-    SET NAME "Try to impress the hot doctor"
+    SET NAME "Versuchen, den attraktiven Arzt zu beeindrucken"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -312,12 +312,12 @@ END
 
 REM : Go to bed at a reasonable hour
 CLONE DEED "Nothing5" "PoxGoToBed"
-    SET INSTRUCTIONS "Everybody in bed!"
+    SET INSTRUCTIONS "Allesamt ins Bett!"
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "PoxGoToBed"
-    SET NAME "Go to bed at a reasonable hour"
+    SET NAME "Rechtzeitig ins Bett gehen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

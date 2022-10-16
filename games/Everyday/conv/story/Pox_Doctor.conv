@@ -1,0 +1,18 @@
+MAIN(Arzt): Bitte beschreiben Sie Ihre Symptome.
+-BURNS-> Es brennt beim Niesen.
+-CLAM-> Meine Haut ist feucht und sie vibriert.
+-HORNS-> Meine Hörner sind welk.
+-PULSE-> Mein Puls ist im negativen Bereich.
+
+
+BURNS(Arzt): Schlafen Sie acht Stunden.
+-SUCCESS-> Also ein normaler Freitag? Alles klar!
+
+CLAM(Arzt): Schlafen Sie acht Stunden.
+-SUCCESS-> Also ein normaler Freitag? Alles klar!
+
+HORNS(Arzt): Hörner?
+-SUCCESS-> Vergessen Sie's, ich schlafe einfach mehr.
+
+PULSE(Arzt): Das ist unmöglich. Schlafen Sie mehr!
+-SUCCESS-> Sie sind unmöglich!

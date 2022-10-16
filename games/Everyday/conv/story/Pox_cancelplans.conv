@@ -1,0 +1,18 @@
+MAIN(Cancel): Was soll das heißen, du kannst nicht kommen?
+-WEATHER-> Ich bin nicht ganz auf dem Damm.
+-PLAGUE-> Ich habe die Pest.
+-ENDS-> Ich habe den flotten Otto.
+-CONT-> Ich bin höchst ansteckend und werde da sein!
+
+
+WEATHER(Cancel): Gute Besserung!
+-SUCCESS-> ...der Damm ist schon eingestürzt.
+
+PLAGUE(Cancel): Wir werden dich vermissen!
+-SUCCESS-> Erzählt der Welt meine Geschichte!
+
+ENDS(Cancel): Ihh...gute Besserung!
+-SUCCESS-> (Sprint zur Toilette)
+
+CONT(Cancel): Bitte... bitte nicht.
+-SUCCESS-> Viren sind die einzigen Freunde, die ich jetzt noch habe.
