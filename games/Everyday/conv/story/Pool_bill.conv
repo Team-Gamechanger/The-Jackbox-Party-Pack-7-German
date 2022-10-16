@@ -1,0 +1,32 @@
+MAIN(Bauarbeiter): Es ist Zahltag!
+-POLITE-> Gibt es eine Möglichkeit, den Preis etwas zu senken?
+-OUTRAGE-> Das ist unverschämt! So viel bezahle ich nicht!
+-AMNESIA-> Ich kann mich nicht daran erinnern, einen Pool bestellt zu haben. Sehen Sie, ich habe Amnesie!
+
+POLITE(Bauarbeiter): Das kommt ganz darauf an, wie gut Sie im Verhandeln sind.
+-GOOD-> Diese Frage beantworte ich Ihnen nur, wenn Sie mir fünf Mäuse geben.
+-BAD-> Diese Frage beantworte ich Ihnen nur, wenn ich Ihnen zehn Mäuse gebe.
+
+GOOD(Bauarbeiter): Sie haben mich überlistet... Jetzt ist Ihr Pool kostenlos.
+-SUCCESS-> Das Üben vor dem Badspiegel hat sich gelohnt!
+
+BAD(Bauarbeiter): Diese Verhandlungsrunde habe ich gewonnen. Jetzt müssen Sie mir das Doppelte zahlen und außerdem MEINEN Pool aufbauen!
+-SUCCESS-> Das hätte besser laufen können!
+
+OUTRAGE(Bauarbeiter): So nicht, Freundchen! Wir haben Ihren Pool mit Gift gefüllt und nur ich habe das Gegengift!
+-UNETHICAL-> Die Komplexität des Rechtssystems hält mich davon ab, dieses Verbrechen anzuzeigen.
+-WIN-> Schade nur, dass ich Gift liebe!
+
+WIN(Bauarbeiter): Sie mögen dieses Gefecht siegreich verlassen haben, doch wir werden diesen Krieg letztendlich gewinnen.
+-SUCCESS-> Dieses Gespräch ist beendet.
+
+UNETHICAL(Bauarbeiter): Man sieht, meine Rechnung geht auf.
+-SUCCESS-> Nehmen Sie gleich den ganzen Geldbeutel mit.
+
+AMNESIA(Bauarbeiter): Wenn Sie Amnesie haben, wie können Sie sich dann daran erinnern, dass Sie Amnesie haben?
+-TATOO-> Mittels eines komplexen Netzwerkes aus Tätowierungen auf meinem Körper, die mich an die Vergangenheit erinnern.
+-WIN-> Das habe ich vergessen.
+-BAD-> Meinetwegen, ich lüge.
+
+TATOO(Bauarbeiter): Ich sehe keine Tattoos. Und diese Konversation berechne ich Ihnen noch zusätzlich.
+-SUCCESS-> Das war es tausendprozentig wert.

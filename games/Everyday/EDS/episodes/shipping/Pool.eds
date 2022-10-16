@@ -48,22 +48,22 @@ REM : Define this episode's story tasks below
 
 REM : Consult blueprints for swimming pool
 CLONE DEED "Instructions4" "PoolBlueprints"
-    SET INSTRUCTIONS "Consult blueprints for swimming pool"
+    SET INSTRUCTIONS "Pool-Baupläne anschauen"
 
     SET MECHANIC_0 "SWIPE_RIGHT"
-    SET INSTRUCTIONS_0 "Check dimensions"
+    SET INSTRUCTIONS_0 "Die Abmessungen überprüfen"
     SET MECHANIC_1 "TAP_3"
-    SET INSTRUCTIONS_1 "Mark where ladders should go"
+    SET INSTRUCTIONS_1 "Die Position der Leiter einzeichnen"
     SET MECHANIC_2 "SWIPE_LEFT"
-    SET INSTRUCTIONS_2 "Locate pool pump"
+    SET INSTRUCTIONS_2 "Die Poolpumpe finden"
     SET MECHANIC_3 "ROTATE_COUNTER"
-    SET INSTRUCTIONS_3 "Realize you're holding it upside down"
+    SET INSTRUCTIONS_3 "Realisieren, dass der Plan auf dem Kopf steht"
 END
 
 DEF TASK "PoolBlueprints"
-    SET NAME "Consult blueprints for swimming pool"
-    SET ASKER_NAME "Get help consulting blueprints for swimming pool"
-    SET HELPER_NAME "Help <ASKER> consult blueprints for swimming pool"
+    SET NAME "Pool-Baupläne anschauen"
+    SET ASKER_NAME "Erhalte Hilfe, die Baupläne des Pools anzuschauen"
+    SET HELPER_NAME "Helfe <ASKER> die Baupläne des Pools anzuschauen"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -77,24 +77,24 @@ END
 
 REM : Order pool parts online
 CLONE DEED "Instructions5" "OrderPoolParts"
-    SET INSTRUCTIONS "Order pool parts online"
+    SET INSTRUCTIONS "Bauteile des Pools online bestellen"
 
     SET MECHANIC_0 "TAP_3"
-    SET INSTRUCTIONS_0 "Go to website for Bargain Ben's Discount Swimming Supplies"
+    SET INSTRUCTIONS_0 "Die Website von 'Billig Biedermeiers Poolzubehör' aufrufen"
     SET MECHANIC_1 "SWIPE_DOWN"
-    SET INSTRUCTIONS_1 "Scroll down to link for 'The Admiral'"
+    SET INSTRUCTIONS_1 "Zum Pool 'Der Admiral' scrollen"
     SET MECHANIC_2 "TAP_3"
-    SET INSTRUCTIONS_2 "Type in credit card number"
+    SET INSTRUCTIONS_2 "Die Kreditkartendaten eintippen"
     SET MECHANIC_3 "SWIPE_DOWN"
-    SET INSTRUCTIONS_3 "Scroll past offer for professional installation"
+    SET INSTRUCTIONS_3 "Das Sonderangebot für einen professionellen Aufbau ignorieren"
     SET MECHANIC_4 "TAP"
-    SET INSTRUCTIONS_4 "Click 'Buy'"
+    SET INSTRUCTIONS_4 "Auf 'Kaufen' klicken"
 END
 
 DEF TASK "OrderPoolParts"
-    SET NAME "Order pool parts online"
-    SET ASKER_NAME "Get help ordering pool parts online"
-    SET HELPER_NAME "Help <ASKER> order pool parts online"
+    SET NAME "Poolbauteile online bestellen"
+    SET ASKER_NAME "Erhalte Hilfe, die Poolbauteile online zu bestellen"
+    SET HELPER_NAME "Helfe <ASKER> die Poolbauteile online zu bestellen"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -108,19 +108,19 @@ END
 
 REM : Practice swimmming on dry land
 CLONE DEED "SwipeDown" "SwimDryLand1"
-    SET INSTRUCTIONS "Lay face down on floor"
+    SET INSTRUCTIONS "Mit Gesicht nach unten auf den Boden legen"
 END
 
 CLONE DEED "Rotate1080" "SwimDryLand2"
-    SET INSTRUCTIONS "Spin your arms"
+    SET INSTRUCTIONS "Mit den Armen kreisen"
 END
 
 CLONE DEED "QuickTap5" "SwimDryLand3"
-    SET INSTRUCTIONS "Kick your legs"
+    SET INSTRUCTIONS "Mit den Beinen treten"
 END
 
 DEF TASK "SwimDryLand"
-    SET NAME "Practice swimming on dry land"
+    SET NAME "Schwimmen auf dem Trockenen üben"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -136,20 +136,20 @@ DEF TASK "SwimDryLand"
 END
 
 CLONE DEED "PhoneCategory" "InviteFriendsPool1"
-    SET INSTRUCTIONS "Call your BFF"
+    SET INSTRUCTIONS "BFF anrufen"
     SET CATEGORY "RESIDENCE"
 END
 
 CLONE DEED "Tap4" "InviteFriendsPool2"
-    SET INSTRUCTIONS "Text your crush"
+    SET INSTRUCTIONS "Deinen Crush anschreiben"
 END
 
 CLONE DEED "SwipeUp" "InviteFriendsPool3"
-    SET INSTRUCTIONS "Post a public invite online"
+    SET INSTRUCTIONS "Öffentliche Einladung online stellen"
 END
 
 DEF TASK "InviteFriendsPool"
-    SET NAME "Preemptively invite all your friends to pool party"
+    SET NAME "Präventiv alle Freunde zu Poolparty einladen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -166,16 +166,16 @@ END
 
 REM : Build the pool
 CLONE DEED "TapAll" "BuildPool1"
-    SET INSTRUCTIONS "Try your best!"
+    SET INSTRUCTIONS "Gebt euer Bestes!"
 END
 
 CLONE DEED "Nothing3" "BuildPool2"
-    SET INSTRUCTIONS "You did a terrible job because you're not contractors"
+    SET INSTRUCTIONS "Sieht ja schrecklich aus! Überrascht das?"
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "BuildPool"
-    SET NAME "Work together to build the swimming pool"
+    SET NAME "Gemeinsam den Pool aufbauen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -192,12 +192,12 @@ REM : --------------------------------------------------------------
 
 REM : Call contractor to build pool instead
 CLONE DEED "PhoneID" "CallContractorPool"
-    SET INSTRUCTIONS "This requires a professional"
+    SET INSTRUCTIONS "Hier wird ein Profi gebraucht"
     SET CONTENT_ID "FIXISIN"
 END
 
 DEF TASK "CallContractorPool"
-    SET NAME "Call contractor to build the pool instead"
+    SET NAME "Doch den Profi anheuern"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -211,14 +211,14 @@ END
 REM : Try on bathing suits
 REM : Replace with SWIM SUITS
 CLONE DEED "FindCategory" "FindSwimSuit"
-    SET INSTRUCTIONS "Pick out a bathing suit"
+    SET INSTRUCTIONS "Badeanzug auswählen"
     SET CATEGORY "SWIM_SUIT"
 END
 
 DEF TASK "FindSwimSuit"
-    SET NAME "Find a swim suit"
-    SET ASKER_NAME "Get help picking a swim suit"
-    SET HELPER_NAME "Help <ASKER> pick a swim suit"
+    SET NAME "Badeanzug auswählen"
+    SET ASKER_NAME "Erhalte Hilfe, einen Badeanzug auszuwählen"
+    SET HELPER_NAME "Helfe <ASKER> einen Badeanzug auszuwählen"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "TEENS"
     SET CATEGORY "STORY"
@@ -232,31 +232,31 @@ END
 
 REM : Ask contractors if you can help build the pool
 CLONE DEED "Hold2" "KidContractor1"
-    SET INSTRUCTIONS "Beg contractors until they say yes"
+    SET INSTRUCTIONS "Solange betteln bis er Ja sagt"
 END
 
 CLONE DEED "SwipeDown" "KidContractor2"
-    SET INSTRUCTIONS "Put on hard hat"
+    SET INSTRUCTIONS "Schutzhelm aufsetzen"
 END
 
 CLONE DEED "QuickTap5" "KidContractor3"
-    SET INSTRUCTIONS "Bang hammer"
+    SET INSTRUCTIONS "Darauf einhämmern!"
 END
 
 CLONE DEED "Rotate360" "KidContractor4"
-    SET INSTRUCTIONS "Use drill"
+    SET INSTRUCTIONS "Einen Bohrer benutzen"
 END
 
 CLONE DEED "Nothing1" "KidContractor5"
-    SET INSTRUCTIONS "Impress the foreman"
+    SET INSTRUCTIONS "Den Vorarbeiter beeindrucken"
 END
 
 CLONE DEED "ScrubShort" "KidContractor6"
-    SET INSTRUCTIONS "Fill out union membership card"
+    SET INSTRUCTIONS "Gewerkschaftsmitglied werden"
 END
 
 DEF TASK "KidContractor"
-    SET NAME "Ask contractors if you can help build the pool"
+    SET NAME "Bauarbeitern zur Hand gehen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -279,12 +279,12 @@ END
 
 REM : Fill the pool
 CLONE DEED "Nothing3" "FillPool"
-    SET INSTRUCTIONS "Let the pool fill up"
+    SET INSTRUCTIONS "Den Pool auffüllen"
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "FillPool"
-    SET NAME "Fill the pool with water!"
+    SET NAME "Pool mit Wasser füllen!"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -299,23 +299,23 @@ REM : --------------------------------------------------
 
 REM : Apply sunscreen and show off your sick muscles
 CLONE DEED "ScrubMedium" "Sunscreen1"
-    SET INSTRUCTIONS "Coat your body with lotion"
+    SET INSTRUCTIONS "Mit Sonnencreme einschmieren"
 END
 
 CLONE DEED "Hold2" "Sunscreen2"
-    SET INSTRUCTIONS "Flex!"
+    SET INSTRUCTIONS "Angeben!"
 END
 
 CLONE DEED "Nothing2" "Sunscreen3"
-    SET INSTRUCTIONS "Catch your breath..."
+    SET INSTRUCTIONS "Wieder zu Atem kommen..."
 END
 
 CLONE DEED "Hold2" "Sunscreen4"
-    SET INSTRUCTIONS "Flex!!!"
+    SET INSTRUCTIONS "Angeben!!!"
 END
 
 DEF TASK "Sunscreen"
-    SET NAME "Apply sunscreen and show off your muscles"
+    SET NAME "Sonnenschutz auftragen und Muskeln spielen lassen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -334,19 +334,19 @@ END
 
 REM : Show off ultimate diving move
 CLONE DEED "Hold1" "DivingMove1"
-    SET INSTRUCTIONS "Shout 'Cannonball!'"
+    SET INSTRUCTIONS "'Arschbombe!' rufen"
 END
 
 CLONE DEED "SwipeRight" "DivingMove2"
-    SET INSTRUCTIONS "Jump off the edge"
+    SET INSTRUCTIONS "Von der Kante springen"
 END
 
 CLONE DEED "SwipeDown" "DivingMove3"
-    SET INSTRUCTIONS "Splash everybody"
+    SET INSTRUCTIONS "Jeden nassmachen"
 END
 
 DEF TASK "DivingMove"
-    SET NAME "Show off your ultimate diving move"
+    SET NAME "Arschbomben ohne Ende!"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -363,12 +363,12 @@ END
 
 REM : Negotiate the exorbitant bill
 CLONE DEED "DialogID" "NegotiateBill"
-    SET INSTRUCTIONS "Negotiate the bill"
+    SET INSTRUCTIONS "Um Rechnung feilschen"
     SET CONTENT_ID "POOL_BILL"
 END
 
 DEF TASK "NegotiateBill"
-    SET NAME "Negotiate exorbitant bill"
+    SET NAME "Exorbitante Rechnung herunterfeilschen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -381,15 +381,15 @@ END
 
 REM : Attempt to swim in your crowded pool
 CLONE DEED "Nothing2" "FitInPool1"
-    SET INSTRUCTIONS "You can't fit in! You invited too many people!"
+    SET INSTRUCTIONS "Du passt nicht rein! Ihr habt zu viele Leute eingeladen!"
 END
 
 CLONE DEED "Nothing2" "FitInPool2"
-    SET INSTRUCTIONS "Give up and go watch TV"
+    SET INSTRUCTIONS "Aufgeben und zum Fernseher gehen"
 END
 
 DEF TASK "FitInPool"
-    SET NAME "Attempt to swim in your crowded pool"
+    SET NAME "Versuchen, im überfüllten Pool zu schwimmen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
