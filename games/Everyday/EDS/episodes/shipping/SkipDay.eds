@@ -47,12 +47,12 @@ REM : Define this episode's story tasks below
 
 REM : Call in sick to work
 CLONE DEED "DialogID" "CallInWork"
-    SET INSTRUCTIONS "Call in sick to work"
+    SET INSTRUCTIONS "Auf Arbeit krankmelden"
     SET CONTENT_ID "SKIPDAY_SICKWORK"
 END
 
 DEF TASK "CallInWork"
-    SET NAME "Call in sick to work"
+    SET NAME "Auf Arbeit krankmelden"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -65,12 +65,12 @@ END
 
 REM : Call in sick to school
 CLONE DEED "DialogID" "CallInSchool"
-    SET INSTRUCTIONS "Call in sick to school"
+    SET INSTRUCTIONS "In der Schule krankmelden"
     SET CONTENT_ID "SKIPDAY_SICKSCHOOL"
 END
 
 DEF TASK "CallInSchool"
-    SET NAME "Call in sick to school"
+    SET NAME "In Schule krankmelden"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -83,12 +83,12 @@ END
 
 REM : Call in sick to kindergarten
 CLONE DEED "DialogID" "CallInKinder"
-    SET INSTRUCTIONS "Call in sick to kindergarten"
+    SET INSTRUCTIONS "Im Kindergarten krankmelden"
     SET CONTENT_ID "SKIPDAY_SICKKINDER"
 END
 
 DEF TASK "CallInKinder"
-    SET NAME "Call in sick to kindergarten"
+    SET NAME "Im Kindergarten krankmelden"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -101,23 +101,23 @@ END
 
 REM : Make dummy
 CLONE DEED "Tap3" "SkipDummy1"
-    SET INSTRUCTIONS "Find the right sized ball"
+    SET INSTRUCTIONS "Ball von richtiger Größe finden"
 END
 
 CLONE DEED "SwipeDown" "SkipDummy2"
-    SET INSTRUCTIONS "Stuff your clothes"
+    SET INSTRUCTIONS "Kleidung ausstopfen"
 END
 
 CLONE DEED "SwipeRight" "SkipDummy3"
-    SET INSTRUCTIONS "Add a little hair"
+    SET INSTRUCTIONS "Da fehlen noch Haare"
 END
 
 CLONE DEED "Hold2" "SkipDummy4"
-    SET INSTRUCTIONS "A perfect likeness!"
+    SET INSTRUCTIONS "Ein perfektes Ebenbild!"
 END
 
 DEF TASK "SkipDummy"
-    SET NAME "Make a dummy version of yourself"
+    SET NAME "Eigene Attrappe basteln"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -138,23 +138,23 @@ REM : -------------------------------------
 
 REM : Enjoy peace and quiet
 CLONE DEED "SwipeDown" "PeaceQuiet1"
-    SET INSTRUCTIONS "Sit in the good chair"
+    SET INSTRUCTIONS "Auf den guten Stuhl setzen"
 END
 
 CLONE DEED "Hold2" "PeaceQuiet2"
-    SET INSTRUCTIONS "Enjoy a sip of the good coffee"
+    SET INSTRUCTIONS "Einen Schluck guten Kaffees genießen"
 END
 
 CLONE DEED "SwipeLeft" "PeaceQuiet3"
-    SET INSTRUCTIONS "Break out your most shameful hobby"
+    SET INSTRUCTIONS "Peinlichstes Hobby ausüben"
 END
 
 CLONE DEED "QuickTap5" "PeaceQuiet4"
-    SET INSTRUCTIONS "Rearrange your marble collection"
+    SET INSTRUCTIONS "Murmelsammlung neu sortieren"
 END
 
 DEF TASK "PeaceQuiet"
-    SET NAME "Enjoy peace and quiet"
+    SET NAME "Ruhe und Frieden genießen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -173,14 +173,14 @@ END
 
 REM : Build a cardboard particle collider
 CLONE DEED "Gizmos6" "BuildCard"
-    SET INSTRUCTIONS "Build a cardboard particle collider"
-    SET NAME "Particle Collider"
+    SET INSTRUCTIONS "Teilchenbeschleuniger aus Pappe bauen"
+    SET NAME "Teilchenbeschleuniger"
 END
 
 DEF TASK "BuildCard"
-    SET NAME "Build a cardboard particle collider in the backyard"
-    SET ASKER_NAME "Get help building cardboard particle collider in the backyard"
-    SET HELPER_NAME "Help <ASKER> build cardboard particle collider in the backyard"
+    SET NAME "Teilchenbeschleuniger aus Pappe im Garten bauen"
+    SET ASKER_NAME "Erhalte Hilfe, einen Teilchenbeschleuniger aus Pappe zu bauen"
+    SET HELPER_NAME "Helfe <ASKER> einen Teilchenbeschleuniger aus Pappe zu bauen"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -202,14 +202,14 @@ END
 
 REM : Drive aimlessly around town
 CLONE DEED "TravelCategory" "TravelAimless"
-    SET INSTRUCTIONS "Let's get some food"
+    SET INSTRUCTIONS "Etwas zu essen besorgen"
     SET CATEGORY "FOOD"
 END
 
 DEF TASK "TravelAimless"
-    SET NAME "Drive aimlessly around town"
-    SET ASKER_NAME "Go with teen to drive aimlessly around town"
-    SET HELPER_NAME "Drive aimlessly around town with <ASKER> "
+    SET NAME "Ziellos durch die Stadt fahren"
+    SET ASKER_NAME "Fahre mit dem Teenager ziellos durch die Stadt"
+    SET HELPER_NAME "Fahre mit <ASKER> ziellos durch die Stadt"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -225,12 +225,12 @@ REM : ----------------------------------------------
 
 REM : Answer call from school
 CLONE DEED "DialogID" "DialogSkipSchool"
-    SET INSTRUCTIONS "Play it cool"
+    SET INSTRUCTIONS "Ruhig bleiben"
     SET CONTENT_ID "SKIPDAY_CHECKIN"
 END
 
 DEF TASK "DialogSkipSchool"
-    SET NAME "Answer call from the school"
+    SET NAME "Anruf der Schule annehmen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -243,23 +243,23 @@ END
 
 REM : Make fuel for your collider
 CLONE DEED "SwipeRight" "ColliderFuel1"
-    SET INSTRUCTIONS "Empty the fridge"
+    SET INSTRUCTIONS "Den Kühlschrank plündern"
 END
 
 CLONE DEED "Rotate360" "ColliderFuel2"
-    SET INSTRUCTIONS "Pour it all in a bucket"
+    SET INSTRUCTIONS "Alles in einen Eimer schütten"
 END
 
 CLONE DEED "Tap1" "ColliderFuel3"
-    SET INSTRUCTIONS "Just a touch of bleach"
+    SET INSTRUCTIONS "Nur ein paar Tropfen Bleiche"
 END
 
 CLONE DEED "Hold3" "ColliderFuel4"
-    SET INSTRUCTIONS "Fuel up!"
+    SET INSTRUCTIONS "Einmal volltanken, bitte!"
 END
 
 DEF TASK "ColliderFuel"
-    SET NAME "Make fuel for your backyard collider"
+    SET NAME "Treibstoff für Garten-Teilchenbeschleuniger mixen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -278,23 +278,23 @@ END
 
 REM : Gorge on snack food
 CLONE DEED "Tap3" "GorgeSkip1"
-    SET INSTRUCTIONS "Eat all the anchovy puffs you want"
+    SET INSTRUCTIONS "So viele SARDELLEN POPS essen wie du willst"
 END
 
 CLONE DEED "QuickTap3" "GorgeSkip2"
-    SET INSTRUCTIONS "Eat even more"
+    SET INSTRUCTIONS "Noch mehr essen"
 END
 
 CLONE DEED "Nothing3" "GorgeSkip3"
-    SET INSTRUCTIONS "Take pride in your adult decision"
+    SET INSTRUCTIONS "Stolz auf erwachsene Entscheidung sein"
 END
 
 CLONE DEED "Hold3" "GorgeSkip4"
-    SET INSTRUCTIONS "Uh oh... food poisoning"
+    SET INSTRUCTIONS "Oh Oh... Lebensmittelvergiftung"
 END
 
 DEF TASK "GorgeSkip"
-    SET NAME "Gorge on snack food"
+    SET NAME "Mit Snacks vollfressen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -313,12 +313,12 @@ END
 
 REM : Find the makeup work you misplaced
 CLONE DEED "SearchID" "SkipMakeUp"
-    SET INSTRUCTIONS "Find the make-up work you misplaced"
+    SET INSTRUCTIONS "Verlegtes Make-up finden"
     SET CONTENT_ID "MAKEUPWORK"
 END
 
 DEF TASK "SkipMakeUp"
-    SET NAME "Find the make-up work you misplaced"
+    SET NAME "Verlegtes Make-up suchen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -331,24 +331,24 @@ END
 
 REM : Shut down collider
 CLONE DEED "Instructions5" "ShutDownCollider"
-    SET INSTRUCTIONS "Shut down the overheating collider!"
+    SET INSTRUCTIONS "Überhitzenden Teilchenbeschleuniger abschalten!"
 
     SET MECHANIC_0 "TAP_3"
-    SET INSTRUCTIONS_0 "Put out the fire"
+    SET INSTRUCTIONS_0 "Das Feuer löschen"
     SET MECHANIC_1 "SWIPE_DOWN"
-    SET INSTRUCTIONS_1 "Engage the override switch"
+    SET INSTRUCTIONS_1 "Den Überbrückungsschalter aktivieren"
     SET MECHANIC_2 "TAP_HOLD"
-    SET INSTRUCTIONS_2 "Brace for explosion"
+    SET INSTRUCTIONS_2 "Für riesige Explosion wappnen"
     SET MECHANIC_3 "TAP_HOLD"
-    SET INSTRUCTIONS_3 "Sigh in relief"
+    SET INSTRUCTIONS_3 "Erleichtert seufzen"
     SET MECHANIC_4 "SWIPE_UP"
-    SET INSTRUCTIONS_4 "Get caught in the rain"
+    SET INSTRUCTIONS_4 "Vom sauren Regen überraschen lassen"
 END
 
 DEF TASK "ShutDownCollider"
-    SET NAME "Shut down the overheating backyard particle collider!"
-    SET ASKER_NAME "Get help shutting down overheating backyard particle collider"
-    SET HELPER_NAME "Help <ASKER> shut down overheating backyard particle collider"
+    SET NAME "Überhitzenden Garten-Teilchenbeschleuniger abschalten!"
+    SET ASKER_NAME "Erhalte Hilfe, den überhitzenden Teilchenbeschleuniger abzuschalten"
+    SET HELPER_NAME "Helfe <ASKER> den überhitzenden Teilchenbeschleuniger abzuschalten"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

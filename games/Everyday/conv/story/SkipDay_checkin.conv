@@ -1,0 +1,17 @@
+MAIN(Sekretariat): Wirst du morgen wieder da sein?
+-ABS-> Selbstverständlich!
+-SURE-> Klar, warum nicht?
+-WEATHER-> Wenn das Wetter es erlaubt.
+-SERVE-> Kommt drauf an... Wie viel bieten Sie denn?
+
+ABS(Sekretariat): Das ist die richtige Einstellung!
+-SUCCESS-> V-V-Vermisse ich etwa die Schule?!
+
+SURE(Sekretariat): Wir brauchen mehr Begeisterung. Zu Hause bleiben!
+-SUCCESS-> Verflixt! Ein weiterer freier Tag!
+
+WEATHER(Sekretariat): Klar, ich arbeite ja auch nicht bei Regen.
+-SUCCESS-> Lehrer sind genau wie wir. 
+
+SERVE(Sekretariat): Eine Mathearbeit in der 3. und ein Vokabeltest in der 5. Stunde!
+-SUCCESS-> Oh Backe!

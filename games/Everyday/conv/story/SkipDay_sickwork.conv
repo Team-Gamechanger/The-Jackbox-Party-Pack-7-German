@@ -1,0 +1,17 @@
+MAIN(Chefin): Warum können Sie heute nicht zur Arbeit kommen?
+-SICK-> Ich kränkel ein wenig.
+-HEAD-> Mein Kopf bringt mich um.
+-PARTY-> Ich habe zu heftig gefeiert.
+-CAUGHT-> Ich bin in einer Bärenfalle gefangen.
+
+SICK(Chefin): Hmmm, zu vage, um dem nachzugehen.
+-SUCCESS-> Perfekt! Ich meine natürlich... Hust Hust!
+
+HEAD(Chefin): Hmmm, zu vage, um dem nachzugehen.
+-SUCCESS-> Perfekt! Ich meine natürlich... Autsch!
+
+PARTY(Chefin): Das zählen wir dann als Urlaubstag.
+-SUCCESS-> Ich hasse die sterbliche Welt.
+
+CAUGHT(Chefin): Okay, Sie haben jetzt aber nur noch zwei weitere Bärenfallentage übrig.
+-SUCCESS-> Morgen bin ich hoffentlich wieder frei... 

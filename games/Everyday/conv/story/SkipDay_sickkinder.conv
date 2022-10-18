@@ -1,0 +1,17 @@
+MAIN(Sekretariat): Warum fehlst du heute im Kindergarten?
+-THROW-> Ich übergebe mich im Minutentakt.
+-FIND-> Ich bin verschollen.
+-CERN-> Ich werde im CERN benötigt.
+-LOVE-> Ich liebe den Kindergarten. Das hier ist eine Bestrafung.
+
+THROW(Sekretariat): Ekelhaft. Bleib bloß daheim!
+-SUCCESS-> Hihihihihi!
+
+FIND(Sekretariat): Wir geben eine Suchmeldung bei der Polizei raus.
+-SUCCESS-> Ähhhh... vergessen Sie es, ich habe mich soeben gefunden!
+
+CERN(Sekretariat): Schon wieder!?
+-SUCCESS-> Das sind die guten Schweizer Steuergelder bei der Arbeit!
+
+LOVE(Sekretariat): Hart, aber fair. 
+-SUCCESS-> Dann spiele ich eben hier Rodeo mit der Katze.

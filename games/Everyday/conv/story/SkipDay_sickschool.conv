@@ -1,0 +1,17 @@
+MAIN(Sekretariat): Warum fehlst du heute in der Schule?
+-FUNERAL-> Opas Beerdigung
+-MINOR-> Kleinere Operation
+-MAJOR-> Größere Operation
+-SURGERY-> Durchführung einer Amateur-Operation
+
+FUNERAL(Sekretariat): Wie viele Großväter hast du eigentlich?
+-SUCCESS-> Alle guten Dinge sind fünf, aber es funktioniert ja auch immer!
+
+MINOR(Sekretariat): Oh, ich wünsche alles Gute!
+-SUCCESS-> Ich hoffe, ich bekomme einen Obstkorb. 
+
+MAJOR(Sekretariat): Oh, ich wünsche das Beste!
+-SUCCESS-> Ich hoffe, ich bekomme einen richtig großen Obstkorb. 
+
+SURGERY(Sekretariat): Das klingt sehr illegal. Allerdings bin ich zu unterbezahlt, um mich in das Leben von Schülern einzumischen. Wird daher schon alles seine Richtigkeit haben.
+-SUCCESS-> Ein Hoch auf umstrittene Einsparungen im Bildungssektor!
