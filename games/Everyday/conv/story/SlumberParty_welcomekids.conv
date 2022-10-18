@@ -1,0 +1,18 @@
+MAIN(Kinder): Was machen wir heute Nacht!?!!
+-NOTHING-> Nichts. Ab in die Kiste!
+-SNACKS-> Ein fettes Snack-Wettessen!
+-HAIR-> Umstylings und Amateur-Haarschnitte!
+-MATCHES-> Ich hoffe doch, jemand von euch hat Streichhölzer!
+
+
+NOTHING(Kinder): Lass uns Kram kaputtmachen!
+-SUCCESS-> ...Wir brauchen wohl doch Aktivitäten.
+
+SNACKS(Kinder): JUUUHHUU!!!!
+-SUCCESS-> In die Küche!
+
+HAIR(Kinder): JUUUHHUU!!!!
+-SUCCESS-> Wer möchte Strähnchen?
+
+MATCHES(Kinder): Wir alle haben welche!!!!
+-SUCCESS-> Zum geheimen Feuerwerks-Vorrat!
