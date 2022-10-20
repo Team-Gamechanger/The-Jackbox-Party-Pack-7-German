@@ -1,0 +1,18 @@
+MAIN(Baubehörde): Was bauen Sie da in Ihrem Garten?
+-HOUSE-> Ein illegales Baumhaus.
+-TOOL-> Einen abgehobenen Schuppen.
+-BIRD-> Ein ungewöhnlich großes Vogelhaus.
+-WEIRD-> Nichts. Mein Nachbar hat einfach ein Baumhaus in meinem Garten gebaut!
+
+
+HOUSE(Baubehörde): Dafür haben Sie keine Genehmigung.
+-SUCCESS-> Uff... Zeit die Bestechungs-Geldbörse zu holen.
+
+TOOL(Baubehörde): Klingt plausibel! Viel Spaß!
+-SUCCESS-> *Auflegen* ...es fällt mir wie Schuppen von den Augen.
+
+BIRD(Baubehörde): Klingt plausibel! Viel Spaß!
+-SUCCESS-> *Auflegen* ...aber meine Familie sind die Vögel.
+
+WEIRD(Baubehörde): Dem werden wir nachgehen.
+-SUCCESS-> *Auflegen* Was soll schon schiefgehen?

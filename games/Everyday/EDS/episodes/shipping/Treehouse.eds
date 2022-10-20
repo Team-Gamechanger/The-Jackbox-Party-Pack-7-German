@@ -47,12 +47,12 @@ REM : Define this episode's story tasks below
 
 REM : Drive to hardware store
 CLONE DEED "TravelID" "DriveHardware"
-    SET INSTRUCTIONS "Drive to the hardware store"
+    SET INSTRUCTIONS "Zum Baumarkt fahren"
     SET CONTENT_ID "WOOD_LUMBER"
 END
 
 DEF TASK "DriveHardware"
-    SET NAME "Drive to the hardware store"
+    SET NAME "Zum Baumarkt fahren"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -65,20 +65,20 @@ END
 
 REM : Trim tree branches
 CLONE DEED "Tap3" "TrimTreeBranches1"
-    SET INSTRUCTIONS "Climb ladder"
+    SET INSTRUCTIONS "Auf die Leiter klettern"
 END
 
 CLONE DEED "SwipeBase" "TrimTreeBranches2"
-    SET INSTRUCTIONS "Trim branches"
+    SET INSTRUCTIONS "Die Zweige stutzen"
     SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT"
 END
 
 CLONE DEED "Hold5" "TrimTreeBranches3"
-    SET INSTRUCTIONS "Don't fall off ladder"
+    SET INSTRUCTIONS "Nicht von der Leiter fallen"
 END
 
 DEF TASK "TrimTreeBranches"
-    SET NAME "Trim tree branches"
+    SET NAME "Zweige stutzen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -95,11 +95,11 @@ END
 
 REM : Raise treehouse side panel together
 CLONE DEED "TapAll" "RaisePanel"
-    SET INSTRUCTIONS "Lift!!!"
+    SET INSTRUCTIONS "Heben!!!"
 END
 
 DEF TASK "RaisePanel"
-    SET NAME "Raise treehouse side panel together"
+    SET NAME "Seitenwand auf den Baum hieven"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -112,22 +112,22 @@ END
 
 REM : Saw wood for treehouse
 CLONE DEED "Instructions4" "SawWood"
-    SET INSTRUCTIONS "Saw wood for treehouse"
+    SET INSTRUCTIONS "Holz für das Baumhaus sägen"
 
     SET MECHANIC_0 "SWIPE_RIGHT"
-    SET INSTRUCTIONS_0 "Saw wood"
+    SET INSTRUCTIONS_0 "Das Holz sägen"
     SET MECHANIC_1 "SWIPE_LEFT"
-    SET INSTRUCTIONS_1 "Pull saw back"
+    SET INSTRUCTIONS_1 "Die Säge zurückziehen"
     SET MECHANIC_2 "SWIPE_LEFT"
-    SET INSTRUCTIONS_2 "It's stuck, pull hard"
+    SET INSTRUCTIONS_2 "Sie hat sich verklemmt! Stärker ziehen"
     SET MECHANIC_3 "TAP"
-    SET INSTRUCTIONS_3 "Break it over your knee"
+    SET INSTRUCTIONS_3 "Zeit für Trick 17: Gewalt anwenden"
 END
 
 DEF TASK "SawWood"
-    SET NAME "Saw wood for treehouse"
-    SET ASKER_NAME "Get help sawing wood for treehouse"
-    SET HELPER_NAME "Help <ASKER> saw wood for treehouse"
+    SET NAME "Holz fürs Baumhaus sägen"
+    SET ASKER_NAME "Erhalte Hilfe, das Holz fürs Baumhaus zu sägen"
+    SET HELPER_NAME "Helfe <ASKER> das Holz fürs Baumhaus zu sägen"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "MATURE"
     SET CATEGORY "STORY"
@@ -143,19 +143,19 @@ REM : ---------------------------------------------------
 
 REM : Hammer boards
 CLONE DEED "Tap2" "HammerBoards1"
-    SET INSTRUCTIONS "Hammer board"
+    SET INSTRUCTIONS "Brett annageln"
 END
 
 CLONE DEED "QuickTap3" "HammerBoards2"
-    SET INSTRUCTIONS "Faster!"
+    SET INSTRUCTIONS "Schneller!"
 END
 
 CLONE DEED "Tap1" "HammerBoards3"
-    SET INSTRUCTIONS "And one to grow on"
+    SET INSTRUCTIONS "Alle guten Dinge sind Sechs!"
 END
 
 DEF TASK "HammerBoards"
-    SET NAME "Hammer boards"
+    SET NAME "Bretter festnageln"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -172,19 +172,19 @@ END
 
 REM : Paint treehouse
 CLONE DEED "Tap3" "PaintTreehouse1"
-    SET INSTRUCTIONS "Gather up paint cans"
+    SET INSTRUCTIONS "Farbdosen nehmen"
 END
 
 CLONE DEED "SwipeUp" "PaintTreehouse2"
-    SET INSTRUCTIONS "Splash them everywhere"
+    SET INSTRUCTIONS "Überall verteilen"
 END
 
 CLONE DEED "ScrubMedium" "PaintTreehouse3"
-    SET INSTRUCTIONS "Hands make good brushes"
+    SET INSTRUCTIONS "Hände machen sich sehr gut als Pinsel"
 END
 
 DEF TASK "PaintTreehouse"
-    SET NAME "Paint treehouse"
+    SET NAME "Baumhaus anstreichen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -201,19 +201,19 @@ END
 
 REM : Spy on neighbors from treehouse
 CLONE DEED "SwipeUp" "SpyTree1"
-    SET INSTRUCTIONS "Peek out treehouse window"
+    SET INSTRUCTIONS "Aus dem Baumhausfenster spähen"
 END
 
 CLONE DEED "Nothing3" "SpyTree2"
-    SET INSTRUCTIONS "Watch neighbor sing while doing yardwork"
+    SET INSTRUCTIONS "Nachbarn beim Singen während der Gartenarbeit zusehen"
 END
 
 CLONE DEED "Hold5" "SpyTree3"
-    SET INSTRUCTIONS "Try not to sing along"
+    SET INSTRUCTIONS "Versuchen, nicht mitzusingen"
 END
 
 DEF TASK "SpyTree"
-    SET NAME "Spy on neighbors from treehouse"
+    SET NAME "Vom Baumhaus aus Nachbarn bespitzeln"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -230,12 +230,12 @@ END
 
 REM : Lie to zoning board
 CLONE DEED "DialogID" "ZoningBoard"
-    SET INSTRUCTIONS "Lie to the zoning board"
+    SET INSTRUCTIONS "Die Baubehörde anlügen"
     SET CONTENT_ID "TREEHOUSE_ZONING"
 END
 
 DEF TASK "ZoningBoard"
-    SET NAME "Lie to the zoning board"
+    SET NAME "Baubehörde anlügen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -250,19 +250,19 @@ REM : --------------------------------
 
 REM : Make out with boo in treehouse
 CLONE DEED "Tap4" "MakeOutBooTree1"
-    SET INSTRUCTIONS "Climb ladder"
+    SET INSTRUCTIONS "Die Leiter hochklettern"
 END
 
 CLONE DEED "Hold3" "MakeOutBooTree2"
-    SET INSTRUCTIONS "Take their hand"
+    SET INSTRUCTIONS "Die Hand ergreifen"
 END
 
 CLONE DEED "ScrubMedium" "MakeOutBooTree3"
-    SET INSTRUCTIONS "Smush faces together... This is kissing, right?"
+    SET INSTRUCTIONS "Gesichter zusammendrücken... So küsst man, oder?"
 END
 
 DEF TASK "MakeOutBooTree"
-    SET NAME "Make out with boo in treehouse"
+    SET NAME "Mit Liebelei im Baumhaus knutschen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -279,19 +279,19 @@ END
 
 REM : Make out with partner in treehouse
 CLONE DEED "Tap4" "MakeOutPartnerTree1"
-    SET INSTRUCTIONS "Climb ladder"
+    SET INSTRUCTIONS "Die Leiter hochklettern"
 END
 
 CLONE DEED "Hold3" "MakeOutPartnerTree2"
-    SET INSTRUCTIONS "Take their hand"
+    SET INSTRUCTIONS "Die Hand ergreifen"
 END
 
 CLONE DEED "Nothing5" "MakeOutPartnerTree3"
-    SET INSTRUCTIONS "Realize you need to rest from that ladder climbing"
+    SET INSTRUCTIONS "Vom Leiterklettern fix und fertig sein"
 END
 
 DEF TASK "MakeOutPartnerTree"
-    SET NAME "Make out with partner in treehouse"
+    SET NAME "Mit Ehepartner im Baumhaus knutschen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -308,19 +308,19 @@ END
 
 REM : Inspect cracks in treehouse
 CLONE DEED "Hold5" "TreeCracks1"
-    SET INSTRUCTIONS "Examine cracked board"
+    SET INSTRUCTIONS "Rissiges Brett anschauen"
 END
 
 CLONE DEED "Tap3" "TreeCracks2"
-    SET INSTRUCTIONS "Poke at it a few times"
+    SET INSTRUCTIONS "Ein paar Mal anstupsen"
 END
 
 CLONE DEED "Nothing2" "TreeCracks3"
-    SET INSTRUCTIONS "That can't be good..."
+    SET INSTRUCTIONS "Das kann nicht gut sein..."
 END
 
 DEF TASK "TreeCracks"
-    SET NAME "Inspect cracks in treehouse"
+    SET NAME "Risse im Baumhaus entdecken"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -337,23 +337,23 @@ END
 
 REM : Duct tape treehouse damage
 CLONE DEED "Rotate270" "DuctTapeTree1"
-    SET INSTRUCTIONS "Unroll duct tape"
+    SET INSTRUCTIONS "Duct Tape abrollen"
 END
 
 CLONE DEED "Hold2" "DuctTapeTree2"
-    SET INSTRUCTIONS "Press on collapsing floor"
+    SET INSTRUCTIONS "Auf zusammenbrechenden Boden kleben"
 END
 
 CLONE DEED "ScrubLong" "DuctTapeTree3"
-    SET INSTRUCTIONS "Make sure it's really sticking"
+    SET INSTRUCTIONS "Sicherstellen, dass es wirklich klebt"
 END
 
 CLONE DEED "Tap2" "DuctTapeTree4"
-    SET INSTRUCTIONS "Cautiously step on floor"
+    SET INSTRUCTIONS "Vorsichtig die Stelle betreten"
 END
 
 DEF TASK "DuctTapeTree"
-    SET NAME "Inspect cracks in treehouse"
+    SET NAME "Risse im Baumhaus untersuchen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
