@@ -1,0 +1,17 @@
+MAIN(Interviewer): Wie fühlen Sie sich als erste Familie im Weltraum?
+-PROUD-> Stolz
+-SCARED-> Ängstlich
+-BORED-> Gelangweilt
+-CONFUSED-> Verwirrt und hungrig
+
+PROUD(Interviewer): Das sollten Sie auch sein. 
+-SUCCESS-> Machen Sie ein Bild von meiner Schokoladenseite.
+
+SCARED(Interviewer): Das sollten Sie auch sein. 
+-SUCCESS-> Ist das All etwa gefährlich?
+
+BORED(Interviewer): Reden wir mit jemand Interessanterem.
+-SUCCESS-> Viel Glück beim Suchen!
+
+CONFUSED(Interviewer): Hier, essen Sie ein Krickers.
+-SUCCESS-> Vielen Dank für Ihre Unterstützung.

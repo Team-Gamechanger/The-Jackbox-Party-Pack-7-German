@@ -1,0 +1,17 @@
+MAIN(Sam Lunario): Habt ihr noch Fragen zum Thema Weltall?
+-SMELL-> Wonach riecht es?
+-WORLD-> Sind Aliens nett?
+-STAR-> Warum ausgerechnet Sterne?
+-WHERE-> Wo ist es?
+
+SMELL(Sam Lunario): Nach Eiern.
+-SUCCESS-> Ich wusste es!
+
+WORLD(Sam Lunario): Alle, mit Ausnahme von Gary.
+-SUCCESS-> Blöder Gary.
+
+STAR(Sam Lunario): Wissenschaftler stellen genau diese Frage seit Jahren.
+-SUCCESS-> *Schaut zur Sonne* Warum nur?
+
+WHERE(Sam Lunario): Es ist...ähh...oben.
+-SUCCESS-> Das ist die Zimmerdecke.
