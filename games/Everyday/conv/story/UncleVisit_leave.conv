@@ -1,0 +1,17 @@
+MAIN(Onkel Gorbo): Liebste Familie, was machen wir jetzt?
+-LATE-> Es ist ziemlich spät geworden...
+-RACE-> Ein Wettrennen zu dir nach Hause!
+-HIDE-> Ein Taxi rufen?
+-OTHER-> Bei anderen Familien vorbeischauen?
+
+LATE(Onkel Gorbo): Gut! Ich bleibe über Nacht!
+-SUCCESS-> Ich schätze, ich werde wohl in der Badewanne schlafen.
+
+RACE(Onkel Gorbo): Gib mir vorher etwas Zeit zum Dehnen!
+-SUCCESS-> Das könnte wirklich klappen...
+
+HIDE(Onkel Gorbo): Keine solche Umstände, ich schlafe gerne noch ein oder zwei Nächte bei euch.
+-SUCCESS-> Ich schätze, ich werde wohl in der Badewanne schlafen.
+
+OTHER(Onkel Gorbo): Aber ich habe doch schon die Beste gefunden!
+-SUCCESS-> Verflucht sei diese liebenswerte Nervensäge!

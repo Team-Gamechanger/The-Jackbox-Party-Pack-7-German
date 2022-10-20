@@ -1,0 +1,18 @@
+MAIN(Tante Glut): Schätzchen, was kann ich für dich tun?
+-POLITE-> Wir fragen uns, ob es für Gorbo nicht langsam Zeit wird, in die heimischen vier Wände zurückzukehren.
+-ROUNDABOUT-> Wie läuft es zu Hause, Tante Glut?
+-HELP-> ONKEL GORBO TREIBT UNS IN DEN WAHNSINN!
+
+POLITE(Tante Glut): Er geht euch doch nicht allzu sehr auf die Nerven, oder?
+-LIE-> Aber nicht doch! Tatsächlich würden wir uns sehr freuen, wenn er noch länger bei uns bleiben würde!
+-HELP-> Bitte erlöse uns!
+
+LIE(Tante Glut): Wenns weiter nichts ist! Richte ihm aus, dass man sich in einem Monat wiedersieht!
+-SUCCESS-> Meine Höflichkeit war gleichzeitig auch mein Untergang.
+
+HELP(Tante Glut): Erzähl ihm, dass ich seine Porzellan-Nilpferd-Sammlung umsortiere. Er wird im Handumdrehen abreisen wollen!
+-SUCCESS-> Tante Glut ist die Beste.
+
+ROUNDABOUT(Tante Glut): Alles in Butter! Ich bereite mich lediglich auf die saisonalen Feuerstürme vor.
+-POLITE-> Klingt so, als könntest du eine helfende Hand gebrauchen! Sollen wir dir Onkel Gorbo nach Hause schicken?
+-LIE-> Bei uns ist das Wetter herrlich! Onkel Gorbo würde am Liebsten nie mehr abreisen!
