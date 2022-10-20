@@ -100,7 +100,7 @@
         {
             "id": "THERMOMETER",
             "category": "THERMOMETER",
-            "name": "dem Thermometer",
+            "name": "dem Fieberthermometer",
             "locations": [
                 {
                     "id": "CABINET",
@@ -448,11 +448,11 @@
             "locations": [
                 {
                     "id": "OAK",
-                    "name": "Unter der schattenspendenen Eiche"
+                    "name": "Unter der alten Eiche"
                 },
                 {
                     "id": "ANTHILL",
-                    "name": "Beim bedrohlichen Ameisenhaufen"
+                    "name": "Beim riesigen Ameisenhaufen"
                 },
                 {
                     "id": "CLOTHESLINE",

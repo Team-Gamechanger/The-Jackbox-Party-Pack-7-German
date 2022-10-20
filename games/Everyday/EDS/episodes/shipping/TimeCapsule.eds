@@ -48,14 +48,14 @@ REM : Define this episode's story tasks below
 
 REM : Buy empty time capsule at capsule store
 CLONE DEED "TravelID" "BuyCapsule"
-    SET INSTRUCTIONS "Drive to the capsule store"
+    SET INSTRUCTIONS "Zum Zeitkapsel-Laden fahren"
     SET CONTENT_ID "CONTAINER"
 END
 
 DEF TASK "BuyCapsule"
-    SET NAME "Buy empty time capsule at the capsule store"
-    SET ASKER_NAME "Get a ride to the store to buy empty time capsule"
-    SET HELPER_NAME "Drive <ASKER> to the store to buy empty time capsule"
+    SET NAME "Zeitkapsel einkaufen fahren"
+    SET ASKER_NAME "Lasse dich zum Einkauf einer Zeitkapsel fahren"
+    SET HELPER_NAME "Fahre mit <ASKER> zum Einkauf einer Zeitkapsel"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -69,27 +69,27 @@ END
 
 REM : Decide which comic book to put in time capsule
 CLONE DEED "Hold2" "TCDecideCapsule1"
-    SET INSTRUCTIONS "Could you part with your 'Superguy' comic?"
+    SET INSTRUCTIONS "Möchtest du dich von deinem 'Superguy'-Comic trennen?"
 END
 
 CLONE DEED "SwipeRight" "TCDecideCapsule2"
-    SET INSTRUCTIONS "Maybe give up 'Captain Knife' instead..."
+    SET INSTRUCTIONS "Vielleicht stattdessen 'Captain Knife'..."
 END
 
 CLONE DEED "SwipeLeft" "TCDecideCapsule3"
-    SET INSTRUCTIONS "Would future generations enjoy reading 'Stupendous Six'?"
+    SET INSTRUCTIONS "Hätten zukünftige Generationen Spaß an 'Stupendous Six'?"
 END
 
 CLONE DEED "Tap3" "TCDecideCapsule4"
-    SET INSTRUCTIONS "Wrestle with indecision"
+    SET INSTRUCTIONS "Mit der Entscheidung ringen"
 END
 
 CLONE DEED "SwipeDown" "TCDecideCapsule5"
-    SET INSTRUCTIONS "Put in your sibling's 'Pony Patrol' comic"
+    SET INSTRUCTIONS "'Pony Patrol'-Comic deines Geschwisterchens reinlegen"
 END
 
 DEF TASK "TCDecideCapsule"
-    SET NAME "Decide which comic book to put in time capsule"
+    SET NAME "Comic für die Zeitkapsel auswählen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -110,23 +110,23 @@ END
 
 REM : Hide incriminating tax papers in time capsule
 CLONE DEED "Hold2" "HideTaxPapers1"
-    SET INSTRUCTIONS "Hmmm, the IRS can't see these"
+    SET INSTRUCTIONS "Hmmm, das Finanzamt sollte die nicht sehen"
 END
 
 CLONE DEED "Tap3" "HideTaxPapers2"
-    SET INSTRUCTIONS "It'd be a real shame if they were buried for the next decade"
+    SET INSTRUCTIONS "Eine echte Schande, wenn die für Jahrzehnte weg sind"
 END
 
 CLONE DEED "SwipeDown" "HideTaxPapers3"
-    SET INSTRUCTIONS "Whoops! Dropped them in the time capsule"
+    SET INSTRUCTIONS "Upsi! Da liegt es in der Zeitkapsel"
 END
 
 CLONE DEED "SwipeDown" "HideTaxPapers4"
-    SET INSTRUCTIONS "Oops, clumsy me! Did it again!"
+    SET INSTRUCTIONS "Oh nein, wie tollpatschig! Jetzt liegen sie alle drin!"
 END
 
 DEF TASK "HideTaxPapers"
-    SET NAME "Hide incriminating tax papers in time capsule"
+    SET NAME "Steuerunterlagen in Zeitkapsel verstecken"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -145,23 +145,23 @@ END
 
 REM : Complain that this is stupid
 CLONE DEED "Tap4" "ComplainTC1"
-    SET INSTRUCTIONS "Argue it's idiotic to bury your stuff in a hole"
+    SET INSTRUCTIONS "Anbringen, dass eine Zeitkapsel idiotisch ist"
 END
 
 CLONE DEED "Nothing2" "ComplainTC2"
-    SET INSTRUCTIONS "Be ignored by your whole family"
+    SET INSTRUCTIONS "Vom Rest der Familie ignoriert werden"
 END
 
 CLONE DEED "SwipeDown" "ComplainTC3"
-    SET INSTRUCTIONS "Stamp your feet"
+    SET INSTRUCTIONS "Mit den Füßen aufstampfen"
 END
 
 CLONE DEED "SwipeLeft" "ComplainTC4"
-    SET INSTRUCTIONS "March off in a huff"
+    SET INSTRUCTIONS "Beleidigt abmarschieren"
 END
 
 DEF TASK "ComplainTC"
-    SET NAME "Complain that time capsules are stupid"
+    SET NAME "Über Zeitkapseln aufregen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -182,23 +182,23 @@ REM : -----------------------------------------
 
 REM : Write letter to your future self KID
 CLONE DEED "SwipeUp" "WriteLetterSelfKid1"
-    SET INSTRUCTIONS "Take out paper"
+    SET INSTRUCTIONS "Papier nehmen"
 END
 
 CLONE DEED "Rotate270" "WriteLetterSelfKid2"
-    SET INSTRUCTIONS "Take out crayon"
+    SET INSTRUCTIONS "Stifte auspacken"
 END
 
 CLONE DEED "ScrubMedium" "WriteLetterSelfKid3"
-    SET INSTRUCTIONS "Threaten future self into taking good care of your comic book"
+    SET INSTRUCTIONS "Zukünftiges Ich ermahnen, deinen Comic gut zu behandeln"
 END
 
 CLONE DEED "SwipeDown" "WriteLetterSelfKid4"
-    SET INSTRUCTIONS "Signed and sealed!"
+    SET INSTRUCTIONS "Unterschrieben und versiegelt!"
 END
 
 DEF TASK "WriteLetterSelfKid"
-    SET NAME "Write adorable letter to your future self"
+    SET NAME "Bezaubernden Brief an zukünftiges Ich schreiben"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -217,19 +217,19 @@ END
 
 REM : Write letter to your future self TEEN
 CLONE DEED "SwipeUp" "WriteLetterSelfTeen1"
-    SET INSTRUCTIONS "Take out paper"
+    SET INSTRUCTIONS "Papier nehmen"
 END
 
 CLONE DEED "Rotate270" "WriteLetterSelfTeen2"
-    SET INSTRUCTIONS "Uncap pen"
+    SET INSTRUCTIONS "Stiftkappe abnehmen"
 END
 
 CLONE DEED "ScrubMedium" "WriteLetterSelfTeen3"
-    SET INSTRUCTIONS "Scribble crude drawing"
+    SET INSTRUCTIONS "Geschmacklose Zeichnung kritzeln"
 END
 
 DEF TASK "WriteLetterSelfTeen"
-    SET NAME "Write irreverent letter to your future self"
+    SET NAME "Respektlosen Brief an zukünftiges Ich schreiben"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -246,27 +246,27 @@ END
 
 REM : Write letter to your future self PARENT
 CLONE DEED "ScrubMedium" "WriteLetterSelfParent1"
-    SET INSTRUCTIONS "Summarize your life so far"
+    SET INSTRUCTIONS "Dein bisheriges Leben zusammenfassen"
 END
 
 CLONE DEED "Hold2" "WriteLetterSelfParent2"
-    SET INSTRUCTIONS "Have existential crisis"
+    SET INSTRUCTIONS "Existenzielle Krise haben"
 END
 
 CLONE DEED "Tap3" "WriteLetterSelfParent3"
-    SET INSTRUCTIONS "jot down hopes and dreams"
+    SET INSTRUCTIONS "Hoffnungen und Träume niederschreiben"
 END
 
 CLONE DEED "Hold2" "WriteLetterSelfParent4"
-    SET INSTRUCTIONS "Dread future"
+    SET INSTRUCTIONS "Zukunftsängste erleiden"
 END
 
 CLONE DEED "SwipeDown" "WriteLetterSelfParent5"
-    SET INSTRUCTIONS "Drop it in the capsule!"
+    SET INSTRUCTIONS "Ab in die Kapsel damit!"
 END
 
 DEF TASK "WriteLetterSelfParent"
-    SET NAME "Write angst-ridden letter to your future self"
+    SET NAME "Angsterfüllten Brief an zukünftiges Ich schreiben"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -285,12 +285,12 @@ END
 
 REM : Dig holes until you find a spot that isn't full of pipes
 CLONE DEED "SearchID" "SearchDigSpot"
-    SET INSTRUCTIONS "Dig holes until you find a good spot"
+    SET INSTRUCTIONS "Solange graben, bis du eine gute Stelle gefunden hast"
     SET CONTENT_ID "DIGSITE"
 END
 
 DEF TASK "SearchDigSpot"
-    SET NAME "Find a spot to bury the time capsule that isn't full of pipes"
+    SET NAME "Ort zum Vergraben der Zeitkapsel suchen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -305,17 +305,17 @@ REM : --------------------------------------------
 
 REM : Accdientally dig up time capsule from the 90s
 CLONE DEED "Nothing3" "DigUp90sTC1"
-    SET INSTRUCTIONS "Whoa! It's full of cool 90s junk!"
+    SET INSTRUCTIONS "Wow! Sie ist voll mit coolem 90er-Jahre-Kram!"
     SET PARTICIPATION "ALL"
 END
 
 CLONE DEED "Nothing3" "DigUp90sTC2"
-    SET INSTRUCTIONS "Forget your capsule, it's 90s time, baby!"
+    SET INSTRUCTIONS "Alles stehen und liegen lassen! Zeit für die 90er, Baby!"
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "DigUp90sTC"
-    SET NAME "Accidentally dig up other time capsule from the 90s"
+    SET NAME "Versehentlich Zeitkapsel aus den 90ern ausgraben"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -330,19 +330,19 @@ END
 
 REM : Slap on slap bracelet
 CLONE DEED "SwipeUp" "SlapBracelet1"
-    SET INSTRUCTIONS "Raise it up..."
+    SET INSTRUCTIONS "Hochziehen..."
 END
 
 CLONE DEED "SwipeDown" "SlapBracelet2"
-    SET INSTRUCTIONS "Slap!"
+    SET INSTRUCTIONS "Klick!"
 END
 
 CLONE DEED "Rotate180" "SlapBracelet3"
-    SET INSTRUCTIONS "The height of fashion"
+    SET INSTRUCTIONS "Der Gipfel der Modewelt"
 END
 
 DEF TASK "SlapBracelet"
-    SET NAME "Slap on slap bracelet"
+    SET NAME "Klackarmband anlegen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -363,15 +363,15 @@ CLONE DEED "SwipeUp" "DenimJacket1"
 END
 
 CLONE DEED "Hold2" "DenimJacket2"
-    SET INSTRUCTIONS "Pose"
+    SET INSTRUCTIONS "Posieren"
 END
 
 CLONE DEED "Rotate270" "DenimJacket3"
-    SET INSTRUCTIONS "Looking fly!"
+    SET INSTRUCTIONS "Siehst fresh aus!"
 END
 
 DEF TASK "DenimJacket"
-    SET NAME "Try on denim jacket"
+    SET NAME "Jeansjacke anprobieren"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -388,27 +388,27 @@ END
 
 REM : Chew gum from the 1990s
 CLONE DEED "Rotate270" "Chew90sGum1"
-    SET INSTRUCTIONS "Unwrap dusty packaging"
+    SET INSTRUCTIONS "Staubige Packung öffnen"
 END
 
 CLONE DEED "SwipeDown" "Chew90sGum2"
-    SET INSTRUCTIONS "Bite rock-hard gum"
+    SET INSTRUCTIONS "Steinhartes Bonbon in den Mund nehmen"
 END
 
 CLONE DEED "Tap4" "Chew90sGum3"
-    SET INSTRUCTIONS "Chew dry shards"
+    SET INSTRUCTIONS "Das trockene Karamell weiterkauen"
 END
 
 CLONE DEED "SwipeDown" "Chew90sGum4"
-    SET INSTRUCTIONS "Swallow musty goo"
+    SET INSTRUCTIONS "Modrigen Glibber herunterschlucken"
 END
 
 CLONE DEED "Rotate360Counter" "Chew90sGum5"
-    SET INSTRUCTIONS "Feel nauseous"
+    SET INSTRUCTIONS "Übelkeit verspüren"
 END
 
 DEF TASK "Chew90sGum"
-    SET NAME "Chew gum from the 1990s"
+    SET NAME "Jahrzehntealten Süßkram probieren"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -429,23 +429,23 @@ END
 
 REM : Read vintage 1990s comic
 CLONE DEED "SwipeLeft" "Read90sComic1"
-    SET INSTRUCTIONS "Read 'Captain Internet' #1"
+    SET INSTRUCTIONS "'Captain Internet' #1 lesen"
 END
 
 CLONE DEED "Tap5" "Read90sComic2"
-    SET INSTRUCTIONS "Witness his battle with the evil Dr. Y2K"
+    SET INSTRUCTIONS "Zeuge seines epischen Kampfes gegen den bösen Dr. Robo werden"
 END
 
 CLONE DEED "SwipeDown" "Read90sComic3"
-    SET INSTRUCTIONS "Spill your juice on comic"
+    SET INSTRUCTIONS "Deinen Saft auf dem Comic verschütten"
 END
 
 CLONE DEED "Hold3" "Read90sComic4"
-    SET INSTRUCTIONS "Watch everyone freak out when they learn it was worth $20,000"
+    SET INSTRUCTIONS "Anschauen, wie alle ausflippen, wenn sie erfahren, dass er 20.000 wert war"
 END
 
 DEF TASK "Read90sComic"
-    SET NAME "Read vintage 1990s comics"
+    SET NAME "Comics aus den 90ern lesen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
