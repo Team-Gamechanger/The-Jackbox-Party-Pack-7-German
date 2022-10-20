@@ -1,0 +1,9 @@
+MAIN(Französische Kassette): Cette blague vieillit-elle?
+-RESPONSE1-> Si vous ne parlez pas la langue, elle a probablement vieilli.
+-RESPONSE1-> Je m'amuse toujours.
+-RESPONSE1-> Nichts von alledem kommt an.
+
+RESPONSE1(Französische Kassette): Avez-vous conclu que cette interface ne prend en charge que l'alphabet anglais?
+-SUCCESS-> Maintenant que vous le mentionnez, il y a un manque flagrant de signes diacritiques.
+-SUCCESS-> Je suppose que vous avez appris cette limitation trop tard pour couper cette blague?
+-FAILURE-> Wie sagt man 'Ich werfe das Handtuch' auf Französisch?

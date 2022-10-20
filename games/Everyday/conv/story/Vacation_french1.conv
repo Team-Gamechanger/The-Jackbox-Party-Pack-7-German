@@ -1,0 +1,9 @@
+MAIN(Französische Kassette): La vache est incapable d'obtenir un permis de conduire.
+-RESPONSE1-> Parce qu'elle n'a pas d'identification valide.
+-RESPONSE1-> Et donc la vache doit payer le prix fort pour les livres audio.
+-RESPONSE1-> Entschuldigung, wie bitte? Ich spreche kein Französisch.
+
+RESPONSE1(Französische Kassette): Trop de beurre d'arachide est mauvais pour votre teint.
+-SUCCESS-> Les choses que nous aimons causeront notre mort.
+-SUCCESS-> Je doute de l'exactitude de vos recherches.
+-FAILURE-> Kann ich nicht einfach Deutsch in französischem Akzent sprechen?

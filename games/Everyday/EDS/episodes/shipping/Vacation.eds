@@ -47,12 +47,12 @@ REM : Define this episode's story tasks below
 
 REM : French for Clueless Tourists: Lesson 1
 CLONE DEED "DialogID" "French1"
-    SET INSTRUCTIONS "French for Clueless Tourists: Lesson 1"
+    SET INSTRUCTIONS "Französisch für planlose Touristen: Lektion 1"
     SET CONTENT_ID "VACATION_FRENCH1"
 END
 
 DEF TASK "French1"
-    SET NAME "French for Clueless Tourists: Lesson 1"
+    SET NAME "Französisch für planlose Touristen: Lektion 1"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -66,14 +66,14 @@ END
 REM : Find your favorite beret
 REM : Replace with BERETS
 CLONE DEED "FindCategory" "FindBeret"
-    SET INSTRUCTIONS "Find your favorite beret"
+    SET INSTRUCTIONS "Das Lieblings-Barett finden"
     SET CATEGORY "BERET"
 END
 
 DEF TASK "FindBeret"
-    SET NAME "Find your favorite beret"
-    SET ASKER_NAME "Get help finding your favorite beret"
-    SET HELPER_NAME "Help <ASKER> find their favorite beret"
+    SET NAME "Lieblings-Barett suchen"
+    SET ASKER_NAME "Erhalte Hilfe, dein Lieblings-Barett zu finden"
+    SET HELPER_NAME "Helfe <ASKER> bei der Suche nach dem Lieblings-Barett"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -86,12 +86,12 @@ END
 
 REM : Call to book hotel
 CLONE DEED "PhoneID" "BookParisHotel"
-    SET INSTRUCTIONS "Call to book hotel"
+    SET INSTRUCTIONS "Das Hotel buchen"
     SET CONTENT_ID "SPEEDYGET"
 END
 
 DEF TASK "BookParisHotel"
-    SET NAME "Call to book hotel"
+    SET NAME "Hotel buchen"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -104,20 +104,20 @@ END
 
 REM : Make a trip budget
 CLONE DEED "Instructions4" "MakeParisBudget"
-    SET INSTRUCTIONS "Make a trip budget"
+    SET INSTRUCTIONS "Plan für die Urlaubskasse aufstellen"
 
     SET MECHANIC_0 "TAP"
-    SET INSTRUCTIONS_0 "Add line item for food"
+    SET INSTRUCTIONS_0 "Einzelposten für Essen hinzufügen"
     SET MECHANIC_1 "TAP_3"
-    SET INSTRUCTIONS_1 "Add line item for souvenirs"
+    SET INSTRUCTIONS_1 "Einzelposten für Souvenirs ergänzen"
     SET MECHANIC_2 "TAP"
-    SET INSTRUCTIONS_2 "Add line item for fine cheeses"
+    SET INSTRUCTIONS_2 "Einzelposten für edlen Käse dazuschreiben"
     SET MECHANIC_3 "SWIPE_LEFT"
-    SET INSTRUCTIONS_3 "Remember you're lactose intolerant, strike that last part"
+    SET INSTRUCTIONS_3 "An deine Laktoseintoleranz erinnern und Käse streichen"
 END
 
 DEF TASK "MakeParisBudget"
-    SET NAME "Make a trip budget for Paris"
+    SET NAME "Reisebudget für Paris erstellen"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "MATURE"
     SET CATEGORY "STORY"
@@ -133,12 +133,12 @@ REM : ------------------------------
 
 REM : Call the cat sitter
 CLONE DEED "PhoneCategory" "CallCatSitter"
-    SET INSTRUCTIONS "Call the cat sitter"
+    SET INSTRUCTIONS "Den Katzensitter anrufen"
     SET CATEGORY "RESIDENCE"
 END
 
 DEF TASK "CallCatSitter"
-    SET NAME "Call the cat sitter"
+    SET NAME "Katzensitter anrufen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -151,12 +151,12 @@ END
 
 REM : French for Clueless Tourists: Lesson 2
 CLONE DEED "DialogID" "French2"
-    SET INSTRUCTIONS "French for Clueless Tourists: Lesson 2"
+    SET INSTRUCTIONS "Französisch für planlose Touristen: Lektion 2"
     SET CONTENT_ID "VACATION_FRENCH2"
 END
 
 DEF TASK "French2"
-    SET NAME "French for Clueless Tourists: Lesson 2"
+    SET NAME "Französisch für planlose Touristen: Lektion 2"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -169,14 +169,14 @@ END
 
 REM : Drive to get passports made
 CLONE DEED "TravelCategory" "TravelPassports"
-    SET INSTRUCTIONS "Drive to get passports made"
+    SET INSTRUCTIONS "Neue Ausweise machen lassen"
     SET CATEGORY "POSTOFFICE"
 END
 
 DEF TASK "TravelPassports"
-    SET NAME "Drive to get passports made"
-    SET ASKER_NAME "Get a ride to the post office to get passport made"
-    SET HELPER_NAME "Drive <ASKER> to the post office to get passport made"
+    SET NAME "Neue Ausweise machen lassen"
+    SET ASKER_NAME "Lasse dich zum Machen neuer Ausweise fahren"
+    SET HELPER_NAME "Gehe mit <ASKER> neue Ausweise machen"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -190,13 +190,13 @@ END
 
 REM : Everyone hold still for passport photos
 CLONE DEED "NothingBase" "PassportPhotos"
-    SET INSTRUCTIONS "Don't smile"
+    SET INSTRUCTIONS "Nicht lächeln"
     SET DURATION 5S
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "PassportPhotos"
-    SET NAME "Everyone hold still for passport photos"
+    SET NAME "Für neue Passbilder stillhalten"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -211,12 +211,12 @@ REM : ------------------------------
 
 REM : Look for international power adaptors
 CLONE DEED "SearchID" "SearchAdaptors"
-    SET INSTRUCTIONS "Search for international power adapters"
+    SET INSTRUCTIONS "Die internationalen Stromadapter finden"
     SET CONTENT_ID "ADAPTERS"
 END
 
 DEF TASK "SearchAdaptors"
-    SET NAME "Search for international power adapters"
+    SET NAME "Internationale Stromadapter suchen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -229,12 +229,12 @@ END
 
 REM : French for Clueless Tourists: Lesson 3
 CLONE DEED "DialogID" "French3"
-    SET INSTRUCTIONS "French for Clueless Tourists: Lesson 3"
+    SET INSTRUCTIONS "Französisch für planlose Touristen: Lektion 3"
     SET CONTENT_ID "VACATION_FRENCH3"
 END
 
 DEF TASK "French3"
-    SET NAME "French for Clueless Tourists: Lesson 3"
+    SET NAME "Französisch für planlose Touristen: Lektion 3"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -247,22 +247,22 @@ END
 
 REM : Carefully pack suitcase
 CLONE DEED "Instructions4" "PackParisSuitcase"
-    SET INSTRUCTIONS "Carefully pack the suitcase"
+    SET INSTRUCTIONS "Den Koffer sorgfältig packen"
 
     SET MECHANIC_0 "TAP_HOLD"
-    SET INSTRUCTIONS_0 "Place underwear neatly"
+    SET INSTRUCTIONS_0 "Die Unterwäsche ordentlich reinlegen"
     SET MECHANIC_1 "TAP"
-    SET INSTRUCTIONS_1 "Toss in shirts"
+    SET INSTRUCTIONS_1 "Die Shirts wahllos reinwerfen"
     SET MECHANIC_2 "ROTATE_COUNTER"
-    SET INSTRUCTIONS_2 "Ball up socks"
+    SET INSTRUCTIONS_2 "Die Socken zusammenrollen"
     SET MECHANIC_3 "TAP_HOLD"
-    SET INSTRUCTIONS_3 "Smush the suitcase closed"
+    SET INSTRUCTIONS_3 "Den Koffer unter großer Kraftanstrengung zudrücken"
 END
 
 DEF TASK "PackParisSuitcase"
-    SET NAME "Carefully pack suitcase"
-    SET ASKER_NAME "Get help carefully packing your suitcase"
-    SET HELPER_NAME "Help <ASKER> carefully pack suitcase"
+    SET NAME "Koffer sorgfältig packen"
+    SET ASKER_NAME "Erhalte Hilfe, den Koffer sorgfältig zu packen"
+    SET HELPER_NAME "Helfe <ASKER> den Koffer sorgfältig zu packen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -275,12 +275,12 @@ END
 
 REM : Call a cab to the airport
 CLONE DEED "PhoneCategory" "CallTaxiParis"
-    SET INSTRUCTIONS "Phone Taxi Company"
+    SET INSTRUCTIONS "Taxiunternehmen anrufen"
     SET CATEGORY "TAXI"
 END
 
 DEF TASK "CallTaxiParis"
-    SET NAME "Call a cab to the airport"
+    SET NAME "Taxi zum Flughafen beordern"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

@@ -1,0 +1,9 @@
+MAIN(Französische Kassette): Gardez toujours votre tuba dans une valise transparente lorsque vous voyagez.
+-RESPONSE1-> Je garde toutes mes affaires dans une valise transparente.
+-RESPONSE1-> Je joue, en fait, de la trompette.
+-RESPONSE1-> Irgendwas über...eine Tuba???
+
+RESPONSE1(Französische Kassette): Il est peu probable que les iguanes aient besoin d'une montre.
+-SUCCESS-> Le poignet d'un iguane est trop petit pour une montre.
+-SUCCESS-> Je n'ai pas besoin de ces informations.
+-FAILURE-> Ist Spanisch einfacher? Vielleicht sollten wir nach Spanien reisen...
