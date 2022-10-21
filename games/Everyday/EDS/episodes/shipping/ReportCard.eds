@@ -45,19 +45,19 @@ REM : Define this episode's story tasks below
 
 REM : Put A+ report card on fridge
 CLONE DEED "SwipeDown" "ReportCardFridge1"
-    SET INSTRUCTIONS "Remove sibling's picture"
+    SET INSTRUCTIONS "Bild vom Geschwisterchen entfernen"
 END
 
 CLONE DEED "Tap1" "ReportCardFridge2"
-    SET INSTRUCTIONS "Place report card on fridge with magnet"
+    SET INSTRUCTIONS "Zeugnis mit einem Magneten an den Kühlschrank hängen"
 END
 
 CLONE DEED "Tap1" "ReportCardFridge3"
-    SET INSTRUCTIONS "Use the nicer magnet"
+    SET INSTRUCTIONS "Den schöneren Magneten benutzen"
 END
 
 DEF TASK "ReportCardFridge"
-    SET NAME "Put A+ report card on fridge"
+    SET NAME "Einserzeugnis an Kühlschrank hängen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -74,23 +74,23 @@ END
 
 REM : Intercept and change bad report card
 CLONE DEED "Tap4" "ChangeReportCard1"
-    SET INSTRUCTIONS "tiptoe to mailbox"
+    SET INSTRUCTIONS "Zum Briefkasten schleichen"
 END
 
 CLONE DEED "Rotate180" "ChangeReportCard2"
-    SET INSTRUCTIONS "Remove REAL report card"
+    SET INSTRUCTIONS "Echtes Zeugnis herausnehmen"
 END
 
 CLONE DEED "Rotate180Counter" "ChangeReportCard3"
-    SET INSTRUCTIONS "Insert DECOY report card"
+    SET INSTRUCTIONS "Gegen gefälschtes Zeugnis austauschen"
 END
 
 CLONE DEED "QuickTap4" "ChangeReportCard4"
-    SET INSTRUCTIONS "tiptoe away"
+    SET INSTRUCTIONS "Wegschleichen"
 END
 
 DEF TASK "ChangeReportCard"
-    SET NAME "Intercept and change bad report card"
+    SET NAME "Schlechtes Zeugnis gegen ein besseres austauschen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -109,17 +109,17 @@ END
 
 REM : Call teen's teacher
 CLONE DEED "PhoneID" "CallTeenTeacher1"
-    SET INSTRUCTIONS "Call teen's teacher"
+    SET INSTRUCTIONS "Lehrerin vom Teenager anrufen"
     SET CONTENT_ID "YANLUO"
 END
 
 CLONE DEED "DialogID" "CallTeenTeacher2"
-    SET INSTRUCTIONS "Talk to Ms. Yanluo"
+    SET INSTRUCTIONS "Mit Frau Yanluo sprechen"
     SET CONTENT_ID "REPORTCARD_TEACHER"
 END
 
 DEF TASK "CallTeenTeacher"
-    SET NAME "Call teen's teacher"
+    SET NAME "Lehrerin vom Teenager anrufen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -136,23 +136,23 @@ REM : -------------------------------------------------
 
 REM : Take teen's phone
 CLONE DEED "Nothing3" "TakeTeenPhone1"
-    SET INSTRUCTIONS "Stare down teen"
+    SET INSTRUCTIONS "Teenager böse anstarren"
 END
 
 CLONE DEED "SwipeUp" "TakeTeenPhone2"
-    SET INSTRUCTIONS "Extend hand for phone"
+    SET INSTRUCTIONS "Hand nach dem Handy ausstrecken"
 END
 
 CLONE DEED "Tap1" "TakeTeenPhone3"
-    SET INSTRUCTIONS "Say 'This is for your own good!'"
+    SET INSTRUCTIONS "'Ich tue das für dein eigenes Wohl' sagen"
 END
 
 CLONE DEED "Tap1" "TakeTeenPhone4"
-    SET INSTRUCTIONS "Take phone"
+    SET INSTRUCTIONS "Handy nehmen"
 END
 
 DEF TASK "TakeTeenPhone"
-    SET NAME "Take teen's phone away as punishment"
+    SET NAME "Handy des Teenagers einkassieren"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -171,14 +171,14 @@ END
 
 REM : Redeem good grades for pizza
 CLONE DEED "TravelID" "TravelPizzaRedeem"
-    SET INSTRUCTIONS "Drive to Pizza Fun Time"
+    SET INSTRUCTIONS "Zu Pizza-Fun fahren"
     SET CONTENT_ID "PIZZA_FUN_TI"
 END
 
 DEF TASK "TravelPizzaRedeem"
-    SET NAME "Redeem good grades for pizza"
-    SET ASKER_NAME "Get a ride to redeem good grades for pizza"
-    SET HELPER_NAME "Drive <ASKER> to redeem good grades for pizza"
+    SET NAME "Zur Belohnung für gute Noten Pizza essen gehen"
+    SET ASKER_NAME "Lasse dich für deine guten Noten zur Pizzeria fahren"
+    SET HELPER_NAME "Fahre <ASKER> als Belohnung für gute Noten zur Pizzeria"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -192,23 +192,23 @@ END
 
 REM : Steal phone back from parents
 CLONE DEED "Tap3" "StealBackPhone1"
-    SET INSTRUCTIONS "Army crawl into parents' bedroom"
+    SET INSTRUCTIONS "In das Schlafzimmer der Eltern kriechen"
 END
 
 CLONE DEED "SwipeUp" "StealBackPhone2"
-    SET INSTRUCTIONS "Sneak phone out of drawer"
+    SET INSTRUCTIONS "Handy aus der Schublade nehmen"
 END
 
 CLONE DEED "QuickTap5" "StealBackPhone3"
-    SET INSTRUCTIONS "Text friends: 'Phone gone. Use telegraph.'"
+    SET INSTRUCTIONS "Freunden schreiben: 'Handy weg. Telegrafen nutzen.'"
 END
 
 CLONE DEED "SwipeDown" "StealBackPhone4"
-    SET INSTRUCTIONS "Return phone to drawer"
+    SET INSTRUCTIONS "Handy in die Schublade zurücklegen"
 END
 
 DEF TASK "StealBackPhone"
-    SET NAME "Steal your phone back"
+    SET NAME "Handy zurückstehlen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -230,14 +230,14 @@ REM : ------------------------------------------------------------
 REM : Choose new reward toy
 REM : Replace with TOYS
 CLONE DEED "FindCategory" "FindToy"
-    SET INSTRUCTIONS "Choose new reward toy"
+    SET INSTRUCTIONS "Neues Belohnungsspielzeug auswählen"
     SET CATEGORY "TOYS"
 END
 
 DEF TASK "FindToy"
-    SET NAME "Choose new reward toy"
-    SET ASKER_NAME "Get help choosing a new reward toy"
-    SET HELPER_NAME "Help <ASKER> choose a new reward toy"
+    SET NAME "Belohnungsspielzeug auswählen"
+    SET ASKER_NAME "Erhalte Hilfe, ein Belohnungsspielzeug auszuwählen"
+    SET HELPER_NAME "Helfe <ASKER> ein Belohnungsspielzeug auszuwählen"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -255,9 +255,9 @@ CLONE DEED "TextBase" "TextMakeUpWork"
 END
 
 DEF TASK "TextMakeUpWork"
-    SET NAME "Do make up assignment"
-    SET ASKER_NAME "Get help from parent with your make up assignment"
-    SET HELPER_NAME "Help <ASKER> with their make up assignment"
+    SET NAME "Unterrichtsstoff nacharbeiten"
+    SET ASKER_NAME "Erhalte Hilfe von einem Elternteil den Unterrichtsstoff nachzuarbeiten"
+    SET HELPER_NAME "Helfe <ASKER> den Unterrichtsstoff nachzuarbeiten"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "TEENS"
     SET CATEGORY "STORY"
@@ -271,23 +271,23 @@ END
 
 REM : Dig out your old report cards
 CLONE DEED "QuickTap4" "DigOutReportCards1"
-    SET INSTRUCTIONS "Climb up to attic"
+    SET INSTRUCTIONS "Auf den Dachboden klettern"
 END
 
 CLONE DEED "Tap2" "DigOutReportCards2"
-    SET INSTRUCTIONS "Open old shoebox"
+    SET INSTRUCTIONS "Alten Schuhkarton öffnen"
 END
 
 CLONE DEED "Nothing3" "DigOutReportCards3"
-    SET INSTRUCTIONS "Stare at your old grades in horror"
+    SET INSTRUCTIONS "Entsetzt auf alte Schulnoten starren"
 END
 
 CLONE DEED "Tap1" "DigOutReportCards4"
-    SET INSTRUCTIONS "Close box and accept your hypocrisy"
+    SET INSTRUCTIONS "Karton schließen und eigene Heuchelei akzeptieren"
 END
 
 DEF TASK "DigOutReportCards"
-    SET NAME "Dig out your old report cards"
+    SET NAME "Alte Zeugnisse ausgraben"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -307,11 +307,11 @@ END
 
 REM : Play eductaional board game 
 CLONE DEED "Nothing4" "EduGame"
-    SET INSTRUCTIONS "Have fun being edu-tained!"
+    SET INSTRUCTIONS "Habt Spaß mit Lernspielen!"
 END
 
 DEF TASK "EduGame"
-    SET NAME "Play educational board game as a family"
+    SET NAME "Gemeinsam Lernspiele spielen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

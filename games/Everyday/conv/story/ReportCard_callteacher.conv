@@ -1,0 +1,18 @@
+MAIN(Lehrerin): Wie denken Sie, können Sie Ihr Kind dabei unterstützen, bessere Noten zu erhalten?
+-HOMEWORK-> Durch Unterstützung bei den Hausaufgaben.
+-EXTRA-> Gibt es dafür Bonuspunkte?
+-YELL-> Sehr laut schreien.
+-BRIBE-> Bestechungsgelder und mehr Bestechungsgelder.
+
+
+HOMEWORK(Lehrerin): Das klingt doch super!
+-SUCCESS-> Na ganz toll, jetzt muss ich Französisch lernen.
+
+EXTRA(Lehrerin): Bei Ihrem Kind ja!
+-SUCCESS-> Und im Baumarkt?!
+
+YELL(Lehrerin): Sie sollten vielleicht Mal zu einem Gespräch in Person vorbeikommen...
+-SUCCESS-> Das Gute daran ist, dass ich jetzt auflegen kann!
+
+BRIBE(Lehrerin): So was klappt vielleicht beim Mathelehrer, aber nicht bei mir!
+-SUCCESS-> Fürs Bestechen habe ich eh nicht genug Geld.
