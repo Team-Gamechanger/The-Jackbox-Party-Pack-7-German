@@ -51,12 +51,12 @@ REM : Define this episode's story tasks below
 
 REM : Pack lunch boxes
 CLONE DEED "GatherID" "PackLunchBoxes"
-    SET INSTRUCTIONS "Pack lunch boxes"
+    SET INSTRUCTIONS "Pausenverpflegung zusammenstellen"
     SET CONTENT_ID "TUNA_SALAD_SANDWICHES"
 END
 
 DEF TASK "PackLunchBoxes"
-    SET NAME "Pack lunch boxes"
+    SET NAME "Brotdosen packen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -69,9 +69,9 @@ END
 
 REM : Pick out cool first day outfit
 CLONE TASK "FindShirt" "FindShirtNewSchool"
-    SET NAME "Pick out cool first day of school outfit"
-    SET ASKER_NAME "Get help picking out cool first day of school outfit"
-    SET HELPER_NAME "Help <ASKER> pick out cool first day of school outfit"
+    SET NAME "Cooles 'Erster Schultag'-Outfit auswählen"
+    SET ASKER_NAME "Erhalte Hilfe, ein cooles Outfit für den 1. Schultag auszuwählen"
+    SET HELPER_NAME "Helfe <ASKER> ein cooles Outfit für den 1. Schultag auszuwählen"
     SET CAPTAIN "CHILDREN"
     SET PARTICIPANT "MATURE"
     SET CATEGORY "STORY"
@@ -81,27 +81,27 @@ END
 
 REM : Stuff your backpack full of cool bugs to show everyone
 CLONE DEED "ScrubMedium" "BackpackBugs1"
-    SET INSTRUCTIONS "Search yard for insects"
+    SET INSTRUCTIONS "Im Garten nach Insekten suchen"
 END
 
 CLONE DEED "SwipeUp" "BackpackBugs2"
-    SET INSTRUCTIONS "Pick up worm"
+    SET INSTRUCTIONS "Wurm aufheben"
 END
 
 CLONE DEED "Tap3" "BackpackBugs3"
-    SET INSTRUCTIONS "Collect ants"
+    SET INSTRUCTIONS "Ameisen einsammeln"
 END
 
 CLONE DEED "Rotate90" "BackpackBugs4"
-    SET INSTRUCTIONS "Take roly-poly bug"
+    SET INSTRUCTIONS "Den pummeligen Käfer mitnehmen"
 END
 
 CLONE DEED "SwipeDown" "BackpackBugs5"
-    SET INSTRUCTIONS "Put in bag. The teachers will love these!"
+    SET INSTRUCTIONS "Ab in den Rucksack damit! Dein Lehrer wird die lieben!"
 END
 
 DEF TASK "BackpackBugs"
-    SET NAME "Stuff your backpack full of cool bugs to show off"
+    SET NAME "Coole Käfer zum Vorzeigen mitnehmen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -122,14 +122,14 @@ END
 
 REM : Drive into town for school supplies
 CLONE DEED "TravelCategory" "DriveSchoolSupplies"
-    SET INSTRUCTIONS "Drive into town for school supplies"
+    SET INSTRUCTIONS "In der Stadt Schulsachen einkaufen"
     SET CATEGORY "SHOPPING"
 END
 
 DEF TASK "DriveSchoolSupplies"
-    SET NAME "Drive into town for new school supplies"
-    SET ASKER_NAME "Get ride into town for school supplies"
-    SET HELPER_NAME "Drive <ASKER> into town for school supplies"
+    SET NAME "In der Stadt Schulsachen kaufen"
+    SET ASKER_NAME "Lasse dich in die Stadt fahren, um Schulsachen zu kaufen"
+    SET HELPER_NAME "Fahre <ASKER> in die Stadt um Schulsachen zu kaufen"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -145,27 +145,27 @@ REM : ------------------------------------------------------
 
 REM : Give an apple to your teacher
 CLONE DEED "Rotate270" "GiveApple1"
-    SET INSTRUCTIONS "Dump apple out of bag"
+    SET INSTRUCTIONS "Apfel aus den Rucksack schütten"
 END
 
 CLONE DEED "SwipeUp" "GiveApple2"
-    SET INSTRUCTIONS "Pick apple up off floor"
+    SET INSTRUCTIONS "Den Apfel vom Boden aufheben"
 END
 
 CLONE DEED "ScrubShort" "GiveApple3"
-    SET INSTRUCTIONS "Polish apple on your shirt"
+    SET INSTRUCTIONS "Mit dem Shirt polieren"
 END
 
 CLONE DEED "Tap2" "GiveApple4"
-    SET INSTRUCTIONS "Accidentally sneeze on apple"
+    SET INSTRUCTIONS "Aus Versehen darauf niesen"
 END
 
 CLONE DEED "SwipeRight" "GiveApple5"
-    SET INSTRUCTIONS "Give apple to teacher"
+    SET INSTRUCTIONS "Apfel dem Lehrer überreichen"
 END
 
 DEF TASK "GiveApple"
-    SET NAME "Give an apple to the teacher"
+    SET NAME "Lehrer einen Apfel überreichen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -186,27 +186,27 @@ END
 
 REM : Dominate at Double Dutch on the playground
 CLONE DEED "Tap3" "DoubleDutch1"
-    SET INSTRUCTIONS "Jump rope"
+    SET INSTRUCTIONS "Seilspringen"
 END
 
 CLONE DEED "QuickTap5" "DoubleDutch2"
-    SET INSTRUCTIONS "Ropes are getting faster!"
+    SET INSTRUCTIONS "Die Seile werden immer schneller!"
 END
 
 CLONE DEED "Rotate180" "DoubleDutch3"
-    SET INSTRUCTIONS "Do a handstand"
+    SET INSTRUCTIONS "Einen Handstand machen"
 END
 
 CLONE DEED "QuickTap5" "DoubleDutch4"
-    SET INSTRUCTIONS "Jump rope WHILE doing handstand"
+    SET INSTRUCTIONS "WÄHREND dem Handstand noch Seilspringen"
 END
 
 CLONE DEED "Nothing3" "DoubleDutch5"
-    SET INSTRUCTIONS "You're a schoolyard legend! Bask in glory."
+    SET INSTRUCTIONS "Du bist eine Schulhof-Legende! Sonne dich in deinem Ruhm!"
 END
 
 DEF TASK "DoubleDutch"
-    SET NAME "Dominate at Double Dutch on the playground"
+    SET NAME "In der Pause Eindruck schinden"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -227,9 +227,9 @@ END
 
 REM : Find cool hat for new year new you look
 CLONE TASK "FindHat" "FindHatNewSchool"
-    SET NAME "Find cool hat for 'new year, new you' look"
-    SET ASKER_NAME "Get help finding cool hat for 'new year, new you' look"
-    SET HELPER_NAME "Help <ASKER> find cool hat for 'new year, new you' look"
+    SET NAME "Trendhut des neuen Schuljahres finden"
+    SET ASKER_NAME "Erhalte Hilfe, den Trendhut des neuen Schuljahres zu finden"
+    SET HELPER_NAME "Helfe <ASKER> den Trendhut des neuen Schuljahres zu finden"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -239,7 +239,7 @@ END
 
 REM : Perfect your cool kid pose
 CLONE TASK "ExudeCool" "CoolKidPose"
-    SET NAME "Perfect your cool kid pose"
+    SET NAME "Coole Pose perfektionieren"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -248,27 +248,27 @@ END
 
 REM : Experience the shame of P.E.
 CLONE DEED "ScrubShort" "ShamePE1"
-    SET INSTRUCTIONS "Change into your gym clothes under a towel"
+    SET INSTRUCTIONS "Unter Handtuch die Sportsachen anziehen"
 END
 
 CLONE DEED "Rotate360" "ShamePE2"
-    SET INSTRUCTIONS "Run laps"
+    SET INSTRUCTIONS "LAUFEN! LAUFEN! LAUFEN!"
 END
 
 CLONE DEED "SwipeUp" "ShamePE3"
-    SET INSTRUCTIONS "Try to climb rope"
+    SET INSTRUCTIONS "HOCH DA! HOCH DA! HOCH DA!"
 END
 
 CLONE DEED "SwipeUp" "ShamePE4"
-    SET INSTRUCTIONS "Try really hard to climb rope"
+    SET INSTRUCTIONS "KOMM SCHON! DA KOMMST DU HOCH!"
 END
 
 CLONE DEED "SwipeDown" "ShamePE5"
-    SET INSTRUCTIONS "Slide down in failure and get rope burn"
+    SET INSTRUCTIONS "Voller Scham herunterrutschen und die Hände verbrennen"
 END
 
 DEF TASK "ShamePE"
-    SET NAME "Experience the shame of P.E."
+    SET NAME "Selbstwertgefühl im Sportunterricht verlieren"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -291,12 +291,12 @@ REM : ---------------------------------------------
 
 REM : Search for the most dominate theme in The Scarlet Letter
 CLONE DEED "SearchID" "ScarletLetter"
-    SET INSTRUCTIONS "Search for the most dominate theme in 'The Scarlet Letter'"
+    SET INSTRUCTIONS "Vorherrschendes Thema in 'Der Scharlachrote Buchstabe' finden"
     SET CONTENT_ID "SCARLETLETTER"
 END
 
 DEF TASK "ScarletLetter"
-    SET NAME "Search for the most dominate theme in 'The Scarlet Letter'"
+    SET NAME "Vorherrschendes Thema in 'Der Scharlachrote Buchstabe' suchen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "MEDIUM"
     SET THEME "SEARCH_FIND"
@@ -309,12 +309,12 @@ END
 
 REM : Talk with the head of the PTA
 CLONE DEED "DialogID" "TalkToPTA"
-    SET INSTRUCTIONS "Talk with head of the PTA"
+    SET INSTRUCTIONS "Mit der Schulelternvertretung reden"
     SET CONTENT_ID "NEWSCHOOL_PTA"
 END
 
 DEF TASK "TalkToPTA"
-    SET NAME "Talk with the head of the PTA"
+    SET NAME "Teil der Elternvertretung werden"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -327,20 +327,20 @@ END
 
 REM : Embarrass your kids while dropping them off
 CLONE DEED "Instructions4" "EmbarrassKids"
-    SET INSTRUCTIONS "Embarrass your kids while dropping them off"
+    SET INSTRUCTIONS "Deine Kinder beim Absetzen vor der Schule blamieren"
 
     SET MECHANIC_0 "SWIPE_UP"
-    SET INSTRUCTIONS_0 "Pull up to Dante Alighieri Public School"
+    SET INSTRUCTIONS_0 "Zur Schule fahren"
     SET MECHANIC_1 "SWIPE_DOWN"
-    SET INSTRUCTIONS_1 "Beg parent not to drive right up to the entrance"
+    SET INSTRUCTIONS_1 "Elternteil anflehen, nicht direkt vor den Schuleingang zu fahren"
     SET MECHANIC_2 "TAP_3"
-    SET INSTRUCTIONS_2 "Beg parent not to shout 'Hugs and kisses, kiddo!'"
+    SET INSTRUCTIONS_2 "Elternteil anflehen, nicht 'Hab dich lieb, mein Furzknoten!' zu rufen"
 END
 
 DEF TASK "EmbarrassKids"
-    SET NAME "Embarrass kids while dropping them off"
-    SET ASKER_NAME "Beg parent not to embarrass you"
-    SET HELPER_NAME "Embarrass <ASKER> outside school"
+    SET NAME "Kinder beim Absetzen vor der Schule blamieren"
+    SET ASKER_NAME "Elternteil anflehen, dich nicht zu blamieren"
+    SET HELPER_NAME "<ASKER> vor der Schule blamieren"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -354,23 +354,23 @@ END
 
 REM : Reminisce on your school years
 CLONE DEED "Rotate180Counter" "ReminisceSchool1"
-    SET INSTRUCTIONS "Remember your glory days"
+    SET INSTRUCTIONS "An eigene glorreiche Jahre entsinnen"
 END
 
 CLONE DEED "SwipeLeft" "ReminisceSchool2"
-    SET INSTRUCTIONS "Browse through your yearbook"
+    SET INSTRUCTIONS "Dein Jahrbuch mal wieder anschauen"
 END
 
 CLONE DEED "Tap3" "ReminisceSchool3"
-    SET INSTRUCTIONS "See you were voted Most Likely to Succeed"
+    SET INSTRUCTIONS "Du wurdest zum 'Zukünftigen Topmanager' gewählt"
 END
 
 CLONE DEED "Hold3" "ReminisceSchool4"
-    SET INSTRUCTIONS "Stare ahead blankly"
+    SET INSTRUCTIONS "Überlege, was hätte sein können"
 END
 
 DEF TASK "ReminisceSchool"
-    SET NAME "Reminisce on your own school years"
+    SET NAME "Von eigener Schulzeit schwärmen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -393,9 +393,9 @@ CLONE DEED "TextBase" "NewSchoolGeographyHomework"
 END
 
 DEF TASK "NewSchoolGeographyHomework"
-    SET NAME "Do geography homework"
-    SET ASKER_NAME "Get help from parent with your geography homework"
-    SET HELPER_NAME "Help <ASKER> with their geography homework"
+    SET NAME "Erdkundehausaufgaben machen"
+    SET ASKER_NAME "Erhalte von einem Elternteil Hilfe bei deinen Erdkundehausaufgaben"
+    SET HELPER_NAME "Helfe <ASKER> bei den Erdkundehausaufgaben"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "TEENS"
     SET CATEGORY "STORY"

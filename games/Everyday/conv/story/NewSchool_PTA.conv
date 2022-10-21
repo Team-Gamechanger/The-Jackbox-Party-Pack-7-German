@@ -1,0 +1,17 @@
+MAIN(Elternvertreter): Was bringen Sie für die Schulelternvertretung mit?
+-PASSION-> Leidenschaft für Bildung
+-LOVE-> Zuneigung für meine Kinder
+-YELL-> Viel Geschrei
+-SNACK-> Snacks
+
+PASSION(Elternvertreter): Klingt gut!
+-SUCCESS-> ...Ich hoffe, ich muss jetzt kein Mathe lernen.
+
+LOVE(Elternvertreter): Wow! Für jedes Einzelne?
+-SUCCESS-> Naja... zumindest für den größten Teil.
+
+YELL(Elternvertreter): Sie wissen, dass das eine sehr rückständige Erziehungsmethode ist?
+-SUCCESS-> WAS?!?!?!
+
+SNACK(Elternvertreter): Endlich! Wir sind am Verhungern.
+-SUCCESS-> Apfelschnitzchen sind schon unterwegs.
