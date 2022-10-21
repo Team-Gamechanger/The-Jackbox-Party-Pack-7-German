@@ -47,12 +47,12 @@ REM : ------------------------------
 REM : Define this episode's story tasks below
 
 CLONE DEED "DialogID" "PlayAudition"
-    SET INSTRUCTIONS "Audition for the school play"
+    SET INSTRUCTIONS "Für das Schultheaterstück vorsprechen"
     SET CONTENT_ID "SCHOOLPLAY_AUDITION"
 END
 
 DEF TASK "PlayAudition"
-    SET NAME "Audition for the school play"
+    SET NAME "Für Schultheaterstück vorsprechen"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -65,23 +65,23 @@ END
 
 REM : Sign up to stage manage
 CLONE DEED "Hold3" "SignUpStageManage1"
-    SET INSTRUCTIONS "Reject theater as silly"
+    SET INSTRUCTIONS "Theater als albern einstufen"
 END
 
 CLONE DEED "Nothing2" "SignUpStageManage2"
-    SET INSTRUCTIONS "Notice cool older kids signing up"
+    SET INSTRUCTIONS "Bemerken, dass coole Ältere sich auch anmelden"
 END
 
 CLONE DEED "ScrubShort" "SignUpStageManage3"
-    SET INSTRUCTIONS "Quickly volunteer to be stage manager"
+    SET INSTRUCTIONS "Schnell in die Bühnenleitung eintragen"
 END
 
 CLONE DEED "SwipeDown" "SignUpStageManage4"
-    SET INSTRUCTIONS "Put on fancy headset"
+    SET INSTRUCTIONS "Schickes Headset aufsetzen"
 END
 
 DEF TASK "SignUpStageManage"
-    SET NAME "Sign up to stage manage the school play"
+    SET NAME "In Organisationsteam fürs Theaterstück eintragen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -100,23 +100,23 @@ END
 
 REM : Eagerly await cast sheet
 CLONE DEED "Nothing2" "CastSheet1"
-    SET INSTRUCTIONS "Wait..."
+    SET INSTRUCTIONS "Warten..."
 END
 
 CLONE DEED "Nothing3" "CastSheet2"
-    SET INSTRUCTIONS "Wait..."
+    SET INSTRUCTIONS "Warten..."
 END
 
 CLONE DEED "Hold2" "CastSheet3"
-    SET INSTRUCTIONS "Hold in your anxiety screams"
+    SET INSTRUCTIONS "Panisches Schreien unterdrücken"
 END
 
 CLONE DEED "QuickTap3" "CastSheet4"
-    SET INSTRUCTIONS "Run to the front of the line!"
+    SET INSTRUCTIONS "Zum Anfang der Schlange rennen!"
 END
 
 DEF TASK "CastSheet"
-    SET NAME "Eagerly await cast sheet"
+    SET NAME "Ungeduldig Besetzungsliste erwarten"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -135,24 +135,24 @@ END
 
 REM : Long for lost days of stardom
 CLONE DEED "Hold3" "LongLostStar1"
-    SET INSTRUCTIONS "Blow dust off old headshot"
+    SET INSTRUCTIONS "Jahrzehntealten Staub wegpusten"
 END
 
 CLONE DEED "SwipeBase" "LongLostStar2"
-    SET INSTRUCTIONS "Peruse old playbills"
+    SET INSTRUCTIONS "Alte Programmhefte durchblättern"
     SET DIRECTION "LEFT,LEFT,LEFT"
 END
 
 CLONE DEED "Nothing2" "LongLostStar3"
-    SET INSTRUCTIONS "Reminisce on what might have been"
+    SET INSTRUCTIONS "Daran erinnern, was hätte sein können"
 END
 
 CLONE DEED "Tap3" "LongLostStar4"
-    SET INSTRUCTIONS "live vicariously through children"
+    SET INSTRUCTIONS "Deine Träume durch deine Kinder verwirklichen"
 END
 
 DEF TASK "LongLostStar"
-    SET NAME "Long for lost days of stardom"
+    SET NAME "An verlorene Tage des Ruhmes erinnern"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -178,9 +178,9 @@ END
 
 DEF TASK "TextPlayLines"
     SET DURATION <8H>
-    SET NAME "Memorize lines for the play"
-    SET ASKER_NAME "Get help memorizing your lines for the play"
-    SET HELPER_NAME "Help <ASKER> memorize their lines for the play"
+    SET NAME "Text für Theaterstück auswendig lernen"
+    SET ASKER_NAME "Erhalte Hilfe, den Text für das Theaterstück zu lernen"
+    SET HELPER_NAME "Helfe <ASKER> den Text für das Theaterstück zu lernen"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAIN "CHILDREN"
@@ -193,23 +193,23 @@ END
 
 REM : Sew kid's costume
 CLONE DEED "SwipeLeft" "SewKidCostume1"
-    SET INSTRUCTIONS "Cut an arm hole"
+    SET INSTRUCTIONS "Ein Loch für den Arm ausschneiden"
 END
 
 CLONE DEED "QuickTap5" "SewKidCostume2"
-    SET INSTRUCTIONS "Glue on some leaves"
+    SET INSTRUCTIONS "Einige Blätter ankleben"
 END
 
 CLONE DEED "Nothing2" "SewKidCostume3"
-    SET INSTRUCTIONS "Reminisce on what might have been. Again."
+    SET INSTRUCTIONS "Daran erinnern, was hätte sein können. Nochmal."
 END
 
 CLONE DEED "Hold2" "SewKidCostume4"
-    SET INSTRUCTIONS "Add a fun hat"
+    SET INSTRUCTIONS "Witzigen Hut hinzufügen"
 END
 
 DEF TASK "SewKidCostume"
-    SET NAME "Sew kid's costume"
+    SET NAME "Kostüm für Kind nähen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -230,21 +230,21 @@ END
 
 REM : Sew 40 other costumes
 CLONE DEED "SwipeBase" "SewOtherCostumes1"
-    SET INSTRUCTIONS "Sew a hem"
+    SET INSTRUCTIONS "Saum nähen"
     SET DIRECTION "UP,DOWN,UP,DOWN"
 END
 
 CLONE DEED "SwipeBase" "SewOtherCostumes2"
-    SET INSTRUCTIONS "Shoot, let's try that again"
+    SET INSTRUCTIONS "Mist, versuchen wir das noch einmal"
     SET DIRECTION "UP,DOWN,UP,DOWN"
 END
 
 CLONE DEED "QuickTap5" "SewOtherCostumes3"
-    SET INSTRUCTIONS "Forget it. Staple the rest."
+    SET INSTRUCTIONS "Vergiss es. Den Rest antackern"
 END
 
 DEF TASK "SewOtherCostumes"
-    SET NAME "Sew all the other kids' costumes too"
+    SET NAME "Kostüme der anderen Kinder auch nähen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -261,22 +261,22 @@ END
 
 REM : Learn choreography
 CLONE DEED "Instructions4" "Choreography"
-    SET INSTRUCTIONS "Choreograph the big finale"
+    SET INSTRUCTIONS "Großes Finale choreografieren"
 
     SET MECHANIC_0 "SWIPE_RIGHT"
-    SET INSTRUCTIONS_0 "Start with a shimmy"
+    SET INSTRUCTIONS_0 "Mit einem Tänzchen beginnen"
     SET MECHANIC_1 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_1 "Add a cartwheel"
+    SET INSTRUCTIONS_1 "Einen Radschlag direkt im Anschluss"
     SET MECHANIC_2 "SWIPE_UP"
-    SET INSTRUCTIONS_2 "Grapevine! Grapevine! Grapevine"
+    SET INSTRUCTIONS_2 "Pirouetten drehen"
     SET MECHANIC_3 "SWIPE_DOWN"
-    SET INSTRUCTIONS_3 "Do the big finish"
+    SET INSTRUCTIONS_3 "Und das große Finale"
 END
 
 DEF TASK "Choreography"
-    SET NAME "Learn the play choreography"
-    SET ASKER_NAME "Get help learning the play choreography"
-    SET HELPER_NAME "Help <ASKER> learn the play choreography"
+    SET NAME "Aufwendige Choreografie lernen"
+    SET ASKER_NAME "Erhalte Hilfe, die aufwendige Choreografie zu lernen"
+    SET HELPER_NAME "Helfe <ASKER> die aufwendige Choreografie zu lernen"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -292,12 +292,12 @@ REM : ------------------------------------------------
 
 REM : Drive to opening night
 CLONE DEED "TravelCategory" "SchoolPlayTravel"
-    SET INSTRUCTIONS "Drive to opening night!"
+    SET INSTRUCTIONS "Zur Eröffnung fahren!"
     SET CATEGORY "THEATER"
 END
 
 DEF TASK "SchoolPlayTravel"
-    SET NAME "Drive to opening night!"
+    SET NAME "Zur Eröffnung fahren!"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -310,23 +310,23 @@ END
 
 REM : Impress cool theater kids
 CLONE DEED "Tap1" "ImpressTheater1"
-    SET INSTRUCTIONS "Talk about New York City"
+    SET INSTRUCTIONS "Über New York reden"
 END
 
 CLONE DEED "SwipeUp" "ImpressTheater2"
-    SET INSTRUCTIONS "Show off headset"
+    SET INSTRUCTIONS "Headset vorzeigen"
 END
 
 CLONE DEED "Hold2" "ImpressTheater3"
-    SET INSTRUCTIONS "Do a cool lean"
+    SET INSTRUCTIONS "Cool anlehnen"
 END
 
 CLONE DEED "Nothing2" "ImpressTheater4"
-    SET INSTRUCTIONS "Pretend nothing happened"
+    SET INSTRUCTIONS "So tun, als sei nichts passiert"
 END
 
 DEF TASK "ImpressTheater"
-    SET NAME "Impress the cool theater kids"
+    SET NAME "Coole Theaterkinder beeindrucken"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -345,12 +345,12 @@ END
 
 REM : Set up camcorder
 CLONE DEED "Gizmos3" "Camcorder"
-    SET INSTRUCTIONS "Set up camcorder"
-    SET NAME "HOME CAM HD"
+    SET INSTRUCTIONS "Kamera aufstellen"
+    SET NAME "HEIMKAMERA HD"
 END
 
 DEF TASK "Camcorder"
-    SET NAME "Set up camcorder to record play"
+    SET NAME "Kamera zur Aufzeichnung des Stücks aufstellen"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -363,23 +363,23 @@ END
 
 REM : Ignore hecklers
 CLONE DEED "Nothing2" "Hecklers1"
-    SET INSTRUCTIONS "Ignore a jeer"
+    SET INSTRUCTIONS "Hohn ignorieren"
 END
 
 CLONE DEED "SwipeRight" "Hecklers2"
-    SET INSTRUCTIONS "Dodge tomato"
+    SET INSTRUCTIONS "Einer Tomate ausweichen"
 END
 
 CLONE DEED "Hold4" "Hecklers3"
-    SET INSTRUCTIONS "Look around for the culprit"
+    SET INSTRUCTIONS "Nach Übeltäter umschauen"
 END
 
 CLONE DEED "Nothing2" "Hecklers4"
-    SET INSTRUCTIONS "Aunt Curupira??"
+    SET INSTRUCTIONS "Tante Curupira??"
 END
 
 DEF TASK "Hecklers"
-    SET NAME "Ignore hecklers"
+    SET NAME "Zwischenrufer ignorieren"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -398,12 +398,12 @@ END
 
 REM : Sit through Act I
 CLONE DEED "Nothing5" "SitActI"
-    SET INSTRUCTIONS "Sit through Act I"
+    SET INSTRUCTIONS "Akt I durchsitzen"
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "SitActI"
-    SET NAME "Sit through Act I"
+    SET NAME "Akt I durchsitzen"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -416,24 +416,24 @@ END
 
 REM : Save the show
 CLONE DEED "Hold3" "SaveShow1"
-    SET INSTRUCTIONS "Watch play fall apart"
+    SET INSTRUCTIONS "Theaterstück beim Auseinanderbrechen zuschauen"
 END
 
 CLONE DEED "Nothing5" "SaveShow2"
-    SET INSTRUCTIONS "Reminisce on what might've been once again"
+    SET INSTRUCTIONS "Daran erinnern, was hätte sein können. Schon wieder."
 END
 
 CLONE DEED "QuickTap5" "SaveShow3"
-    SET INSTRUCTIONS "Seize the moment!"
+    SET INSTRUCTIONS "Den Augenblick nutzen!"
 END
 
 CLONE DEED "SwipeBase" "SaveShow4"
-    SET INSTRUCTIONS "Tread the boards!"
+    SET INSTRUCTIONS "Dein Talent nutzen!"
     SET DIRECTION "LEFT,RIGHT"
 END
 
 DEF TASK "SaveShow"
-    SET NAME "Save the show!"
+    SET NAME "Theaterstück retten!"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"

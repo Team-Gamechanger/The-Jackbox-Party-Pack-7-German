@@ -1,0 +1,18 @@
+MAIN(Regie): Stelle dich dahin und beginne mit deinem Text...
+-HARK-> "Wrarr! Ich bin ein Dinosaurier..."
+-OUCH-> "Autschi! Ich sterbe..."
+-YOWZA-> "Howdy! Euer Sheriff spricht..."
+-LINE-> "...Text?" 
+
+
+HARK(Regie): Sehr gruselig. Du hast die Rolle!
+-SUCCESS-> Ich habe den Dinosaurier wirklich gesehen.
+
+OUCH(Regie): Sehr traurig! Du hast die Rolle!
+-SUCCESS-> *Tiefes Seufzen*
+
+YOWZA(Regie): Zeit für ein D-D-D-Duell!
+-SUCCESS-> Das Howdi war wohl zu überzeugend...
+
+LINE(Regie): ...Du spielst einen nicht sprechenden Felsbrocken.
+-SUCCESS-> Warum nicht einfach ein Felsbrocken aus Pappmache?
