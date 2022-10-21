@@ -112,7 +112,7 @@
                 },
                 {
                     "id": "PLASTIC",
-                    "name": "In den Küchenschubladen"
+                    "name": "In den Küchen-Schubladen"
                 },
                 {
                     "id": "TOILETTHERM",
@@ -174,11 +174,11 @@
                 },
                 {
                     "id": "CANDY",
-                    "name": "Unter Gorbos Bonbonpapier"
+                    "name": "Unter Gorbos Bonbon-Papier"
                 },
                 {
                     "id": "CREAMS",
-                    "name": "Unter Gorbos Feuchtigkeitscreme"
+                    "name": "Unter Gorbos Pflege-Lotion"
                 },
                 {
                     "id": "GORBO",
@@ -313,7 +313,7 @@
                 },
                 {
                     "id": "PHOTOBOOTH",
-                    "name": "Im Fotoautomaten"
+                    "name": "Im Foto-Automaten"
                 },
                 {
                     "id": "JANITOR",
@@ -464,7 +464,7 @@
                 },
                 {
                     "id": "CHAINLINK",
-                    "name": "Beim Maschendrahtzaun"
+                    "name": "Beim Maschen-Drahtzaun"
                 },
                 {
                     "id": "GRAVEL",
