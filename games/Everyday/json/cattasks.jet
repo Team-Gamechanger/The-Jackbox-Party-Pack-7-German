@@ -47,7 +47,7 @@
         },
         { 
             "id": "SCRATCH_CHAIR",
-            "name": "BÖSES KÄTZCHEN! Zerkratze den guten Stuhl",
+            "name": "BÖSES KÄTZCHEN! Zerkratze den guten Sessel",
             "taskIdToSpawn": "AudienceScoldKitty"
         },
         { 

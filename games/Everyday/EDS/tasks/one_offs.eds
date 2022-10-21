@@ -27,7 +27,7 @@ END
 REM : Cook Breakfast
 
 CLONE DEED "Rotate1080" "Stir"
-    SET INSTRUCTIONS "Stir"
+    SET INSTRUCTIONS "Umrühren"
 END
 
 DEF TASK "CookBreakfast"

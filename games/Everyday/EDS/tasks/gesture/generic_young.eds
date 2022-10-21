@@ -307,7 +307,7 @@ END
 REM : Try on your new pants
 
 CLONE DEED "SwipeRight" "NewPants1"
-    SET INSTRUCTIONS "Neue Skinny Jeans öffnen"
+    SET INSTRUCTIONS "Neue Skinny Jeans aus dem Schrank holen"
 END
 
 CLONE DEED "SwipeUp" "NewPants2"
