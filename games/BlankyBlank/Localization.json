@@ -116,8 +116,12 @@
         "GENERIC_ENTRY": "etwas",
       
         "PRESENTER_SETUP_TEXT": "Die Kategorie lautet ",
+        "PRESENTER_SETUP_CATEGORY_PERSON": "Person",
+        "PRESENTER_SETUP_CATEGORY_PLACE": "Ort",
+        "PRESENTER_SETUP_CATEGORY_THING": "Ding",
+        "PRESENTER_SETUP_CATEGORY_STORY": "Story",
         "CHOOSE_YOUR_PASSWORD": "Wähle deinen geheimen Begriff",
-        "CHOOSEN_PASSWORD_IS": "<div>Dein Passwort:</div><div>%s</div>",
+        "CHOOSEN_PASSWORD_IS": "<div>Dein geheimer Begriff:</div><div>%s</div>",
         "PASSWORD_SCREEN_DESCRIPTION":  "Einfache Begriffe sind weniger wert",
         "ERROR_INVALID_SENTENCE_ENTRY": "Ungültige Eingabe!",
 
@@ -168,11 +172,7 @@
         "TD_CATEGORY_SUCCESS_SCREEN_GUESSERS_USED_SENTENCES": "%s Spieler bekommen %s Punkte, da ihre Wörter in Sätzen genutzt wurden.",
         "TD_CATEGORY_FAILURE_SCREEN": "Das Passwort (%s) wurde nicht erraten.",
         "TD_CATEGORY_MY_BAD": "%s Spieler sagten \"Meine Schuld!\"",
-        "TD_CATEGORY_SCOREBOARD": "%s hat %s Punkte",
-        "PRESENTER_SETUP_CATEGORY_PERSON": "PERSON",
-        "PRESENTER_SETUP_CATEGORY_PLACE": "ORT",
-        "PRESENTER_SETUP_CATEGORY_THING": "DING",
-        "PRESENTER_SETUP_CATEGORY_STORY": "STORY"
+        "TD_CATEGORY_SCOREBOARD": "%s hat %s Punkte"
     },
     "fr": {},
     "it": {},
