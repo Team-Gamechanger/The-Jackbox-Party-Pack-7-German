@@ -168,7 +168,11 @@
         "TD_CATEGORY_SUCCESS_SCREEN_GUESSERS_USED_SENTENCES": "%s Spieler bekommen %s Punkte, da ihre Wörter in Sätzen genutzt wurden.",
         "TD_CATEGORY_FAILURE_SCREEN": "Das Passwort (%s) wurde nicht erraten.",
         "TD_CATEGORY_MY_BAD": "%s Spieler sagten \"Meine Schuld!\"",
-        "TD_CATEGORY_SCOREBOARD": "%s hat %s Punkte"
+        "TD_CATEGORY_SCOREBOARD": "%s hat %s Punkte",
+        "PRESENTER_SETUP_CATEGORY_PERSON": "PERSON",
+        "PRESENTER_SETUP_CATEGORY_PLACE": "ORT",
+        "PRESENTER_SETUP_CATEGORY_THING": "DING",
+        "PRESENTER_SETUP_CATEGORY_STORY": "STORY"
     },
     "fr": {},
     "it": {},
