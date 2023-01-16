@@ -1728,8 +1728,8 @@
 			"x": false
 		},
 		{
-			"contest": "Der Champion der Yachts",
-			"gameText": "der Yachts",
+			"contest": "Der Champion der Yachten",
+			"gameText": "der Yachten",
 			"id": "74679",
 			"includesPlayerName": false,
 			"linkedPrompts": [
