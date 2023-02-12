@@ -118,7 +118,7 @@
         "PRESENTER_SETUP_TEXT": "Die Kategorie lautet ",
         "PRESENTER_SETUP_CATEGORY_PERSON": "Person",
         "PRESENTER_SETUP_CATEGORY_PLACE": "Ort",
-        "PRESENTER_SETUP_CATEGORY_THING": "Ding",
+        "PRESENTER_SETUP_CATEGORY_THING": "Dings",
         "PRESENTER_SETUP_CATEGORY_STORY": "Story",
         "CHOOSE_YOUR_PASSWORD": "Wähle deinen geheimen Begriff",
         "CHOOSEN_PASSWORD_IS": "<div>Dein geheimer Begriff:</div><div>%s</div>",
