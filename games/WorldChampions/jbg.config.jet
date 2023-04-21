@@ -12,7 +12,7 @@
 	"serverUrl":"ecast.jackboxgames.com",
 	"videoplayer":"true",
 	"audio-extension":".ogg",
-	"joinUrl":"JACKBOX.GG",
+	"joinUrl":"JACKBOX.DE",
 	"canPauseOnPressStart":"true",
 	"defaultLocale":"en",
 	"gameTag":"worldchamps",

@@ -27,7 +27,7 @@
 	"canPauseOnPressStart":"true",
 	"connectingDurationTrouble":"15000",
 	"showBuildVersion":"true",
-	"joinUrl":"JACKBOX.GG",
+	"joinUrl":"JACKBOX.DE",
 	"uaAppId":"everyday",
 	"supportsJoysticksHotplugging":"true",
 	"reportMetrics":"true",
