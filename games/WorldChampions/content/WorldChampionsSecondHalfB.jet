@@ -334,8 +334,8 @@
 			"x": true
 		},
 		{
-			"contest": "Der Champion der Geburtstagsparty Entertainer",
-			"gameText": "der Geburtstagsparty Entertainer",
+			"contest": "Der Champion der Geburtstagsparty-Entertainer",
+			"gameText": "der Geburtstagsparty-Entertainer",
 			"id": "71917",
 			"includesPlayerName": false,
 			"linkedPrompts": [],
@@ -388,8 +388,8 @@
 			"x": false
 		},
 		{
-			"contest": "Der Champion des immernoch bei den Eltern wohnens",
-			"gameText": "des immernoch bei den Eltern wohnens",
+			"contest": "Der Champion des immer noch bei den Eltern wohnens",
+			"gameText": "des immer noch bei den Eltern wohnens",
 			"id": "71988",
 			"includesPlayerName": false,
 			"linkedPrompts": [],
@@ -442,8 +442,8 @@
 			"x": true
 		},
 		{
-			"contest": "Der Champion des Heimgesucht werdens",
-			"gameText": "des Heimgesucht werdens",
+			"contest": "Der Champion des heimgesucht werdens",
+			"gameText": "des heimgesucht werdens",
 			"id": "72025",
 			"includesPlayerName": false,
 			"linkedPrompts": [],
@@ -469,8 +469,8 @@
 			"x": false
 		},
 		{
-			"contest": "Der Champion der Kitzel Kämpfe",
-			"gameText": "der Kitzel Kämpfe",
+			"contest": "Der Champion der Kitzelkämpfe",
+			"gameText": "der Kitzelkämpfe",
 			"id": "72052",
 			"includesPlayerName": false,
 			"linkedPrompts": [],
@@ -496,8 +496,8 @@
 			"x": false
 		},
 		{
-			"contest": "Der Champion des groovens",
-			"gameText": "des groovens",
+			"contest": "Der Champion des Groovens",
+			"gameText": "des Groovens",
 			"id": "72115",
 			"includesPlayerName": false,
 			"linkedPrompts": [],
@@ -694,8 +694,8 @@
 			"x": true
 		},
 		{
-			"contest": "Der Champion der Sebastian Schweighöfer Rollen",
-			"gameText": "der Sebastian Schweighöfer Rollen",
+			"contest": "Der Champion der Sebastian Schweighöfer-Rollen",
+			"gameText": "der Sebastian Schweighöfer-Rollen",
 			"id": "72470",
 			"includesPlayerName": false,
 			"linkedPrompts": [],
@@ -730,8 +730,8 @@
 			"x": false
 		},
 		{
-			"contest": "Der Champion des verursachens der Auslöschung der Menschheit",
-			"gameText": "des verursachens der Auslöschung der Menschheit",
+			"contest": "Der Champion des Verursachens der Auslöschung der Menschheit",
+			"gameText": "des Verursachens der Auslöschung der Menschheit",
 			"id": "72541",
 			"includesPlayerName": false,
 			"linkedPrompts": [],
@@ -1171,8 +1171,8 @@
 			"x": true
 		},
 		{
-			"contest": "Der Champion des enttäuschens des eigenen Partners",
-			"gameText": "des enttäuschens des eigenen Partners",
+			"contest": "Der Champion des Enttäuschens des eigenen Partners",
+			"gameText": "des Enttäuschens des eigenen Partners",
 			"id": "74264",
 			"includesPlayerName": false,
 			"linkedPrompts": [],
@@ -1333,8 +1333,8 @@
 			"x": false
 		},
 		{
-			"contest": "Der Champion des nach Axe Deo riechens",
-			"gameText": "des nach Axe Deo riechens",
+			"contest": "Der Champion des nach Axe-Deo riechens",
+			"gameText": "des nach Axe-Deo riechens",
 			"id": "74662",
 			"includesPlayerName": false,
 			"linkedPrompts": [],
@@ -1441,8 +1441,8 @@
 			"x": false
 		},
 		{
-			"contest": "Der Champion der gebannten Twitter Accounts",
-			"gameText": "der gebannten Twitter Accounts",
+			"contest": "Der Champion der gebannten Twitter-Accounts",
+			"gameText": "der gebannten Twitter-Accounts",
 			"id": "74686",
 			"includesPlayerName": false,
 			"linkedPrompts": [],
@@ -1567,8 +1567,8 @@
 			"x": true
 		},
 		{
-			"contest": "Der Champion der Samstag Nacht",
-			"gameText": "der Samstag Nacht",
+			"contest": "Der Champion der Samstagnacht",
+			"gameText": "der Samstagnacht",
 			"id": "74727",
 			"includesPlayerName": false,
 			"linkedPrompts": [],
@@ -1639,8 +1639,8 @@
 			"x": false
 		},
 		{
-			"contest": "Der Champion des Browser Verlauf löschens",
-			"gameText": "des Browser Verlauf löschens",
+			"contest": "Der Champion des Browserverlauf löschens",
+			"gameText": "des Browserverlauf löschens",
 			"id": "74746",
 			"includesPlayerName": false,
 			"linkedPrompts": [],
@@ -1657,8 +1657,8 @@
 			"x": false
 		},
 		{
-			"contest": "Der Champion der Online Spiele",
-			"gameText": "der Online Spiele",
+			"contest": "Der Champion der Online-Spiele",
+			"gameText": "der Online-Spiele",
 			"id": "74751",
 			"includesPlayerName": false,
 			"linkedPrompts": [],
@@ -1981,7 +1981,7 @@
 			"x": true
 		},
 		{
-			"contest": "Der Champion der McDonalds-Toilette",
+			"contest": "Der Champion der McDonald's-Toilette",
 			"gameText": "der McDonalds-Toilette",
 			"id": "76098",
 			"includesPlayerName": false,

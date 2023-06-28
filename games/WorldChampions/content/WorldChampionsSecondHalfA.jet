@@ -23,8 +23,8 @@
 			"x": true
 		},
 		{
-			"contest": "Der Champion des niedlich Aussehens",
-			"gameText": "des niedlich Aussehens",
+			"contest": "Der Champion des niedlichen Aussehens",
+			"gameText": "des niedlichen Aussehens",
 			"id": "68705",
 			"includesPlayerName": false,
 			"linkedPrompts": [
@@ -232,8 +232,8 @@
 			"x": true
 		},
 		{
-			"contest": "Der Champion des Standup-Comedy",
-			"gameText": "des Standup-Comedy",
+			"contest": "Der Champion des Stand-up-Comedy",
+			"gameText": "des Stand-up-Comedy",
 			"id": "71840",
 			"includesPlayerName": false,
 			"linkedPrompts": [
@@ -430,8 +430,8 @@
 			"x": true
 		},
 		{
-			"contest": "Der Champion der Black Friday Einkäufer",
-			"gameText": "der Black Friday Einkäufer",
+			"contest": "Der Champion der Black Friday-Einkäufer",
+			"gameText": "der Black Friday-Einkäufer",
 			"id": "71973",
 			"includesPlayerName": false,
 			"linkedPrompts": [
@@ -452,8 +452,8 @@
 			"x": true
 		},
 		{
-			"contest": "Der Champion der Action Stars",
-			"gameText": "der Action Stars",
+			"contest": "Der Champion der Action-Stars",
+			"gameText": "der Action-Stars",
 			"id": "71985",
 			"includesPlayerName": false,
 			"linkedPrompts": [
@@ -683,8 +683,8 @@
 			"x": false
 		},
 		{
-			"contest": "Der Champion des Rock 'n Roll",
-			"gameText": "des Rock 'n Roll",
+			"contest": "Der Champion des Rock 'n' Roll",
+			"gameText": "des Rock 'n' Roll",
 			"id": "72266",
 			"includesPlayerName": false,
 			"linkedPrompts": [
@@ -705,8 +705,8 @@
 			"x": true
 		},
 		{
-			"contest": "Der Champion des Tanzens, als wär niemand da",
-			"gameText": "des Tanzens, als wär niemand da",
+			"contest": "Der Champion des Tanzens, als wäre niemand da",
+			"gameText": "des Tanzens, als wäre niemand da",
 			"id": "72300",
 			"includesPlayerName": false,
 			"linkedPrompts": [
@@ -716,8 +716,8 @@
 			"x": false
 		},
 		{
-			"contest": "Der Champion des Glücksspiel",
-			"gameText": "des Glücksspiel",
+			"contest": "Der Champion des Glücksspiels",
+			"gameText": "des Glücksspiels",
 			"id": "72304",
 			"includesPlayerName": false,
 			"linkedPrompts": [
@@ -991,8 +991,8 @@
 			"x": true
 		},
 		{
-			"contest": "Der Champion der zukünftigen Hollywood Stars",
-			"gameText": "der zukünftigen Hollywood Stars",
+			"contest": "Der Champion der zukünftigen Hollywood-Stars",
+			"gameText": "der zukünftigen Hollywood-Stars",
 			"id": "72891",
 			"includesPlayerName": false,
 			"linkedPrompts": [
@@ -1134,8 +1134,8 @@
 			"x": false
 		},
 		{
-			"contest": "Der Champion der Prinzessinen",
-			"gameText": "der Prinzessinen",
+			"contest": "Der Champion der Prinzessinnen",
+			"gameText": "der Prinzessinnen",
 			"id": "73176",
 			"includesPlayerName": false,
 			"linkedPrompts": [
@@ -1475,8 +1475,8 @@
 			"x": false
 		},
 		{
-			"contest": "Der Champion des FKK Strandes",
-			"gameText": "des FKK Strandes",
+			"contest": "Der Champion des FKK-Strandes",
+			"gameText": "des FKK-Strandes",
 			"id": "74367",
 			"includesPlayerName": false,
 			"linkedPrompts": [
