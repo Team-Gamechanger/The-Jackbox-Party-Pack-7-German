@@ -8,6 +8,7 @@
         "ROOM_DESTROYED": "Aufgrund eines Netzwerkfehlers wurde der Raum zerstört.<br />Überprüfe, ob deine Internetverbindung funktioniert.",
         "SOCKET_DISCONNECTED ": "Die Verbindung zu den Jackbox Games Services wurde verloren.",
         "TIMEOUT": "Eine Verbindung zu den Jackbox Games Services kann nicht aufgebaut werden.<br />Überprüfe, ob deine Internetverbindung funktioniert.",
+        "TIMEOUT_INTERNET": "Es tut uns leid, wir können keine Verbindung zu den Servern herstellen.<br />Bitte überprüfe, ob deine Internetverbindung richtig funktioniert.",
         "USER_DISCONNECT": "Bedauerlicherweise hat der Server die Verbindung unterbrochen.<br />Bitte versuche es später erneut.",
         "LOST_LICENSE": "Entschuldigung, wir haben die Lizenz für diesen Inhalt verloren.",
         "STEAM_ERROR": "Leider konnte deine Steam-Spielelizenz nicht verifiziert werden.",
@@ -62,6 +63,23 @@
         "LOBBY_OR": "ODER",
         "NEW_PLAYERS": "ANDERE SPIELER",
     
+        "INTRO_PROMPT_SKIP": "Möchtest du das Intro überspringen?",
+        "INTRO_SKIPPED": "Danke!",
+
+        "SCOREBOARD_PROMPT_RETRY": "Möchtest du es noch mal probieren?",
+        "SCOREBOARD_RETRY_TEXT": "TAG NEUSTARTEN",
+        "SCOREBOARD_GIVEUP_TEXT": "AUFGEBEN",
+        "SCOREBOARD_RETRY": "Neustarten",
+        "SCOREBOARD_DONE": "Danke!",
+
+        "TUTORIAL_PROMPT": "Möchtest du das Tutorial sehen?",
+        "TUTORIAL_SKIP_YES": "Ja",
+        "TUTORIAL_SKIP_NO": "Nein",
+        "TUTORIAL_DONE": "Danke!",
+
+        "CHARACTER_SELECT_PROMPT_CYCLE": "Möchtest du das Aussehen deines Charakters ändern?",
+        "CHARACTER_SELECT_CHANGE": "UMSTYLING, BITTE!",
+
         "VOLUME": "Gesamtlautstärke",
         "VOLUME_DESCRIPTION": "Passt die Gesamtlautstärke an.",
         "VOLUME_HOST": "Moderator-Lautstärke",
