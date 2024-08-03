@@ -546,7 +546,7 @@ END
 
 REM : Call cable company to add a channel
 CLONE DEED "DialogID" "AddCableChannel"
-    SET INSTRUCTIONS "Mit Vertreter der Kabelfernsehfirma sprechen"
+    SET INSTRUCTIONS "Mit Vertreterin der Kabelfernsehfirma sprechen"
     SET CONTENT_ID "CABLECO"
 END
 
@@ -587,7 +587,7 @@ CLONE DEED "DialogID" "BirthdayInvite"
 END
 
 DEF TASK "BirthdayInvite"
-    SET NAME "Zu Geburtstag eines Mitschülers eingeladen werden"
+    SET NAME "Zu Geburtstag einer Mitschülerin eingeladen werden"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "MEDIUM"
     SET THEME "TALKING"
@@ -600,12 +600,12 @@ END
 
 REM : Compliment neighbor's petunias
 CLONE DEED "DialogID" "Petunias"
-    SET INSTRUCTIONS "Petunien des Nachbarn loben"
+    SET INSTRUCTIONS "Petunien der Nachbarin loben"
     SET CONTENT_ID "COMPLIMENT_PETUNIAS"
 END
 
 DEF TASK "Petunias"
-    SET NAME "Petunien des Nachbarn loben"
+    SET NAME "Petunien der Nachbarin loben"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "MEDIUM"
     SET THEME "TALKING"

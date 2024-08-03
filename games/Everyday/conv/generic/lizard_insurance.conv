@@ -1,28 +1,28 @@
-MAIN(Telefonverkäufer): Kann ich Sie für eine Eidechsenversicherung begeistern? 
+MAIN(Telefonverkäuferin): Kann ich Sie für eine Eidechsenversicherung begeistern? 
 -NOTHANKS-> Mein Leguan ist bereits versichert.
 -GOON-> Das klingt interessant, erzählen Sie mir mehr.
 -MARK-> Aber natürlich, ich muss meine kleine Nachtechse doch beschützen!
--DONOTCALL-> Lassen Sie mich in Ruhe, verdammter Gauner!
+-DONOTCALL-> Lassen Sie mich in Ruhe, Sie Gauner!
 
 
-NOTHANKS(Telefonverkäufer): Ihre Höflichkeit ist beunruhigend. Ich lege jetzt auf. 
+NOTHANKS(Telefonverkäuferin): Ihre Höflichkeit ist beunruhigend. Ich lege jetzt auf. 
 -SUCCESS-> Wie immer sind Lügen die Lösung für alle Probleme!
 
 
-GOON(Telefonverkäufer): Oh nein, so weit bin ich noch nie gekommen...äh...tja...sie sollten MEIN Geld nehmen!
+GOON(Telefonverkäuferin): Oh nein, so weit bin ich noch nie gekommen...äh...tja...sie sollten MEIN Geld nehmen!
 -SUCCESS-> Nennt mich den großen Geckini!
 
 
-MARK(Telefonverkäufer): Hervorragend, starten wir mit einer Deckungssumme von 100.000...
+MARK(Telefonverkäuferin): Hervorragend, starten wir mit einer Deckungssumme von 100.000...
 -FAILURE-> Oh Backe...
 
 
-DONOTCALL(Telefonverkäufer): Das meinen Sie doch nicht ernst, oder?
+DONOTCALL(Telefonverkäuferin): Das meinen Sie doch nicht ernst, oder?
 -SUCCESS-> Sie kennen die Antwort. Ich lege auf, das wird mir zu bunt!
 -TRYAGAIN-> Jetzt habe ich ein schlechtes Gewissen. 
 
 
-TRYAGAIN(Telefonverkäufer): Kann ich Sie für eine Eidechsenversicherung begeistern? 
+TRYAGAIN(Telefonverkäuferin): Kann ich Sie für eine Eidechsenversicherung begeistern? 
 -NOTHANKS-> Mein Leguan ist bereits versichert.
 -GOON-> Das klingt interessant, erzählen Sie mir mehr.
 -MARK-> Aber natürlich, ich muss meine kleine Nachtechse doch beschützen!

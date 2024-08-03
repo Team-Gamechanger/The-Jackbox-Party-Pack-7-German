@@ -1,16 +1,16 @@
-MAIN(Lehrer): Hallo, wer ist da?
+MAIN(Lehrerin): Hallo, wer ist da?
 -HONEST-> Ich bin es, Ihr pflichtbewusster Schüler.
--PRANK-> Hier ist Martin Wuschelkopf, Sie sind live in der Stau-Radioshow. Ich werde Ihnen nun einen Satz rückwärts aufsagen. Nennen Sie mir danach den Satz vorwärts und gewinnen Sie eine Traumreise!
+-PRANK-> Sie sind live in der Stau-Radioshow. Ich werde Ihnen einen Satz rückwärts aufsagen. Nennen Sie mir danach den Satz vorwärts und gewinnen Sie eine Traumreise!
 
-HONEST(Lehrer): Oh hallo, was gibts?
+HONEST(Lehrerin): Oh hallo, was gibts?
 -FAILURE-> Nichts, ich wollte nur kurz Hallo sagen, weil ich die Schule so unendlich liebe. Auf Wiedersehen.
 
-PRANK(Lehrer): Okay, ich bin bereit.
+PRANK(Lehrerin): Okay, ich bin bereit.
 -MESSUP-> *Kicher*
 -PRANKDONE-> Der Satz lautet: Gat neznag ned ezruf hci.
 
-MESSUP(Lehrer): Warte, deine Stimme kommt mir bekannt vor...
+MESSUP(Lehrerin): Warte, deine Stimme kommt mir bekannt vor...
 -SUCCESS-> *Rasch auflegen*
 
-PRANKDONE(Lehrer): Okay: I C H  F U R Z... Warte... Hey!
+PRANKDONE(Lehrerin): Okay: I C H  F U R Z... Warte... Hey!
 -SUCCESS-> Hahahaha! *Auflegen*

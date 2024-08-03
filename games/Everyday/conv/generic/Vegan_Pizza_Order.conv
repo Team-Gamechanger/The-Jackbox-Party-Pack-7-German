@@ -1,17 +1,17 @@
-MAIN(Pizza): Pfefferrands vegane Pizza. Wie lautet Ihre Bestellung?
+MAIN(Pizzadienst): Pfefferrands vegane Pizza. Wie lautet Ihre Bestellung?
 -WHEAT-> Champignons & Maisbälle
 -CANADIAN-> A la Flammkuchen
 -CHEESE-> Quattro Formaggi
 -GROUNDBEET-> Rote Bete
 
-WHEAT(Pizza): Alles klar! Sollte in einer halben Stunde fertig sein.
+WHEAT(Pizzadienst): Alles klar! Sollte in einer halben Stunde fertig sein.
 -SUCCESS-> Die Kinder können die Pilze ja abkratzen.
 
-CANADIAN(Pizza): Alles klar! Sollte in einer halben Stunde fertig sein.
+CANADIAN(Pizzadienst): Alles klar! Sollte in einer halben Stunde fertig sein.
 -SUCCESS-> Man muss auch mal Neues ausprobieren. Und wer hat in einer Pizzeria schon mal einen Flammkuchen bestellt?
 
-CHEESE(Pizza): Alles klar! Sollte in einer halben Stunde fertig sein.
+CHEESE(Pizzadienst): Alles klar! Sollte in einer halben Stunde fertig sein.
 -SUCCESS-> Da freuen sich unsere Dreikäsehochs.
 
-GROUNDBEET(Pizza): Alles klar! Sollte in einer halben Stunde fertig sein.
+GROUNDBEET(Pizzadienst): Alles klar! Sollte in einer halben Stunde fertig sein.
 -SUCCESS-> Die Nährwerte sind wichtiger als der Geschmack, oder?

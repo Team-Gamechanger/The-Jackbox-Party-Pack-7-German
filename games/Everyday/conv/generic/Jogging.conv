@@ -1,26 +1,26 @@
-MAIN(Präsident des Joggingvereins): Servus! Ich bin Präsident des örtlichen Joggingvereins und frage mich, ob Sie sich uns an diesem schönen Morgen vielleicht anschließen möchten? 
+MAIN(Präsidentin des Joggingvereins): Servus! Ich bin Präsidentin des örtlichen Joggingvereins und frage mich, ob du dich uns an diesem schönen Morgen vielleicht anschließen möchtest? 
 -POLITENO-> Danke, aber ich habe letztes Jahr einmal gejoggt. Ich bin topfit.
 -RUDENO-> Entweder rennen oder gehen. Alles andere ist abscheulich!
 -JOGYES-> Insgeheim wollte ich schon lange die Sportklamotten aus dem Schrank holen...
--NOTHANKS-> Ich soll nicht mit verschwitzten Fremden reden...
+-NOTHANKS-> Ich sollte nicht mit verschwitzten Fremden reden...
 
 
-POLITENO(Präsident des Joggingvereins): In der Tat eine beachtliche Menge an Jogging! Weiter so! 
+POLITENO(Präsidentin des Joggingvereins): In der Tat eine beachtliche Menge an Jogging! Weiter so! 
 -SUCCESS-> Das Liegen ist die sicherste Art, Sport zu treiben.
 
 
-RUDENO(Präsident des Joggingvereins): Nach etwas Eingewöhnung kommt man damit zurecht! Und bis dahin schauen wir hier einfach jede Woche vorbei.
+RUDENO(Präsidentin des Joggingvereins): Nach etwas Eingewöhnung kommt man damit zurecht! Und bis dahin schauen wir hier einfach jede Woche vorbei.
 -SUCCESS-> Zeit umzuziehen.
 
 
-JOGYES(Präsident des Joggingvereins): Das klingt doch gut. Los gehts!
+JOGYES(Präsidentin des Joggingvereins): Das klingt doch gut. Los gehts!
 -SUCCESS-> Da steht ein Traum vor unserem Gartenzaun!
 
-NOTHANKS(Präsident des Joggingvereins): Ich bin doch kein verschwitzter Fremder, ich bin ein verschwitzter Freund! 
--SUCCESS-> Sorry 'Sportsfreund', vor dir laufe ich höchstens weg. Schönen Tag noch!
+NOTHANKS(Präsidentin des Joggingvereins): Ich bin doch keine verschwitzte Fremde, ich bin eine verschwitzte Freundin! 
+-SUCCESS-> Sorry 'Sportsfreundin', vor dir laufe ich höchstens weg. Schönen Tag noch!
 -TRYAGAIN-> Oh! Wenn das so ist...
 
-TRYAGAIN(Präsident des Joggingvereins): Also kommst du mit?
+TRYAGAIN(Präsidentin des Joggingvereins): Also kommst du mit?
 -POLITENO-> Danke, aber ich habe letztes Jahr einmal gejoggt. Ich bin topfit.
 -RUDENO-> Entweder rennen oder gehen. Alles andere ist abscheulich!
 -JOGYES-> Insgeheim wollte ich schon lange die Sportklamotten aus dem Schrank holen...

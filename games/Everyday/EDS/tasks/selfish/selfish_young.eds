@@ -195,12 +195,12 @@ END
 REM : Prank call teacher 
 
 CLONE DEED "DialogBase" "PrankCallTeacher1"
-    SET INSTRUCTIONS "Lehrer einen Streich spielen"
+    SET INSTRUCTIONS "Lehrerin einen Streich spielen"
     SET CONTENT_ID "TEACHER_PRANK_CALL"
 END
 
 DEF TASK "PrankCallTeacher"
-    SET NAME "Telefonstreich bei Lehrer"
+    SET NAME "Telefonstreich bei Lehrerin"
     SET CAPTAIN "YOUNG"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"

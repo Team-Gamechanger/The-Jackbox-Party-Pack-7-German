@@ -1,17 +1,17 @@
-MAIN(Chef): Die Welt geht unter?
+MAIN(Chefin): Die Welt geht unter?
 -OFF-> Ja, ich brauche morgen ganz dringend Urlaub.
 -RAISE-> Jap, kriege ich eine Gehaltserhöhung?
 -QUIT-> Ich kündige.
--LOVE-> Ja, ich liebe dich.
+-LOVE-> Ja, ich liebe Sie.
 
-OFF(Chef): Meinetwegen.
+OFF(Chefin): Meinetwegen.
 -SUCCESS-> Supi!
 
-RAISE(Chef): Klar, warum auch nicht?
+RAISE(Chefin): Klar, warum auch nicht?
 -SUCCESS-> Danke, riesiger Weltraumstein des Todes!
 
-QUIT(Chef): Nun gut. Ich schreibe das mit Permanentmarker.
+QUIT(Chefin): Nun gut. Ich schreibe das mit Permanentmarker.
 -SUCCESS-> Hmmm... Ich hoffe, dieser Weltuntergang ist real. 
 
-LOVE(Chef): Redest du von der Arbeit oder von mir?
+LOVE(Chefin): Reden Sie von der Arbeit oder von mir?
 -SUCCESS-> Ja.

@@ -1,18 +1,18 @@
-MAIN(Vertreter): An welchem Kanal sind Sie am meisten interessiert?
+MAIN(Vertreterin): An welchem Kanal sind Sie am meisten interessiert?
 -SNACK-> Snack Network
 -VOYEUR-> Voyeur-TV
 -BIRD-> Coole Vögel-Sender
 -SPORT-> Volle Breitseite Sport
 
 
-SNACK(Vertreter): Rechtzeitig für unsere Film-Woche!
+SNACK(Vertreterin): Rechtzeitig für unsere Film-Woche!
 -SUCCESS-> Was für ein Happy End.
 
-VOYEUR(Vertreter): Dieser Sender existiert nicht.
+VOYEUR(Vertreterin): Dieser Sender existiert nicht.
 -FAILURE-> Dann mopse ich mir halt die Überwachungskamera unseres Nachbarn.
 
-BIRD(Vertreter): Rechtzeitig zur Papageientaucher-Woche!
+BIRD(Vertreterin): Rechtzeitig zur Papageientaucher-Woche!
 -SUCCESS-> Eintauchen in die Welt der Papageientaucher!
 
-SPORT(Vertreter): Rechtzeitig zur Skisprung-Woche!
+SPORT(Vertreterin): Rechtzeitig zur Skisprung-Woche!
 -SUCCESS-> Ich spring gleich vor Freude! 

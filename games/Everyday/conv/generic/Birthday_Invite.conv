@@ -1,20 +1,20 @@
-MAIN(Klassenkamerad): Hi, kann ich mir dein Mathebuch ausleihen? Mir ist meins in den Schlamm gefallen.
+MAIN(Klassenkameradin): Hi, kann ich mir dein Mathebuch ausleihen? Mir ist meins in den Schlamm gefallen.
 -ANGRY-> Ich schätze Mal, meine Einladung zu deiner Geburtstagsparty ist auch im Schlamm gelandet.
--SURE-> Aber natürlich! Ich würde alles für einen Freund tun. Wir sind doch Freunde, oder?
+-SURE-> Aber natürlich! Ich würde alles für eine Freundin tun. Wir sind doch Freunde, oder?
 
-ANGRY(Klassenkamerad): Oh, nichts für ungut, aber das ist eine exklusive Feier, zu der nur wenige eingeladen sind.
+ANGRY(Klassenkameradin): Oh, nichts für ungut, aber das ist eine exklusive Feier, zu der nur wenige eingeladen sind.
 -BYE-> Nun, mein Mathebuch ist auch äußerst exklusiv. Adios!
 -HINT-> Wenn ich zu deiner Party gehen würde, könnte ich gleich auch meine gemachten Hausaufgaben mitnehmen...
 
-SURE(Klassenkamerad): Danke, oder so. Jetzt muss ich diese blöden Hausaufgaben machen.
+SURE(Klassenkameradin): Danke, oder so. Jetzt muss ich diese blöden Hausaufgaben machen.
 -BYE-> Tja, so ist das Leben. Auf Wiedersehen!
 -HINT-> Du könntest bei mir abschreiben. Ich könnte meine Lösungen zu deiner Geburtstagsparty mitbringen...
 
-BYE(Klassenkamerad): Egal. Man sieht sich, Loser.
--FAILURE-> Hau ab, du Arsch!
+BYE(Klassenkameradin): Egal. Man sieht sich, Loser.
+-FAILURE-> Hau ab, doofe Kuh!
 -HINT-> Warte. Wie wäre es, wenn ich dich meine Hausaufgaben abschreiben lasse...auf deiner Party?
-HINT(Klassenkamerad): Ist ja gut, meinetwegen. Kannst kommen, aber benimm dich nicht komisch.
--SUCCESS-> Danke, neuer bester Freund! Man sieht sich bei der Feier! 
+HINT(Klassenkameradin): Ist ja gut, meinetwegen. Kannst kommen, aber benimm dich nicht komisch.
+-SUCCESS-> Danke, neue beste Freundin! Man sieht sich bei der Feier! 
 
 
 

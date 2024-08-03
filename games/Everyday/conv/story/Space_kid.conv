@@ -1,17 +1,17 @@
-MAIN(Interviewer): Wie fühlt es sich an, die erste Familie im Weltraum zu sein?
+MAIN(Interviewerin): Wie fühlt es sich an, die erste Familie im Weltraum zu sein?
 -STELLAR-> Astronomisch!
 -WORLD-> Außerirdisch!
 -BLAST-> Raketenmäßig!
 -DARK-> Der Weltraum ist das kalte, dunkle Nichts.
 
-STELLAR(Interviewer): Reden wir über etwas Interessanteres.
+STELLAR(Interviewerin): Reden wir über etwas Interessanteres.
 -SUCCESS-> Ich hätte ein 'Mega' hinzufügen sollen.
 
-WORLD(Interviewer): Ich liebe Wortspiele!
+WORLD(Interviewerin): Ich liebe Wortspiele!
 -SUCCESS-> Sie sind aber ziemlich all-bern!
 
-BLAST(Interviewer): Ich liebe deine Begeisterung!
+BLAST(Interviewerin): Ich liebe deine Begeisterung!
 -SUCCESS-> Ich überspiele damit nur meine Angst!
 
-DARK(Interviewer): Ähhh....
+DARK(Interviewerin): Ähhh....
 -SUCCESS-> Sie müssen ja nicht mitkommen.

@@ -1,17 +1,17 @@
-MAIN(Interviewer): Wie fühlt es sich an, die erste Familie im Weltraum zu sein?
+MAIN(Interviewerin): Wie fühlt es sich an, die erste Familie im Weltraum zu sein?
 -COOL-> Ziemlich cool
 -OVER-> Ist okay
 -GROOVY-> Groovig
 -KEEN-> Abgehoben
 
-COOL(Interviewer): Der Weltraum ist cool.
+COOL(Interviewerin): Der Weltraum ist cool.
 -SUCCESS-> Genau wie Familie!
 
-OVER(Interviewer): Reden wir über etwas Interessanteres.
+OVER(Interviewerin): Reden wir mit jemand Interessanterem.
 -SUCCESS-> Ich kam so cool und desinteressiert rüber!
 
-GROOVY(Interviewer): Ist das sarkastisch gemeint?
+GROOVY(Interviewerin): Ist das sarkastisch gemeint?
 -SUCCESS-> Meistens.
 
-KEEN(Interviewer): Ist das sarkastisch gemeint?
+KEEN(Interviewerin): Ist das sarkastisch gemeint?
 -SUCCESS-> Meistens.

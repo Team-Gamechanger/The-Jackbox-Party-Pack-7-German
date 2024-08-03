@@ -1,18 +1,18 @@
-MAIN(Nachbar): Finden Sie nicht auch, dass Ihre Musik ein wenig laut ist?
+MAIN(Nachbarin): Finden Sie nicht auch, dass Ihre Musik ein wenig laut ist?
 -WHAT-> WAS!?
 -SORRY-> TSCHULDIGUNG!
 -JAM-> WOLLEN SIE MITSPIELEN?
 -BAD-> ES VERTREIBT DIE DÜSTEREN GEDANKEN!
 
 
-WHAT(Nachbar): Es reicht, ich ziehe um.
+WHAT(Nachbarin): Es reicht, ich ziehe um.
 -SUCCESS-> WEN BEZEICHNEN SIE HIER ALS DUMM?!?!?
 
-SORRY(Nachbar): KEIN PROBLEM!
+SORRY(Nachbarin): KEIN PROBLEM!
 -SUCCESS-> SCHÖN, WENN MAN SICH VERSTEHT!
 
-JAM(Nachbar): ...KLAR!!!
+JAM(Nachbarin): ...KLAR!!!
 -SUCCESS-> SCHNAPPEN SIE SICH NE LAUTE UND LOS GEHTS!
 
-BAD(Nachbar): Möchten Sie reden?
+BAD(Nachbarin): Möchten Sie reden?
 -SUCCESS-> ...Ja bitte.

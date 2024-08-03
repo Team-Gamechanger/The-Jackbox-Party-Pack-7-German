@@ -1,22 +1,22 @@
-MAIN(Nachbar): Hallöchen Nachbar!
+MAIN(Nachbarin): Hallöchen Nachbar!
 -INSULT-> Hallo, ich hasse Ihre Petunien!
 -BEAUTIFUL-> Ich möchte Ihnen sagen, dass Ihre Petunien wunderschön aussehen.
 -INSULT-> Ihre Petunien machen mich rasend!
 
-INSULT(Nachbar): Was stimmt mit ihnen denn nicht?
+INSULT(Nachbarin): Was stimmt mit ihnen denn nicht?
 -COMPLAINT-> Sie sind zu bunt!
 -COMPLAINT-> Sie riechen zu gut!
 -BEAUTIFUL-> Nichts! Ich bin nur neidisch, wie schön sie sind.
 
-BEAUTIFUL(Nachbar): Vielen Dank! Sie gedeihen sehr gut.
--OFFEND-> Ich hielt Sie immer für einen talentlosen Idioten, aber anscheinend sind Sie ein ziemlich guter Gärtner.
+BEAUTIFUL(Nachbarin): Vielen Dank! Sie gedeihen sehr gut.
+-OFFEND-> Ich hielt Sie immer für eine talentlose Idiotin, aber anscheinend sind Sie eine ziemlich gute Gärtnerin.
 -FLATTER-> Wäre ich für den Nobelpreis zuständig, ich glaube, ich würde Ihnen die Medaille für die besten Petunien verleihen.
 
-FLATTER(Nachbar): Ich danke Ihnen. Das ist sehr nett!
+FLATTER(Nachbarin): Ich danke Ihnen. Das ist sehr nett!
 -SUCCESS-> Nein, ich danke IHNEN, dass ich mich jeden Tag aufs Neue an diesen wunderschönen Petunien erfreuen darf!
 
-OFFEND(Nachbar): ...
+OFFEND(Nachbarin): ...
 -FAILURE-> Sie gehen schon? Es war schön, mal wieder mit Ihnen zu plaudern!
 
-COMPLAINT(Nachbar): Ja, ich denke ich werde jetzt verschwinden.
--FAILURE-> Gut, dass wir dich los sind, du Petunienversager.
+COMPLAINT(Nachbarin): Ja, ich denke ich werde jetzt verschwinden.
+-FAILURE-> Gut, dass wir dich los sind, du Petunienversagerin.

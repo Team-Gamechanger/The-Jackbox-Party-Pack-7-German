@@ -1,23 +1,23 @@
-MAIN(Nachbar): Hey, wie läufts?
+MAIN(Nachbarin): Guten Tag, was gibt es Neues?
 -NORESPECT-> Kinder haben heutzutage einfach keinen Respekt mehr!
 -PLENTYRESPECT> Kinder haben heutzutage einfach zu viel Respekt!
 
-NORESPECT(Nachbar): Ich versteh dich, Kumpel.
+NORESPECT(Nachbarin): Ich versteh Sie.
 -NOTHINGHANDED-> Hmm, aber ich denke, unsere Kinder arbeiten schon ziemlich hart.
 -EVERYTHINGHANDED-> Diese undankbaren Gören haben alles in die Wiege gelegt bekommen!
 
-EVERYTHINGHANDED(Nachbar): Wow, du scheinst echt aufgebracht zu sein!
+EVERYTHINGHANDED(Nachbarin): Wow, Sie scheinen echt aufgebracht zu sein!
 -ANDONEMORETHING-> Und noch etwas: Meine Kinder sind viel zu verwöhnt!
 -THATSIT-> Und noch etwas: Ähhh... Nun...
 
-PLENTYRESPECT(Nachbar): Freut mich zu hören?
+PLENTYRESPECT(Nachbarin): Freut mich zu hören?
 -FAILURE-> Ich denke, ich kann mich über meine Kinder einfach nicht beklagen.
 
-NOTHINGHANDED(Nachbar): Das liegt wohl an der guten Erziehung!
+NOTHINGHANDED(Nachbarin): Das liegt wohl an der guten Erziehung!
 -SUCCESS-> Alles in allem kann ich mich wohl nicht zu sehr beklagen.
 
-THATSIT(Nachbar): Hast du nichts Weiteres zu sagen?
+THATSIT(Nachbarin): Haben Sie nichts Weiteres zu sagen?
 -SUCCESS-> Ich schätze, ich hatte nur zwei Klagen über meine Kinder.
 
-ANDONEMORETHING(Nachbar): Oje, vielleicht solltest du Mal zu einem Familientherapeuten...
--SUCCESS-> Wer hat DICH denn um deine Meinung gebeten? 
+ANDONEMORETHING(Nachbarin): Oje, vielleicht sollten Sie Mal zu einem Familientherapeuten...
+-SUCCESS-> Wer hat SIE denn bitte um Ihre Meinung gebeten? 

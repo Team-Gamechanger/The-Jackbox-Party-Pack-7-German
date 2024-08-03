@@ -1,17 +1,17 @@
-MAIN(Elternteil): Was genau ist Ihre Beschwerde über mein Kind?
+MAIN(Mutter): Was genau ist Ihre Beschwerde über mein Kind?
 -NICE-> Er ist ZU nett!
 -CLEAN-> Das Haus ist ZU sauber!
 -CHECK-> Mein Bankkonto ist ZU ausgeglichen!
 -FEAR-> Ich habe Angst vor Veränderung.
 
-NICE(Elternteil): Dieses vermaledeite Kind! Ich rede mit ihm.
+NICE(Mutter): Dieses vermaledeite Kind! Ich rede mit ihm.
 -SUCCESS-> Es ist also erblich bedingt. 
 
-CLEAN(Elternteil): Mir war nicht bewusst, dass das ein Problem darstellt.
+CLEAN(Mutter): Mir war nicht bewusst, dass das ein Problem darstellt.
 -SUCCESS-> Ich finde keine Snacks in den Sofaritzen mehr!
 
-CHECK(Elternteil): Mir war nicht bewusst, dass das ein Problem darstellt.
+CHECK(Mutter): Mir war nicht bewusst, dass das ein Problem darstellt.
 -SUCCESS-> Er raubt unseren Finanzen den Schleier der Unverständlichkeit!
 
-FEAR(Elternteil): ...Damit kann ich Ihnen nicht helfen.
+FEAR(Mutter): ...Damit kann ich Ihnen nicht helfen.
 -SUCCESS-> Gut! Ich bin es leid, dass Ihre Familie mein Leben verbessert!

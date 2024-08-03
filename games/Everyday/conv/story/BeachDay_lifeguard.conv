@@ -5,13 +5,13 @@ MAIN(Nachbarskind): Was muss ich denn so als Rettungsschwimmer machen?
 -WHISTLE-> Einfach nur pfeifen.
 
 PROTECT(Nachbarskind): Klingt gut!
--SUCCESS-> Sei unser treuer Wächter!
+-SUCCESS-> Sei unsere treue Wächterin!
 
 YELL(Nachbarskind): Klingt gut!
 -SUCCESS-> Hier ist dein Megafon.
 
-MOCK(Nachbarskind): Ähh... Ich mache es ohne das verspotten...
+MOCK(Nachbarskind): Ähh... Ich mache es ohne das Verspotten...
 -SUCCESS-> Will denn niemand diese ungehorsamen Kinder fertigmachen?!?!?
 
 WHISTLE(Nachbarskind): Klingt gut!
--SUCCESS-> Sei unser unüberhörbarer Wächter!
+-SUCCESS-> Sei unsere unüberhörbare Wächterin!

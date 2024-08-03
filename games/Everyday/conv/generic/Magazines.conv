@@ -17,7 +17,7 @@ NONE(Nachbarskind): Schade, sind Sie sich wirklich sicher?
 -SUCCESS-> Ich schütze Bäume!
 -TRYAGAIN-> Nein...
 
-TRYAGAIN(Nachbarskind):
+TRYAGAIN(Nachbarskind): Na dann, welche wollen Sie haben?
 -GARDENS-> Schmuddelige Gärten
 -CELEB-> Promisnacks
 -DOGS-> Hunde und Knarren

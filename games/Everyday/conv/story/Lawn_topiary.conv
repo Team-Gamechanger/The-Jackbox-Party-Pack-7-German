@@ -1,17 +1,17 @@
-MAIN(Nachbar): Was soll dieses unansehnliche Gestrüpp denn darstellen?
+MAIN(Nachbarin): Was soll dieses unansehnliche Gestrüpp denn darstellen?
 -DRAG-> Ein Drachenangriff!
 -SELF-> Ein Selbstporträt!
 -TEST-> Das ist ein Rorschachtest.
 -DYING-> Das 'Gestrüpp' lässt deinen Garten alt aussehen!
 
-DRAG(Nachbar): Beängstigend. 
+DRAG(Nachbarin): Beängstigend. 
 -SUCCESS-> Die Jury wird sich dieser gewaltigen Macht fügen.
 
-SELF(Nachbar): Es ist perfekt!
+SELF(Nachbarin): Es ist perfekt!
 -SUCCESS-> Ich sollte wohl dringend einen Arzt aufsuchen...
 
-TEST(Nachbar): Oh nein... Hasse ich meine Mutter?
+TEST(Nachbarin): Oh nein... Hasse ich meine Mutter?
 -SUCCESS-> Der Formschnitt sagt "Ja".
 
-DYING(Nachbar): Ach, da ist ja jemand ziemlich siegessicher.
+DYING(Nachbarin): Ach, da ist ja jemand ziemlich siegessicher.
 -SUCCESS-> (Habe ich den Mund zu voll genommen?)
