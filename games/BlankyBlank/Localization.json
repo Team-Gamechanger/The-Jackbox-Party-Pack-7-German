@@ -136,8 +136,8 @@
         "CONTROLLER_CANT_ENTER_NOTHING": "Du musst etwas eingeben!",
         "CONTROLLER_FILTER_REJECTED_TEXT": "Ungültige Vermutung",
         
-        "SKIP_TUTORIALS": "Tutorials Überspringen",
-        "SKIP_TUTORIALS_DESCRIPTION": "Überspringt Tutorial-Abschnitte.",
+        "SKIP_TUTORIALS": "Tutorial überspringen",
+        "SKIP_TUTORIALS_DESCRIPTION": "Möchtest du das Tutorial überspringen?",
 
         "REFRESH_PASSWORDS": "Bekomme 3 neue Begriffe",
         "MY_BAD_0": "Hoppla!",
