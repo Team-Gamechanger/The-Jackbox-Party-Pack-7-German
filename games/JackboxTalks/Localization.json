@@ -153,12 +153,12 @@
         "TEXT_DESCRIPTION_NEXT_UP_WITH_ASSISTANT": "%s ist mit der Hilfe von %s dran.",
         "TEXT_DESCRIPTION_NEXT_UP_WITHOUT_ASSISTANT": "%s kommt als Nächstes.",
         
-        "TEXT_DESCRIPTION_NEXT_UP_AWARDS": "%s's Referenzen: %s",
+        "TEXT_DESCRIPTION_NEXT_UP_AWARDS": "Referenzen von %s: %s",
         
         "TEXT_DESCRIPTION_LEAST_ENGAGED": "%s war am wenigsten aktiv.",
         "TEXT_DESCRIPTION_ENGAGEMENT_SCORE": "%s bekommt %d Punkte durch die Interaktionen.",
         "TEXT_DESCRIPTION_GRAPH_SCORE": "%s bekommt %d Punkte durch die Bewertungen.",
-        "TEXT_DESCRIPTION_ASSISTANT_POINTS": "%s bekommt %d Punkte für's assistieren.",
+        "TEXT_DESCRIPTION_ASSISTANT_POINTS": "%s bekommt %d Punkte fürs Assistieren.",
         "TEXT_DESCRIPTION_NO_ENGAGEMENT": "Niemand war begeistert vom Vortrag von %'s Präsentation. Keine Punkte.",
         "TEXT_DESCRIPTION_TOTAL_TALK_SCORE": "%s bekommt insgesamt %d Punkte durch die Präsentation.",
         
